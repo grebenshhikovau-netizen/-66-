@@ -1,0 +1,39 @@
+{
+  "valid_layers": true,
+  "upper_layer_outside_base_area": 0.0,
+  "top_layer_outside_support_area": 3.727845386645376e-14,
+  "visible_partition_error_area": 0.0,
+  "level_area_percent": [
+    33.87,
+    41.38,
+    24.75
+  ],
+  "АСТРА-три-слоя.svg": {
+    "paths": 3964,
+    "raster_images": 0,
+    "all_paths_closed": true,
+    "viewBox": "0 0 1900 1360"
+  },
+  "Слой-01.svg": {
+    "paths": 1,
+    "raster_images": 0,
+    "all_paths_closed": true,
+    "viewBox": "0 0 1900 1360"
+  },
+  "Слой-02.svg": {
+    "paths": 1,
+    "raster_images": 0,
+    "all_paths_closed": true,
+    "viewBox": "0 0 1900 1360"
+  },
+  "Слой-03.svg": {
+    "paths": 1,
+    "raster_images": 0,
+    "all_paths_closed": true,
+    "viewBox": "0 0 1900 1360"
+  },
+  "presentation": {
+    "pages": 5,
+    "raster_images": 0
+  }
+}
