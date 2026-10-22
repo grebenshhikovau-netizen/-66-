@@ -1,0 +1,40 @@
+{
+  "countries_and_territories": 179,
+  "all_geometries_valid": true,
+  "coverage_error": 0.0,
+  "overlap_area": 4.656612873077393e-10,
+  "swatch_area_percent": [
+    44.24,
+    25.74,
+    8.3,
+    12.34,
+    9.38
+  ],
+  "country_vectors": {
+    "01-Бежевый": {
+      "country_groups": 179,
+      "colors": 5,
+      "one_color_per_country": true,
+      "raster_images": 0,
+      "closed_paths": true
+    },
+    "02-Серый": {
+      "country_groups": 179,
+      "colors": 5,
+      "one_color_per_country": true,
+      "raster_images": 0,
+      "closed_paths": true
+    },
+    "03-Голубая-лагуна": {
+      "country_groups": 179,
+      "colors": 5,
+      "one_color_per_country": true,
+      "raster_images": 0,
+      "closed_paths": true
+    }
+  },
+  "presentation": {
+    "pages": 7,
+    "raster_images": 0
+  }
+}
