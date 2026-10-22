@@ -1,0 +1,44 @@
+{
+  "artwork": "Меридиан",
+  "frame_valid": true,
+  "rose_valid": true,
+  "artwork_bounds": [
+    -97.275,
+    -103.0,
+    97.275,
+    97.275
+  ],
+  "variants": [
+    "ru",
+    "en"
+  ],
+  "fill_only": true,
+  "background": "transparent",
+  "font_outlined": "Noto Serif Display Regular; optically expanded by 0.20 SVG units",
+  "nominal_page_mm": [
+    100,
+    100
+  ],
+  "vector_viewbox": [
+    -130,
+    -130,
+    260,
+    260
+  ],
+  "files": {
+    "Компас-Меридиан-ru": {
+      "closed_filled_paths": 6,
+      "text_objects": 0,
+      "raster_images": 0,
+      "pdf_pages": 1,
+      "pdf_fonts": 0
+    },
+    "Компас-Меридиан-en": {
+      "closed_filled_paths": 6,
+      "text_objects": 0,
+      "raster_images": 0,
+      "pdf_pages": 1,
+      "pdf_fonts": 0
+    }
+  }
+}
