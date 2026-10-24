@@ -1,7 +1,8 @@
 {
   "all_required_waterways_present": true,
   "nile_system_continuous": true,
-  "all_lakes_are_recesses": true,
+  "all_lakes_cut_through_all_layers": true,
+  "no_wood_water_floor": true,
   "minimum_upper_part_area_mm2": 3,
   "checks": {
     "Нил": {
@@ -18,15 +19,15 @@
       "gap_mm": 0.0
     },
     "Виктория": {
-      "is_recess": true,
+      "is_through_hole": true,
       "elongation": 1.8629079483022462
     },
     "Танганьика": {
-      "is_recess": true,
+      "is_through_hole": true,
       "elongation": 4.690062071709299
     },
     "Малави": {
-      "is_recess": true,
+      "is_through_hole": true,
       "elongation": 5.671212887095103
     },
     "Атлас": {

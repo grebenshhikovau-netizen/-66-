@@ -4,41 +4,43 @@
   "all_nested": true,
   "base_without_below_base_parts": true,
   "mandatory_waterways_clear": true,
+  "water_through_all_six_layers": true,
+  "no_wooden_water_floor": true,
   "mandatory_water": [
     {
       "name": "Нил",
       "area_mm2": 506.6424661743094,
-      "upper_layers_fill_fraction": 0.0
+      "all_layers_fill_fraction": 0.0
     },
     {
       "name": "Конго",
       "area_mm2": 268.0320682023403,
-      "upper_layers_fill_fraction": 0.0
+      "all_layers_fill_fraction": 0.0
     },
     {
       "name": "Виктория",
       "area_mm2": 85.53198257131099,
-      "upper_layers_fill_fraction": 0.0
+      "all_layers_fill_fraction": 3.6464987482273805e-15
     },
     {
       "name": "Танганьика",
       "area_mm2": 61.99384997956416,
-      "upper_layers_fill_fraction": 0.0
+      "all_layers_fill_fraction": 0.0
     },
     {
       "name": "Малави",
       "area_mm2": 75.87363170918442,
-      "upper_layers_fill_fraction": 0.0
+      "all_layers_fill_fraction": 0.0
     },
     {
       "name": "Замбези",
       "area_mm2": 145.04107799703462,
-      "upper_layers_fill_fraction": 0.0
+      "all_layers_fill_fraction": 0.0
     },
     {
       "name": "Водопад Виктория",
       "area_mm2": 4.921407801547454,
-      "upper_layers_fill_fraction": 4.720905477026996e-17
+      "all_layers_fill_fraction": 1.893930438692253e-15
     }
   ],
   "kilimanjaro_L6": true,
@@ -50,9 +52,9 @@
       "tier": 1,
       "top_mm": 3,
       "threshold_m": 0,
-      "mainland_parts": 1,
+      "mainland_parts": 4,
       "madagascar_parts": 1,
-      "area_mm2": 60838.034716945695
+      "area_mm2": 59684.16678079964
     },
     {
       "tier": 2,

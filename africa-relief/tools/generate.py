@@ -76,7 +76,7 @@ rift_e=[(41.5,12),(39.2,8),(37.5,4),(36,-1),(35.5,-4),(35,-7),(34,-10)]
 rift=unary_union([proj(LineString(rift_w)),proj(LineString(rift_e))]);rift_core=rift.buffer(.7/MM);rift_apron=rift.buffer(1.7/MM)
 for i in range(2,6):layers[i]=layers[i].difference(rift_core if i==2 else rift_apron)
 # Water gets an uninterrupted negative silhouette after the rift is cut; never a raised lake.
-# The Eastern lakes and both large river systems sit visibly on lower terraces.
+# The full water footprint also passes through the bottom ply below.
 for i in range(1,6):layers[i]=layers[i].difference(water)
 # Kilimanjaro: a local summit taken from the real massif, broadened to a manufacturable accent.
 kili_point=proj(Point(37.355,-3.067));candidate=above(3000,region=box(36.8,-3.5,37.9,-2.5),raw=True)
@@ -94,6 +94,7 @@ for i in range(1,6):layers[i]=layers[i].difference(falls)
 for i in range(1,6):layers[i]=clean(layers[i],area=3,rad=.30).intersection(layers[i-1]);layers[i]=unary_union(polys(make_valid(layers[i])))
 # Do not let smoothing close the mandatory channels or shrink long lakes into disconnected dots.
 for i in range(1,6):layers[i]=unary_union(polys(layers[i].difference(water)))
+layers[0]=unary_union(polys(base.difference(water)))
 visible=[layers[i].difference(layers[i+1]) if i<5 else layers[i] for i in range(6)]
 # Quiet decorative surface drawing, geographically confined to real sand-sea areas.
 texture=[]
@@ -121,9 +122,9 @@ for i,g in enumerate(layers,1):
  cut=root();path(cut,g.intersection(main),f'AFRICA_L{i:02d}','#000');write(cut,f'Слой-{i:02d}-резка.svg')
  opt=root();path(opt,g.intersection(mad),f'MADAGASCAR_L{i:02d}','#000');write(opt,f'Опция-Мадагаскар-слой-{i:02d}.svg')
  path(r,g,f'L{i:02d}',colors[i-1],stroke='#6c5032',stroke_width='.48');path(construction,g,f'L{i:02d}',colors[i-1],stroke='#6c5032',stroke_width='.48');path(annot,g,f'L{i:02d}',colors[i-1],stroke='#6c5032',stroke_width='.48')
- waterlevel=water.intersection(visible[i-1]);texturelevel=texture.intersection(visible[i-1]);m=root();path(m,waterlevel,f'WATER_L{i:02d}','#29646a');write(m,f'Вода-маска-уровень-{i}.svg');m=root();path(m,texturelevel,f'TEXTURE_L{i:02d}','#6f5135');write(m,f'Фактура-гравировка-уровень-{i}.svg')
-path(r,texture,'Гравировка_Сахара_Намиб_Ришат','#826746');path(r,water,'Вода','#317b80');path(annot,water,'Вода','#317b80');write(r,'Африка-рельеф-цветной.svg');write(construction,'Африка-шесть-уровней.svg')
-m=root();path(m,water,'WATER','#000');write(m,'Вода-маска-все.svg');m=root();path(m,texture,'TEXTURE','#000');write(m,'Фактура-гравировка-все.svg')
+ texturelevel=texture.intersection(visible[i-1]);m=root();path(m,texturelevel,f'TEXTURE_L{i:02d}','#6f5135');write(m,f'Фактура-гравировка-уровень-{i}.svg')
+path(r,texture,'Гравировка_Сахара_Намиб_Ришат','#826746');write(r,'Африка-рельеф-цветной.svg');write(construction,'Африка-шесть-уровней.svg')
+m=root();path(m,water,'WATER','#000');write(m,'Сквозные-вырезы-реки-и-озёра.svg');m=root();path(m,texture,'TEXTURE','#000');write(m,'Фактура-гравировка-все.svg')
 # Numbered callouts, with names in the CSV and README, keep the map drawing legible.
 for i,p in enumerate(landmarks,1):
  E.SubElement(annot,'circle',cx=str(p['x']),cy=str(p['y']),r='5.5',fill='#f5eddc',stroke='#73472d',attrib={'stroke-width':'.6'});t=E.SubElement(annot,'text',x=str(p['x']),y=str(p['y']+2.4),fill='#4b3224',attrib={'font-size':'7','font-family':'sans-serif','text-anchor':'middle'});t.text=str(i)
@@ -133,13 +134,13 @@ for i,g in enumerate(layers):
  assert g.is_valid and not g.is_empty
  if i:assert g.difference(layers[i-1]).area<1e-6
  checks.append({'tier':i+1,'top_mm':(i+1)*3,'threshold_m':thresholds[i],'mainland_parts':len(polys(g.intersection(main))),'madagascar_parts':len(polys(g.intersection(mad))),'area_mm2':g.area*MM**2})
-# Every mandatory water body must retain an unfilled footprint in all upper plies.
+# Water apertures must be open through every ply, including the bottom one.
 mandatory=['Нил','Конго','Виктория','Танганьика','Малави','Замбези','Водопад Виктория'];waterchecks=[]
 for name in mandatory:
- g=waters[name];assert not g.is_empty;filled=unary_union(layers[1:]).intersection(g).area/max(g.area,1e-8);assert filled<1e-6,(name,filled);waterchecks.append({'name':name,'area_mm2':g.area*MM**2,'upper_layers_fill_fraction':filled})
+ g=waters[name];assert not g.is_empty;filled=unary_union(layers).intersection(g).area/max(g.area,1e-8);assert filled<1e-6,(name,filled);waterchecks.append({'name':name,'area_mm2':g.area*MM**2,'all_layers_fill_fraction':filled})
 assert cap.intersection(layers[5]).area*MM**2>1,'Kilimanjaro missing'
-(OUT/'terrain-geometry.json').write_text(json.dumps({'base':mapping(base),'mainland':mapping(main),'madagascar':mapping(mad),'layers':[mapping(g) for g in layers],'visible':[mapping(g) for g in visible],'water':mapping(water),'waters':{k:mapping(v) for k,v in waters.items()},'texture':mapping(texture),'rift':mapping(rift_core),'kili_cap':mapping(cap),'places':landmarks,'mm_per_unit':MM,'palette':{f'L{i+1}':(f'Слой {i+1}',c,'Фанера') for i,c in enumerate(colors)}},ensure_ascii=False))
-(OUT/'Проверка-геометрии.json').write_text(json.dumps({'layers':6,'all_valid':True,'all_nested':True,'base_without_below_base_parts':True,'mandatory_waterways_clear':True,'mandatory_water':waterchecks,'kilimanjaro_L6':True,'mainland_silhouette_kept':True,'madagascar_is_separate_optional_addition':True,'source_dem':'ETOPO10 / ETOPO1, decorative adaptation','checks':checks},ensure_ascii=False,indent=2))
+(OUT/'terrain-geometry.json').write_text(json.dumps({'base':mapping(layers[0]),'source_outline':mapping(base),'mainland':mapping(main),'madagascar':mapping(mad),'layers':[mapping(g) for g in layers],'visible':[mapping(g) for g in visible],'water':mapping(water),'waters':{k:mapping(v) for k,v in waters.items()},'texture':mapping(texture),'rift':mapping(rift_core),'kili_cap':mapping(cap),'places':landmarks,'mm_per_unit':MM,'palette':{f'L{i+1}':(f'Слой {i+1}',c,'Фанера') for i,c in enumerate(colors)}},ensure_ascii=False))
+(OUT/'Проверка-геометрии.json').write_text(json.dumps({'layers':6,'all_valid':True,'all_nested':True,'base_without_below_base_parts':True,'mandatory_waterways_clear':True,'water_through_all_six_layers':True,'no_wooden_water_floor':True,'mandatory_water':waterchecks,'kilimanjaro_L6':True,'mainland_silhouette_kept':True,'madagascar_is_separate_optional_addition':True,'source_dem':'ETOPO10 / ETOPO1, decorative adaptation','checks':checks},ensure_ascii=False,indent=2))
 with (OUT/'Природные-объекты.csv').open('w',encoding='utf-8-sig',newline='') as f:
  c=csv.writer(f,lineterminator='\n');c.writerow(['Номер на схеме','Объект','Долгота','Широта']);c.writerows((i,p['name'],p['lon'],p['lat']) for i,p in enumerate(landmarks,1))
 with (OUT/'Состав-слоёв.csv').open('w',encoding='utf-8-sig',newline='') as f:

@@ -15,16 +15,15 @@ def material(name,h,grain=False):
   ramp=n.new('ShaderNodeValToRGB');col=rgba(h);ramp.color_ramp.elements[0].position=.05;ramp.color_ramp.elements[0].color=[v*.84 for v in col[:3]]+[1];ramp.color_ramp.elements[1].position=.95;ramp.color_ramp.elements[1].color=[min(1,v*1.08) for v in col[:3]]+[1]
   lk=m.node_tree.links;lk.new(geom.outputs['Position'],vec.inputs[0]);lk.new(vec.outputs[0],noise.inputs['Vector']);lk.new(noise.outputs['Fac'],ramp.inputs[0]);lk.new(ramp.outputs[0],bs.inputs['Base Color'])
  return m
-mats={code:material(code+' — '+name,h,True) for code,(name,h,desc) in D['palette'].items()};edge=material('Лазерный торец','#4b3226');burn=material('Лёгкая гравировка пустынь','#795c3d');watermat=material('Окраска деревянного дна рек и озёр','#317b80');objects={};descs={d['id']:d for d in D['objects']};cols={};source_bad=[]
+mats={code:material(code+' — '+name,h,True) for code,(name,h,desc) in D['palette'].items()};edge=material('Лазерный торец','#4b3226');burn=material('Лёгкая гравировка пустынь','#795c3d');objects={};descs={d['id']:d for d in D['objects']};cols={};source_bad=[]
 for i in range(1,7):
  c=bpy.data.collections.new(f'{i:02d}_Слой_{i}_верх_{i*3}мм');scene.collection.children.link(c);cols[i]=c
 cutcol=bpy.data.collections.new('80_Фактура_гравировка');scene.collection.children.link(cutcol)
-watercol=bpy.data.collections.new('70_Маска_окраски_воды');scene.collection.children.link(watercol)
 madcol=bpy.data.collections.new('60_Опция_Мадагаскар');scene.collection.children.link(madcol)
 for d in D['objects']:
  mesh=bpy.data.meshes.new(d['id']);mesh.from_pydata(d['vertices'],[],d['faces']);mesh.update();bm=bmesh.new();bm.from_mesh(mesh);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bad=sum(not e.is_manifold for e in bm.edges)
  if bad:source_bad.append({'id':d['id'],'edges':bad})
- bm.to_mesh(mesh);bm.free();ob=bpy.data.objects.new(d['id'],mesh);(madcol if d['kind']=='wood' and d['country']=='MAD' else cols[d['tier']] if d['kind']=='wood' else watercol if d['kind']=='water' else cutcol).objects.link(ob);ob.location=d['origin'];ob['Tier']=d['tier'];ob['BaseHeight_m']=d['height'];ob['Country_ID']=d['country'];ob['Описание']='Начало координат на нижней плоскости. Рельеф 6 ступеней; толщина листа 3 мм.';mesh.materials.append(mats[f'L{d["tier"]}'] if d['kind']=='wood' else watermat if d['kind']=='water' else burn);mesh.materials.append(edge if d['kind']=='wood' else watermat if d['kind']=='water' else burn)
+ bm.to_mesh(mesh);bm.free();ob=bpy.data.objects.new(d['id'],mesh);(madcol if d['kind']=='wood' and d['country']=='MAD' else cols[d['tier']] if d['kind']=='wood' else cutcol).objects.link(ob);ob.location=d['origin'];ob['Tier']=d['tier'];ob['BaseHeight_m']=d['height'];ob['Country_ID']=d['country'];ob['Описание']='Начало координат на нижней плоскости. Рельеф 6 ступеней; толщина листа 3 мм.';mesh.materials.append(mats[f'L{d["tier"]}'] if d['kind']=='wood' else burn);mesh.materials.append(edge if d['kind']=='wood' else burn)
  for face,idx in zip(mesh.polygons,d['material_indices']):face.material_index=idx
  if d['kind']!='wood':ob['Описание']='Визуальная маска окраски / гравировки 0.02 мм; не дополнительный слой фанеры.'
  objects[d['id']]=ob
@@ -59,14 +58,32 @@ for scale in [1,2,3]:
 for name,d in descs.items():
  if d['kind']=='wood' and d['tier']==1:objects[name].scale.z=1
 bpy.context.view_layer.update()
+from mathutils.bvhtree import BVHTree
+geo=json.load(open(P/'terrain-geometry.json'));verts=[];faces=[]
+for name,d in descs.items():
+ if d['kind']!='wood':continue
+ ob=objects[name];offset=len(verts);verts.extend(ob.matrix_world@v.co for v in ob.data.vertices);faces.extend(tuple(i+offset for i in f.vertices) for f in ob.data.polygons)
+bvh=BVHTree.FromPolygons(verts,faces,all_triangles=False)
+# Sample points exported from each named water body, including narrow river arms.
+ray_points=json.load(open(P/'through-ray-points.json'));mm=geo['mm_per_unit']/1000
+for row in ray_points:
+ x,y=row['point'];hit=bvh.ray_cast(Vector((x*mm,(2657.4803125-y)*mm,.04)),Vector((0,0,-1)),.10)
+ assert hit[0] is None,('Wood blocks through opening',row['water'],row['point'])
+assert not any(d['kind']=='water' for d in descs.values())
 # Rendering equipment is hidden from editing; no external textures are needed.
 presentation=bpy.data.collections.new('90_Презентация_только_рендер');scene.collection.children.link(presentation)
 woods=[ob for name,ob in objects.items() if descs[name]['kind']=='wood'];pts=[ob.matrix_world@Vector(v) for ob in woods for v in ob.bound_box];lo=Vector(tuple(min(v[i] for v in pts) for i in range(3)));hi=Vector(tuple(max(v[i] for v in pts) for i in range(3)));center=(lo+hi)/2
+acrylic_col=bpy.data.collections.new('85_Оргстекло_условный_лист');scene.collection.children.link(acrylic_col)
+acrylic=material('Прозрачное оргстекло — справочно','#e2f1f2');bs=acrylic.node_tree.nodes.get('Principled BSDF');bs.inputs['Transmission Weight'].default_value=1;bs.inputs['IOR'].default_value=1.49;bs.inputs['Roughness'].default_value=.10
+# A transparent reference shader avoids adding a painted water floor or noisy caustics.
+output=acrylic.node_tree.nodes.get('Material Output');transparent=acrylic.node_tree.nodes.new('ShaderNodeBsdfTransparent');transparent.inputs['Color'].default_value=rgba('#f4f8f8');acrylic.node_tree.links.new(transparent.outputs[0],output.inputs['Surface'])
+pad=.008;points=[(x,y,z) for z in [-.003,0] for y in [lo.y-pad,hi.y+pad] for x in [lo.x-pad,hi.x+pad]]
+mesh=bpy.data.meshes.new('Условный_лист_оргстекла');mesh.from_pydata(points,[],[(0,2,3,1),(4,5,7,6),(0,1,5,4),(2,6,7,3),(0,4,6,2),(1,3,7,5)]);mesh.update();ref=bpy.data.objects.new('REFERENCE_Оргстекло_НЕ_контур_резки',mesh);acrylic_col.objects.link(ref);mesh.materials.append(acrylic);ref.display_type='WIRE';ref['Описание']='Условный прозрачный лист под фанерой. Форма, размеры и толщина справочные. Это не макет резки оргстекла.'
 camera=bpy.data.objects.new('Камера',bpy.data.cameras.new('Камера'));presentation.objects.link(camera);camera.data.type='ORTHO';camera.data.clip_start=.001;scene.camera=camera
 camera.location=center+Vector((.045,-.24,.68));camera.rotation_euler=(center-camera.location).to_track_quat('-Z','Y').to_euler();camera.data.ortho_scale=.49
 for name,delta,power,size in [('Key',(-.18,-.20,.65),8,.4),('Fill',(.35,.20,.5),3,.45)]:
  light=bpy.data.lights.new(name,'AREA');light.energy=power;light.shape='DISK';light.size=size;ob=bpy.data.objects.new(name,light);presentation.objects.link(ob);ob.location=center+Vector(delta);ob.rotation_euler=(center-ob.location).to_track_quat('-Z','Y').to_euler()
-mesh=bpy.data.meshes.new('Фон');mesh.from_pydata([(-20,-20,-.0003),(20,-20,-.0003),(20,20,-.0003),(-20,20,-.0003)],[],[(0,1,2,3)]);floor=bpy.data.objects.new('Фон',mesh);presentation.objects.link(floor);mesh.materials.append(material('Фон','#ede9df'))
+mesh=bpy.data.meshes.new('Фон');mesh.from_pydata([(-20,-20,-.0034),(20,-20,-.0034),(20,20,-.0034),(-20,20,-.0034)],[],[(0,1,2,3)]);floor=bpy.data.objects.new('Фон',mesh);presentation.objects.link(floor);mesh.materials.append(material('Фон','#ede9df'))
 scene.world=bpy.data.worlds.new('Мир');scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs['Color'].default_value=(.5,.5,.5,1);scene.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.15
 scene.render.engine='CYCLES';scene.cycles.device='CPU';scene.cycles.samples=32;scene.cycles.use_denoising=False;scene.render.resolution_x=1600;scene.render.resolution_y=1700;scene.render.resolution_percentage=100;scene.view_settings.view_transform='AgX'
 try:scene.view_settings.look='AgX - Medium High Contrast'
@@ -77,7 +94,7 @@ for screen in bpy.data.screens:
    sp=area.spaces.active;sp.clip_start=.0001;sp.shading.type='MATERIAL';sp.region_3d.view_rotation=Quaternion((1,0,0,0));sp.region_3d.view_location=center;sp.region_3d.view_distance=.5;sp.region_3d.view_perspective='ORTHO';sp.overlay.show_floor=False
 bpy.context.view_layer.layer_collection.children[presentation.name].hide_viewport=True
 bpy.ops.object.select_all(action='DESELECT');bpy.context.view_layer.objects.active=woods[0]
-report={'all_source_solids_manifold':True,'all_evaluated_wood_solids_manifold':True,'bottom_origins':True,'height_follow_tests':height_tests,'wood_meshes':len(woods),'water_and_texture_markings':len(R['markings']),'marking_representation':'20 micrometre surface colour, production masks in SVG','main_level_count':6,'heights_mm':[3,6,9,12,15,18],'madagascar_separate_collection':True,'checks':checks}
+report={'all_source_solids_manifold':True,'all_evaluated_wood_solids_manifold':True,'bottom_origins':True,'height_follow_tests':height_tests,'wood_meshes':len(woods),'texture_markings':len(R['markings']),'all_water_holes_clear_through_wood':True,'wood_ray_checks':len(ray_points),'wooden_water_floor':False,'reference_acrylic_below_zero':True,'marking_representation':'20 micrometre texture engraving only; no water fill','main_level_count':6,'heights_mm':[3,6,9,12,15,18],'madagascar_separate_collection':True,'checks':checks}
 (P/'Проверка-Blender.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));bpy.ops.wm.save_as_mainfile(filepath=str(P/'Африка-рельеф.blend'));print('SAVED AFRICA ALL CHECKS PASS',len(woods),'wood meshes',flush=True)
 if '--no-render' in sys.argv:sys.exit(0)
 scene.render.filepath=str(P/'Африка-3D.png');bpy.ops.render.render(write_still=True)

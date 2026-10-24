@@ -37,7 +37,7 @@ def solid(g,name,z,h,kind,tier,country):
 for i,l in enumerate(D['layers'],1):
  for code,key in [('AFR','mainland'),('MAD','madagascar')]:
   g=shape(l).intersection(shape(D[key]));solid(g,f'L{i:02d}_{code}',(i-1)*.003,.003,'wood',i,code)
- for kind,key in [('water','water'),('texture','texture')]:
+ for kind,key in [('texture','texture')]:
   g=shape(D[key]).intersection(shape(D['visible'][i-1]))
   if g.area>.00001:solid(g,f'{kind.upper()}_L{i:02d}',i*.003+.00001,.00002,kind,i,'AFR')
 merged=[];groups={}
@@ -56,3 +56,16 @@ for ob in objects:
  elif ob['kind']!='wood':
   owners=[a['id'] for a in wood if a['country']=='AFR' and a['tier']==ob['tier'] and geo[a['id']].intersection(geo[ob['id']]).area>1e-8];assert owners,ob['id'];rel['markings'][ob['id']]=owners
 (P/'model-data.json').write_text(json.dumps({'objects':objects,'palette':D['palette'],'places':D['places'],'mm_per_unit':D['mm_per_unit']},ensure_ascii=False));(P/'model-relations.json').write_text(json.dumps(rel));print('EXPORTED',len(wood),'wood pieces',len(groups),'marking groups',flush=True)
+
+# Reproducible vertical-ray samples for the Blender through-hole checks.
+from shapely.geometry import Point
+ray_points=[]
+for name,g in D['waters'].items():
+ g=shape(g);parts=polys(g);points=[p.representative_point() for p in parts]
+ xmin,ymin,xmax,ymax=g.bounds
+ for i in range(31):
+  for j in range(31):
+   q=Point(xmin+(xmax-xmin)*(i+.5)/31,ymin+(ymax-ymin)*(j+.5)/31)
+   if g.contains(q):points.append(q)
+ for q in points:ray_points.append({'water':name,'point':[q.x,q.y]})
+(P/'through-ray-points.json').write_text(json.dumps(ray_points,ensure_ascii=False))

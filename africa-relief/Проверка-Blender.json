@@ -16,9 +16,13 @@
       "passed": true
     }
   ],
-  "wood_meshes": 96,
-  "water_and_texture_markings": 4,
-  "marking_representation": "20 micrometre surface colour, production masks in SVG",
+  "wood_meshes": 99,
+  "texture_markings": 3,
+  "all_water_holes_clear_through_wood": true,
+  "wood_ray_checks": 3075,
+  "wooden_water_floor": false,
+  "reference_acrylic_below_zero": true,
+  "marking_representation": "20 micrometre texture engraving only; no water fill",
   "main_level_count": 6,
   "heights_mm": [
     3,
@@ -31,7 +35,19 @@
   "madagascar_separate_collection": true,
   "checks": [
     {
-      "id": "L01_AFR",
+      "id": "L01_AFR_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_AFR_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_AFR_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_AFR_P04",
       "non_manifold_edges": 0
     },
     {

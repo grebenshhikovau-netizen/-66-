@@ -4,48 +4,13 @@
   "files": [
     {
       "file": "Африка-рельеф-цветной.svg",
-      "paths": 8,
+      "paths": 7,
       "empty_operation": false
     },
     {
       "file": "Африка-шесть-уровней.svg",
       "paths": 6,
       "empty_operation": false
-    },
-    {
-      "file": "Вода-маска-все.svg",
-      "paths": 1,
-      "empty_operation": false
-    },
-    {
-      "file": "Вода-маска-уровень-1.svg",
-      "paths": 1,
-      "empty_operation": false
-    },
-    {
-      "file": "Вода-маска-уровень-2.svg",
-      "paths": 0,
-      "empty_operation": true
-    },
-    {
-      "file": "Вода-маска-уровень-3.svg",
-      "paths": 0,
-      "empty_operation": true
-    },
-    {
-      "file": "Вода-маска-уровень-4.svg",
-      "paths": 0,
-      "empty_operation": true
-    },
-    {
-      "file": "Вода-маска-уровень-5.svg",
-      "paths": 0,
-      "empty_operation": true
-    },
-    {
-      "file": "Вода-маска-уровень-6.svg",
-      "paths": 0,
-      "empty_operation": true
     },
     {
       "file": "Опция-Мадагаскар-слой-01.svg",
@@ -76,6 +41,11 @@
       "file": "Опция-Мадагаскар-слой-06.svg",
       "paths": 0,
       "empty_operation": true
+    },
+    {
+      "file": "Сквозные-вырезы-реки-и-озёра.svg",
+      "paths": 1,
+      "empty_operation": false
     },
     {
       "file": "Слой-01-резка.svg",
