@@ -1,0 +1,2422 @@
+{
+  "all_objects_bottom_origin": 224,
+  "regions_tested": 65,
+  "all_3_6_9_mm_tests_passed": true,
+  "default_region_height_mm": 3,
+  "labels_and_markers_following": 158,
+  "label_clearance_mm": 0.1,
+  "all_follow_tests_passed": true,
+  "regions": [
+    {
+      "id": "REG_01_Alaska",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_02_Northwest_Territories",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_03_Nunavut",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_04_Quebec",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_05_British_Columbia",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_06_Ontario",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_07_Yukon",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_08_Mexico",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_09_Alberta",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_10_Manitoba",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_11_Saskatchewan",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_12_Texas",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_13_Labrador",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_14_Montana",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_15_California",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_16_Michigan",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_17_Oregon",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_18_Nevada",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_19_Wyoming",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_20_Minnesota",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_21_New_Mexico",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_22_Colorado",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_23_Arizona",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_24_Idaho",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_25_North_Dakota",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_26_South_Dakota",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_27_Washington",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_28_Utah",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_29_Nebraska",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_30_Kansas",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_31_Wisconsin",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_32_Missouri",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_33_Oklahoma",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_34_Iowa",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_35_Illinois",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_36_New_York",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_37_Georgia",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_38_Virginia_coastal",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_39_Pennsylvania",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_40_Arkansas",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_41_Ohio",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_42_North_Carolina",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_43_Florida",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_44_Alabama",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_45_Mississippi",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_46_Maine",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_47_Tennessee",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_48_Kentucky",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_49_Louisiana",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_50_Indiana",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_51_Nicaragua",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_52_Honduras",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_53_Guatemala",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_54_South_Carolina",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_55_West_Virginia",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_56_Panama",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_57_Costa_Rica",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_58_Vermont",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_59_New_Hampshire",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_60_New_Jersey",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_61_Massachusetts",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_62_Belize",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_63_Connecticut",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_64_El_Salvador",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    },
+    {
+      "id": "REG_65_Rhode_Island",
+      "tests": [
+        {
+          "height_mm": 3.0,
+          "bottom_mm": 0.0,
+          "top_mm": 3.000000026077032
+        },
+        {
+          "height_mm": 6.0,
+          "bottom_mm": 0.0,
+          "top_mm": 6.000000052154064
+        },
+        {
+          "height_mm": 9.0,
+          "bottom_mm": 0.0,
+          "top_mm": 8.999999612569809
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "id": "TEXT_001",
+      "regions": [
+        "REG_28_Utah"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_002",
+      "regions": [
+        "REG_15_California"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_003",
+      "regions": [
+        "REG_49_Louisiana"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_004",
+      "regions": [
+        "REG_49_Louisiana"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_005",
+      "regions": [
+        "REG_50_Indiana"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_006",
+      "regions": [
+        "REG_15_California"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_007",
+      "regions": [
+        "REG_20_Minnesota"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_008",
+      "regions": [
+        "REG_43_Florida"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_009",
+      "regions": [
+        "REG_44_Alabama"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_010",
+      "regions": [
+        "REG_32_Missouri"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_011",
+      "regions": [
+        "REG_38_Virginia_coastal"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_012",
+      "regions": [
+        "REG_43_Florida"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_013",
+      "regions": [
+        "REG_60_New_Jersey"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_014",
+      "regions": [
+        "REG_49_Louisiana"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_015",
+      "regions": [
+        "REG_39_Pennsylvania"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_016",
+      "regions": [
+        "REG_54_South_Carolina"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_017",
+      "regions": [
+        "REG_18_Nevada"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_018",
+      "regions": [
+        "REG_55_West_Virginia"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_019",
+      "regions": [
+        "REG_41_Ohio"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_020",
+      "regions": [
+        "REG_47_Tennessee"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_021",
+      "regions": [
+        "REG_36_New_York"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_022",
+      "regions": [
+        "REG_38_Virginia_coastal"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_023",
+      "regions": [
+        "REG_34_Iowa"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_024",
+      "regions": [
+        "REG_45_Mississippi"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_025",
+      "regions": [
+        "REG_43_Florida"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_026",
+      "regions": [
+        "REG_16_Michigan"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_027",
+      "regions": [
+        "REG_37_Georgia"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_028",
+      "regions": [
+        "REG_23_Arizona"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_029",
+      "regions": [
+        "REG_22_Colorado"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_030",
+      "regions": [
+        "REG_30_Kansas"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_031",
+      "regions": [
+        "REG_35_Illinois"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_032",
+      "regions": [
+        "REG_61_Massachusetts"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_033",
+      "regions": [
+        "REG_12_Texas"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_034",
+      "regions": [
+        "REG_24_Idaho"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_035",
+      "regions": [
+        "REG_42_North_Carolina"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_036",
+      "regions": [
+        "REG_33_Oklahoma"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_037",
+      "regions": [
+        "REG_21_New_Mexico"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_038",
+      "regions": [
+        "REG_17_Oregon"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_039",
+      "regions": [
+        "REG_31_Wisconsin"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_040",
+      "regions": [
+        "REG_25_North_Dakota"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_041",
+      "regions": [
+        "REG_14_Montana"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_042",
+      "regions": [
+        "REG_27_Washington"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_043",
+      "regions": [
+        "REG_29_Nebraska",
+        "REG_26_South_Dakota",
+        "REG_19_Wyoming"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_044",
+      "regions": [
+        "REG_12_Texas"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_045",
+      "regions": [
+        "REG_07_Yukon"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_046",
+      "regions": [
+        "REG_07_Yukon"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_047",
+      "regions": [
+        "REG_09_Alberta"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_048",
+      "regions": [
+        "REG_09_Alberta"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_049",
+      "regions": [
+        "REG_11_Saskatchewan"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_050",
+      "regions": [
+        "REG_02_Northwest_Territories"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_051",
+      "regions": [
+        "REG_02_Northwest_Territories"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_052",
+      "regions": [
+        "REG_02_Northwest_Territories"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_053",
+      "regions": [
+        "REG_05_British_Columbia"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_054",
+      "regions": [
+        "REG_05_British_Columbia"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_055",
+      "regions": [
+        "REG_08_Mexico"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_056",
+      "regions": [
+        "REG_08_Mexico"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_057",
+      "regions": [
+        "REG_08_Mexico"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_058",
+      "regions": [
+        "REG_57_Costa_Rica"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_059",
+      "regions": [
+        "REG_51_Nicaragua"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_060",
+      "regions": [
+        "REG_64_El_Salvador"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_061",
+      "regions": [
+        "REG_53_Guatemala"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_062",
+      "regions": [
+        "REG_52_Honduras"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_063",
+      "regions": [
+        "REG_08_Mexico"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_064",
+      "regions": [
+        "REG_56_Panama"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_065",
+      "regions": [
+        "REG_62_Belize"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "TEXT_066",
+      "regions": [
+        "REG_10_Manitoba"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_067",
+      "regions": [
+        "REG_10_Manitoba"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_068",
+      "regions": [
+        "REG_06_Ontario"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_069",
+      "regions": [
+        "REG_06_Ontario"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_070",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_071",
+      "regions": [
+        "REG_06_Ontario"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "TEXT_072",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_073",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_074",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_075",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_076",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_077",
+      "regions": [
+        "REG_13_Labrador"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_078",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_079",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_080",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_081",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_082",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_083",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_084",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_085",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "TEXT_086",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_001",
+      "regions": [
+        "REG_38_Virginia_coastal"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_002",
+      "regions": [
+        "REG_15_California"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_003",
+      "regions": [
+        "REG_15_California"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_004",
+      "regions": [
+        "REG_23_Arizona"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_005",
+      "regions": [
+        "REG_21_New_Mexico"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_006",
+      "regions": [
+        "REG_18_Nevada"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_007",
+      "regions": [
+        "REG_28_Utah"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_008",
+      "regions": [
+        "REG_22_Colorado"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_009",
+      "regions": [
+        "REG_24_Idaho"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_010",
+      "regions": [
+        "REG_17_Oregon"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_011",
+      "regions": [
+        "REG_27_Washington"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_012",
+      "regions": [
+        "REG_14_Montana"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_013",
+      "regions": [
+        "REG_25_North_Dakota"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_014",
+      "regions": [
+        "REG_20_Minnesota"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_015",
+      "regions": [
+        "REG_34_Iowa"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_016",
+      "regions": [
+        "REG_31_Wisconsin"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_017",
+      "regions": [
+        "REG_35_Illinois"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_018",
+      "regions": [
+        "REG_16_Michigan"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_019",
+      "regions": [
+        "REG_30_Kansas"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_020",
+      "regions": [
+        "REG_32_Missouri"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_021",
+      "regions": [
+        "REG_33_Oklahoma"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_022",
+      "regions": [
+        "REG_12_Texas"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_023",
+      "regions": [
+        "REG_12_Texas"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_024",
+      "regions": [
+        "REG_49_Louisiana"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_025",
+      "regions": [
+        "REG_45_Mississippi"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_026",
+      "regions": [
+        "REG_49_Louisiana"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_027",
+      "regions": [
+        "REG_44_Alabama"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_028",
+      "regions": [
+        "REG_37_Georgia"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_029",
+      "regions": [
+        "REG_43_Florida"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_030",
+      "regions": [
+        "REG_43_Florida"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_031",
+      "regions": [
+        "REG_43_Florida"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_032",
+      "regions": [
+        "REG_54_South_Carolina"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_033",
+      "regions": [
+        "REG_42_North_Carolina"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_034",
+      "regions": [
+        "REG_47_Tennessee"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_035",
+      "regions": [
+        "REG_55_West_Virginia"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_036",
+      "regions": [
+        "REG_38_Virginia_coastal"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_037",
+      "regions": [
+        "REG_50_Indiana"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_038",
+      "regions": [
+        "REG_41_Ohio"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_039",
+      "regions": [
+        "REG_39_Pennsylvania"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_040",
+      "regions": [
+        "REG_36_New_York"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_041",
+      "regions": [
+        "REG_60_New_Jersey"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_042",
+      "regions": [
+        "REG_61_Massachusetts"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_043",
+      "regions": [
+        "REG_07_Yukon"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_044",
+      "regions": [
+        "REG_07_Yukon"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_045",
+      "regions": [
+        "REG_09_Alberta"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_046",
+      "regions": [
+        "REG_09_Alberta"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_047",
+      "regions": [
+        "REG_11_Saskatchewan"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_048",
+      "regions": [
+        "REG_02_Northwest_Territories"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_049",
+      "regions": [
+        "REG_02_Northwest_Territories"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_050",
+      "regions": [
+        "REG_05_British_Columbia"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_051",
+      "regions": [
+        "REG_05_British_Columbia"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_052",
+      "regions": [
+        "REG_08_Mexico"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_053",
+      "regions": [
+        "REG_08_Mexico"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_054",
+      "regions": [
+        "REG_08_Mexico"
+      ],
+      "tested_gap_mm": 0.09999983012676239
+    },
+    {
+      "id": "MARK_055",
+      "regions": [
+        "REG_10_Manitoba"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_056",
+      "regions": [
+        "REG_10_Manitoba"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_057",
+      "regions": [
+        "REG_06_Ontario"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_058",
+      "regions": [
+        "REG_04_Quebec",
+        "REG_06_Ontario"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_059",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_060",
+      "regions": [
+        "REG_06_Ontario"
+      ],
+      "tested_gap_mm": 0.1000000797212186
+    },
+    {
+      "id": "MARK_061",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_062",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_063",
+      "regions": [
+        "REG_04_Quebec"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_064",
+      "regions": [
+        "REG_13_Labrador"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_065",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_066",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_067",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_068",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_069",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_070",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_071",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    },
+    {
+      "id": "MARK_072",
+      "regions": [
+        "REG_01_Alaska"
+      ],
+      "tested_gap_mm": 0.10000006295740604
+    }
+  ]
+}
