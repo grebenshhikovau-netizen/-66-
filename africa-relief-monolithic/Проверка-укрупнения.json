@@ -1,0 +1,72 @@
+{
+  "separate_alternative": true,
+  "source_parts": 103,
+  "monolithic_parts": 34,
+  "reduction_percent": 66.99029126213591,
+  "all_valid": true,
+  "all_nested": true,
+  "all_water_through": true,
+  "base_unchanged": true,
+  "egypt_pyramid_unchanged": true,
+  "kilimanjaro_present": true,
+  "before_nodes": 45272,
+  "after_nodes": 44413,
+  "before_cut_length_mm": 11855.868605555781,
+  "after_cut_length_mm": 10214.80414695301,
+  "layers": [
+    {
+      "tier": 1,
+      "before_parts": 5,
+      "after_parts": 5,
+      "before_nodes": 22172,
+      "after_nodes": 22172,
+      "mainland_parts": 4,
+      "madagascar_parts": 1
+    },
+    {
+      "tier": 2,
+      "before_parts": 5,
+      "after_parts": 3,
+      "before_nodes": 12855,
+      "after_nodes": 13427,
+      "mainland_parts": 2,
+      "madagascar_parts": 1
+    },
+    {
+      "tier": 3,
+      "before_parts": 35,
+      "after_parts": 10,
+      "before_nodes": 7181,
+      "after_nodes": 6601,
+      "mainland_parts": 9,
+      "madagascar_parts": 1
+    },
+    {
+      "tier": 4,
+      "before_parts": 46,
+      "after_parts": 11,
+      "before_nodes": 2803,
+      "after_nodes": 2008,
+      "mainland_parts": 11,
+      "madagascar_parts": 0
+    },
+    {
+      "tier": 5,
+      "before_parts": 10,
+      "after_parts": 3,
+      "before_nodes": 246,
+      "after_nodes": 190,
+      "mainland_parts": 3,
+      "madagascar_parts": 0
+    },
+    {
+      "tier": 6,
+      "before_parts": 2,
+      "after_parts": 2,
+      "before_nodes": 15,
+      "after_nodes": 15,
+      "mainland_parts": 2,
+      "madagascar_parts": 0
+    }
+  ]
+}

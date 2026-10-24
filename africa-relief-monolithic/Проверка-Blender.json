@@ -1,0 +1,174 @@
+{
+  "all_source_solids_manifold": true,
+  "all_evaluated_wood_solids_manifold": true,
+  "bottom_origins": true,
+  "height_follow_tests": [
+    {
+      "base_mm": 3,
+      "passed": true
+    },
+    {
+      "base_mm": 6,
+      "passed": true
+    },
+    {
+      "base_mm": 9,
+      "passed": true
+    }
+  ],
+  "wood_meshes": 34,
+  "texture_markings": 6,
+  "all_water_holes_clear_through_wood": true,
+  "wood_ray_checks": 3075,
+  "wooden_water_floor": false,
+  "reference_acrylic_below_zero": true,
+  "marking_representation": "20 micrometre texture engraving only; no water fill",
+  "main_level_count": 6,
+  "heights_mm": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    18
+  ],
+  "madagascar_separate_collection": true,
+  "checks": [
+    {
+      "id": "L01_AFR_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_AFR_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_AFR_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_AFR_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_MAD",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_AFR_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_AFR_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_MAD",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_AFR_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_AFR_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_AFR_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_AFR_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_AFR_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_AFR_P06",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_AFR_P07",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_AFR_P08",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_AFR_P09",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_MAD",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P06",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P07",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P08",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P09",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P10",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P11",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_AFR_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_AFR_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_AFR_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_AFR_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_AFR_P02",
+      "non_manifold_edges": 0
+    }
+  ]
+}
