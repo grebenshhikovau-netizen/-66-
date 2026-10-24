@@ -1,0 +1,318 @@
+{
+  "all_production_paths_closed": true,
+  "all_production_svg_without_raster_or_live_text": true,
+  "files": [
+    {
+      "file": "SVG-по-регионам/REG_01_Alaska.svg",
+      "closed_paths": 4
+    },
+    {
+      "file": "SVG-по-регионам/REG_02_Northwest_Territories.svg",
+      "closed_paths": 5
+    },
+    {
+      "file": "SVG-по-регионам/REG_03_Nunavut.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_04_Quebec.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_05_British_Columbia.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_06_Ontario.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_07_Yukon.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_08_Mexico.svg",
+      "closed_paths": 5
+    },
+    {
+      "file": "SVG-по-регионам/REG_09_Alberta.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_10_Manitoba.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_11_Saskatchewan.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_12_Texas.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_13_Labrador.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_14_Montana.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_15_California.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_16_Michigan.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_17_Oregon.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_18_Nevada.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_19_Wyoming.svg",
+      "closed_paths": 4
+    },
+    {
+      "file": "SVG-по-регионам/REG_20_Minnesota.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_21_New_Mexico.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_22_Colorado.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_23_Arizona.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_24_Idaho.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_25_North_Dakota.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "SVG-по-регионам/REG_26_South_Dakota.svg",
+      "closed_paths": 5
+    },
+    {
+      "file": "SVG-по-регионам/REG_27_Washington.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_28_Utah.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_29_Nebraska.svg",
+      "closed_paths": 4
+    },
+    {
+      "file": "SVG-по-регионам/REG_30_Kansas.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_31_Wisconsin.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_32_Missouri.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_33_Oklahoma.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_34_Iowa.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_35_Illinois.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_36_New_York.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_37_Georgia.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_38_Virginia_coastal.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_39_Pennsylvania.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_40_Arkansas.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_41_Ohio.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_42_North_Carolina.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_43_Florida.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_44_Alabama.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_45_Mississippi.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_46_Maine.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_47_Tennessee.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_48_Kentucky.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_49_Louisiana.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_50_Indiana.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_51_Nicaragua.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_52_Honduras.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_53_Guatemala.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_54_South_Carolina.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_55_West_Virginia.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_56_Panama.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_57_Costa_Rica.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_58_Vermont.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_59_New_Hampshire.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_60_New_Jersey.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_61_Massachusetts.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_62_Belize.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_63_Connecticut.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "SVG-по-регионам/REG_64_El_Salvador.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "SVG-по-регионам/REG_65_Rhode_Island.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "Города-ровные-места.svg",
+      "closed_paths": 119
+    },
+    {
+      "file": "Гравировка-стран-уровень-1.svg",
+      "closed_paths": 2
+    },
+    {
+      "file": "Гравировка-стран-уровень-2.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "Гравировка-стран-уровень-3.svg",
+      "closed_paths": 4
+    },
+    {
+      "file": "Опция-основа-без-углубления.svg",
+      "closed_paths": 65
+    },
+    {
+      "file": "Опция-подкладка-каньона.svg",
+      "closed_paths": 3
+    },
+    {
+      "file": "Опция-четвёртый-слой.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Подсказки-городов-уровень-1.svg",
+      "closed_paths": 21
+    },
+    {
+      "file": "Подсказки-городов-уровень-2.svg",
+      "closed_paths": 53
+    },
+    {
+      "file": "Подсказки-городов-уровень-3.svg",
+      "closed_paths": 17
+    },
+    {
+      "file": "Слой-01-по-регионам.svg",
+      "closed_paths": 65
+    },
+    {
+      "file": "Слой-02-по-регионам.svg",
+      "closed_paths": 64
+    },
+    {
+      "file": "Слой-03-по-регионам.svg",
+      "closed_paths": 51
+    }
+  ]
+}

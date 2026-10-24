@@ -1,0 +1,1241 @@
+{
+  "all_source_solids_manifold": true,
+  "all_evaluated_solids_manifold": true,
+  "regions": 65,
+  "main_layer_parts": [
+    66,
+    83,
+    81
+  ],
+  "bottom_origins": true,
+  "matches_previous_blender_world_bounds": true,
+  "old_reference_bounds": [
+    0.6462394595146179,
+    0.3049355745315552,
+    0.7568318247795105,
+    0.38982799649238586
+  ],
+  "new_reference_bounds": [
+    0.6462395191192627,
+    0.3049355745315552,
+    0.7568317651748657,
+    0.38982802629470825
+  ],
+  "all_module_movement_tests_passed": true,
+  "height_and_label_tests": [
+    {
+      "base_height_mm": 3,
+      "passed": true
+    },
+    {
+      "base_height_mm": 6,
+      "passed": true
+    },
+    {
+      "base_height_mm": 9,
+      "passed": true
+    }
+  ],
+  "evaluated_meshes": [
+    {
+      "id": "REG_01_Alaska__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_01_Alaska__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_01_Alaska__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_01_Alaska__L02_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_01_Alaska__L02_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_01_Alaska__L02_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_01_Alaska__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_01_Alaska__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_01_Alaska__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_01_Alaska__L04_OPTION",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_02_Northwest_Territories__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_02_Northwest_Territories__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_02_Northwest_Territories__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_02_Northwest_Territories__L02_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_02_Northwest_Territories__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_02_Northwest_Territories__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_03_Nunavut__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_03_Nunavut__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_03_Nunavut__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_04_Quebec__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_04_Quebec__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_04_Quebec__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_04_Quebec__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_04_Quebec__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_05_British_Columbia__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_05_British_Columbia__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_05_British_Columbia__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_05_British_Columbia__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_05_British_Columbia__L03_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_05_British_Columbia__L03_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_05_British_Columbia__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_06_Ontario__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_06_Ontario__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_06_Ontario__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_07_Yukon__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_07_Yukon__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_07_Yukon__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_07_Yukon__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_07_Yukon__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_07_Yukon__L03_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_07_Yukon__L03_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_07_Yukon__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_08_Mexico__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_08_Mexico__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_08_Mexico__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_08_Mexico__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_08_Mexico__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_08_Mexico__L03_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_08_Mexico__L03_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_08_Mexico__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_09_Alberta__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_09_Alberta__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_09_Alberta__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_09_Alberta__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_09_Alberta__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_09_Alberta__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_10_Manitoba__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_10_Manitoba__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_10_Manitoba__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_11_Saskatchewan__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_11_Saskatchewan__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_11_Saskatchewan__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_12_Texas__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_12_Texas__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_12_Texas__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_12_Texas__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_13_Labrador__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_13_Labrador__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_13_Labrador__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_13_Labrador__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_14_Montana__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_14_Montana__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_14_Montana__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_14_Montana__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_15_California__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_15_California__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_15_California__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_15_California__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_15_California__L03_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_15_California__L03_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_15_California__L03_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_15_California__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_16_Michigan__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_16_Michigan__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_16_Michigan__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_16_Michigan__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_17_Oregon__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_17_Oregon__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_17_Oregon__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_17_Oregon__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_17_Oregon__L03_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_17_Oregon__L03_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_17_Oregon__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_18_Nevada__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_18_Nevada__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_18_Nevada__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_18_Nevada__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_18_Nevada__L03_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_18_Nevada__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_18_Nevada__CANYON_BACKING_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_18_Nevada__CANYON_BACKING_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_19_Wyoming__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_19_Wyoming__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_19_Wyoming__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_19_Wyoming__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_20_Minnesota__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_20_Minnesota__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_20_Minnesota__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_20_Minnesota__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_20_Minnesota__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_21_New_Mexico__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_21_New_Mexico__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_21_New_Mexico__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_21_New_Mexico__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_21_New_Mexico__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_21_New_Mexico__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_22_Colorado__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_22_Colorado__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_22_Colorado__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_22_Colorado__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_22_Colorado__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_23_Arizona__L01_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_23_Arizona__L01_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_23_Arizona__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_23_Arizona__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_23_Arizona__L02_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_23_Arizona__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_23_Arizona__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_23_Arizona__CANYON_BACKING",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_24_Idaho__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_24_Idaho__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_24_Idaho__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_24_Idaho__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_25_North_Dakota__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_25_North_Dakota__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_26_South_Dakota__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_26_South_Dakota__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_26_South_Dakota__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_26_South_Dakota__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_27_Washington__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_27_Washington__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_27_Washington__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_27_Washington__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_27_Washington__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_28_Utah__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_28_Utah__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_28_Utah__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_28_Utah__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_28_Utah__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_28_Utah__CANYON_BACKING",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_29_Nebraska__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_29_Nebraska__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_29_Nebraska__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_29_Nebraska__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_30_Kansas__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_30_Kansas__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_30_Kansas__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_30_Kansas__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_30_Kansas__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_31_Wisconsin__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_31_Wisconsin__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_31_Wisconsin__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_31_Wisconsin__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_32_Missouri__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_32_Missouri__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_32_Missouri__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_32_Missouri__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_33_Oklahoma__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_33_Oklahoma__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_33_Oklahoma__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_33_Oklahoma__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_33_Oklahoma__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_34_Iowa__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_34_Iowa__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_34_Iowa__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_34_Iowa__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_35_Illinois__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_35_Illinois__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_35_Illinois__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_35_Illinois__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_35_Illinois__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_36_New_York__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_36_New_York__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_36_New_York__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_36_New_York__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_37_Georgia__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_37_Georgia__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_37_Georgia__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_37_Georgia__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_38_Virginia_coastal__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_38_Virginia_coastal__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_38_Virginia_coastal__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_38_Virginia_coastal__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_38_Virginia_coastal__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_39_Pennsylvania__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_39_Pennsylvania__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_39_Pennsylvania__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_39_Pennsylvania__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_40_Arkansas__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_40_Arkansas__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_40_Arkansas__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_40_Arkansas__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_41_Ohio__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_41_Ohio__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_41_Ohio__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_41_Ohio__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_41_Ohio__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_42_North_Carolina__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_42_North_Carolina__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_42_North_Carolina__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_42_North_Carolina__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_43_Florida__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_43_Florida__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_43_Florida__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_44_Alabama__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_44_Alabama__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_44_Alabama__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_44_Alabama__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_44_Alabama__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_45_Mississippi__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_45_Mississippi__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_45_Mississippi__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_45_Mississippi__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_45_Mississippi__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_46_Maine__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_46_Maine__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_46_Maine__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_46_Maine__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_47_Tennessee__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_47_Tennessee__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_47_Tennessee__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_47_Tennessee__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_48_Kentucky__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_48_Kentucky__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_48_Kentucky__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_48_Kentucky__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_49_Louisiana__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_49_Louisiana__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_49_Louisiana__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_50_Indiana__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_50_Indiana__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_50_Indiana__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_50_Indiana__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_51_Nicaragua__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_51_Nicaragua__L02_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_51_Nicaragua__L02_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_51_Nicaragua__L03_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_51_Nicaragua__L03_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_51_Nicaragua__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_52_Honduras__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_52_Honduras__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_52_Honduras__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_52_Honduras__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_53_Guatemala__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_53_Guatemala__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_53_Guatemala__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_53_Guatemala__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_54_South_Carolina__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_54_South_Carolina__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_54_South_Carolina__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_54_South_Carolina__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_55_West_Virginia__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_55_West_Virginia__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_55_West_Virginia__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_55_West_Virginia__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_56_Panama__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_56_Panama__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_56_Panama__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_57_Costa_Rica__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_57_Costa_Rica__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_57_Costa_Rica__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_58_Vermont__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_58_Vermont__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_58_Vermont__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_58_Vermont__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_59_New_Hampshire__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_59_New_Hampshire__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_59_New_Hampshire__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_59_New_Hampshire__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_60_New_Jersey__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_60_New_Jersey__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_60_New_Jersey__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_60_New_Jersey__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_61_Massachusetts__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_61_Massachusetts__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_61_Massachusetts__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_61_Massachusetts__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_62_Belize__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_62_Belize__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_62_Belize__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_63_Connecticut__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_63_Connecticut__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_63_Connecticut__L03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_63_Connecticut__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_64_El_Salvador__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_64_El_Salvador__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_64_El_Salvador__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_65_Rhode_Island__L01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_65_Rhode_Island__L02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_65_Rhode_Island__L01_SOLID_REFERENCE",
+      "non_manifold_edges": 0
+    }
+  ]
+}
