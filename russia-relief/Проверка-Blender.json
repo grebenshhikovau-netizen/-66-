@@ -1,0 +1,331 @@
+{
+  "all_source_solids_manifold": true,
+  "all_evaluated_wood_solids_manifold": true,
+  "bottom_origins": true,
+  "height_follow_tests": [
+    {
+      "base_mm": 3,
+      "passed": true
+    },
+    {
+      "base_mm": 6,
+      "passed": true
+    },
+    {
+      "base_mm": 9,
+      "passed": true
+    }
+  ],
+  "wood_meshes": 73,
+  "texture_markings": 4,
+  "all_water_holes_clear_through_wood": true,
+  "wood_ray_checks": 1918,
+  "wooden_water_floor": false,
+  "reference_acrylic_below_zero": true,
+  "marking_representation": "20 micrometre texture engraving only; no water fill",
+  "main_level_count": 6,
+  "heights_mm": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    18
+  ],
+  "islands_separate_collection": true,
+  "craters_are_blind_recesses": true,
+  "checks": [
+    {
+      "id": "L01_RUS_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_RUS_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_RUS_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_RUS_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_RUS_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_SAKHALIN",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_KURIL_02_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_KURIL_03_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_KURIL_04_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_KURIL_05_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_KURIL_06_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_KURIL_07_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P06",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P07",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P08",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P09",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P10",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P11",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P12",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P13",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P14",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_RUS_P15",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_SAKHALIN",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_KURIL_03_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_KURIL_04_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_KURIL_05_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_KURIL_06_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_KURIL_07_1",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P06",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P07",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P08",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P09",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P10",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P11",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P12",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P13",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P14",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_RUS_P15",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_SAKHALIN",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P06",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P07",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P08",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P09",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P10",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P11",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P12",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_RUS_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_RUS_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_RUS_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_RUS_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_RUS_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_RUS_P06",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_RUS_P07",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_RUS_P08",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_RUS_P09",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_RUS_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_RUS_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_RUS_P03",
+      "non_manifold_edges": 0
+    }
+  ]
+}

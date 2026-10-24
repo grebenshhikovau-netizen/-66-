@@ -1,0 +1,146 @@
+{
+  "all_named_waterways_present": true,
+  "all_required_confluences_connected": true,
+  "all_lakes_through": true,
+  "craters_have_wood_floors": true,
+  "no_island_bridges": true,
+  "checks": {
+    "Волга": {
+      "mouth_reaches_source_shore": true,
+      "through_all_plies": true
+    },
+    "Обь": {
+      "mouth_reaches_source_shore": true,
+      "through_all_plies": true
+    },
+    "Енисей": {
+      "mouth_reaches_source_shore": true,
+      "through_all_plies": true
+    },
+    "Лена": {
+      "mouth_reaches_source_shore": true,
+      "through_all_plies": true
+    },
+    "Амур": {
+      "mouth_reaches_source_shore": true,
+      "through_all_plies": true
+    },
+    "Обь + Иртыш": {
+      "connected": true,
+      "overlap_mm2": 2.574093616640544
+    },
+    "Енисей + Ангара": {
+      "connected": true,
+      "overlap_mm2": 2.930882007540338
+    },
+    "Байкал + Ангара": {
+      "connected": true,
+      "overlap_mm2": 19.550633659505298
+    },
+    "Ангара": {
+      "through_all_plies": true
+    },
+    "Иртыш": {
+      "through_all_plies": true
+    },
+    "Ладожское": {
+      "through_all_plies": true
+    },
+    "Байкал": {
+      "through_all_plies": true
+    },
+    "Онежское": {
+      "through_all_plies": true
+    },
+    "Таймыр": {
+      "through_all_plies": true
+    },
+    "Телецкое": {
+      "through_all_plies": true
+    },
+    "Ключевская Сопка": {
+      "blind_crater": true,
+      "floor_mm": 15,
+      "high_accent_present": true,
+      "connected_cap_parts": 1
+    },
+    "Шивелуч": {
+      "blind_crater": true,
+      "floor_mm": 12,
+      "high_accent_present": true,
+      "connected_cap_parts": 1
+    },
+    "Кроноцкий вулкан": {
+      "blind_crater": true,
+      "floor_mm": 12,
+      "high_accent_present": true,
+      "connected_cap_parts": 1
+    },
+    "Авачинский вулкан": {
+      "blind_crater": true,
+      "floor_mm": 12,
+      "high_accent_present": true,
+      "connected_cap_parts": 1
+    },
+    "Эльбрус": {
+      "high_accent_present": true,
+      "connected_cap_parts": 1
+    },
+    "Белуха": {
+      "high_accent_present": true,
+      "connected_cap_parts": 1
+    },
+    "Маньпупунёр": {
+      "high_accent_present": true,
+      "connected_cap_parts": 1
+    },
+    "Ленские столбы": {
+      "high_accent_present": true,
+      "connected_cap_parts": 1
+    },
+    "Урал": {
+      "raised_range_present": true,
+      "L3_area_mm2": 2231.010224373289
+    },
+    "Кавказ": {
+      "raised_range_present": true,
+      "L3_area_mm2": 381.0533293630596
+    },
+    "Алтай": {
+      "raised_range_present": true,
+      "L3_area_mm2": 331.58566584127595
+    },
+    "Саяны": {
+      "raised_range_present": true,
+      "L3_area_mm2": 833.9068540620442
+    },
+    "Верхоянский хребет": {
+      "raised_range_present": true,
+      "L3_area_mm2": 1000.7848370734762
+    },
+    "Хребет Черского": {
+      "raised_range_present": true,
+      "L3_area_mm2": 663.2315380482501
+    },
+    "Становой хребет": {
+      "raised_range_present": true,
+      "L3_area_mm2": 793.4793341084065
+    },
+    "Сихотэ-Алинь": {
+      "raised_range_present": true,
+      "L3_area_mm2": 383.3394470563171
+    },
+    "Путорана": {
+      "raised_range_present": true,
+      "L3_area_mm2": 1733.3790237634928
+    },
+    "Байкальское нагорье": {
+      "raised_range_present": true,
+      "L3_area_mm2": 724.5476236908129
+    },
+    "Камчатка": {
+      "raised_range_present": true,
+      "L3_area_mm2": 579.1862098023765
+    }
+  }
+}

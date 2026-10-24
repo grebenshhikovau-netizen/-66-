@@ -1,0 +1,30 @@
+{
+  "all_blind_recesses_have_expected_wood_floor": true,
+  "checks": [
+    {
+      "name": "Ключевская Сопка",
+      "expected_floor_mm": 15,
+      "actual_floor_mm": 15.000000596046448
+    },
+    {
+      "name": "Шивелуч",
+      "expected_floor_mm": 12,
+      "actual_floor_mm": 11.99999824166298
+    },
+    {
+      "name": "Кроноцкий вулкан",
+      "expected_floor_mm": 12,
+      "actual_floor_mm": 11.99999451637268
+    },
+    {
+      "name": "Авачинский вулкан",
+      "expected_floor_mm": 12,
+      "actual_floor_mm": 11.99999824166298
+    },
+    {
+      "name": "Долина гейзеров",
+      "expected_floor_mm": 9,
+      "actual_floor_mm": 8.999999612569809
+    }
+  ]
+}
