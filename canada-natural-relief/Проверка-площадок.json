@@ -1,0 +1,726 @@
+{
+  "city_zones": 80,
+  "all_city_names_on_flat_surfaces": true,
+  "checks": [
+    {
+      "id": "TEXT_001",
+      "tier": 3,
+      "flat_fraction": 0.9999999999999993,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_002",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999989,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_003",
+      "tier": 1,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        -6,
+        -3
+      ]
+    },
+    {
+      "id": "TEXT_004",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999998,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_005",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999999,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_006",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999997,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_007",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000004,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_008",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999998,
+      "offset_svg": [
+        -6,
+        -6
+      ]
+    },
+    {
+      "id": "TEXT_009",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999998,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_010",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_011",
+      "tier": 3,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        -9,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_012",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        -6
+      ]
+    },
+    {
+      "id": "TEXT_013",
+      "tier": 3,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        -6,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_014",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999994,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_015",
+      "tier": 3,
+      "flat_fraction": 1.000000000000001,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_016",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        -6,
+        -3
+      ]
+    },
+    {
+      "id": "TEXT_017",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000007,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_018",
+      "tier": 3,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_019",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999998,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_020",
+      "tier": 3,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_021",
+      "tier": 3,
+      "flat_fraction": 0.9999999999999996,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_022",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        -3,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_023",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999999,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_024",
+      "tier": 1,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_025",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999998,
+      "offset_svg": [
+        0,
+        -3
+      ]
+    },
+    {
+      "id": "TEXT_026",
+      "tier": 1,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_027",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999998,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_028",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999989,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_029",
+      "tier": 3,
+      "flat_fraction": 1.0000000000000016,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_030",
+      "tier": 1,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_031",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_032",
+      "tier": 3,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        -6,
+        -3
+      ]
+    },
+    {
+      "id": "TEXT_033",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_034",
+      "tier": 3,
+      "flat_fraction": 0.9999999999999991,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_035",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000004,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_036",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999999,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_037",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_038",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999996,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_039",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_040",
+      "tier": 1,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_041",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999999,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_042",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999986,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_044",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999971,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_045",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_046",
+      "tier": 3,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_047",
+      "tier": 1,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_048",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999998,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_049",
+      "tier": 1,
+      "flat_fraction": 1.0000000000000009,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_051",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_052",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999997,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_053",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000004,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_054",
+      "tier": 3,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_055",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_056",
+      "tier": 3,
+      "flat_fraction": 0.9999999999999989,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_057",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_058",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        -3
+      ]
+    },
+    {
+      "id": "TEXT_059",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_060",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000004,
+      "offset_svg": [
+        0,
+        -3
+      ]
+    },
+    {
+      "id": "TEXT_061",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999993,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_062",
+      "tier": 2,
+      "flat_fraction": 0.9999999999999996,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_064",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_065",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        -3,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_066",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        -6,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_067",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_068",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000004,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_069",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_070",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_071",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_072",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999999,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_073",
+      "tier": 1,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        -24,
+        6
+      ]
+    },
+    {
+      "id": "TEXT_074",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999996,
+      "offset_svg": [
+        -6,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_077",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000002,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_078",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000007,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_079",
+      "tier": 2,
+      "flat_fraction": 1.0000000000000004,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_080",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_082",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999997,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_083",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999997,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_084",
+      "tier": 2,
+      "flat_fraction": 1.0,
+      "offset_svg": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "TEXT_085",
+      "tier": 1,
+      "flat_fraction": 1.0000000000000004,
+      "offset_svg": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": "TEXT_086",
+      "tier": 1,
+      "flat_fraction": 0.9999999999999998,
+      "offset_svg": [
+        0,
+        0
+      ]
+    }
+  ]
+}

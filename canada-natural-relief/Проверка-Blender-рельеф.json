@@ -1,0 +1,20 @@
+{
+  "all_source_solids_manifold": true,
+  "country_engraving_solids": 7,
+  "city_labels": 80,
+  "main_heights_mm": [
+    3,
+    6,
+    9
+  ],
+  "optional_peak_mm": 12,
+  "backing_depth_mm": 3,
+  "closed_mesh_failures": [],
+  "wood_parts_including_optional_cap": 31,
+  "main_layer_parts": [
+    1,
+    4,
+    25
+  ],
+  "optional_peak_parts": 1
+}

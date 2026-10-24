@@ -1,0 +1,84 @@
+{
+  "source_outer_shape_preserved": true,
+  "nested_layers": true,
+  "files": [
+    {
+      "file": "Слой-01.svg",
+      "closed_paths": 1,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Слой-02.svg",
+      "closed_paths": 1,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Слой-03.svg",
+      "closed_paths": 1,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Рельеф-три-слоя.svg",
+      "closed_paths": 30,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Опция-00-подкладка-каньона.svg",
+      "closed_paths": 1,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Опция-01-основа-с-углублением.svg",
+      "closed_paths": 1,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Опция-04-вершина-Денали.svg",
+      "closed_paths": 1,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Гравировка-названия-уровень-1.svg",
+      "closed_paths": 2,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Гравировка-названия-уровень-2.svg",
+      "closed_paths": 3,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Гравировка-названия-уровень-3.svg",
+      "closed_paths": 2,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Города-гравировка-уровень-1.svg",
+      "closed_paths": 21,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Города-гравировка-уровень-2.svg",
+      "closed_paths": 46,
+      "raster_images": 0,
+      "text_objects": 0
+    },
+    {
+      "file": "Города-гравировка-уровень-3.svg",
+      "closed_paths": 13,
+      "raster_images": 0,
+      "text_objects": 0
+    }
+  ]
+}

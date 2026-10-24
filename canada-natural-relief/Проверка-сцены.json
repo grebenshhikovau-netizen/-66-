@@ -1,0 +1,152 @@
+{
+  "evaluated_wood_meshes": [
+    {
+      "id": "L01_Whole_base",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_Base_canyon",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_Terrace_01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_Terrace_02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_Terrace_03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_Terrace_04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_06",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_07",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_08",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_09",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_10",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_11",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_12",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_13",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_14",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_15",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_16",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_17",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_18",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_19",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_20",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_21",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_22",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_23",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_24",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_Ridge_25",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "OPTION_Denali_cap",
+      "non_manifold_edges": 0
+    }
+  ],
+  "stack_tests": [
+    {
+      "base_height_mm": 3,
+      "level2_top_mm": 6,
+      "level3_top_mm": 9
+    },
+    {
+      "base_height_mm": 6,
+      "level2_top_mm": 9,
+      "level3_top_mm": 12
+    },
+    {
+      "base_height_mm": 9,
+      "level2_top_mm": 12,
+      "level3_top_mm": 15
+    }
+  ],
+  "all_stack_tests_passed": true,
+  "all_evaluated_wood_manifold": true,
+  "bottom_origins": true
+}

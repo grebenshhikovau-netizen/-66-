@@ -1,0 +1,22 @@
+{
+  "city_labels": 80,
+  "country_engraving_parts": 7,
+  "all_follow_height_tests_passed": true,
+  "tests": [
+    {
+      "base_height_mm": 3,
+      "dependent_objects": 87,
+      "max_z_error_mm": 3.7401914551593585e-07
+    },
+    {
+      "base_height_mm": 6,
+      "dependent_objects": 87,
+      "max_z_error_mm": 5.72204589266434e-07
+    },
+    {
+      "base_height_mm": 9,
+      "dependent_objects": 87,
+      "max_z_error_mm": 5.72204589266434e-07
+    }
+  ]
+}
