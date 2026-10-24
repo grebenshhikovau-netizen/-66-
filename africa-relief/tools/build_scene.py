@@ -99,6 +99,6 @@ report={'all_source_solids_manifold':True,'all_evaluated_wood_solids_manifold':T
 if '--no-render' in sys.argv:sys.exit(0)
 scene.render.filepath=str(P/'Африка-3D.png');bpy.ops.render.render(write_still=True)
 mm=D['mm_per_unit']/1000
-for name,file,span,offset in [('Великий рифт','Озёра-и-рифт-3D.png',.175,(-.018,-.012,0)),('Водопад Виктория','Замбези-Виктория-3D.png',.073,(0,0,0))]:
- p=next(v for v in D['places'] if v['name']==name);target=Vector((p['x']*mm,(2657.4803125-p['y'])*mm,.006))+Vector(offset);camera.location=target+Vector((.025,-.10,.21));camera.rotation_euler=(target-camera.location).to_track_quat('-Z','Y').to_euler();camera.data.ortho_scale=span;scene.render.resolution_x=1500;scene.render.resolution_y=1400;scene.render.filepath=str(P/file);bpy.ops.render.render(write_still=True)
+for name,file,span,offset in [('Египет — пирамида','Египет-пирамида-3D.png',.085,(0,0,0)),('Великий рифт','Озёра-и-рифт-3D.png',.175,(-.018,-.012,0)),('Водопад Виктория','Замбези-Виктория-3D.png',.073,(0,0,0))]:
+ p=next(v for v in D['places'] if v['name']==name);target=Vector((p['x']*mm,(2657.4803125-p['y'])*mm,.008))+Vector(offset);camera.location=target+Vector((.045,-.060,.14));camera.rotation_euler=(target-camera.location).to_track_quat('-Z','Y').to_euler();camera.data.ortho_scale=span;scene.render.resolution_x=1500;scene.render.resolution_y=1400;scene.render.filepath=str(P/file);bpy.ops.render.render(write_still=True)
 print('AFRICA RENDERS COMPLETE',flush=True)

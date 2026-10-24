@@ -16,8 +16,8 @@
       "passed": true
     }
   ],
-  "wood_meshes": 99,
-  "texture_markings": 3,
+  "wood_meshes": 103,
+  "texture_markings": 6,
   "all_water_holes_clear_through_wood": true,
   "wood_ray_checks": 3075,
   "wooden_water_floor": false,
@@ -383,6 +383,14 @@
       "non_manifold_edges": 0
     },
     {
+      "id": "L04_AFR_P43",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_AFR_P44",
+      "non_manifold_edges": 0
+    },
+    {
       "id": "L04_MAD_P01",
       "non_manifold_edges": 0
     },
@@ -427,7 +435,15 @@
       "non_manifold_edges": 0
     },
     {
-      "id": "L06_AFR",
+      "id": "L05_AFR_P10",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_AFR_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_AFR_P02",
       "non_manifold_edges": 0
     }
   ]

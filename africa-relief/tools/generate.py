@@ -95,6 +95,12 @@ for i in range(1,6):layers[i]=clean(layers[i],area=3,rad=.30).intersection(layer
 # Do not let smoothing close the mandatory channels or shrink long lakes into disconnected dots.
 for i in range(1,6):layers[i]=unary_union(polys(layers[i].difference(water)))
 layers[0]=unary_union(polys(base.difference(water)))
+# Symbolic country-wide Egyptian pyramid, bounded by the political outline in the CDR.
+egypt_data=json.load(open(D/'egypt-pyramid.json'));egypt=shape(egypt_data['geom']).intersection(main);cx,cy=egypt_data['center'];half=egypt_data['square_half'];pyramid=[]
+for i,factor in enumerate([None,1,.73,.46,.19],1):
+ local=egypt if factor is None else box(cx-half*factor,cy-half*factor,cx+half*factor,cy+half*factor).intersection(egypt)
+ local=local.difference(water);pyramid.append(local)
+ layers[i]=unary_union([layers[i].difference(egypt),local])
 visible=[layers[i].difference(layers[i+1]) if i<5 else layers[i] for i in range(6)]
 # Quiet decorative surface drawing, geographically confined to real sand-sea areas.
 texture=[]
@@ -108,9 +114,14 @@ texture.extend(stroke(c,.12) for c in cracks)
 for j in range(5):texture.append(stroke([(14.5+j*.25+.12*math.sin(t*.25),-24+t*.12) for t in range(32)],.12))
 richat_center=proj(Point(-11.4,21.124));richat=unary_union([richat_center.buffer(r/MM).difference(richat_center.buffer((r-.14)/MM)) for r in [3.0,2.0,1.0]])
 texture=unary_union(texture+[richat]).intersection(main).difference(water.buffer(.5/MM));texture=unary_union(polys(texture))
+# Four engraved diagonals identify the pyramid's faces; the political edge is drawn inside Egypt.
+face_lines=unary_union([LineString([(cx,cy),(cx+dx*half,cy+dy*half)]) for dx,dy in [(-1,-1),(-1,1),(1,-1),(1,1)]]).buffer(.075/MM)
+country_edge=egypt.boundary.buffer(.07/MM).intersection(egypt)
+texture=unary_union([texture.difference(egypt),unary_union([face_lines,country_edge]).intersection(egypt).difference(water)])
 # Geography references are separate from production engraving: no city/country text is added.
 places=[('Нил',32,22),('Дельта Нила',31.,31.2),('Конго',20,-1),('Котловина Конго',22,-2),('Виктория',33,-1.5),('Танганьика',29.6,-6),('Малави',34.5,-12),('Замбези',28,-16.5),('Водопад Виктория',25.855,-17.925),('Великий рифт',35.5,-4),('Эфиопское нагорье',38,10),('Атлас',-5,32),('Килиманджаро',37.355,-3.067),('Драконовы горы',29,-29),('Сахара',10,25),('Ришат',-11.4,21.124),('Намиб',15,-23),('Калахари',23,-23),('Мадагаскар',47,-19)]
 landmarks=[{'name':name,'lon':lon,'lat':lat,'x':proj(Point(lon,lat)).x,'y':proj(Point(lon,lat)).y} for name,lon,lat in places]
+landmarks.append({'name':'Египет — пирамида','lon':None,'lat':None,'x':cx,'y':cy})
 def dpath(g):return ' '.join('M'+' L'.join(f'{x:.6f},{y:.6f}' for x,y in list(r.coords)[:-1])+' Z' for p in polys(g) for r in [orient(p,-1).exterior,*orient(p,-1).interiors])
 def root():return E.Element('svg',nsmap={None:S},width='1600mm',height='1000mm',viewBox='0 0 4251.9685 2657.4803125')
 def path(r,g,id,fill,**kw):
@@ -124,6 +135,10 @@ for i,g in enumerate(layers,1):
  path(r,g,f'L{i:02d}',colors[i-1],stroke='#6c5032',stroke_width='.48');path(construction,g,f'L{i:02d}',colors[i-1],stroke='#6c5032',stroke_width='.48');path(annot,g,f'L{i:02d}',colors[i-1],stroke='#6c5032',stroke_width='.48')
  texturelevel=texture.intersection(visible[i-1]);m=root();path(m,texturelevel,f'TEXTURE_L{i:02d}','#6f5135');write(m,f'Фактура-гравировка-уровень-{i}.svg')
 path(r,texture,'Гравировка_Сахара_Намиб_Ришат','#826746');write(r,'Африка-рельеф-цветной.svg');write(construction,'Африка-шесть-уровней.svg')
+egypt_view=root()
+for i,g in enumerate(layers,1):path(egypt_view,g.intersection(egypt),f'EGYPT_L{i:02d}',colors[i-1],stroke='#6c5032',stroke_width='.48')
+path(egypt_view,texture.intersection(egypt),'EGYPT_ENGRAVE','#715134');write(egypt_view,'Египет-пирамида.svg')
+border_view=root();path(border_view,egypt,'EGYPT_POLITICAL_REFERENCE','none',stroke='#6c5032',stroke_width='.5');write(border_view,'Граница-Египта-ориентир.svg')
 m=root();path(m,water,'WATER','#000');write(m,'Сквозные-вырезы-реки-и-озёра.svg');m=root();path(m,texture,'TEXTURE','#000');write(m,'Фактура-гравировка-все.svg')
 # Numbered callouts, with names in the CSV and README, keep the map drawing legible.
 for i,p in enumerate(landmarks,1):
@@ -139,8 +154,8 @@ mandatory=['Нил','Конго','Виктория','Танганьика','Ма
 for name in mandatory:
  g=waters[name];assert not g.is_empty;filled=unary_union(layers).intersection(g).area/max(g.area,1e-8);assert filled<1e-6,(name,filled);waterchecks.append({'name':name,'area_mm2':g.area*MM**2,'all_layers_fill_fraction':filled})
 assert cap.intersection(layers[5]).area*MM**2>1,'Kilimanjaro missing'
-(OUT/'terrain-geometry.json').write_text(json.dumps({'base':mapping(layers[0]),'source_outline':mapping(base),'mainland':mapping(main),'madagascar':mapping(mad),'layers':[mapping(g) for g in layers],'visible':[mapping(g) for g in visible],'water':mapping(water),'waters':{k:mapping(v) for k,v in waters.items()},'texture':mapping(texture),'rift':mapping(rift_core),'kili_cap':mapping(cap),'places':landmarks,'mm_per_unit':MM,'palette':{f'L{i+1}':(f'Слой {i+1}',c,'Фанера') for i,c in enumerate(colors)}},ensure_ascii=False))
-(OUT/'Проверка-геометрии.json').write_text(json.dumps({'layers':6,'all_valid':True,'all_nested':True,'base_without_below_base_parts':True,'mandatory_waterways_clear':True,'water_through_all_six_layers':True,'no_wooden_water_floor':True,'mandatory_water':waterchecks,'kilimanjaro_L6':True,'mainland_silhouette_kept':True,'madagascar_is_separate_optional_addition':True,'source_dem':'ETOPO10 / ETOPO1, decorative adaptation','checks':checks},ensure_ascii=False,indent=2))
+(OUT/'terrain-geometry.json').write_text(json.dumps({'base':mapping(layers[0]),'source_outline':mapping(base),'mainland':mapping(main),'madagascar':mapping(mad),'layers':[mapping(g) for g in layers],'visible':[mapping(g) for g in visible],'water':mapping(water),'waters':{k:mapping(v) for k,v in waters.items()},'texture':mapping(texture),'egypt_pyramid':{'country':mapping(egypt),'center':[cx,cy],'half':half,'local_layers':[mapping(g) for g in pyramid]},'rift':mapping(rift_core),'kili_cap':mapping(cap),'places':landmarks,'mm_per_unit':MM,'palette':{f'L{i+1}':(f'Слой {i+1}',c,'Фанера') for i,c in enumerate(colors)}},ensure_ascii=False))
+(OUT/'Проверка-геометрии.json').write_text(json.dumps({'layers':6,'all_valid':True,'all_nested':True,'base_without_below_base_parts':True,'mandatory_waterways_clear':True,'water_through_all_six_layers':True,'no_wooden_water_floor':True,'mandatory_water':waterchecks,'kilimanjaro_L6':True,'mainland_silhouette_kept':True,'madagascar_is_separate_optional_addition':True,'egypt_symbolic_pyramid_inside_political_boundary':True,'source_dem':'ETOPO10 / ETOPO1, decorative adaptation plus symbolic Egypt pyramid','checks':checks},ensure_ascii=False,indent=2))
 with (OUT/'Природные-объекты.csv').open('w',encoding='utf-8-sig',newline='') as f:
  c=csv.writer(f,lineterminator='\n');c.writerow(['Номер на схеме','Объект','Долгота','Широта']);c.writerows((i,p['name'],p['lon'],p['lat']) for i,p in enumerate(landmarks,1))
 with (OUT/'Состав-слоёв.csv').open('w',encoding='utf-8-sig',newline='') as f:

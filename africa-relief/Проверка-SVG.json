@@ -13,6 +13,16 @@
       "empty_operation": false
     },
     {
+      "file": "Граница-Египта-ориентир.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Египет-пирамида.svg",
+      "paths": 7,
+      "empty_operation": false
+    },
+    {
       "file": "Опция-Мадагаскар-слой-01.svg",
       "paths": 1,
       "empty_operation": false
@@ -99,18 +109,18 @@
     },
     {
       "file": "Фактура-гравировка-уровень-4.svg",
-      "paths": 0,
-      "empty_operation": true
+      "paths": 1,
+      "empty_operation": false
     },
     {
       "file": "Фактура-гравировка-уровень-5.svg",
-      "paths": 0,
-      "empty_operation": true
+      "paths": 1,
+      "empty_operation": false
     },
     {
       "file": "Фактура-гравировка-уровень-6.svg",
-      "paths": 0,
-      "empty_operation": true
+      "paths": 1,
+      "empty_operation": false
     }
   ]
 }

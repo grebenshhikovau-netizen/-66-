@@ -1,6 +1,5 @@
 {
   "all_water_through_all_six_plies": true,
-  "upper_five_layers_unchanged": true,
   "no_wood_floor": true,
   "checks": [
     {
@@ -53,5 +52,7 @@
       "blocked_area_mm2": 9.320804036568246e-15,
       "sample_points": 632
     }
-  ]
+  ],
+  "relief_outside_egypt_unchanged": true,
+  "egypt_pyramid_does_not_block_water": true
 }
