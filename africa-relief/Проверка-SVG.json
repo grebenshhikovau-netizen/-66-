@@ -1,0 +1,146 @@
+{
+  "all_production_svg_vector": true,
+  "all_paths_closed": true,
+  "files": [
+    {
+      "file": "Африка-рельеф-цветной.svg",
+      "paths": 8,
+      "empty_operation": false
+    },
+    {
+      "file": "Африка-шесть-уровней.svg",
+      "paths": 6,
+      "empty_operation": false
+    },
+    {
+      "file": "Вода-маска-все.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Вода-маска-уровень-1.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Вода-маска-уровень-2.svg",
+      "paths": 0,
+      "empty_operation": true
+    },
+    {
+      "file": "Вода-маска-уровень-3.svg",
+      "paths": 0,
+      "empty_operation": true
+    },
+    {
+      "file": "Вода-маска-уровень-4.svg",
+      "paths": 0,
+      "empty_operation": true
+    },
+    {
+      "file": "Вода-маска-уровень-5.svg",
+      "paths": 0,
+      "empty_operation": true
+    },
+    {
+      "file": "Вода-маска-уровень-6.svg",
+      "paths": 0,
+      "empty_operation": true
+    },
+    {
+      "file": "Опция-Мадагаскар-слой-01.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Опция-Мадагаскар-слой-02.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Опция-Мадагаскар-слой-03.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Опция-Мадагаскар-слой-04.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Опция-Мадагаскар-слой-05.svg",
+      "paths": 0,
+      "empty_operation": true
+    },
+    {
+      "file": "Опция-Мадагаскар-слой-06.svg",
+      "paths": 0,
+      "empty_operation": true
+    },
+    {
+      "file": "Слой-01-резка.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Слой-02-резка.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Слой-03-резка.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Слой-04-резка.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Слой-05-резка.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Слой-06-резка.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Фактура-гравировка-все.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Фактура-гравировка-уровень-1.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Фактура-гравировка-уровень-2.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Фактура-гравировка-уровень-3.svg",
+      "paths": 1,
+      "empty_operation": false
+    },
+    {
+      "file": "Фактура-гравировка-уровень-4.svg",
+      "paths": 0,
+      "empty_operation": true
+    },
+    {
+      "file": "Фактура-гравировка-уровень-5.svg",
+      "paths": 0,
+      "empty_operation": true
+    },
+    {
+      "file": "Фактура-гравировка-уровень-6.svg",
+      "paths": 0,
+      "empty_operation": true
+    }
+  ]
+}

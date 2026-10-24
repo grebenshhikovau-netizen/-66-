@@ -1,0 +1,54 @@
+{
+  "all_required_waterways_present": true,
+  "nile_system_continuous": true,
+  "all_lakes_are_recesses": true,
+  "minimum_upper_part_area_mm2": 3,
+  "checks": {
+    "Нил": {
+      "reaches_coast": true,
+      "gap_mm": 0.0,
+      "continuous_with_upstream_lakes": true
+    },
+    "Конго": {
+      "reaches_coast": true,
+      "gap_mm": 0.0
+    },
+    "Замбези": {
+      "reaches_coast": true,
+      "gap_mm": 0.0
+    },
+    "Виктория": {
+      "is_recess": true,
+      "elongation": 1.8629079483022462
+    },
+    "Танганьика": {
+      "is_recess": true,
+      "elongation": 4.690062071709299
+    },
+    "Малави": {
+      "is_recess": true,
+      "elongation": 5.671212887095103
+    },
+    "Атлас": {
+      "nearby_highest_tier": 5
+    },
+    "Эфиопское нагорье": {
+      "nearby_highest_tier": 5
+    },
+    "Драконовы горы": {
+      "nearby_highest_tier": 5
+    },
+    "Килиманджаро": {
+      "nearby_highest_tier": 6
+    },
+    "Рифт": {
+      "core_area_mm2": 304.02210020322565
+    },
+    "Виктория — водопад": {
+      "recess_area_mm2": 4.921407801547454
+    },
+    "Сахара": {
+      "engraving_present": true
+    }
+  }
+}
