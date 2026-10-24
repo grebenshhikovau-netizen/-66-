@@ -1,14 +1,14 @@
 {
   "regions": 65,
-  "source_boundary_segments": 6078,
-  "before_optimization_vertices": 43045,
-  "after_optimization_vertices": 25201,
+  "source_boundary_segments": 6089,
+  "before_optimization_vertices": 43155,
+  "after_optimization_vertices": 25271,
   "simplification_max_deviation_mm": 0.007618050028750087,
   "simplification_tolerance_svg": 0.04,
   "all_regions_valid": true,
   "coverage_valid": true,
   "overlap_area_svg": 4.307366907596588e-09,
-  "small_gaps_repaired": 107,
+  "small_gaps_repaired": 108,
   "restored_caption_boundaries": [
     {
       "kind": "caption_gap_USA",
@@ -36,21 +36,21 @@
     },
     {
       "kind": "caption_gap_Ottawa",
-      "length": 19.959679710031946,
+      "length": 17.47782031976528,
       "start": [
         2617.9965,
         1325.7119
       ],
       "end": [
-        2631.2388625,
-        1340.64604375
+        2635.4648,
+        1325.1351
       ],
-      "target": "path1530"
+      "target": "path1399"
     }
   ],
   "svg_files": {
     "Канада-Blender-всё.svg": {
-      "objects": 224,
+      "objects": 223,
       "all_subpaths_closed": true,
       "raster_images": 0,
       "text_objects": 0,
@@ -64,7 +64,7 @@
       "same_source_coordinates": true
     },
     "02-Надписи.svg": {
-      "objects": 87,
+      "objects": 86,
       "all_subpaths_closed": true,
       "raster_images": 0,
       "text_objects": 0,

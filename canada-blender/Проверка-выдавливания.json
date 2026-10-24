@@ -24,8 +24,8 @@
     },
     {
       "id": "REG_04_Quebec",
-      "vertices": 5814,
-      "faces": 8717,
+      "vertices": 5842,
+      "faces": 8759,
       "non_manifold_edges": 0
     },
     {
@@ -36,8 +36,8 @@
     },
     {
       "id": "REG_06_Ontario",
-      "vertices": 1568,
-      "faces": 2348,
+      "vertices": 1680,
+      "faces": 2516,
       "non_manifold_edges": 0
     },
     {

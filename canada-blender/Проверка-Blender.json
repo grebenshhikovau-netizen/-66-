@@ -1,9 +1,9 @@
 {
   "blender_version": "4.3.2",
   "svg_import_success": true,
-  "objects": 224,
+  "objects": 223,
   "regions": 65,
-  "labels": 87,
+  "labels": 86,
   "city_marks": 72,
   "all_splines_closed": true,
   "all_curves_2d_filled": true,
@@ -49,9 +49,9 @@
       "id": "REG_04_Quebec",
       "kind": "regions",
       "closed_splines": 1,
-      "svg_area_m2": 0.0080694710791576,
-      "blender_filled_area_m2": 0.008069471522885507,
-      "relative_area_error": 5.498847477063873e-08
+      "svg_area_m2": 0.008037136585337739,
+      "blender_filled_area_m2": 0.00803713700028652,
+      "relative_area_error": 5.162893245949722e-08
     },
     {
       "id": "REG_05_British_Columbia",
@@ -65,9 +65,9 @@
       "id": "REG_06_Ontario",
       "kind": "regions",
       "closed_splines": 1,
-      "svg_area_m2": 0.0041593683272379955,
-      "blender_filled_area_m2": 0.0041593679904288194,
-      "relative_area_error": 8.097603999858967e-08
+      "svg_area_m2": 0.004191703405983005,
+      "blender_filled_area_m2": 0.004191703093647803,
+      "relative_area_error": 7.45127151713186e-08
     },
     {
       "id": "REG_07_Yukon",
@@ -305,9 +305,9 @@
       "id": "REG_36_New_York",
       "kind": "regions",
       "closed_splines": 1,
-      "svg_area_m2": 0.00039705619026401387,
-      "blender_filled_area_m2": 0.0003970561176869225,
-      "relative_area_error": 1.827879608561681e-07
+      "svg_area_m2": 0.0003970556053388723,
+      "blender_filled_area_m2": 0.00039705553210378497,
+      "relative_area_error": 1.8444541856315842e-07
     },
     {
       "id": "REG_37_Georgia",
@@ -1096,21 +1096,13 @@
     {
       "id": "TEXT_070",
       "kind": "labels",
-      "closed_splines": 1,
-      "svg_area_m2": 1.2184052172343954e-06,
-      "blender_filled_area_m2": 1.2184191602315764e-06,
-      "relative_area_error": 1.1443645335486167e-05
-    },
-    {
-      "id": "TEXT_071",
-      "kind": "labels",
       "closed_splines": 13,
       "svg_area_m2": 6.5594727278479786e-06,
       "blender_filled_area_m2": 6.5593212754677666e-06,
       "relative_area_error": 2.3089108910998213e-05
     },
     {
-      "id": "TEXT_072",
+      "id": "TEXT_071",
       "kind": "labels",
       "closed_splines": 11,
       "svg_area_m2": 4.575025455084091e-06,
@@ -1118,7 +1110,7 @@
       "relative_area_error": 3.6333222396660964e-06
     },
     {
-      "id": "TEXT_073",
+      "id": "TEXT_072",
       "kind": "labels",
       "closed_splines": 13,
       "svg_area_m2": 7.460302248652011e-06,
@@ -1126,7 +1118,7 @@
       "relative_area_error": 2.355574883863842e-05
     },
     {
-      "id": "TEXT_074",
+      "id": "TEXT_073",
       "kind": "labels",
       "closed_splines": 9,
       "svg_area_m2": 4.997036468359404e-06,
@@ -1134,7 +1126,7 @@
       "relative_area_error": 1.089271963861021e-05
     },
     {
-      "id": "TEXT_075",
+      "id": "TEXT_074",
       "kind": "labels",
       "closed_splines": 13,
       "svg_area_m2": 7.10167924140111e-06,
@@ -1142,7 +1134,7 @@
       "relative_area_error": 7.783895971951474e-06
     },
     {
-      "id": "TEXT_076",
+      "id": "TEXT_075",
       "kind": "labels",
       "closed_splines": 7,
       "svg_area_m2": 5.917885715817983e-06,
@@ -1150,7 +1142,7 @@
       "relative_area_error": 4.9651431479555145e-05
     },
     {
-      "id": "TEXT_077",
+      "id": "TEXT_076",
       "kind": "labels",
       "closed_splines": 15,
       "svg_area_m2": 1.5872423301181294e-05,
@@ -1158,7 +1150,7 @@
       "relative_area_error": 2.0619277996139865e-05
     },
     {
-      "id": "TEXT_078",
+      "id": "TEXT_077",
       "kind": "labels",
       "closed_splines": 20,
       "svg_area_m2": 9.904801507673547e-06,
@@ -1166,7 +1158,7 @@
       "relative_area_error": 2.3306359858234882e-05
     },
     {
-      "id": "TEXT_079",
+      "id": "TEXT_078",
       "kind": "labels",
       "closed_splines": 10,
       "svg_area_m2": 7.577959756986355e-06,
@@ -1174,7 +1166,7 @@
       "relative_area_error": 1.0742298653643055e-05
     },
     {
-      "id": "TEXT_080",
+      "id": "TEXT_079",
       "kind": "labels",
       "closed_splines": 12,
       "svg_area_m2": 9.305879281830751e-06,
@@ -1182,7 +1174,7 @@
       "relative_area_error": 1.4454781179258218e-07
     },
     {
-      "id": "TEXT_081",
+      "id": "TEXT_080",
       "kind": "labels",
       "closed_splines": 13,
       "svg_area_m2": 9.558613340011638e-06,
@@ -1190,7 +1182,7 @@
       "relative_area_error": 2.1594966741542555e-05
     },
     {
-      "id": "TEXT_082",
+      "id": "TEXT_081",
       "kind": "labels",
       "closed_splines": 9,
       "svg_area_m2": 7.678231105202684e-05,
@@ -1198,7 +1190,7 @@
       "relative_area_error": 3.9521288110236376e-06
     },
     {
-      "id": "TEXT_083",
+      "id": "TEXT_082",
       "kind": "labels",
       "closed_splines": 4,
       "svg_area_m2": 3.7140882628931295e-06,
@@ -1206,7 +1198,7 @@
       "relative_area_error": 3.320182731145453e-05
     },
     {
-      "id": "TEXT_084",
+      "id": "TEXT_083",
       "kind": "labels",
       "closed_splines": 8,
       "svg_area_m2": 5.720694162197327e-06,
@@ -1214,7 +1206,7 @@
       "relative_area_error": 9.082275692384087e-06
     },
     {
-      "id": "TEXT_085",
+      "id": "TEXT_084",
       "kind": "labels",
       "closed_splines": 13,
       "svg_area_m2": 9.536027777546624e-06,
@@ -1222,7 +1214,7 @@
       "relative_area_error": 1.5364865518009785e-05
     },
     {
-      "id": "TEXT_086",
+      "id": "TEXT_085",
       "kind": "labels",
       "closed_splines": 11,
       "svg_area_m2": 7.2787085333314235e-06,
@@ -1230,7 +1222,7 @@
       "relative_area_error": 5.443695303276169e-06
     },
     {
-      "id": "TEXT_087",
+      "id": "TEXT_086",
       "kind": "labels",
       "closed_splines": 17,
       "svg_area_m2": 1.146029253741256e-05,
