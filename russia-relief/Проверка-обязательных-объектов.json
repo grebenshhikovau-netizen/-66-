@@ -25,6 +25,10 @@
       "mouth_reaches_source_shore": true,
       "through_all_plies": true
     },
+    "Северная Двина": {
+      "mouth_reaches_source_shore": true,
+      "through_all_plies": true
+    },
     "Обь + Иртыш": {
       "connected": true,
       "overlap_mm2": 2.574093616640544
@@ -37,10 +41,38 @@
       "connected": true,
       "overlap_mm2": 19.550633659505298
     },
+    "Кама + Волга": {
+      "connected": true,
+      "overlap_mm2": 2.4101783410759934
+    },
+    "Нижняя Тунгуска + Енисей": {
+      "connected": true,
+      "overlap_mm2": 2.395468488602214
+    },
+    "Подкаменная Тунгуска + Енисей": {
+      "connected": true,
+      "overlap_mm2": 2.528344000824739
+    },
+    "Вилюй + Лена": {
+      "connected": true,
+      "overlap_mm2": 3.0661979982522287
+    },
     "Ангара": {
       "through_all_plies": true
     },
     "Иртыш": {
+      "through_all_plies": true
+    },
+    "Нижняя Тунгуска": {
+      "through_all_plies": true
+    },
+    "Вилюй": {
+      "through_all_plies": true
+    },
+    "Подкаменная Тунгуска": {
+      "through_all_plies": true
+    },
+    "Кама": {
       "through_all_plies": true
     },
     "Ладожское": {
@@ -100,47 +132,47 @@
     },
     "Урал": {
       "raised_range_present": true,
-      "L3_area_mm2": 2231.010224373289
+      "L3_area_mm2": 3639.3386172631194
     },
     "Кавказ": {
       "raised_range_present": true,
-      "L3_area_mm2": 381.0533293630596
+      "L3_area_mm2": 410.70159430125807
     },
     "Алтай": {
       "raised_range_present": true,
-      "L3_area_mm2": 331.58566584127595
+      "L3_area_mm2": 339.9029397905207
     },
     "Саяны": {
       "raised_range_present": true,
-      "L3_area_mm2": 833.9068540620442
+      "L3_area_mm2": 871.2301629992454
     },
     "Верхоянский хребет": {
       "raised_range_present": true,
-      "L3_area_mm2": 1000.7848370734762
+      "L3_area_mm2": 997.4972017057752
     },
     "Хребет Черского": {
       "raised_range_present": true,
-      "L3_area_mm2": 663.2315380482501
+      "L3_area_mm2": 673.4378067791223
     },
     "Становой хребет": {
       "raised_range_present": true,
-      "L3_area_mm2": 793.4793341084065
+      "L3_area_mm2": 794.3330075490586
     },
     "Сихотэ-Алинь": {
       "raised_range_present": true,
-      "L3_area_mm2": 383.3394470563171
+      "L3_area_mm2": 329.79094991775577
     },
     "Путорана": {
       "raised_range_present": true,
-      "L3_area_mm2": 1733.3790237634928
+      "L3_area_mm2": 1960.2501208648325
     },
     "Байкальское нагорье": {
       "raised_range_present": true,
-      "L3_area_mm2": 724.5476236908129
+      "L3_area_mm2": 734.1565229718049
     },
     "Камчатка": {
       "raised_range_present": true,
-      "L3_area_mm2": 579.1862098023765
+      "L3_area_mm2": 547.4749847792745
     }
   }
 }

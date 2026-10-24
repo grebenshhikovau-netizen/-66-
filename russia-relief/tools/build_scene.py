@@ -100,8 +100,9 @@ if '--no-render' in sys.argv:sys.exit(0)
 scene.render.filepath=str(P/'Россия-3D.png');bpy.ops.render.render(write_still=True)
 mm=D['mm_per_unit']/1000
 if '--no-details' in sys.argv:sys.exit(0)
-details=[('Ключевская Сопка','Камчатка-вулканы-3D.png',.125,(-.002,-.012,0)),('Байкал','Байкал-3D.png',.16,(0,0,0)),('Эльбрус — две вершины','Кавказ-Эльбрус-3D.png',.11,(.014,0,0)),('Плато Путорана','Путорана-3D.png',.19,(0,0,0)),('Средний Урал — район Екатеринбурга','Урал-Екатеринбург-3D.png',.19,(-.008,.012,0)),('Валдай — Смоленско-Московская — Среднерусская возвышенности','Европейская-Россия-3D.png',.235,(.016,.013,0))]
+details=[('Ключевская Сопка','Камчатка-вулканы-3D.png',.125,(-.002,-.012,0)),('Байкал','Байкал-3D.png',.16,(0,0,0)),('Эльбрус — две вершины','Кавказ-Эльбрус-3D.png',.11,(.014,0,0)),('Плато Путорана','Путорана-3D.png',.19,(0,0,0)),('Средний Урал — район Екатеринбурга','Урал-Екатеринбург-3D.png',.19,(-.008,.012,0)),('Валдайская и Среднерусская возвышенности','Европейская-Россия-3D.png',.235,(.016,.013,0))]
 if '--west-details' in sys.argv:details=details[-2:]
+else:details += [('Среднесибирское плоскогорье','Центр-Сибирь-3D.png',.27,(-.015,.02,0)),('Таймыр — горы Бырранга','Таймыр-Бырранга-3D.png',.22,(0,.005,0))]
 for name,file,span,offset in details:
  p=next(v for v in D['places'] if v['name']==name);target=Vector((p['x']*mm,(2657.4803125-p['y'])*mm,.007))+Vector(offset);camera.location=target+Vector((.025,-.09,.21));camera.rotation_euler=(target-camera.location).to_track_quat('-Z','Y').to_euler();camera.data.ortho_scale=span;scene.render.resolution_x=1600;scene.render.resolution_y=1300;scene.render.filepath=str(P/file);bpy.ops.render.render(write_still=True)
 print('RUSSIA RENDERS COMPLETE',flush=True)

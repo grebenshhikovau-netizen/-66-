@@ -62,70 +62,35 @@ def record(name,lon,lat,kind):
  q=pt(lon,lat);landmark_records.append({'name':name,'lon':lon,'lat':lat,'x':q.x,'y':q.y,'kind':kind})
 def lift(g,tier,widths=None):
  for i in range(1,tier):layers[i]=unary_union([layers[i],g.buffer(((tier-1-i)*.65)/m)]).intersection(outline)
-def flowing_polygon(coords):
- # Closed Catmull–Rom interpolation rounds long terrace shoulders without many notches.
- a=np.asarray(coords);out=[]
- for i in range(len(a)):
-  p0,p1,p2,p3=a[(i-1)%len(a)],a[i],a[(i+1)%len(a)],a[(i+2)%len(a)]
-  for t in np.linspace(0,1,9)[:-1]:out.append(.5*((2*p1)+(-p0+p2)*t+(2*p0-5*p1+4*p2-p3)*t*t+(-p0+3*p1-3*p2+p3)*t*t*t))
- return polygonal(Polygon(out))
 def ridge(name,coords,widths):
  axis=line(coords);foot=axis.buffer(widths[0]/2/m)
  for i,width in enumerate(widths,1):
   if i>=6:break
   layers[i]=unary_union([layers[i],axis.buffer(width/2/m)]).intersection(outline)
  ranges[name]=foot.intersection(main);return axis
-def broad_ridge(name,coords,widths,factors=(1,.71,.41)):
- # Variable-width joined slopes: a continuous landform with substantial shoulders.
- axis=line(coords);xy=np.array(axis.coords);left=[];right=[]
- for i,(q,w) in enumerate(zip(xy,widths)):
-  tangent=xy[min(i+1,len(xy)-1)]-xy[max(0,i-1)];tangent=tangent/np.linalg.norm(tangent);normal=np.array([-tangent[1],tangent[0]])
-  left.append((q,normal*w/2/m));right.append((q,-normal*w/2/m))
- footprint=None
- for tier,factor in enumerate(factors,1):
-  g=flowing_polygon([q+n*factor for q,n in left]+[q+n*factor for q,n in right[::-1]]);g=g.buffer(.8/m).buffer(-.8/m).simplify(.12/m).intersection(main)
-  layers[tier]=unary_union([layers[tier],g]);footprint=g if footprint is None else footprint
- ranges[name]=footprint;return axis
-ural=broad_ridge('Урал',[(66.5,68.3),(64.6,67),(62.2,65),(60.6,63),(59,61),(58.7,59.4),(59.3,57.7),(59.5,56.6),(59.5,55.1),(59,53.7),(58,52.2),(57.8,51.6)],[8,12,17,18,15,14,18,23,26,23,17,8])
-# Local northern and southern crests are long unified caps, not individual pebbles.
-for coords in [[(64,66.7),(61,64.3),(60,62)],[(59.2,56.2),(59.1,54.1),(58.3,52.8)]]:lift(line(coords).buffer(1.35/m).intersection(main),5)
-record('Уральские горы',60,61,'Хребет L2–L5')
-record('Средний Урал — район Екатеринбурга',60.6,56.84,'Широкие асимметричные плечи и три связные ступени')
-# Low plains receive broad, geographically placed upland terraces rather than peaks.
-# Their 6–9 mm heights are an intentional decorative exaggeration of low elevations.
+# The western/central landscape is one continuous field, not a set of inserts.
+from compose_landscape import landscape_layers
+composed=landscape_layers(A,C,main,proj,clean)
+# Eastern landforms retain the previous design; thresholds blend smoothly by longitude.
+for i,g in enumerate(composed,1):layers[i]=unary_union([g,layers[i].intersection(island_union)])
+ural=line([(66.5,68.3),(63,66.3),(60.5,63),(58.8,60),(59,57),(59.1,54),(57.8,51.6)])
+ranges['Урал']=ural.buffer(11/m).intersection(main)
+record('Уральские горы',60,61,'Непрерывный общий ландшафт, без параллельных буферных полос')
+record('Средний Урал — район Екатеринбурга',60.6,56.84,'Широкие плечи общего рельефного поля')
 western_terraces={}
-def terrace(name,coords,upper,lon,lat):
- footprint=flowing_polygon(list(proj(Polygon(coords)).exterior.coords)[:-1]).buffer(.7/m).buffer(-.7/m).simplify(.12/m).intersection(main)
- layers[1]=unary_union([layers[1],footprint])
- for ring in upper:
-  cap=flowing_polygon(list(proj(Polygon(ring)).exterior.coords)[:-1]).buffer(.6/m).buffer(-.6/m).simplify(.12/m).intersection(footprint)
-  layers[2]=unary_union([layers[2],cap])
- western_terraces[name]=footprint;record(name,lon,lat,'Низкая широкая терраса L2–L3, художественное усиление')
-terrace('Валдай — Смоленско-Московская — Среднерусская возвышенности',
- [(30.2,57),(31,58.8),(32.6,59.7),(34.3,59.1),(35,57.8),(37.4,57.1),(40,55.5),(40.1,54.1),(39.4,53.4),(40.1,52),(39.3,50),(37.5,48.9),(35.8,49.9),(35.4,51.4),(33.4,52.5),(32,54.5),(30.8,55.3)],
- [[(31.9,57.9),(32.8,59),(34,58.4),(34.6,57.3),(36.8,56.4),(38.5,55.5),(38,54.7),(36.2,54.9),(34.2,55.6),(32,56.2)],
-  [(35.4,53.9),(36.9,54.3),(38.4,53.2),(38.7,51.8),(37.8,50.3),(36.3,50.7),(36,52.2),(34.8,52.8)]],35.7,54.8)
-terrace('Приволжская возвышенность и Самарская Лука',
- [(43.1,56.4),(44.8,56.1),(46.2,55),(48,54.2),(49.6,53.6),(49.8,52.8),(48.4,51.9),(47.1,50.3),(45.3,48.8),(43.4,48.7),(42.4,50.1),(43.7,51.2),(43.6,52.7),(42.7,54.2)],
- [[(44.2,55.4),(45.5,54.9),(46.8,53.8),(48.2,53.3),(47.3,52.2),(46.4,51),(44.9,50.1),(43.9,50.9),(45,52),(44.6,53.3)]],46,53)
-terrace('Северные Увалы',
- [(40.3,59.8),(42,60.9),(44.5,61.2),(47.3,60.8),(50,61.1),(53.5,60.9),(55.8,60.2),(55.4,59.5),(52.3,59.3),(49.8,59.7),(46.6,59.4),(44.3,59.8),(42,59.1)],
- [[(42.3,60.2),(44.6,60.7),(47.3,60.2),(50,60.6),(53.6,60.2),(51.6,59.9),(48.5,60.1),(46.1,59.9),(44,60.2)]],47,60.4)
-terrace('Тиманский кряж',
- [(47.7,62.7),(48.5,64.2),(50.2,65.3),(51.6,66.2),(53.5,66.7),(54.7,66.1),(53,65.2),(52.6,64.2),(51,63.4),(50.3,62.1),(48.9,61.7)],
- [[(49.1,63),(49.9,64.2),(51.5,65.2),(52.5,66),(53.5,66.1),(52.3,65),(51.6,64),(50.2,63)]],51,64.5)
-terrace('Уфимское плато и Общий Сырт',
- [(53.1,57),(54.7,57.8),(56.3,57.2),(58,57.7),(59.7,56.8),(60.3,55),(59.2,53.5),(57.7,52.1),(55.4,51.4),(52.7,51.2),(50.8,52),(51.6,53.1),(54.1,53.2),(55,54.2),(54.2,55.7)],
- [[(55.1,56.6),(56.5,57),(58.5,56.4),(58.9,55.3),(58.2,54.4),(56.4,54.3),(55.7,55.3)]],56.4,55.8)
-terrace('Зауральская наклонная равнина',
- [(60.5,58.7),(62.4,59),(64.6,58.4),(66,57.5),(66.4,55.9),(68.4,54.8),(67.5,53.8),(65.2,54.4),(63.4,54),(61,54.9),(60.3,56.7)],
- [[(61.6,57.9),(63.1,58.2),(64.6,57.5),(64.9,56.1),(66,55.1),(64.7,55.3),(62.3,55),(61.4,56.1)]],63.2,56.7)
-terrace('Сибирские Увалы',
- [(65.4,63.1),(67.7,64),(70.4,63.8),(73.1,64.4),(76,64),(79.1,64.3),(82.4,64),(85,63.6),(88.3,63),(88,62),(85.1,62.2),(82.5,62.5),(79.5,62.6),(76.7,62.4),(73.6,63),(70.5,62.6),(67.9,62.9)],
- [[(68.9,63.3),(71.5,63.4),(74.2,63.8),(76.8,63.4),(79.2,63.8),(82.2,63.4),(84.7,63),(82.7,62.9),(79.1,63.2),(76.6,63),(74.2,63.3),(71.3,63)]],76,63.5)
-terrace('Приобское плато',
- [(78.6,54.5),(80.9,55),(83.1,54.8),(85.1,53.7),(85.6,52.1),(83.9,51.1),(81.6,51.4),(80.3,52.5),(78.3,53.3)],
- [[(80.4,54.1),(82.5,54.2),(84,53.3),(84.4,52),(82.7,51.9),(81.9,52.9)]],82.1,53.4)
+# These footprints identify provinces in the guide; they add no patch geometry.
+for name,bounds,lo,la in [
+ ('Валдайская и Среднерусская возвышенности',(29,48,41,60),35.7,54.8),
+ ('Приволжская возвышенность',(41,48,51,57),46,53),
+ ('Северные Увалы и Тиман',(40,59,56,67),50,63),
+ ('Предуралье и Зауралье',(52,52,69,60),60,56),
+ ('Западносибирская низменность',(64,55,87,69),76,63),
+ ('Среднесибирское плоскогорье',(88,57,124,71),108,64),
+ ('Таймыр — горы Бырранга',(86,71,115,77.8),100,74.5),
+ ('Анабарское плато',(103,69,117,73.5),110,71.5),
+ ('Енисейский кряж',(88,55,96,61),92,58.5)]:
+ western_terraces[name]=proj(box(*bounds)).intersection(main)
+ record(name,lo,la,'Часть общего ступенчатого ландшафта L2–L4')
 cauc=ridge('Кавказ',[(38,44.5),(40.1,43.6),(42.5,43.35),(44.3,42.7),(47.2,42)],[10,8,5.2,3.2]);record('Кавказ',43,43,'Связный массив L2–L5')
 altai=ridge('Алтай',[(83.3,50.5),(85.2,50.3),(86.6,49.8),(88.4,50.0),(90.2,50.5)],[13,10,7,4]);record('Алтай',86.5,50.2,'Крупный связный массив')
 sayan=ridge('Саяны',[(89.5,51.4),(92.5,52),(95.5,52.6),(98.3,53.3),(100.3,54.3),(102.7,53.9)],[12,9,6,3.5]);record('Саяны',96,53,'Связные вытянутые ступени')
@@ -135,7 +100,7 @@ stan=ridge('Становой хребет',[(120.6,55.9),(124,56),(128,55.7),(13
 sikh=ridge('Сихотэ-Алинь',[(133.4,44.5),(135.4,46),(137.4,48.3),(139.2,50.5)],[9,6,3.5]);record('Сихотэ-Алинь',136,47,'Связный прибрежный хребет')
 # Putorana: broad flat terraces bounded by cliffs, with three blind valley incisions.
 putorana_geo=Polygon([(89.8,68.4),(91.7,71),(97.2,71.3),(101,69.5),(99.1,67.2),(92.5,66.8)])
-putorana=proj(putorana_geo).intersection(main);p3=clean(above(500,area=30).intersection(putorana),area=70,closing=3);p4=clean(above(850,area=30).intersection(putorana.buffer(-1/m)),area=70,closing=3)
+putorana=proj(putorana_geo).intersection(main);p3=layers[2].intersection(putorana);p4=layers[3].intersection(putorana)
 lift(p3,3);lift(p4,4);ranges['Путорана']=putorana;record('Плато Путорана',95,69,'Широкое плато с каньонами')
 putorana_valleys=unary_union([line(c).buffer(.65/m) for c in [[(90.4,69.35),(91.4,69.45),(92.5,69.8)],[(90.5,68.7),(91.8,68.8),(93,68.75)],[(93,68.8),(94.3,68.95),(95.6,69.3)]]]).intersection(putorana)
 for i in range(2,6):layers[i]=layers[i].difference(putorana_valleys)
@@ -146,6 +111,7 @@ river_geo={}
 for f in F['rivers']:
  n=f['name'];family='Волга' if 'Volga' in n else 'Обь' if n=='Ob' else 'Иртыш' if 'Irtysh' in n else 'Енисей' if n in ['Yenisey','Verkhniy Yenisey'] else 'Ангара' if n=='Angara' else 'Лена' if n=='Lena' else 'Амур' if n=='Amur' else None
  if family:river_geo.setdefault(family,[]).append(shape(f['geom']))
+for f in F.get('composition_rivers',[]):river_geo.setdefault(f['name'],[]).append(shape(f['geom']))
 # Outlets and simplified main distributaries. These are the only delta arms used.
 extra={
 'Волга':[[(47.95,46.5),(48.05,46.1),(48.0,45.8)],[(47.95,46.5),(48.5,46.15),(48.8,45.8)]],
@@ -176,6 +142,15 @@ for name,g in list(river_lines.items()):
 mouth=nearest_points(pt(48,46.1),main.boundary)[1];volga_land=river_lines['Волга'].intersection(main);mouth=nearest_points(mouth,volga_land)[1]
 start=nearest_points(Point(mouth.x-.4/m,mouth.y-3.5/m),volga_land)[1];position=main.boundary.project(mouth);shore1=main.boundary.interpolate(max(0,position-1.5/m));shore2=main.boundary.interpolate(position+1.5/m)
 river_lines['Волга']=unary_union([river_lines['Волга'],LineString([start,shore1]),LineString([start,shore2])])
+# Exact Natural Earth tributaries share their parent river endpoints. Repair only
+# a small gap at a confluence, so no unrelated basins are ever joined.
+for name,parent in [('Кама','Волга'),('Нижняя Тунгуска','Енисей'),('Подкаменная Тунгуска','Енисей'),('Вилюй','Лена')]:
+ a,b=nearest_points(river_lines[name],river_lines[parent]);gap=a.distance(b)*m
+ if gap>1e-8:
+  assert gap<4,(name,parent,gap)
+  river_lines[name]=unary_union([river_lines[name],LineString([a,b])])
+dvina=river_lines['Северная Двина'];a,b=nearest_points(dvina,main.boundary)
+if a.distance(b)*m<6:river_lines['Северная Двина']=unary_union([dvina,LineString([a,b])])
 waters={name:g.buffer((cfg['river_width_mm'] if name not in ['Обь','Енисей','Лена'] else cfg['river_width_mm']+.2)/2/m).intersection(main) for name,g in river_lines.items()}
 # Lake width enhancement is perpendicular to the long axis, not an arbitrary position shift.
 lake_names={'Lake Baikal':'Байкал','Lake Ladoga':'Ладожское','Lake Onega':'Онежское','Ozero Teletskoye':'Телецкое','Lake Taymyr':'Таймыр'}
@@ -195,12 +170,13 @@ water=unary_union([water,removed_islets]);base=polygonal(outline.difference(wate
 # Broad Volga valley benches and blind tributary valleys articulate the new slopes.
 # Secondary valleys retain their L2 floor; only the named main rivers are through cuts.
 western_valleys=river_lines['Волга'].buffer(2.0/m).intersection(unary_union(list(western_terraces.values())))
-ural_valleys=unary_union([line(c).buffer(.7/m) for c in [
- [(60.0,56.8),(59.0,57.2),(58.1,57.6),(56.2,58.1)],
- [(59,54.5),(57.5,54),(56.5,54.8),(54.3,55.9)],
- [(60.6,58.4),(61.7,58.5),(63.5,57.8)]
- ]]).difference(ural.buffer(2.3/m)).intersection(layers[1])
-western_valleys=unary_union([western_valleys,ural_valleys])
+landscape_valley_axes={name:river_lines[name] for name in ['Нижняя Тунгуска','Подкаменная Тунгуска','Вилюй','Северная Двина','Кама']}
+valley_masks={}
+for tier,width in [(2,3.8),(3,7),(4,9),(5,10)]:
+ valley_masks[tier]=unary_union([g.buffer(width/2/m) for g in landscape_valley_axes.values()]).intersection(main)
+for name,g in landscape_valley_axes.items():
+ q=g.interpolate(g.length*.5);lo=pr['lonmin']+(q.x-pr['source_xmin'])/pr['kx_per_degree'];la=math.degrees(2*math.atan(math.exp(merc0+(pr['source_ymax']-q.y)/pr['ky_per_mercator']))-math.pi/2)
+ record(name,lo,la,'Сквозная река и широкие ступенчатые берега')
 # Deliberate compact accents, all with broad connected bases.
 accent_caps={};craters=[]
 def organic(q,r):
@@ -240,6 +216,7 @@ for i in range(1,6):
  keep=unary_union([p for p in polys(layers[i]) if p.intersection(protected).area>1e-6 or (p.intersection(island_union).area>1e-6 and p.area*m*m>2.5)]);g=unary_union([g,keep]).intersection(outline)
  if i>=2:g=g.difference(putorana_valleys)
  if i>=2:g=g.difference(western_valleys)
+ if i in valley_masks:g=g.difference(valley_masks[i])
  if i>=3:g=g.difference(geyser)
  for c in craters:
   if i>=c['floor_tier']:g=g.difference(shape(c['geom']))
@@ -266,7 +243,7 @@ for i in range(5,0,-1):
  if i>1:layers[i-1]=unary_union([layers[i-1],layers[i]])
 visible=[layers[i].difference(layers[i+1]) if i<5 else layers[i] for i in range(6)]
 # Crater rim and plateau edge engraving clarifies the accents without adding more wood pieces.
-texture=unary_union([shape(c['geom']).boundary.buffer(.065/m) for c in craters]+[putorana.boundary.buffer(.06/m).intersection(layers[2])]).intersection(base).difference(water)
+texture=unary_union([shape(c['geom']).boundary.buffer(.065/m) for c in craters]).intersection(base).difference(water)
 # Main landmarks and systems are reference callouts only, not labels on the production parts.
 for name,lon,lat in [('Байкал',107.5,53.4),('Ладожское озеро',31.4,60.8),('Онежское озеро',35.2,61.8),('Телецкое озеро',87.65,51.6),('Озеро Таймыр',102,74.5),('Волга',46,50),('Обь и Иртыш',69,61),('Енисей и Ангара',93,58),('Лена и дельта',127,71),('Амур',134,48.5),('Сахалин',143,50),('Курильские острова',151.5,47.0)]:record(name,lon,lat,'Географический объект')
 # SVG and model format compatible with the previous map generators.

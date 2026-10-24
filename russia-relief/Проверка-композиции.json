@@ -1,0 +1,35 @@
+{
+  "method": "continuous_geographic_terrace_field",
+  "previous_parts": 73,
+  "final_parts": 67,
+  "previous_layer_coverage_percent": [
+    100.0,
+    52.02,
+    19.22,
+    4.93,
+    0.7,
+    0.05
+  ],
+  "new_layer_coverage_percent": [
+    100.0,
+    78.64,
+    44.75,
+    11.95,
+    1.46,
+    0.05
+  ],
+  "previous_western_patch_geometry_removed": true,
+  "continuous_ural_elevation_field": true,
+  "northern_byrranga_mass_present": true,
+  "new_major_rivers": [
+    "Кама",
+    "Северная Двина",
+    "Нижняя Тунгуска",
+    "Подкаменная Тунгуска",
+    "Вилюй"
+  ],
+  "natural_earth_source_vectors": true,
+  "new_rivers_through_all_wood": true,
+  "terrain_holes_below_mm2_filled_before_water": 120,
+  "nested_european_inner_terraces": true
+}

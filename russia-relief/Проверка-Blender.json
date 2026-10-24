@@ -16,10 +16,10 @@
       "passed": true
     }
   ],
-  "wood_meshes": 73,
-  "texture_markings": 4,
+  "wood_meshes": 67,
+  "texture_markings": 3,
   "all_water_holes_clear_through_wood": true,
-  "wood_ray_checks": 1918,
+  "wood_ray_checks": 2299,
   "wooden_water_floor": false,
   "reference_acrylic_below_zero": true,
   "marking_representation": "20 micrometre texture engraving only; no water fill",
@@ -53,6 +53,10 @@
     },
     {
       "id": "L01_RUS_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_RUS_P06",
       "non_manifold_edges": 0
     },
     {
@@ -109,38 +113,6 @@
     },
     {
       "id": "L02_RUS_P07",
-      "non_manifold_edges": 0
-    },
-    {
-      "id": "L02_RUS_P08",
-      "non_manifold_edges": 0
-    },
-    {
-      "id": "L02_RUS_P09",
-      "non_manifold_edges": 0
-    },
-    {
-      "id": "L02_RUS_P10",
-      "non_manifold_edges": 0
-    },
-    {
-      "id": "L02_RUS_P11",
-      "non_manifold_edges": 0
-    },
-    {
-      "id": "L02_RUS_P12",
-      "non_manifold_edges": 0
-    },
-    {
-      "id": "L02_RUS_P13",
-      "non_manifold_edges": 0
-    },
-    {
-      "id": "L02_RUS_P14",
-      "non_manifold_edges": 0
-    },
-    {
-      "id": "L02_RUS_P15",
       "non_manifold_edges": 0
     },
     {
@@ -224,10 +196,6 @@
       "non_manifold_edges": 0
     },
     {
-      "id": "L03_RUS_P15",
-      "non_manifold_edges": 0
-    },
-    {
       "id": "L03_SAKHALIN",
       "non_manifold_edges": 0
     },
@@ -277,6 +245,14 @@
     },
     {
       "id": "L04_RUS_P12",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P13",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_RUS_P14",
       "non_manifold_edges": 0
     },
     {
