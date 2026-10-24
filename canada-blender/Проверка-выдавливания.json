@@ -1,0 +1,398 @@
+{
+  "tested_regions": 65,
+  "test_extrusion_m": 0.001,
+  "all_region_meshes_manifold": true,
+  "failed": [],
+  "objects": [
+    {
+      "id": "REG_01_Alaska",
+      "vertices": 5242,
+      "faces": 7859,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_02_Northwest_Territories",
+      "vertices": 1790,
+      "faces": 2681,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_03_Nunavut",
+      "vertices": 4910,
+      "faces": 7361,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_04_Quebec",
+      "vertices": 5814,
+      "faces": 8717,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_05_British_Columbia",
+      "vertices": 1336,
+      "faces": 2000,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_06_Ontario",
+      "vertices": 1568,
+      "faces": 2348,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_07_Yukon",
+      "vertices": 996,
+      "faces": 1490,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_08_Mexico",
+      "vertices": 3664,
+      "faces": 5492,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_09_Alberta",
+      "vertices": 384,
+      "faces": 572,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_10_Manitoba",
+      "vertices": 490,
+      "faces": 731,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_11_Saskatchewan",
+      "vertices": 56,
+      "faces": 80,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_12_Texas",
+      "vertices": 1334,
+      "faces": 1997,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_13_Labrador",
+      "vertices": 2508,
+      "faces": 3758,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_14_Montana",
+      "vertices": 360,
+      "faces": 536,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_15_California",
+      "vertices": 688,
+      "faces": 1028,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_16_Michigan",
+      "vertices": 512,
+      "faces": 764,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_17_Oregon",
+      "vertices": 388,
+      "faces": 578,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_18_Nevada",
+      "vertices": 116,
+      "faces": 170,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_19_Wyoming",
+      "vertices": 32,
+      "faces": 44,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_20_Minnesota",
+      "vertices": 550,
+      "faces": 821,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_21_New_Mexico",
+      "vertices": 68,
+      "faces": 98,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_22_Colorado",
+      "vertices": 26,
+      "faces": 35,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_23_Arizona",
+      "vertices": 202,
+      "faces": 299,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_24_Idaho",
+      "vertices": 426,
+      "faces": 635,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_25_North_Dakota",
+      "vertices": 82,
+      "faces": 119,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_26_South_Dakota",
+      "vertices": 112,
+      "faces": 164,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_27_Washington",
+      "vertices": 718,
+      "faces": 1073,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_28_Utah",
+      "vertices": 50,
+      "faces": 71,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_29_Nebraska",
+      "vertices": 124,
+      "faces": 182,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_30_Kansas",
+      "vertices": 76,
+      "faces": 110,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_31_Wisconsin",
+      "vertices": 290,
+      "faces": 431,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_32_Missouri",
+      "vertices": 578,
+      "faces": 863,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_33_Oklahoma",
+      "vertices": 358,
+      "faces": 533,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_34_Iowa",
+      "vertices": 246,
+      "faces": 365,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_35_Illinois",
+      "vertices": 580,
+      "faces": 866,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_36_New_York",
+      "vertices": 394,
+      "faces": 587,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_37_Georgia",
+      "vertices": 308,
+      "faces": 458,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_38_Virginia_coastal",
+      "vertices": 764,
+      "faces": 1142,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_39_Pennsylvania",
+      "vertices": 152,
+      "faces": 224,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_40_Arkansas",
+      "vertices": 394,
+      "faces": 587,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_41_Ohio",
+      "vertices": 338,
+      "faces": 503,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_42_North_Carolina",
+      "vertices": 728,
+      "faces": 1088,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_43_Florida",
+      "vertices": 898,
+      "faces": 1343,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_44_Alabama",
+      "vertices": 242,
+      "faces": 359,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_45_Mississippi",
+      "vertices": 476,
+      "faces": 710,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_46_Maine",
+      "vertices": 636,
+      "faces": 950,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_47_Tennessee",
+      "vertices": 334,
+      "faces": 497,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_48_Kentucky",
+      "vertices": 754,
+      "faces": 1127,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_49_Louisiana",
+      "vertices": 706,
+      "faces": 1055,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_50_Indiana",
+      "vertices": 422,
+      "faces": 629,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_51_Nicaragua",
+      "vertices": 570,
+      "faces": 851,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_52_Honduras",
+      "vertices": 576,
+      "faces": 860,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_53_Guatemala",
+      "vertices": 524,
+      "faces": 782,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_54_South_Carolina",
+      "vertices": 326,
+      "faces": 485,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_55_West_Virginia",
+      "vertices": 350,
+      "faces": 521,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_56_Panama",
+      "vertices": 770,
+      "faces": 1151,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_57_Costa_Rica",
+      "vertices": 528,
+      "faces": 788,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_58_Vermont",
+      "vertices": 156,
+      "faces": 230,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_59_New_Hampshire",
+      "vertices": 182,
+      "faces": 269,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_60_New_Jersey",
+      "vertices": 348,
+      "faces": 518,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_61_Massachusetts",
+      "vertices": 404,
+      "faces": 602,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_62_Belize",
+      "vertices": 228,
+      "faces": 338,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_63_Connecticut",
+      "vertices": 134,
+      "faces": 197,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_64_El_Salvador",
+      "vertices": 250,
+      "faces": 371,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "REG_65_Rhode_Island",
+      "vertices": 100,
+      "faces": 146,
+      "non_manifold_edges": 0
+    }
+  ]
+}

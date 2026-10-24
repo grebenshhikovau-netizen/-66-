@@ -1,0 +1,92 @@
+{
+  "regions": 65,
+  "source_boundary_segments": 6078,
+  "before_optimization_vertices": 43045,
+  "after_optimization_vertices": 25201,
+  "simplification_max_deviation_mm": 0.007618050028750087,
+  "simplification_tolerance_svg": 0.04,
+  "all_regions_valid": true,
+  "coverage_valid": true,
+  "overlap_area_svg": 4.307366907596588e-09,
+  "small_gaps_repaired": 107,
+  "restored_caption_boundaries": [
+    {
+      "kind": "caption_gap_USA",
+      "start": [
+        2271.7199,
+        1343.5954
+      ],
+      "end": [
+        2271.8537,
+        1390.4929
+      ],
+      "length": 46.89769086735512
+    },
+    {
+      "kind": "caption_gap_USA",
+      "start": [
+        2330.1635,
+        1370.3006
+      ],
+      "end": [
+        2271.796565845515,
+        1370.4671226459807
+      ],
+      "length": 58.36717170109942
+    },
+    {
+      "kind": "caption_gap_Ottawa",
+      "length": 19.959679710031946,
+      "start": [
+        2617.9965,
+        1325.7119
+      ],
+      "end": [
+        2631.2388625,
+        1340.64604375
+      ],
+      "target": "path1530"
+    }
+  ],
+  "svg_files": {
+    "Канада-Blender-всё.svg": {
+      "objects": 224,
+      "all_subpaths_closed": true,
+      "raster_images": 0,
+      "text_objects": 0,
+      "same_source_coordinates": true
+    },
+    "01-Регионы.svg": {
+      "objects": 65,
+      "all_subpaths_closed": true,
+      "raster_images": 0,
+      "text_objects": 0,
+      "same_source_coordinates": true
+    },
+    "02-Надписи.svg": {
+      "objects": 87,
+      "all_subpaths_closed": true,
+      "raster_images": 0,
+      "text_objects": 0,
+      "same_source_coordinates": true
+    },
+    "03-Города.svg": {
+      "objects": 72,
+      "all_subpaths_closed": true,
+      "raster_images": 0,
+      "text_objects": 0,
+      "same_source_coordinates": true
+    },
+    "04-Общий-контур.svg": {
+      "objects": 1,
+      "all_subpaths_closed": true,
+      "raster_images": 0,
+      "text_objects": 0,
+      "same_source_coordinates": true
+    }
+  },
+  "blender_version": "4.3.2",
+  "all_65_regions_extrude_as_closed_meshes": true,
+  "max_blender_xy_error_mm": 0.00010591958643502153,
+  "font_stroke_width_svg_units": 0.52
+}

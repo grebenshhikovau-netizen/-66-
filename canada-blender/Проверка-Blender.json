@@ -1,0 +1,1817 @@
+{
+  "blender_version": "4.3.2",
+  "svg_import_success": true,
+  "objects": 224,
+  "regions": 65,
+  "labels": 87,
+  "city_marks": 72,
+  "all_splines_closed": true,
+  "all_curves_2d_filled": true,
+  "max_relative_fill_area_error": 0.000603141353118705,
+  "max_xy_bounds_error_mm": 0.00010591958643502153,
+  "world_meters_per_svg_unit": [
+    0.00035277777810442386,
+    0.00035277776980761335
+  ],
+  "map_world_bounds_m": [
+    0.5198073983192444,
+    0.08730340003967285,
+    1.029617190361023,
+    0.5220032334327698
+  ],
+  "hidden_reference_objects": 1,
+  "checks": [
+    {
+      "id": "REG_01_Alaska",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.012734309418203383,
+      "blender_filled_area_m2": 0.012734301409629722,
+      "relative_area_error": 6.288973667224558e-07
+    },
+    {
+      "id": "REG_02_Northwest_Territories",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.009866943046366318,
+      "blender_filled_area_m2": 0.009866944930498,
+      "relative_area_error": 1.9095394322395817e-07
+    },
+    {
+      "id": "REG_03_Nunavut",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.008508732928818903,
+      "blender_filled_area_m2": 0.008508730879294824,
+      "relative_area_error": 2.4087300625246485e-07
+    },
+    {
+      "id": "REG_04_Quebec",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0080694710791576,
+      "blender_filled_area_m2": 0.008069471522885507,
+      "relative_area_error": 5.498847477063873e-08
+    },
+    {
+      "id": "REG_05_British_Columbia",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.004366434471989594,
+      "blender_filled_area_m2": 0.0043664354575092545,
+      "relative_area_error": 2.2570352698355305e-07
+    },
+    {
+      "id": "REG_06_Ontario",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0041593683272379955,
+      "blender_filled_area_m2": 0.0041593679904288194,
+      "relative_area_error": 8.097603999858967e-08
+    },
+    {
+      "id": "REG_07_Yukon",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0039153077580734285,
+      "blender_filled_area_m2": 0.003915310464734034,
+      "relative_area_error": 6.913021333081516e-07
+    },
+    {
+      "id": "REG_08_Mexico",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0038106379490222093,
+      "blender_filled_area_m2": 0.00381063782323654,
+      "relative_area_error": 3.300908427660451e-08
+    },
+    {
+      "id": "REG_09_Alberta",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0032634835456800773,
+      "blender_filled_area_m2": 0.0032634847573493886,
+      "relative_area_error": 3.7128096231095746e-07
+    },
+    {
+      "id": "REG_10_Manitoba",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0031483502098933864,
+      "blender_filled_area_m2": 0.0031483489283479216,
+      "relative_area_error": 4.070530212215518e-07
+    },
+    {
+      "id": "REG_11_Saskatchewan",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0030885942947583137,
+      "blender_filled_area_m2": 0.0030885925925474567,
+      "relative_area_error": 5.511280196192894e-07
+    },
+    {
+      "id": "REG_12_Texas",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0015018131600648824,
+      "blender_filled_area_m2": 0.0015018146241829733,
+      "relative_area_error": 9.749002937279686e-07
+    },
+    {
+      "id": "REG_13_Labrador",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0013325333536967328,
+      "blender_filled_area_m2": 0.0013325338464520442,
+      "relative_area_error": 3.697883508984193e-07
+    },
+    {
+      "id": "REG_14_Montana",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.001306922966404401,
+      "blender_filled_area_m2": 0.0013069248522317167,
+      "relative_area_error": 1.4429521587581782e-06
+    },
+    {
+      "id": "REG_15_California",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0010374715559990744,
+      "blender_filled_area_m2": 0.0010374712228204963,
+      "relative_area_error": 3.211447833112505e-07
+    },
+    {
+      "id": "REG_16_Michigan",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0007943221384173863,
+      "blender_filled_area_m2": 0.0007943215756514022,
+      "relative_area_error": 7.084858357552696e-07
+    },
+    {
+      "id": "REG_17_Oregon",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0007725988587086617,
+      "blender_filled_area_m2": 0.000772599295279619,
+      "relative_area_error": 5.650680847058866e-07
+    },
+    {
+      "id": "REG_18_Nevada",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0007673106002838859,
+      "blender_filled_area_m2": 0.0007673082896966221,
+      "relative_area_error": 3.011280259747659e-06
+    },
+    {
+      "id": "REG_19_Wyoming",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0007590672689304717,
+      "blender_filled_area_m2": 0.0007590666891701403,
+      "relative_area_error": 7.637799114274338e-07
+    },
+    {
+      "id": "REG_20_Minnesota",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0007520324178101306,
+      "blender_filled_area_m2": 0.0007520330920600671,
+      "relative_area_error": 8.965703080266938e-07
+    },
+    {
+      "id": "REG_21_New_Mexico",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0007408063602586102,
+      "blender_filled_area_m2": 0.0007408046454635553,
+      "relative_area_error": 2.31476826720101e-06
+    },
+    {
+      "id": "REG_22_Colorado",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.000714629777874379,
+      "blender_filled_area_m2": 0.0007146301268221578,
+      "relative_area_error": 4.882916855279829e-07
+    },
+    {
+      "id": "REG_23_Arizona",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.000691640222350496,
+      "blender_filled_area_m2": 0.000691641893316941,
+      "relative_area_error": 2.41594746961557e-06
+    },
+    {
+      "id": "REG_24_Idaho",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0006743197488542449,
+      "blender_filled_area_m2": 0.0006743202478087795,
+      "relative_area_error": 7.399375970196092e-07
+    },
+    {
+      "id": "REG_25_North_Dakota",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0006344159316771599,
+      "blender_filled_area_m2": 0.0006344147420733748,
+      "relative_area_error": 1.8751165060075852e-06
+    },
+    {
+      "id": "REG_26_South_Dakota",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.000621638248180478,
+      "blender_filled_area_m2": 0.0006216376631087428,
+      "relative_area_error": 9.411771828917109e-07
+    },
+    {
+      "id": "REG_27_Washington",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0006105907919206101,
+      "blender_filled_area_m2": 0.0006105911685079235,
+      "relative_area_error": 6.16758913497443e-07
+    },
+    {
+      "id": "REG_28_Utah",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0005867706426955864,
+      "blender_filled_area_m2": 0.0005867732261166658,
+      "relative_area_error": 4.402778345410527e-06
+    },
+    {
+      "id": "REG_29_Nebraska",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0005699287686399689,
+      "blender_filled_area_m2": 0.000569928164651401,
+      "relative_area_error": 1.0597615020707612e-06
+    },
+    {
+      "id": "REG_30_Kansas",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0005524409132140878,
+      "blender_filled_area_m2": 0.0005524402292778063,
+      "relative_area_error": 1.2380261219911732e-06
+    },
+    {
+      "id": "REG_31_Wisconsin",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0005337041554942815,
+      "blender_filled_area_m2": 0.0005337045636739646,
+      "relative_area_error": 7.648051432339125e-07
+    },
+    {
+      "id": "REG_32_Missouri",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0004714689231393931,
+      "blender_filled_area_m2": 0.0004714674752239745,
+      "relative_area_error": 3.0710728694418775e-06
+    },
+    {
+      "id": "REG_33_Oklahoma",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00043646312597848556,
+      "blender_filled_area_m2": 0.00043646222821847047,
+      "relative_area_error": 2.0568977346682342e-06
+    },
+    {
+      "id": "REG_34_Iowa",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0004188024251732459,
+      "blender_filled_area_m2": 0.0004188023009588093,
+      "relative_area_error": 2.965943583938848e-07
+    },
+    {
+      "id": "REG_35_Illinois",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00041065525800216033,
+      "blender_filled_area_m2": 0.00041065498532688594,
+      "relative_area_error": 6.640004458287979e-07
+    },
+    {
+      "id": "REG_36_New_York",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00039705619026401387,
+      "blender_filled_area_m2": 0.0003970561176869225,
+      "relative_area_error": 1.827879608561681e-07
+    },
+    {
+      "id": "REG_37_Georgia",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0003435793407401946,
+      "blender_filled_area_m2": 0.0003435795869699554,
+      "relative_area_error": 7.166605543858449e-07
+    },
+    {
+      "id": "REG_38_Virginia_coastal",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0003332415978005992,
+      "blender_filled_area_m2": 0.0003332415667021138,
+      "relative_area_error": 9.332113875186184e-08
+    },
+    {
+      "id": "REG_39_Pennsylvania",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00033322729824766714,
+      "blender_filled_area_m2": 0.0003332277361649538,
+      "relative_area_error": 1.3141699044213275e-06
+    },
+    {
+      "id": "REG_40_Arkansas",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0003267793386130675,
+      "blender_filled_area_m2": 0.0003267800760538009,
+      "relative_area_error": 2.2566932673883428e-06
+    },
+    {
+      "id": "REG_41_Ohio",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0003206489871077748,
+      "blender_filled_area_m2": 0.00032064893677086204,
+      "relative_area_error": 1.5698447453774432e-07
+    },
+    {
+      "id": "REG_42_North_Carolina",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00030527903361285863,
+      "blender_filled_area_m2": 0.0003052788752211377,
+      "relative_area_error": 5.188424472992669e-07
+    },
+    {
+      "id": "REG_43_Florida",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0003045795004790953,
+      "blender_filled_area_m2": 0.0003045792455624863,
+      "relative_area_error": 8.369460473658588e-07
+    },
+    {
+      "id": "REG_44_Alabama",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0003032957018001205,
+      "blender_filled_area_m2": 0.000303295845987428,
+      "relative_area_error": 4.754017502957845e-07
+    },
+    {
+      "id": "REG_45_Mississippi",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0002797868820930435,
+      "blender_filled_area_m2": 0.0002797869641182338,
+      "relative_area_error": 2.9317025045295963e-07
+    },
+    {
+      "id": "REG_46_Maine",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00026763806779492484,
+      "blender_filled_area_m2": 0.00026763796980855403,
+      "relative_area_error": 3.661152227519202e-07
+    },
+    {
+      "id": "REG_47_Tennessee",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0002651767339119113,
+      "blender_filled_area_m2": 0.0002651767838588448,
+      "relative_area_error": 1.8835337771928877e-07
+    },
+    {
+      "id": "REG_48_Kentucky",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0002646027730053662,
+      "blender_filled_area_m2": 0.0002646029238899672,
+      "relative_area_error": 5.702306112267863e-07
+    },
+    {
+      "id": "REG_49_Louisiana",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00026207908236868774,
+      "blender_filled_area_m2": 0.0002620788048006695,
+      "relative_area_error": 1.0591002370633389e-06
+    },
+    {
+      "id": "REG_50_Indiana",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0002558596977897065,
+      "blender_filled_area_m2": 0.0002558600728144178,
+      "relative_area_error": 1.4657435874337622e-06
+    },
+    {
+      "id": "REG_51_Nicaragua",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00022325412850233322,
+      "blender_filled_area_m2": 0.00022325396243982887,
+      "relative_area_error": 7.438272495334685e-07
+    },
+    {
+      "id": "REG_52_Honduras",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00019088587703466385,
+      "blender_filled_area_m2": 0.0001908857605044112,
+      "relative_area_error": 6.104707926085219e-07
+    },
+    {
+      "id": "REG_53_Guatemala",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00018752466693426563,
+      "blender_filled_area_m2": 0.00018752492999962733,
+      "relative_area_error": 1.4028307102424536e-06
+    },
+    {
+      "id": "REG_54_South_Carolina",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0001851307798981694,
+      "blender_filled_area_m2": 0.00018513067717274012,
+      "relative_area_error": 5.548803356626163e-07
+    },
+    {
+      "id": "REG_55_West_Virginia",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.0001638523357596651,
+      "blender_filled_area_m2": 0.0001638524749210113,
+      "relative_area_error": 8.49309505038872e-07
+    },
+    {
+      "id": "REG_56_Panama",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 0.00011945957903169375,
+      "blender_filled_area_m2": 0.00011945963466808429,
+      "relative_area_error": 4.6573402478274274e-07
+    },
+    {
+      "id": "REG_57_Costa_Rica",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 9.02879994665996e-05,
+      "blender_filled_area_m2": 9.028794607601753e-05,
+      "relative_area_error": 5.913364165530171e-07
+    },
+    {
+      "id": "REG_58_Vermont",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 7.59747319078931e-05,
+      "blender_filled_area_m2": 7.597465264819192e-05,
+      "relative_area_error": 1.0432376553124469e-06
+    },
+    {
+      "id": "REG_59_New_Hampshire",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 7.385913234184846e-05,
+      "blender_filled_area_m2": 7.385925278224903e-05,
+      "relative_area_error": 1.6306771654894895e-06
+    },
+    {
+      "id": "REG_60_New_Jersey",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 7.00591412687032e-05,
+      "blender_filled_area_m2": 7.005885345856555e-05,
+      "relative_area_error": 4.108102560713689e-06
+    },
+    {
+      "id": "REG_61_Massachusetts",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 6.305771177533899e-05,
+      "blender_filled_area_m2": 6.305776469073265e-05,
+      "relative_area_error": 8.391581644072791e-07
+    },
+    {
+      "id": "REG_62_Belize",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 3.969145201501817e-05,
+      "blender_filled_area_m2": 3.969115444446558e-05,
+      "relative_area_error": 7.497094147057259e-06
+    },
+    {
+      "id": "REG_63_Connecticut",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 3.5686444679725805e-05,
+      "blender_filled_area_m2": 3.568670541920227e-05,
+      "relative_area_error": 7.306401038387378e-06
+    },
+    {
+      "id": "REG_64_El_Salvador",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 3.441642285461941e-05,
+      "blender_filled_area_m2": 3.441638217593912e-05,
+      "relative_area_error": 1.1819555002865381e-06
+    },
+    {
+      "id": "REG_65_Rhode_Island",
+      "kind": "regions",
+      "closed_splines": 1,
+      "svg_area_m2": 7.065453905942971e-06,
+      "blender_filled_area_m2": 7.0652901902334975e-06,
+      "relative_area_error": 2.3171293968191788e-05
+    },
+    {
+      "id": "TEXT_001",
+      "kind": "labels",
+      "closed_splines": 17,
+      "svg_area_m2": 1.4470072250450962e-05,
+      "blender_filled_area_m2": 1.4470364408047942e-05,
+      "relative_area_error": 2.0190472578414343e-05
+    },
+    {
+      "id": "TEXT_002",
+      "kind": "labels",
+      "closed_splines": 19,
+      "svg_area_m2": 1.704723966110794e-05,
+      "blender_filled_area_m2": 1.704697028737101e-05,
+      "relative_area_error": 1.5801604381957475e-05
+    },
+    {
+      "id": "TEXT_003",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 4.268072859664737e-06,
+      "blender_filled_area_m2": 4.267990186601622e-06,
+      "relative_area_error": 1.9370115232985225e-05
+    },
+    {
+      "id": "TEXT_004",
+      "kind": "labels",
+      "closed_splines": 11,
+      "svg_area_m2": 3.7945550466672424e-06,
+      "blender_filled_area_m2": 3.794825944147817e-06,
+      "relative_area_error": 7.13911057404933e-05
+    },
+    {
+      "id": "TEXT_005",
+      "kind": "labels",
+      "closed_splines": 16,
+      "svg_area_m2": 1.1010804918783406e-05,
+      "blender_filled_area_m2": 1.1010790769372392e-05,
+      "relative_area_error": 1.2850478342893264e-06
+    },
+    {
+      "id": "TEXT_006",
+      "kind": "labels",
+      "closed_splines": 17,
+      "svg_area_m2": 1.5234650210658725e-05,
+      "blender_filled_area_m2": 1.5234439202593819e-05,
+      "relative_area_error": 1.3850535587520351e-05
+    },
+    {
+      "id": "TEXT_007",
+      "kind": "labels",
+      "closed_splines": 14,
+      "svg_area_m2": 1.5034137127107575e-05,
+      "blender_filled_area_m2": 1.5034077764042308e-05,
+      "relative_area_error": 3.948551537400337e-06
+    },
+    {
+      "id": "TEXT_008",
+      "kind": "labels",
+      "closed_splines": 15,
+      "svg_area_m2": 8.710436676536837e-06,
+      "blender_filled_area_m2": 8.7107052952895e-06,
+      "relative_area_error": 3.083872400875114e-05
+    },
+    {
+      "id": "TEXT_009",
+      "kind": "labels",
+      "closed_splines": 14,
+      "svg_area_m2": 1.0197918725435859e-05,
+      "blender_filled_area_m2": 1.0197932220012973e-05,
+      "relative_area_error": 1.3232677644718766e-06
+    },
+    {
+      "id": "TEXT_010",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 7.827246789036087e-06,
+      "blender_filled_area_m2": 7.827272599403301e-06,
+      "relative_area_error": 3.2975026735761485e-06
+    },
+    {
+      "id": "TEXT_011",
+      "kind": "labels",
+      "closed_splines": 12,
+      "svg_area_m2": 6.523704151957792e-06,
+      "blender_filled_area_m2": 6.523809760849986e-06,
+      "relative_area_error": 1.6188485825479325e-05
+    },
+    {
+      "id": "TEXT_012",
+      "kind": "labels",
+      "closed_splines": 12,
+      "svg_area_m2": 6.238536597253573e-06,
+      "blender_filled_area_m2": 6.23839490732081e-06,
+      "relative_area_error": 2.2712046415719913e-05
+    },
+    {
+      "id": "TEXT_013",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 4.427609701472533e-06,
+      "blender_filled_area_m2": 4.427682307905911e-06,
+      "relative_area_error": 1.639856226588652e-05
+    },
+    {
+      "id": "TEXT_014",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 6.532641918535255e-06,
+      "blender_filled_area_m2": 6.532745313592159e-06,
+      "relative_area_error": 1.5827449015725564e-05
+    },
+    {
+      "id": "TEXT_015",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 8.84330827755735e-06,
+      "blender_filled_area_m2": 8.84359349573316e-06,
+      "relative_area_error": 3.225242939163119e-05
+    },
+    {
+      "id": "TEXT_016",
+      "kind": "labels",
+      "closed_splines": 11,
+      "svg_area_m2": 6.929903389590326e-06,
+      "blender_filled_area_m2": 6.929594481785983e-06,
+      "relative_area_error": 4.457606217231664e-05
+    },
+    {
+      "id": "TEXT_017",
+      "kind": "labels",
+      "closed_splines": 14,
+      "svg_area_m2": 1.2503003268717642e-05,
+      "blender_filled_area_m2": 1.2502912481782147e-05,
+      "relative_area_error": 7.261210250351613e-06
+    },
+    {
+      "id": "TEXT_018",
+      "kind": "labels",
+      "closed_splines": 11,
+      "svg_area_m2": 6.784026944592209e-06,
+      "blender_filled_area_m2": 6.783985984526453e-06,
+      "relative_area_error": 6.037721561382777e-06
+    },
+    {
+      "id": "TEXT_019",
+      "kind": "labels",
+      "closed_splines": 11,
+      "svg_area_m2": 9.61361410711383e-06,
+      "blender_filled_area_m2": 9.613550030707074e-06,
+      "relative_area_error": 6.665173580115155e-06
+    },
+    {
+      "id": "TEXT_020",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 9.461460579432916e-06,
+      "blender_filled_area_m2": 9.461193335891238e-06,
+      "relative_area_error": 2.8245484873553192e-05
+    },
+    {
+      "id": "TEXT_021",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 8.344530718148224e-06,
+      "blender_filled_area_m2": 8.344474624166764e-06,
+      "relative_area_error": 6.722245187222271e-06
+    },
+    {
+      "id": "TEXT_022",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 7.146800658542851e-06,
+      "blender_filled_area_m2": 7.146853890027671e-06,
+      "relative_area_error": 7.448295728873797e-06
+    },
+    {
+      "id": "TEXT_023",
+      "kind": "labels",
+      "closed_splines": 11,
+      "svg_area_m2": 7.4662383417423895e-06,
+      "blender_filled_area_m2": 7.466296379377013e-06,
+      "relative_area_error": 7.77334341166461e-06
+    },
+    {
+      "id": "TEXT_024",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 8.788160125763822e-06,
+      "blender_filled_area_m2": 8.78825998684718e-06,
+      "relative_area_error": 1.1363138805932505e-05
+    },
+    {
+      "id": "TEXT_025",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 6.917389042320389e-06,
+      "blender_filled_area_m2": 6.917454623778241e-06,
+      "relative_area_error": 9.480666397443921e-06
+    },
+    {
+      "id": "TEXT_026",
+      "kind": "labels",
+      "closed_splines": 12,
+      "svg_area_m2": 1.0633892767053926e-05,
+      "blender_filled_area_m2": 1.0633993364095318e-05,
+      "relative_area_error": 9.460039102836177e-06
+    },
+    {
+      "id": "TEXT_027",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 8.035930075232793e-06,
+      "blender_filled_area_m2": 8.035978294795854e-06,
+      "relative_area_error": 6.00049560028107e-06
+    },
+    {
+      "id": "TEXT_028",
+      "kind": "labels",
+      "closed_splines": 8,
+      "svg_area_m2": 9.6563402776358e-06,
+      "blender_filled_area_m2": 9.65686261356069e-06,
+      "relative_area_error": 5.409253504671347e-05
+    },
+    {
+      "id": "TEXT_029",
+      "kind": "labels",
+      "closed_splines": 12,
+      "svg_area_m2": 1.2771326472552697e-05,
+      "blender_filled_area_m2": 1.2771283835366631e-05,
+      "relative_area_error": 3.3385088195199662e-06
+    },
+    {
+      "id": "TEXT_030",
+      "kind": "labels",
+      "closed_splines": 8,
+      "svg_area_m2": 4.330442017726195e-06,
+      "blender_filled_area_m2": 4.33057763560285e-06,
+      "relative_area_error": 3.1317328831649917e-05
+    },
+    {
+      "id": "TEXT_031",
+      "kind": "labels",
+      "closed_splines": 8,
+      "svg_area_m2": 8.061178036667307e-06,
+      "blender_filled_area_m2": 8.061364480838051e-06,
+      "relative_area_error": 2.3128650663210485e-05
+    },
+    {
+      "id": "TEXT_032",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 5.076632684345697e-06,
+      "blender_filled_area_m2": 5.076732117359484e-06,
+      "relative_area_error": 1.958641090837516e-05
+    },
+    {
+      "id": "TEXT_033",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 1.1501681685134163e-05,
+      "blender_filled_area_m2": 1.1501975533789732e-05,
+      "relative_area_error": 2.554832098587238e-05
+    },
+    {
+      "id": "TEXT_034",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 9.873659673080145e-06,
+      "blender_filled_area_m2": 9.872960831991406e-06,
+      "relative_area_error": 7.077832453999719e-05
+    },
+    {
+      "id": "TEXT_035",
+      "kind": "labels",
+      "closed_splines": 6,
+      "svg_area_m2": 5.378979571730714e-06,
+      "blender_filled_area_m2": 5.378851235526838e-06,
+      "relative_area_error": 2.3858838310287972e-05
+    },
+    {
+      "id": "TEXT_036",
+      "kind": "labels",
+      "closed_splines": 16,
+      "svg_area_m2": 1.0899543016644538e-05,
+      "blender_filled_area_m2": 1.0899228358507429e-05,
+      "relative_area_error": 2.8868929332997535e-05
+    },
+    {
+      "id": "TEXT_037",
+      "kind": "labels",
+      "closed_splines": 16,
+      "svg_area_m2": 1.3188111740393839e-05,
+      "blender_filled_area_m2": 1.3188630048066585e-05,
+      "relative_area_error": 3.930112839118019e-05
+    },
+    {
+      "id": "TEXT_038",
+      "kind": "labels",
+      "closed_splines": 12,
+      "svg_area_m2": 1.3121879887477927e-05,
+      "blender_filled_area_m2": 1.3121975910301842e-05,
+      "relative_area_error": 7.317764279103868e-06
+    },
+    {
+      "id": "TEXT_039",
+      "kind": "labels",
+      "closed_splines": 8,
+      "svg_area_m2": 9.523964599983624e-06,
+      "blender_filled_area_m2": 9.524079679579245e-06,
+      "relative_area_error": 1.2083160790145251e-05
+    },
+    {
+      "id": "TEXT_040",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 1.3134267697514626e-05,
+      "blender_filled_area_m2": 1.3134347776500022e-05,
+      "relative_area_error": 6.0969509104108095e-06
+    },
+    {
+      "id": "TEXT_041",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 1.4132553121533216e-05,
+      "blender_filled_area_m2": 1.4133037222308076e-05,
+      "relative_area_error": 3.4254304278676475e-05
+    },
+    {
+      "id": "TEXT_042",
+      "kind": "labels",
+      "closed_splines": 5,
+      "svg_area_m2": 8.660666213947099e-06,
+      "blender_filled_area_m2": 8.660876150479169e-06,
+      "relative_area_error": 2.4240228971260096e-05
+    },
+    {
+      "id": "TEXT_043",
+      "kind": "labels",
+      "closed_splines": 4,
+      "svg_area_m2": 0.00010869134068281722,
+      "blender_filled_area_m2": 0.00010868858882417953,
+      "relative_area_error": 2.5318103727515584e-05
+    },
+    {
+      "id": "TEXT_044",
+      "kind": "labels",
+      "closed_splines": 6,
+      "svg_area_m2": 8.813258587001707e-06,
+      "blender_filled_area_m2": 8.813656093398237e-06,
+      "relative_area_error": 4.510322630445798e-05
+    },
+    {
+      "id": "TEXT_045",
+      "kind": "labels",
+      "closed_splines": 12,
+      "svg_area_m2": 8.419698501807652e-06,
+      "blender_filled_area_m2": 8.419661899239372e-06,
+      "relative_area_error": 4.347254034340162e-06
+    },
+    {
+      "id": "TEXT_046",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 6.607891912898858e-06,
+      "blender_filled_area_m2": 6.6078204179476074e-06,
+      "relative_area_error": 1.0819630858517805e-05
+    },
+    {
+      "id": "TEXT_047",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 7.098444243658488e-06,
+      "blender_filled_area_m2": 7.098313840714354e-06,
+      "relative_area_error": 1.8370637235065996e-05
+    },
+    {
+      "id": "TEXT_048",
+      "kind": "labels",
+      "closed_splines": 11,
+      "svg_area_m2": 8.576510991416917e-06,
+      "blender_filled_area_m2": 8.576975248253405e-06,
+      "relative_area_error": 5.413120054905589e-05
+    },
+    {
+      "id": "TEXT_049",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 7.510846908197052e-06,
+      "blender_filled_area_m2": 7.510934319832074e-06,
+      "relative_area_error": 1.1638053083906599e-05
+    },
+    {
+      "id": "TEXT_050",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 0.00018762047538739237,
+      "blender_filled_area_m2": 0.000187620885078843,
+      "relative_area_error": 2.1836180181631937e-06
+    },
+    {
+      "id": "TEXT_051",
+      "kind": "labels",
+      "closed_splines": 17,
+      "svg_area_m2": 1.2630325037458006e-05,
+      "blender_filled_area_m2": 1.2629539167363646e-05,
+      "relative_area_error": 6.222089233883405e-05
+    },
+    {
+      "id": "TEXT_052",
+      "kind": "labels",
+      "closed_splines": 18,
+      "svg_area_m2": 1.11514192537336e-05,
+      "blender_filled_area_m2": 1.1151273095144631e-05,
+      "relative_area_error": 1.3106725309380449e-05
+    },
+    {
+      "id": "TEXT_053",
+      "kind": "labels",
+      "closed_splines": 21,
+      "svg_area_m2": 1.417185911270118e-05,
+      "blender_filled_area_m2": 1.417222793964612e-05,
+      "relative_area_error": 2.6025304231984903e-05
+    },
+    {
+      "id": "TEXT_054",
+      "kind": "labels",
+      "closed_splines": 15,
+      "svg_area_m2": 9.721041109848172e-06,
+      "blender_filled_area_m2": 9.721306659216111e-06,
+      "relative_area_error": 2.731696789866742e-05
+    },
+    {
+      "id": "TEXT_055",
+      "kind": "labels",
+      "closed_splines": 27,
+      "svg_area_m2": 1.9128539946927824e-05,
+      "blender_filled_area_m2": 1.9128752186237108e-05,
+      "relative_area_error": 1.1095426513118451e-05
+    },
+    {
+      "id": "TEXT_056",
+      "kind": "labels",
+      "closed_splines": 15,
+      "svg_area_m2": 1.0921022987518736e-05,
+      "blender_filled_area_m2": 1.09210702814444e-05,
+      "relative_area_error": 4.330539887908112e-06
+    },
+    {
+      "id": "TEXT_057",
+      "kind": "labels",
+      "closed_splines": 8,
+      "svg_area_m2": 7.120282472600672e-06,
+      "blender_filled_area_m2": 7.12039470895931e-06,
+      "relative_area_error": 1.5762908152873736e-05
+    },
+    {
+      "id": "TEXT_058",
+      "kind": "labels",
+      "closed_splines": 14,
+      "svg_area_m2": 6.528962582690907e-06,
+      "blender_filled_area_m2": 6.529005287081446e-06,
+      "relative_area_error": 6.540762027477849e-06
+    },
+    {
+      "id": "TEXT_059",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 8.338403189670217e-06,
+      "blender_filled_area_m2": 8.338278486119677e-06,
+      "relative_area_error": 1.495532750144943e-05
+    },
+    {
+      "id": "TEXT_060",
+      "kind": "labels",
+      "closed_splines": 12,
+      "svg_area_m2": 4.177726669318088e-06,
+      "blender_filled_area_m2": 4.177845700281679e-06,
+      "relative_area_error": 2.8491802602991137e-05
+    },
+    {
+      "id": "TEXT_061",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 5.7350291685375865e-06,
+      "blender_filled_area_m2": 5.734964027226397e-06,
+      "relative_area_error": 1.1358496927439646e-05
+    },
+    {
+      "id": "TEXT_062",
+      "kind": "labels",
+      "closed_splines": 12,
+      "svg_area_m2": 7.954533210741433e-06,
+      "blender_filled_area_m2": 7.954480466754177e-06,
+      "relative_area_error": 6.630682889734542e-06
+    },
+    {
+      "id": "TEXT_063",
+      "kind": "labels",
+      "closed_splines": 7,
+      "svg_area_m2": 8.379875927552178e-05,
+      "blender_filled_area_m2": 8.379915476908195e-05,
+      "relative_area_error": 4.719563434934868e-06
+    },
+    {
+      "id": "TEXT_064",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 4.881878908220976e-06,
+      "blender_filled_area_m2": 4.881787539323668e-06,
+      "relative_area_error": 1.8715928646678347e-05
+    },
+    {
+      "id": "TEXT_065",
+      "kind": "labels",
+      "closed_splines": 7,
+      "svg_area_m2": 3.1900070382471255e-06,
+      "blender_filled_area_m2": 3.1899943158109068e-06,
+      "relative_area_error": 3.9882157206048e-06
+    },
+    {
+      "id": "TEXT_066",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 5.05921130839615e-06,
+      "blender_filled_area_m2": 5.059175751220835e-06,
+      "relative_area_error": 7.02820521779933e-06
+    },
+    {
+      "id": "TEXT_067",
+      "kind": "labels",
+      "closed_splines": 11,
+      "svg_area_m2": 5.819370158087952e-06,
+      "blender_filled_area_m2": 5.819410792362589e-06,
+      "relative_area_error": 6.982589787841025e-06
+    },
+    {
+      "id": "TEXT_068",
+      "kind": "labels",
+      "closed_splines": 17,
+      "svg_area_m2": 7.725256197349544e-06,
+      "blender_filled_area_m2": 7.725301154337672e-06,
+      "relative_area_error": 5.819481837108326e-06
+    },
+    {
+      "id": "TEXT_069",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 4.550736445655173e-06,
+      "blender_filled_area_m2": 4.550976853145983e-06,
+      "relative_area_error": 5.2828260586161424e-05
+    },
+    {
+      "id": "TEXT_070",
+      "kind": "labels",
+      "closed_splines": 1,
+      "svg_area_m2": 1.2184052172343954e-06,
+      "blender_filled_area_m2": 1.2184191602315764e-06,
+      "relative_area_error": 1.1443645335486167e-05
+    },
+    {
+      "id": "TEXT_071",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 6.5594727278479786e-06,
+      "blender_filled_area_m2": 6.5593212754677666e-06,
+      "relative_area_error": 2.3089108910998213e-05
+    },
+    {
+      "id": "TEXT_072",
+      "kind": "labels",
+      "closed_splines": 11,
+      "svg_area_m2": 4.575025455084091e-06,
+      "blender_filled_area_m2": 4.575042077625824e-06,
+      "relative_area_error": 3.6333222396660964e-06
+    },
+    {
+      "id": "TEXT_073",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 7.460302248652011e-06,
+      "blender_filled_area_m2": 7.460126515645982e-06,
+      "relative_area_error": 2.355574883863842e-05
+    },
+    {
+      "id": "TEXT_074",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 4.997036468359404e-06,
+      "blender_filled_area_m2": 4.99698203704213e-06,
+      "relative_area_error": 1.089271963861021e-05
+    },
+    {
+      "id": "TEXT_075",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 7.10167924140111e-06,
+      "blender_filled_area_m2": 7.101623962668668e-06,
+      "relative_area_error": 7.783895971951474e-06
+    },
+    {
+      "id": "TEXT_076",
+      "kind": "labels",
+      "closed_splines": 7,
+      "svg_area_m2": 5.917885715817983e-06,
+      "blender_filled_area_m2": 5.9181795473151055e-06,
+      "relative_area_error": 4.9651431479555145e-05
+    },
+    {
+      "id": "TEXT_077",
+      "kind": "labels",
+      "closed_splines": 15,
+      "svg_area_m2": 1.5872423301181294e-05,
+      "blender_filled_area_m2": 1.5872096023272775e-05,
+      "relative_area_error": 2.0619277996139865e-05
+    },
+    {
+      "id": "TEXT_078",
+      "kind": "labels",
+      "closed_splines": 20,
+      "svg_area_m2": 9.904801507673547e-06,
+      "blender_filled_area_m2": 9.90503235254181e-06,
+      "relative_area_error": 2.3306359858234882e-05
+    },
+    {
+      "id": "TEXT_079",
+      "kind": "labels",
+      "closed_splines": 10,
+      "svg_area_m2": 7.577959756986355e-06,
+      "blender_filled_area_m2": 7.57804116169325e-06,
+      "relative_area_error": 1.0742298653643055e-05
+    },
+    {
+      "id": "TEXT_080",
+      "kind": "labels",
+      "closed_splines": 12,
+      "svg_area_m2": 9.305879281830751e-06,
+      "blender_filled_area_m2": 9.305880626975238e-06,
+      "relative_area_error": 1.4454781179258218e-07
+    },
+    {
+      "id": "TEXT_081",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 9.558613340011638e-06,
+      "blender_filled_area_m2": 9.558819757948811e-06,
+      "relative_area_error": 2.1594966741542555e-05
+    },
+    {
+      "id": "TEXT_082",
+      "kind": "labels",
+      "closed_splines": 9,
+      "svg_area_m2": 7.678231105202684e-05,
+      "blender_filled_area_m2": 7.678261450561052e-05,
+      "relative_area_error": 3.9521288110236376e-06
+    },
+    {
+      "id": "TEXT_083",
+      "kind": "labels",
+      "closed_splines": 4,
+      "svg_area_m2": 3.7140882628931295e-06,
+      "blender_filled_area_m2": 3.7142115774102535e-06,
+      "relative_area_error": 3.320182731145453e-05
+    },
+    {
+      "id": "TEXT_084",
+      "kind": "labels",
+      "closed_splines": 8,
+      "svg_area_m2": 5.720694162197327e-06,
+      "blender_filled_area_m2": 5.720642205275794e-06,
+      "relative_area_error": 9.082275692384087e-06
+    },
+    {
+      "id": "TEXT_085",
+      "kind": "labels",
+      "closed_splines": 13,
+      "svg_area_m2": 9.536027777546624e-06,
+      "blender_filled_area_m2": 9.536174297331002e-06,
+      "relative_area_error": 1.5364865518009785e-05
+    },
+    {
+      "id": "TEXT_086",
+      "kind": "labels",
+      "closed_splines": 11,
+      "svg_area_m2": 7.2787085333314235e-06,
+      "blender_filled_area_m2": 7.278668910259967e-06,
+      "relative_area_error": 5.443695303276169e-06
+    },
+    {
+      "id": "TEXT_087",
+      "kind": "labels",
+      "closed_splines": 17,
+      "svg_area_m2": 1.146029253741256e-05,
+      "blender_filled_area_m2": 1.1460423035458689e-05,
+      "relative_area_error": 1.1386973386855177e-05
+    },
+    {
+      "id": "MARK_001",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 1.5763729259107995e-06,
+      "blender_filled_area_m2": 1.5763159098014512e-06,
+      "relative_area_error": 3.6169175714146526e-05
+    },
+    {
+      "id": "MARK_002",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604629265702539e-07,
+      "blender_filled_area_m2": 4.605364196663686e-07,
+      "relative_area_error": 0.00015960697783454043
+    },
+    {
+      "id": "MARK_003",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604615523605822e-07,
+      "blender_filled_area_m2": 4.604524228568607e-07,
+      "relative_area_error": 1.982685345750653e-05
+    },
+    {
+      "id": "MARK_004",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604629265702539e-07,
+      "blender_filled_area_m2": 4.6058946345794993e-07,
+      "relative_area_error": 0.00027480363867415713
+    },
+    {
+      "id": "MARK_005",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046711992333455e-07,
+      "blender_filled_area_m2": 4.6061386882456645e-07,
+      "relative_area_error": 0.0003186957219797556
+    },
+    {
+      "id": "MARK_006",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604573589625168e-07,
+      "blender_filled_area_m2": 4.6048130064590964e-07,
+      "relative_area_error": 5.199544089547974e-05
+    },
+    {
+      "id": "MARK_007",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6044897253968747e-07,
+      "blender_filled_area_m2": 4.604700780674875e-07,
+      "relative_area_error": 4.583684416460537e-05
+    },
+    {
+      "id": "MARK_008",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604615523605822e-07,
+      "blender_filled_area_m2": 4.6059056924008246e-07,
+      "relative_area_error": 0.00028019034127574
+    },
+    {
+      "id": "MARK_009",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236059325e-07,
+      "blender_filled_area_m2": 4.60581288663775e-07,
+      "relative_area_error": 0.0002600353983257012
+    },
+    {
+      "id": "MARK_010",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604545406275444e-07,
+      "blender_filled_area_m2": 4.6048856816582884e-07,
+      "relative_area_error": 7.389988648621833e-05
+    },
+    {
+      "id": "MARK_011",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6044897253938523e-07,
+      "blender_filled_area_m2": 4.604073646774509e-07,
+      "relative_area_error": 9.036367635886274e-05
+    },
+    {
+      "id": "MARK_012",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233688e-07,
+      "blender_filled_area_m2": 4.6051893409781997e-07,
+      "relative_area_error": 0.00011252524275737555
+    },
+    {
+      "id": "MARK_013",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236057e-07,
+      "blender_filled_area_m2": 4.603819725446101e-07,
+      "relative_area_error": 0.00017282619048634732
+    },
+    {
+      "id": "MARK_014",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233575e-07,
+      "blender_filled_area_m2": 4.6057298952462133e-07,
+      "relative_area_error": 0.00022991783057481617
+    },
+    {
+      "id": "MARK_015",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6048382281465723e-07,
+      "blender_filled_area_m2": 4.604132239904857e-07,
+      "relative_area_error": 0.00015331445031016623
+    },
+    {
+      "id": "MARK_016",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604782552547273e-07,
+      "blender_filled_area_m2": 4.6039370182882067e-07,
+      "relative_area_error": 0.00018362088750499675
+    },
+    {
+      "id": "MARK_017",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233688e-07,
+      "blender_filled_area_m2": 4.6039099110828374e-07,
+      "relative_area_error": 0.00016532953557623291
+    },
+    {
+      "id": "MARK_018",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6045454023708847e-07,
+      "blender_filled_area_m2": 4.603743253284165e-07,
+      "relative_area_error": 0.00017420809583216528
+    },
+    {
+      "id": "MARK_019",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604629265702539e-07,
+      "blender_filled_area_m2": 4.6057220526307674e-07,
+      "relative_area_error": 0.00023732354228129369
+    },
+    {
+      "id": "MARK_020",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604782552547273e-07,
+      "blender_filled_area_m2": 4.604051180301383e-07,
+      "relative_area_error": 0.00015882883448763908
+    },
+    {
+      "id": "MARK_021",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233688e-07,
+      "blender_filled_area_m2": 4.60478556618682e-07,
+      "relative_area_error": 2.4837159524186093e-05
+    },
+    {
+      "id": "MARK_022",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6045454062740866e-07,
+      "blender_filled_area_m2": 4.6046490442819277e-07,
+      "relative_area_error": 2.2507761070146832e-05
+    },
+    {
+      "id": "MARK_023",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233575e-07,
+      "blender_filled_area_m2": 4.603491419175043e-07,
+      "relative_area_error": 0.00025621374632101273
+    },
+    {
+      "id": "MARK_024",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233575e-07,
+      "blender_filled_area_m2": 4.6046215729234063e-07,
+      "relative_area_error": 1.0777384100115014e-05
+    },
+    {
+      "id": "MARK_025",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6045454062740866e-07,
+      "blender_filled_area_m2": 4.604741432601145e-07,
+      "relative_area_error": 4.2572351831119684e-05
+    },
+    {
+      "id": "MARK_026",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236058177e-07,
+      "blender_filled_area_m2": 4.6049037649709135e-07,
+      "relative_area_error": 6.259835671797459e-05
+    },
+    {
+      "id": "MARK_027",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604489725397215e-07,
+      "blender_filled_area_m2": 4.6072668835606123e-07,
+      "relative_area_error": 0.000603141353118705
+    },
+    {
+      "id": "MARK_028",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236057e-07,
+      "blender_filled_area_m2": 4.605139722890783e-07,
+      "relative_area_error": 0.00011384213999966697
+    },
+    {
+      "id": "MARK_029",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236059347e-07,
+      "blender_filled_area_m2": 4.605213965724886e-07,
+      "relative_area_error": 0.0001299657085120808
+    },
+    {
+      "id": "MARK_030",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236059347e-07,
+      "blender_filled_area_m2": 4.60446665240255e-07,
+      "relative_area_error": 3.2330865111606806e-05
+    },
+    {
+      "id": "MARK_031",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236059325e-07,
+      "blender_filled_area_m2": 4.604798653495834e-07,
+      "relative_area_error": 3.977094047541647e-05
+    },
+    {
+      "id": "MARK_032",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233688e-07,
+      "blender_filled_area_m2": 4.6040021173254786e-07,
+      "relative_area_error": 0.00014530503466148498
+    },
+    {
+      "id": "MARK_033",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233688e-07,
+      "blender_filled_area_m2": 4.6040442258643566e-07,
+      "relative_area_error": 0.00013616029075773118
+    },
+    {
+      "id": "MARK_034",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604629265702426e-07,
+      "blender_filled_area_m2": 4.605156318504555e-07,
+      "relative_area_error": 0.00011446150639204772
+    },
+    {
+      "id": "MARK_035",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604545406274197e-07,
+      "blender_filled_area_m2": 4.6043367696313453e-07,
+      "relative_area_error": 4.531101866596019e-05
+    },
+    {
+      "id": "MARK_036",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233688e-07,
+      "blender_filled_area_m2": 4.6046189172699314e-07,
+      "relative_area_error": 1.1354114440406277e-05
+    },
+    {
+      "id": "MARK_037",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236059325e-07,
+      "blender_filled_area_m2": 4.6039066647907134e-07,
+      "relative_area_error": 0.00015394527764264068
+    },
+    {
+      "id": "MARK_038",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604489729303021e-07,
+      "blender_filled_area_m2": 4.604592529489082e-07,
+      "relative_area_error": 2.23260756575991e-05
+    },
+    {
+      "id": "MARK_039",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604489725396983e-07,
+      "blender_filled_area_m2": 4.606883816649088e-07,
+      "relative_area_error": 0.0005199471374427164
+    },
+    {
+      "id": "MARK_040",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236058177e-07,
+      "blender_filled_area_m2": 4.6054248592497515e-07,
+      "relative_area_error": 0.00017576617196045133
+    },
+    {
+      "id": "MARK_041",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604489725396877e-07,
+      "blender_filled_area_m2": 4.603708232409076e-07,
+      "relative_area_error": 0.00016972412458435922
+    },
+    {
+      "id": "MARK_042",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604545402370889e-07,
+      "blender_filled_area_m2": 4.604354080228745e-07,
+      "relative_area_error": 4.1550712486218285e-05
+    },
+    {
+      "id": "MARK_043",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604741329106576e-07,
+      "blender_filled_area_m2": 4.604432417565363e-07,
+      "relative_area_error": 6.708553621909521e-05
+    },
+    {
+      "id": "MARK_044",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.5981689308647566e-07,
+      "blender_filled_area_m2": 4.598517646670075e-07,
+      "relative_area_error": 7.583797171471401e-05
+    },
+    {
+      "id": "MARK_045",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604629265702539e-07,
+      "blender_filled_area_m2": 4.604525125628811e-07,
+      "relative_area_error": 2.2616386188423178e-05
+    },
+    {
+      "id": "MARK_046",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236059325e-07,
+      "blender_filled_area_m2": 4.603966115013236e-07,
+      "relative_area_error": 0.00014103427080225378
+    },
+    {
+      "id": "MARK_047",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233688e-07,
+      "blender_filled_area_m2": 4.605124566126051e-07,
+      "relative_area_error": 9.845803809800487e-05
+    },
+    {
+      "id": "MARK_048",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6047550700348243e-07,
+      "blender_filled_area_m2": 4.604550358777715e-07,
+      "relative_area_error": 4.445649203833746e-05
+    },
+    {
+      "id": "MARK_049",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6044897253932446e-07,
+      "blender_filled_area_m2": 4.6046080193207217e-07,
+      "relative_area_error": 2.569099607818644e-05
+    },
+    {
+      "id": "MARK_050",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604545402370774e-07,
+      "blender_filled_area_m2": 4.6050785051932053e-07,
+      "relative_area_error": 0.0001157775145743505
+    },
+    {
+      "id": "MARK_051",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155314234585e-07,
+      "blender_filled_area_m2": 4.606248005245561e-07,
+      "relative_area_error": 0.0003545298865805771
+    },
+    {
+      "id": "MARK_052",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6049220983446127e-07,
+      "blender_filled_area_m2": 4.6041202317326224e-07,
+      "relative_area_error": 0.00017413250319229238
+    },
+    {
+      "id": "MARK_053",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6047406199098313e-07,
+      "blender_filled_area_m2": 4.6045650936576976e-07,
+      "relative_area_error": 3.811859703341029e-05
+    },
+    {
+      "id": "MARK_054",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 1.01979360224363e-06,
+      "blender_filled_area_m2": 1.0198537312433587e-06,
+      "relative_area_error": 5.896193072436388e-05
+    },
+    {
+      "id": "MARK_055",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236059325e-07,
+      "blender_filled_area_m2": 4.604158405641101e-07,
+      "relative_area_error": 9.927386173459468e-05
+    },
+    {
+      "id": "MARK_056",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604615523605822e-07,
+      "blender_filled_area_m2": 4.6051944657676813e-07,
+      "relative_area_error": 0.00012573083656853355
+    },
+    {
+      "id": "MARK_057",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6045454062742015e-07,
+      "blender_filled_area_m2": 4.6052818003516904e-07,
+      "relative_area_error": 0.0001599276394333142
+    },
+    {
+      "id": "MARK_058",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 1.9161610527726517e-06,
+      "blender_filled_area_m2": 1.916215947694866e-06,
+      "relative_area_error": 2.8648386384198888e-05
+    },
+    {
+      "id": "MARK_059",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604671199233688e-07,
+      "blender_filled_area_m2": 4.60584524297758e-07,
+      "relative_area_error": 0.0002549679864410731
+    },
+    {
+      "id": "MARK_060",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236059325e-07,
+      "blender_filled_area_m2": 4.605478070018876e-07,
+      "relative_area_error": 0.000187322135479348
+    },
+    {
+      "id": "MARK_061",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236059304e-07,
+      "blender_filled_area_m2": 4.6042026546899706e-07,
+      "relative_area_error": 8.966414543043609e-05
+    },
+    {
+      "id": "MARK_062",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.5982927649080205e-07,
+      "blender_filled_area_m2": 4.597448191034914e-07,
+      "relative_area_error": 0.00018367118325996373
+    },
+    {
+      "id": "MARK_063",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604545406274197e-07,
+      "blender_filled_area_m2": 4.603090211219296e-07,
+      "relative_area_error": 0.000316034467358757
+    },
+    {
+      "id": "MARK_064",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046155236058177e-07,
+      "blender_filled_area_m2": 4.604760768245342e-07,
+      "relative_area_error": 3.1543271914772355e-05
+    },
+    {
+      "id": "MARK_065",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6045041744131216e-07,
+      "blender_filled_area_m2": 4.6037416989719304e-07,
+      "relative_area_error": 0.00016559338689021142
+    },
+    {
+      "id": "MARK_066",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.5981957341586516e-07,
+      "blender_filled_area_m2": 4.598810345868287e-07,
+      "relative_area_error": 0.0001336636683536234
+    },
+    {
+      "id": "MARK_067",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604615523604765e-07,
+      "blender_filled_area_m2": 4.604421146581217e-07,
+      "relative_area_error": 4.221351870790842e-05
+    },
+    {
+      "id": "MARK_068",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6044897253932446e-07,
+      "blender_filled_area_m2": 4.603627488108941e-07,
+      "relative_area_error": 0.00018726011691334106
+    },
+    {
+      "id": "MARK_069",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.6046711992322025e-07,
+      "blender_filled_area_m2": 4.6050529967089915e-07,
+      "relative_area_error": 8.291525285293904e-05
+    },
+    {
+      "id": "MARK_070",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.60462926569842e-07,
+      "blender_filled_area_m2": 4.604875520897167e-07,
+      "relative_area_error": 5.347991869430092e-05
+    },
+    {
+      "id": "MARK_071",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.604656758371434e-07,
+      "blender_filled_area_m2": 4.6033846246018584e-07,
+      "relative_area_error": 0.0002762711394856356
+    },
+    {
+      "id": "MARK_072",
+      "kind": "markers",
+      "closed_splines": 2,
+      "svg_area_m2": 4.598293522511906e-07,
+      "blender_filled_area_m2": 4.5985287222549687e-07,
+      "relative_area_error": 5.114935397467459e-05
+    }
+  ]
+}
