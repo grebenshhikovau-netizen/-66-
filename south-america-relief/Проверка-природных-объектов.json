@@ -1,0 +1,53 @@
+{
+  "all_landmark_geometries_present": true,
+  "auyan_flat_cap_L5_present": true,
+  "titicaca_recess": true,
+  "uyuni_without_L6": true,
+  "objects": [
+    {
+      "name": "Титикака",
+      "countries_at_point": [
+        "PER"
+      ],
+      "top_at_point_mm": 12,
+      "feature_area_mm2": 16.553933863229695,
+      "operation": "Котловина: L4 виден сквозь L5 и L6"
+    },
+    {
+      "name": "Уюни",
+      "countries_at_point": [
+        "BOL"
+      ],
+      "top_at_point_mm": 15,
+      "feature_area_mm2": 30.546766501394185,
+      "operation": "Ровная площадка L5; без шестого слоя"
+    },
+    {
+      "name": "Ауянтепуи / Анхель",
+      "countries_at_point": [
+        "VEN"
+      ],
+      "top_at_point_mm": 9,
+      "feature_area_mm2": 5.664430406173319,
+      "operation": "Плоская вершина и локальный уступ; усиление для масштаба"
+    },
+    {
+      "name": "Игуасу",
+      "countries_at_point": [
+        "ARG"
+      ],
+      "top_at_point_mm": 3,
+      "feature_area_mm2": 1.945587000111618,
+      "operation": "Локальный вырез в верхних террасах"
+    },
+    {
+      "name": "Мачу-Пикчу",
+      "countries_at_point": [
+        "PER"
+      ],
+      "top_at_point_mm": 15,
+      "feature_area_mm2": 3.7952236735606495,
+      "operation": "Место под дальнейшую террасировку на L5"
+    }
+  ]
+}

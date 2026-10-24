@@ -1,0 +1,70 @@
+{
+  "all_production_paths_closed": true,
+  "all_production_files_vector_without_raster_or_live_text": true,
+  "files": [
+    {
+      "file": "Границы-гравировка-все.svg",
+      "closed_paths": 6
+    },
+    {
+      "file": "Границы-гравировка-уровень-1.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Границы-гравировка-уровень-2.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Границы-гравировка-уровень-3.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Границы-гравировка-уровень-4.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Границы-гравировка-уровень-5.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Границы-гравировка-уровень-6.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Карта-цвета-и-границы.svg",
+      "closed_paths": 54
+    },
+    {
+      "file": "Маски-окраски-по-странам.svg",
+      "closed_paths": 13
+    },
+    {
+      "file": "Рельеф-шесть-уровней.svg",
+      "closed_paths": 6
+    },
+    {
+      "file": "Слой-01-резка.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Слой-02-резка.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Слой-03-резка.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Слой-04-резка.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Слой-05-резка.svg",
+      "closed_paths": 1
+    },
+    {
+      "file": "Слой-06-резка.svg",
+      "closed_paths": 1
+    }
+  ]
+}
