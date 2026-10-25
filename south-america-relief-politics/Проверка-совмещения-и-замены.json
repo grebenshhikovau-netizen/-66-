@@ -1,0 +1,57 @@
+{
+  "political_modules": 13,
+  "relief_wood_count": 78,
+  "same_country_root_matrices": true,
+  "base_vertex_world_error_m": 0,
+  "political_thickness_tests_mm": [
+    3,
+    6,
+    9
+  ],
+  "both_directions_swap_tests": [
+    {
+      "country": "BRA",
+      "to": "political",
+      "pose_error": 1.4901161193847656e-08,
+      "wood_objects": 1,
+      "drivers_and_manifold": true
+    },
+    {
+      "country": "BRA",
+      "to": "relief",
+      "pose_error": 2.9802322387695312e-08,
+      "wood_objects": 6,
+      "drivers_and_manifold": true
+    },
+    {
+      "country": "CHL",
+      "to": "political",
+      "pose_error": 1.4901161193847656e-08,
+      "wood_objects": 1,
+      "drivers_and_manifold": true
+    },
+    {
+      "country": "CHL",
+      "to": "relief",
+      "pose_error": 2.9802322387695312e-08,
+      "wood_objects": 13,
+      "drivers_and_manifold": true
+    },
+    {
+      "country": "BOL",
+      "to": "political",
+      "pose_error": 1.4901161193847656e-08,
+      "wood_objects": 1,
+      "drivers_and_manifold": true
+    },
+    {
+      "country": "BOL",
+      "to": "relief",
+      "pose_error": 2.9802322387695312e-08,
+      "wood_objects": 7,
+      "drivers_and_manifold": true
+    }
+  ],
+  "original_source_unchanged": true,
+  "source_sha256_confirmed": true
+}

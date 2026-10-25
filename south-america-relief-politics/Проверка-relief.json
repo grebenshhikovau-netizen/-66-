@@ -1,0 +1,551 @@
+{
+  "variant": "relief",
+  "country_modules": 13,
+  "wood_count": 78,
+  "all_closed_manifold": true,
+  "bottom_origins": true,
+  "base_height_tests_mm": [
+    3,
+    6,
+    9
+  ],
+  "engraving_follows_height": true,
+  "common_country_roots": {
+    "BRA": [
+      0.9274882078170776,
+      0.4678705632686615,
+      0.0
+    ],
+    "ARG": [
+      0.883962869644165,
+      0.34178590774536133,
+      0.0
+    ],
+    "PER": [
+      0.8297392129898071,
+      0.4962170720100403,
+      0.0
+    ],
+    "BOL": [
+      0.8840676546096802,
+      0.46164825558662415,
+      0.0
+    ],
+    "CHL": [
+      0.8475524187088013,
+      0.3466208875179291,
+      0.0
+    ],
+    "COL": [
+      0.8391382098197937,
+      0.5627167820930481,
+      0.0
+    ],
+    "VEN": [
+      0.8706368207931519,
+      0.5714733004570007,
+      0.0
+    ],
+    "ECU": [
+      0.8152251243591309,
+      0.5319200754165649,
+      0.0
+    ],
+    "PRY": [
+      0.9083806276321411,
+      0.4262278378009796,
+      0.0
+    ],
+    "URY": [
+      0.9207232594490051,
+      0.37723806500434875,
+      0.0
+    ],
+    "GUY": [
+      0.9061136841773987,
+      0.5633788704872131,
+      0.0
+    ],
+    "SUR": [
+      0.9198789596557617,
+      0.5592174530029297,
+      0.0
+    ],
+    "GUF": [
+      0.9341070055961609,
+      0.5575987100601196,
+      0.0
+    ]
+  },
+  "checks": [
+    {
+      "id": "L01_BRA",
+      "country": "BRA",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 48783.389721416774
+    },
+    {
+      "id": "L02_BRA_P01",
+      "country": "BRA",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 36569.56197147703
+    },
+    {
+      "id": "L02_BRA_P02",
+      "country": "BRA",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4955.073397124476
+    },
+    {
+      "id": "L02_BRA_P03",
+      "country": "BRA",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1655.6521755428114
+    },
+    {
+      "id": "L03_BRA_P01",
+      "country": "BRA",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 9077.18551489854
+    },
+    {
+      "id": "L03_BRA_P02",
+      "country": "BRA",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 187.45129041072607
+    },
+    {
+      "id": "L01_ARG",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 23097.198259666708
+    },
+    {
+      "id": "L02_ARG_P01",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 12377.926324621483
+    },
+    {
+      "id": "L02_ARG_P02",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 168.55091354675082
+    },
+    {
+      "id": "L03_ARG_P01",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 7736.708290514383
+    },
+    {
+      "id": "L03_ARG_P02",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 0.9494260626349466
+    },
+    {
+      "id": "L03_ARG_P03",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 0.07337503339577447
+    },
+    {
+      "id": "L04_ARG_P01",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2638.1140394187382
+    },
+    {
+      "id": "L04_ARG_P02",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 18.696292883726024
+    },
+    {
+      "id": "L05_ARG",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1649.7776440229475
+    },
+    {
+      "id": "L06_ARG",
+      "country": "ARG",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 747.1007800295886
+    },
+    {
+      "id": "L01_PER",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 7319.287049642029
+    },
+    {
+      "id": "L02_PER_P01",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 6810.209015032948
+    },
+    {
+      "id": "L02_PER_P02",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 64.90767223278077
+    },
+    {
+      "id": "L02_PER_P03",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 0.30660312354916286
+    },
+    {
+      "id": "L03_PER",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 3819.68687634556
+    },
+    {
+      "id": "L04_PER",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2954.943605151167
+    },
+    {
+      "id": "L05_PER_P01",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2025.5002751514796
+    },
+    {
+      "id": "L05_PER_P02",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 0.158524286824165
+    },
+    {
+      "id": "L05_PER_P03",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 0.0019434395781960608
+    },
+    {
+      "id": "L06_PER",
+      "country": "PER",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1005.7217259732034
+    },
+    {
+      "id": "L01_BOL",
+      "country": "BOL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 6497.657484429331
+    },
+    {
+      "id": "L02_BOL",
+      "country": "BOL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 6277.806002111024
+    },
+    {
+      "id": "L03_BOL",
+      "country": "BOL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2498.6548651786647
+    },
+    {
+      "id": "L04_BOL",
+      "country": "BOL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2063.2864827573176
+    },
+    {
+      "id": "L05_BOL",
+      "country": "BOL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1648.5766845006701
+    },
+    {
+      "id": "L06_BOL_P01",
+      "country": "BOL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 398.01931912059507
+    },
+    {
+      "id": "L06_BOL_P02",
+      "country": "BOL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 216.87959527951747
+    },
+    {
+      "id": "L01_CHL",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 6832.773934668231
+    },
+    {
+      "id": "L02_CHL",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4005.096367200811
+    },
+    {
+      "id": "L03_CHL_P01",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2676.667522977557
+    },
+    {
+      "id": "L03_CHL_P02",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 31.508734303685323
+    },
+    {
+      "id": "L04_CHL",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1467.0388878279477
+    },
+    {
+      "id": "L05_CHL_P01",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 652.935936358705
+    },
+    {
+      "id": "L05_CHL_P02",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 88.14622072922191
+    },
+    {
+      "id": "L06_CHL_P01",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 64.14242746894979
+    },
+    {
+      "id": "L06_CHL_P02",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 43.78562776136778
+    },
+    {
+      "id": "L06_CHL_P03",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 43.22877679444504
+    },
+    {
+      "id": "L06_CHL_P04",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 16.369130308197736
+    },
+    {
+      "id": "L06_CHL_P05",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 0.7775020936637506
+    },
+    {
+      "id": "L06_CHL_P06",
+      "country": "CHL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 0.3122898719333272
+    },
+    {
+      "id": "L01_COL",
+      "country": "COL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 6239.240732513969
+    },
+    {
+      "id": "L02_COL",
+      "country": "COL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 4407.357958879768
+    },
+    {
+      "id": "L03_COL",
+      "country": "COL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1628.0732740847054
+    },
+    {
+      "id": "L04_COL",
+      "country": "COL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1057.6628488628244
+    },
+    {
+      "id": "L05_COL_P01",
+      "country": "COL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 248.45448756528603
+    },
+    {
+      "id": "L05_COL_P02",
+      "country": "COL",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 14.091172178864023
+    },
+    {
+      "id": "L01_VEN",
+      "country": "VEN",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5117.3312223280645
+    },
+    {
+      "id": "L02_VEN_P01",
+      "country": "VEN",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2885.7874334117455
+    },
+    {
+      "id": "L02_VEN_P02",
+      "country": "VEN",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5.393719202091114
+    },
+    {
+      "id": "L02_VEN_P03",
+      "country": "VEN",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 0.007082765027261486
+    },
+    {
+      "id": "L03_VEN_P01",
+      "country": "VEN",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 836.2420771408979
+    },
+    {
+      "id": "L03_VEN_P02",
+      "country": "VEN",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 646.2008502732768
+    },
+    {
+      "id": "L04_VEN_P01",
+      "country": "VEN",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 113.83183276938067
+    },
+    {
+      "id": "L04_VEN_P02",
+      "country": "VEN",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 24.195268229588148
+    },
+    {
+      "id": "L05_VEN",
+      "country": "VEN",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 11.701574055844109
+    },
+    {
+      "id": "L01_ECU",
+      "country": "ECU",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1349.716867084412
+    },
+    {
+      "id": "L02_ECU",
+      "country": "ECU",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1187.2666711372578
+    },
+    {
+      "id": "L03_ECU",
+      "country": "ECU",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 555.7944956632767
+    },
+    {
+      "id": "L04_ECU",
+      "country": "ECU",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 385.5925809105893
+    },
+    {
+      "id": "L05_ECU",
+      "country": "ECU",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 220.7647515748343
+    },
+    {
+      "id": "L01_PRY",
+      "country": "PRY",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 2593.7319936019408
+    },
+    {
+      "id": "L02_PRY_P01",
+      "country": "PRY",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 501.53850866086634
+    },
+    {
+      "id": "L02_PRY_P02",
+      "country": "PRY",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 278.4789472527256
+    },
+    {
+      "id": "L01_URY",
+      "country": "URY",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1384.480230625626
+    },
+    {
+      "id": "L02_URY",
+      "country": "URY",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 52.400194273784535
+    },
+    {
+      "id": "L01_GUY",
+      "country": "GUY",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 1159.58862101923
+    },
+    {
+      "id": "L02_GUY",
+      "country": "GUY",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 564.9799446963125
+    },
+    {
+      "id": "L03_GUY",
+      "country": "GUY",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 113.05858950471986
+    },
+    {
+      "id": "L01_SUR",
+      "country": "SUR",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 795.5413476824754
+    },
+    {
+      "id": "L02_SUR",
+      "country": "SUR",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 264.7979124144732
+    },
+    {
+      "id": "L01_GUF",
+      "country": "GUF",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 657.7579925948189
+    },
+    {
+      "id": "L02_GUF",
+      "country": "GUF",
+      "nonmanifold_edges": 0,
+      "volume_mm3": 266.87040375270607
+    }
+  ],
+  "relief_source_vertex_max_error_m": 0.0
+}
