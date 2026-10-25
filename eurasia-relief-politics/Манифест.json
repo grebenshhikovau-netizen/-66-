@@ -1,0 +1,4357 @@
+{
+  "regions": 120,
+  "country_groups": 88,
+  "coatings": 5,
+  "relief_pieces": 824,
+  "political_pieces": 226,
+  "political_water_pieces": 244,
+  "russia_reference_pieces": 67,
+  "closed_vector_master_files_verified": 769,
+  "files": {
+    "README.md": {
+      "bytes": 3592,
+      "sha256": "716abcf84466109d47b26d3fdf48366c1f8a3c1b278a00cc5f49a62ac382660c",
+      "archive": "both"
+    },
+    "SVG-по-регионам/AFG/Слой-01.svg": {
+      "bytes": 13061,
+      "sha256": "bb3f6aa5d375aedda5112ec34b80a1c37099ed5aaa8349a5bac4810c8c685873",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AFG/Слой-02.svg": {
+      "bytes": 13061,
+      "sha256": "8b287556069e7def15810af03fc9a74a6a4b8a2bd056275b902b9c8878e3cb6a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AFG/Слой-03.svg": {
+      "bytes": 11461,
+      "sha256": "d0338c34bb78be9c7afc8a40e446340a082868b6e961e66c52f14e0f4f29963e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AFG/Слой-04.svg": {
+      "bytes": 6586,
+      "sha256": "42e4188de5f9546c57e4829bf170bbe45709f857251d3941117b1110b94a57a8",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AFG/Слой-05.svg": {
+      "bytes": 5336,
+      "sha256": "09a2ba413ebd368b9f325cde9f89758f490a20299f2d31e0a823eea90b53b48c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AFG/Слой-06.svg": {
+      "bytes": 2238,
+      "sha256": "0124b0fe934bc63cd7b9b163b11e6ab26b3c409f7942ea1c05d7f40b273b5916",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ALB/Слой-01.svg": {
+      "bytes": 2486,
+      "sha256": "777fa7ed4d0d2360befa6bf9b9119312671563528397b2d1597ead568966ceba",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ALB/Слой-02.svg": {
+      "bytes": 2686,
+      "sha256": "b087e6e15d4036485049bd6cfdead2c20adf54dd5599cca0631e5b1395fb4f6c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ALB/Слой-03.svg": {
+      "bytes": 2486,
+      "sha256": "519e5298168f76d116b6f0b535607263cf2f700882b1eaf45feb17d3db1a5678",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ALB/Слой-04.svg": {
+      "bytes": 2086,
+      "sha256": "b6ca722f8314c9ae3d387b1110162246b9b3983ed691efa3e92446b57f5be352",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ARE/Слой-01.svg": {
+      "bytes": 1761,
+      "sha256": "be381f38869e95009639ec6079fc3dde962cc6803e27de6c49ccf0749189d906",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ARE/Слой-02.svg": {
+      "bytes": 1686,
+      "sha256": "6e5d4b2aa28f64d070d40ef2de8f95ca9b260982802537cbd9ad76980bfc14b0",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ARM/Слой-01.svg": {
+      "bytes": 9790,
+      "sha256": "c7c98cb5ca7a7033f676eb00fd9d35d5ed4aa5fb010fb9d8fbc2fab2cd32c9d7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ARM/Слой-02.svg": {
+      "bytes": 10015,
+      "sha256": "c493d2f5e0916fd0c26789daec233c8618fc97503b2850f4640a5312ef3f8b15",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ARM/Слой-03.svg": {
+      "bytes": 10015,
+      "sha256": "08245a79ca5a8d7580747bab2b3a6a43116a9de9fc29c1711d10d2d129826c2b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ARM/Слой-04.svg": {
+      "bytes": 10015,
+      "sha256": "f38e2f244231f962c31a0040e4b527e8e1d209626caac3e82995d4e554eef702",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ARM/Слой-05.svg": {
+      "bytes": 6086,
+      "sha256": "b66b7009b82b06dd09ab84a358a28eb49c8d6558325fbd79bb38df17e5d6ccbf",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AUT/Слой-01.svg": {
+      "bytes": 18267,
+      "sha256": "5533c0740992f1aeaa432ff76811f54be24cbac22fd374ad99ddeed83c24bc07",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AUT/Слой-02.svg": {
+      "bytes": 18292,
+      "sha256": "bda5bac9fc7d9421c3d92a85c6d57907d8bbce9e064054e0684db6367dc27527",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AUT/Слой-03.svg": {
+      "bytes": 17542,
+      "sha256": "3132a95fa229d21f55c1ff1162d5e662018284c45870b7d933edd838154e1886",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AUT/Слой-04.svg": {
+      "bytes": 12592,
+      "sha256": "c7bd3d60f69691fca909bbd1828ec5e1ea91e11319bd8f7815e8baef3f6d2d5c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AUT/Слой-05.svg": {
+      "bytes": 4338,
+      "sha256": "fae861cfa12c72afdc07fc2429e0e0b4e0c6d9be879c4aa25bdae047fc43269e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AUT/Слой-06.svg": {
+      "bytes": 1561,
+      "sha256": "0fa6b0671b93c3d71fb65be7ec014c84c943d9d88bb35c030816a0a79efe70fc",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AZE/Слой-01.svg": {
+      "bytes": 15713,
+      "sha256": "7e0c8527e0a18aa8820c9619a5c1d40dc91a81a7260f8d8f4c318b7f9bc40941",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AZE/Слой-02.svg": {
+      "bytes": 17227,
+      "sha256": "c674373c2687515ee19eda6af07035ee15772133d46acebcefbcf5d19befefb6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AZE/Слой-03.svg": {
+      "bytes": 16179,
+      "sha256": "e0e03fe281735487b2acaa21446e0170cf9b88c377c01d9f012a68cda98b43e8",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AZE/Слой-04.svg": {
+      "bytes": 14675,
+      "sha256": "fd18b5f0811ba2cc998c2290c8d83cd6d8ff1072d7048fe0ae9d4da5bbd3fc2e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/AZE/Слой-05.svg": {
+      "bytes": 1461,
+      "sha256": "d9162f96a9ef6f7166277cbd33a3b433919c2f77a2b1de87a01adfebc03bea9c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BEL/Слой-01.svg": {
+      "bytes": 4636,
+      "sha256": "394c0731cc55140855d4c9a3707dd33245c20766386f7a20b9f9a46c6f924db9",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BEL/Слой-02.svg": {
+      "bytes": 3186,
+      "sha256": "ab228dfbe80229aa0ac827496f1ee8800955c57b5b398754c0540dbbced30f2c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BEL/Слой-03.svg": {
+      "bytes": 2411,
+      "sha256": "c90c8b34b2b0fe7a2d5a22990751565ee8d5db24d50d59e8c73453eacc11b24f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BGR/Слой-01.svg": {
+      "bytes": 8236,
+      "sha256": "ea67eea93a404fe31ce9e7c1945be04122e4a68a88d1be4817150f7a2a905d39",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BGR/Слой-02.svg": {
+      "bytes": 8261,
+      "sha256": "ff37e4cc00ff6048735c804c69052397f8e904aed223d7bf52a77fecb6d618e1",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BGR/Слой-03.svg": {
+      "bytes": 4211,
+      "sha256": "d2d7b2c14717062870448c8d0a2d1774357d9d28dae26029b5f9ff315dba67f7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BGR/Слой-04.svg": {
+      "bytes": 2086,
+      "sha256": "b02e89642149c3facd495778db0773f8460793e707fb33a862b135632793453e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BHR/Слой-01.svg": {
+      "bytes": 586,
+      "sha256": "dd5529371b8d601861ed66ca8e09c6301b4f13a789f5a4018ff639fba77f3e9f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BIH/Слой-01.svg": {
+      "bytes": 2011,
+      "sha256": "3b82661539ee12c7573a477d677df36aae21269eb19e366bbb68cfba590e0c99",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BIH/Слой-02.svg": {
+      "bytes": 2036,
+      "sha256": "b3f754132f997fb1fa475c7ed105949b0fa1358b2c3cb018d060085e08ebc44b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BIH/Слой-03.svg": {
+      "bytes": 1886,
+      "sha256": "2fde53a7f2f23c32f0186f4e634ebd448e7d080a03f9139a9bfd95839a6b6688",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BIH/Слой-04.svg": {
+      "bytes": 1586,
+      "sha256": "e5b4b206374bca69dd488187dfac134a451720c4f40eb4cdc1612cf74f0834ce",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BLR/Слой-01.svg": {
+      "bytes": 10082,
+      "sha256": "af8a436e925d09bbc3b81a0039ddd0d0dc4246281fd947c28c6bb22da9ce1a8c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BLR/Слой-02.svg": {
+      "bytes": 20015,
+      "sha256": "01f044063c3bb6529eaf01d0a87ec421cee70854d703e82c97621bdcc503a511",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BRN/Слой-01.svg": {
+      "bytes": 786,
+      "sha256": "a429ccc40ef0f15f6c52366c9c6998ad9c2c6c82a5ee97a3a581ee48e8fea7de",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BTN/Слой-01.svg": {
+      "bytes": 7436,
+      "sha256": "0d693fef75f9bf8cb06e591b5485509b6be5c7dd5369468ae8c55ed121456917",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BTN/Слой-02.svg": {
+      "bytes": 7886,
+      "sha256": "a88531398bcdf1689bcb7192c2d5da3328f750a3b7b8a769b7cc33b3504c9a78",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BTN/Слой-03.svg": {
+      "bytes": 7661,
+      "sha256": "1d4e5a16328fedfa0cebec774bd88c3f48fc9bb48c79ce8d49fea9f7b3272d91",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BTN/Слой-04.svg": {
+      "bytes": 4786,
+      "sha256": "b3439803d98fe6c034adf9eb7c4a903167125ab99bce51c3cd1e9bb44c30b461",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BTN/Слой-05.svg": {
+      "bytes": 4261,
+      "sha256": "8c94ad553d6d8ef43fd7be8c7862e30010942aa9daef30cbd54a0853947c13ea",
+      "archive": "core"
+    },
+    "SVG-по-регионам/BTN/Слой-06.svg": {
+      "bytes": 2011,
+      "sha256": "bf9d80ddcefc738dd9a041bde91b57db886dae7c0c082b3f79a992526dd90711",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CHE/Слой-01.svg": {
+      "bytes": 16813,
+      "sha256": "cd2230764f900c125e4d3771db73e464504a75902715d7bf6b9a3a742cbb7304",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CHE/Слой-02.svg": {
+      "bytes": 16813,
+      "sha256": "90c105606f6801320d8396a3064ecf6c07e80a76a76fc2ee2e31b426ea86c5cf",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CHE/Слой-03.svg": {
+      "bytes": 16813,
+      "sha256": "16c53a1ade58601073a9ef55e9d4763287926aa2639657c9e100008ee137be4f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CHE/Слой-04.svg": {
+      "bytes": 16838,
+      "sha256": "b6c26983cda50acd40be3535016d97dbc3ff45bee0d1cb122c452a441fdca3e7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CHE/Слой-05.svg": {
+      "bytes": 13038,
+      "sha256": "74383741f89cf3668a5654c606a77939c283a7b4a522a789b2e2387813b4c0d5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CHE/Слой-06.svg": {
+      "bytes": 10163,
+      "sha256": "952c45db80293be045bc7a2b69ee83b6403af4f5ccfeeac474a227ca4fc7d16c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_AH/Слой-01.svg": {
+      "bytes": 15740,
+      "sha256": "dd28ead1454270b89ca73a088b571ba9bc210e805e3e0a618862a27174028914",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_AH/Слой-02.svg": {
+      "bytes": 6415,
+      "sha256": "257d5e61067217650b1344fe87e6fdde9f4decb4ef32f26f53b757f493e075a4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_AH/Слой-03.svg": {
+      "bytes": 2838,
+      "sha256": "9a8f099cbd88ca79082f8dafc71bf2af53667c3632ab4a47c9d7790db22c7c72",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_AH/Слой-04.svg": {
+      "bytes": 3038,
+      "sha256": "a046d0004d48b48f643498f47f4218aa95dcb1dfb98206ba62982f124bd6cb09",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_AH/Слой-05.svg": {
+      "bytes": 938,
+      "sha256": "c711eebacc7f883469eea862f6d945dda54ff5ca6732e127e2979b406ca511e6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_BJ/Слой-01.svg": {
+      "bytes": 1763,
+      "sha256": "a2329c017d0c5325ad6704aaaba87d8ba8501f8c6d78a79a0c3cc06911bdb90a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_BJ/Слой-02.svg": {
+      "bytes": 1488,
+      "sha256": "df868993a2681013e3f4cd4e41058da8526ba3cb65f80582af7453f6c6805b08",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_BJ/Слой-03.svg": {
+      "bytes": 1063,
+      "sha256": "95dd6cdd9db21f3da2f0ddd8548b856c87d9e1f2670ede641fd4bd39f94727a4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_CQ/Слой-01.svg": {
+      "bytes": 20590,
+      "sha256": "c4f9610348fb8a21ff9bbcc19ba1d7370c780964252077903a1bcb6adeff4ffa",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_CQ/Слой-02.svg": {
+      "bytes": 20590,
+      "sha256": "62ed12918741948a0bc9453b7eb7145141001efc291c45a96cbca2c58cf60d5b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_CQ/Слой-03.svg": {
+      "bytes": 11415,
+      "sha256": "28a259a99515eebc3441bc13d1147923d514c405fe2fd2faf54d06837a4c242e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_FJ/Слой-01.svg": {
+      "bytes": 3388,
+      "sha256": "268122cab437230d5c86fa357440d8fac2a7b5c9c66a89d6a2e45e76d96bbef6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_FJ/Слой-02.svg": {
+      "bytes": 3213,
+      "sha256": "c3084b539fc32addc54e337f6b215433dfe9c93b8f3bca42c761bcc090f59dd4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_FJ/Слой-03.svg": {
+      "bytes": 2388,
+      "sha256": "145ed5f78f349d23dde3bf5cef81a695b6f441c1884d26f492e24af3da792dd2",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GD/Слой-01.svg": {
+      "bytes": 15190,
+      "sha256": "d4178c29b487e9c3563ac5394be7e5766f97861ccb725688c4ef82a0f1e741c6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GD/Слой-02.svg": {
+      "bytes": 8015,
+      "sha256": "1205e298b406626320f2fded901237d4ab58c8cbec2797a329386d309db04b68",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GD/Слой-03.svg": {
+      "bytes": 1438,
+      "sha256": "24b7217c15e2f30f702479f138c598731cc5141f1321b9c552920246c167190d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GS/Слой-01.svg": {
+      "bytes": 27992,
+      "sha256": "1797d802a863129d3f0cf8d4c22bee1e1d72997c089caf99904dd05d1590637f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GS/Слой-02.svg": {
+      "bytes": 27992,
+      "sha256": "fd79cc3ad7bf7a5e186d670b6cb5cc52a831f66aa256f36b1db00654c29a6ae3",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GS/Слой-03.svg": {
+      "bytes": 27992,
+      "sha256": "d90856573286a75c3c21909165e3a4eb5ecbab8d3cc390d4718d30b268d8a391",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GS/Слой-04.svg": {
+      "bytes": 25467,
+      "sha256": "e2e0b7ddc07e658fd87b1c0be09ab893fc3a22771424e2fe5ec54fa2a3e64e8d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GS/Слой-05.svg": {
+      "bytes": 2263,
+      "sha256": "337b61d9ada1f35b690891a985c737b3d88c2346b729e2b58a268705da569fd6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GX/Слой-01.svg": {
+      "bytes": 28540,
+      "sha256": "219c57cee76c2d692ae10486689d786279380a24786bf654b09776d02e904ffd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GX/Слой-02.svg": {
+      "bytes": 28215,
+      "sha256": "ac26a09fdd6ed931d5a27bc1d96ecde1e30a174413379daf1a3441d0ac39bffe",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GX/Слой-03.svg": {
+      "bytes": 11465,
+      "sha256": "a9e6325d0d46147787061e90514769badb9f431fba611317961e3bf16b905554",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GX/Слой-04.svg": {
+      "bytes": 938,
+      "sha256": "baf603fd74e6b275cf05b6ed73eab772bd1f9ba350ca16daf3955d129e94e9ee",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GZ/Слой-01.svg": {
+      "bytes": 6738,
+      "sha256": "1eab91da80a93d19942916b126181f5cee0ce96f7f4a744ddabbe43c4a788e25",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GZ/Слой-02.svg": {
+      "bytes": 6738,
+      "sha256": "8b42266fbbabb9829846953f287007de05d76f97c0c79fb96962f2f9b8b7a156",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GZ/Слой-03.svg": {
+      "bytes": 6613,
+      "sha256": "1524c5b42e17438cbd8739bfb934856fd6e1a3021f885f17a124fd4098dd8a1b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_GZ/Слой-04.svg": {
+      "bytes": 2138,
+      "sha256": "77799b836bfb389a329d01e8b25f4d4abbd4011101b87bcad86102d023133042",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HA/Слой-01.svg": {
+      "bytes": 26715,
+      "sha256": "2a36353d9ea5e337aa43abece45b4a4772d315aaff72a375464f010c5416a13f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HA/Слой-02.svg": {
+      "bytes": 14740,
+      "sha256": "5bde9a08845f0b0b5c162c9b9ab3d4d769989e231a5d7b4d146669d0b31f9f3f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HA/Слой-03.svg": {
+      "bytes": 7390,
+      "sha256": "472f5bfacda4788fe21c86754d36f14c202dc58aacc5004863b58bfed03a072f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HB/Слой-01.svg": {
+      "bytes": 25217,
+      "sha256": "179ff3c07d3f302b9da4fa78b9434b673771d257e451cc4e3ed905cab404d2a8",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HB/Слой-02.svg": {
+      "bytes": 12567,
+      "sha256": "2717ef3075c5b79d19d9745829dbd4e42c400ff38810bd3aa85afbcdaa2f7fc7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HB/Слой-03.svg": {
+      "bytes": 7090,
+      "sha256": "bc87a26d297b19c7577d857c207e0eb96d9fc14e7b018b8e3c2cc73f32283309",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HE/Слой-01.svg": {
+      "bytes": 7390,
+      "sha256": "76dca7bfe35f2f9c5b75a71af887bc96f37c3dc1aa41871670feb864c7c1c4b1",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HE/Слой-02.svg": {
+      "bytes": 5463,
+      "sha256": "672271a7e50f6274ec22c73ede85de7ff26ca764bc40edb7bbd65e47b0b934a3",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HE/Слой-03.svg": {
+      "bytes": 5163,
+      "sha256": "c49288ef65e3136879b02387c5339c5fa93300b3399091c9fb3c7217eaeae2b3",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HE/Слой-04.svg": {
+      "bytes": 1863,
+      "sha256": "ccbdeb3e59cc5bc613b3268ff589c6ce22c98aa4475d40500e55e26961326313",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HI/Слой-01.svg": {
+      "bytes": 3388,
+      "sha256": "ec69a00758469ffb2081f97d2d001e5deb722550e57e468e753edff29624bfe5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HI/Слой-02.svg": {
+      "bytes": 638,
+      "sha256": "01c34570436f52c3ee79533369c5fb08a8602e7d875709a593699fdec62231d9",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HK/Слой-01.svg": {
+      "bytes": 1265,
+      "sha256": "e5fc7525b1ffcb8c8c4f1c302e089a9a23d19f8439f7c78b642b1ea5d6154d5b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HL/Слой-01.svg": {
+      "bytes": 42163,
+      "sha256": "36e232d767e77234140f261d69e48ebb2d764363297cf83a7ff424a888775e77",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HL/Слой-02.svg": {
+      "bytes": 13082,
+      "sha256": "2c81749c5a79f38cb84d81dc4e30a64ab8bacb36f3f29cd823491963bcfc24e0",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HL/Слой-03.svg": {
+      "bytes": 2612,
+      "sha256": "2cce8e03ec9dfc9472cb09abfe0774850465103e73f5c28105841dd4c708c20b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HN/Слой-01.svg": {
+      "bytes": 7963,
+      "sha256": "bb8f006591ef6a2c5f6e0337ca9ec9d9d5b84136c015493b72ae4a8844896fb0",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HN/Слой-02.svg": {
+      "bytes": 6063,
+      "sha256": "527fd199bf70ec9f8a6ae7c7d42e999c60135c9658b8aa6e28a53cac114e7f3d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_HN/Слой-03.svg": {
+      "bytes": 5265,
+      "sha256": "6ded4bf9da23370c702cbdd119f428b9093b84ea1830e0132add2f22b0770f9c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_JL/Слой-01.svg": {
+      "bytes": 5815,
+      "sha256": "e3d939ea41caf4fb137dbcfabf02c383497dc002aecb8750f24a9d0e8c956d34",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_JL/Слой-02.svg": {
+      "bytes": 3065,
+      "sha256": "dc30740b2151f41147f36ed79508fba5747af7d747f551275e48a3f5f162c3ce",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_JL/Слой-03.svg": {
+      "bytes": 2240,
+      "sha256": "09ebb8d728bacfad8906479db54379bccc2fc07c3bfcb855aece031ed05363fa",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_JS/Слой-01.svg": {
+      "bytes": 9292,
+      "sha256": "b5d5add448320f98902b158d075fb075404decf66e209b3335288e4175b09fe5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_JX/Слой-01.svg": {
+      "bytes": 9938,
+      "sha256": "dfd7bdd9bdb9bc875e04480d2dc387e50cff31a697be578d1cecb60e49cf2aab",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_JX/Слой-02.svg": {
+      "bytes": 5288,
+      "sha256": "d988a62460ac1d6f7b606b44cf0177ba038a0a1352014db2d8e59422fbb6f508",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_JX/Слой-03.svg": {
+      "bytes": 1240,
+      "sha256": "c34ac0a2083037351b2880c1f438d489bf4eaead9b2dfc5cba483c2be65211d7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_LN/Слой-01.svg": {
+      "bytes": 4038,
+      "sha256": "b837d68e3746627515c004f07b26a584524fa5d44b8b6dc919fd42ec2a2bce47",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_LN/Слой-02.svg": {
+      "bytes": 3988,
+      "sha256": "572fa687278cbd69c74f996071fb83f443f68a6f7cbb51418e564db0e15e0edd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_LN/Слой-03.svg": {
+      "bytes": 2065,
+      "sha256": "dca2ea35bc8ac0f84bb62bc0df35be0373bcb290b50957f45bfd2a1c36a4a2b1",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_MO/Слой-01.svg": {
+      "bytes": 313,
+      "sha256": "2c96eb2174a7fdc1c5498e7db0af4bf8b918348db3728ee52dd07f7ce70a1fbd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_NM/Слой-01.svg": {
+      "bytes": 45710,
+      "sha256": "78cd3f7e4c16db66198ad4b23e4b506b713c654980c09b320743aab878970226",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_NM/Слой-02.svg": {
+      "bytes": 54136,
+      "sha256": "0d1b76402639463f7afb2f3d38bff1a1f9ed10ba541b16d38aaf4ceef46ee4bd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_NM/Слой-03.svg": {
+      "bytes": 52420,
+      "sha256": "ba8d4b2440b83a883a3274d0ff749e9db8bbd43303263a11a997fc7ebd9680c2",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_NM/Слой-04.svg": {
+      "bytes": 6923,
+      "sha256": "70c2abcc94de4e729d3bbfcce065359b6e1e6f17edfc00f73f8488a686cfa33d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_NX/Слой-01.svg": {
+      "bytes": 9965,
+      "sha256": "ffe25adc4fadc755e818b3726af79dbd9f141db675db3cdb7b92e1acc13ee296",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_NX/Слой-02.svg": {
+      "bytes": 9965,
+      "sha256": "3cb51a49f5681f47c1d62b22e68b9c02b45bd8af8fdc51cc124d103754728231",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_NX/Слой-03.svg": {
+      "bytes": 9965,
+      "sha256": "cbbe008941d25d8638c91e6b915c1230e13d27df923c967ad55235b4f47b3323",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_NX/Слой-04.svg": {
+      "bytes": 2163,
+      "sha256": "548392ac763aec3010a7d1a783cef137311d78b1fc74d845d8de9addda78e86f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_QH/Слой-01.svg": {
+      "bytes": 74617,
+      "sha256": "ddb7f5beb369cee9a67a36dc381c1c8526a6dfbf5997fc4d7a63eae3946f3e35",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_QH/Слой-02.svg": {
+      "bytes": 74617,
+      "sha256": "ce7888a31875468e1ae49654ed3b219f67566415b4504a7dbe8206cc975f81a8",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_QH/Слой-03.svg": {
+      "bytes": 74617,
+      "sha256": "35b486c2e4914694fe633b81329b603feab4e499278ef1a048d22e5dcda80d3a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_QH/Слой-04.svg": {
+      "bytes": 74592,
+      "sha256": "5a10d0261a18a45125e8e1b3189ae231b1f75d85619766f1d0adb004b61dbebd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_QH/Слой-05.svg": {
+      "bytes": 32690,
+      "sha256": "7823eaa80989bbd3665c522af69cdb1c067144433d450adf34ee166c9b8b5f25",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SC/Слой-01.svg": {
+      "bytes": 34919,
+      "sha256": "8745539e255844d0b4f956303b5bfd3da9b68d8819c1de9c16311ad945ef8215",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SC/Слой-02.svg": {
+      "bytes": 33265,
+      "sha256": "55c50ef2209633bc196465268205339c016ff0ef5fa2e3b7173844cc00bc04dc",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SC/Слой-03.svg": {
+      "bytes": 25940,
+      "sha256": "df33ad2a534f0f2df76de4b873ca79e5108ee4c38170da5282c8e11504e74c60",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SC/Слой-04.svg": {
+      "bytes": 16113,
+      "sha256": "b61e80c60869d2bd5aa686fda1a859aa6fcf2fb96222250018aa30175c294536",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SC/Слой-05.svg": {
+      "bytes": 4613,
+      "sha256": "7c69695635342c7223369aa8bfea58886936eac850044489a4524468f85f7888",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SD/Слой-01.svg": {
+      "bytes": 17440,
+      "sha256": "dad70116bc68e4ea7d232327f2fe9a9604f25942412e5620665a0e1777fdc2cf",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SH/Слой-01.svg": {
+      "bytes": 788,
+      "sha256": "8f77ccae17b8fcb66d50e1c7df0297d5816a914022b0a324d15231276e4264ed",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SN/Слой-01.svg": {
+      "bytes": 15713,
+      "sha256": "bfcc128b793b56e7d8a382284c7d704c3536b2c1d4b00af129c6f097d9b429ac",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SN/Слой-02.svg": {
+      "bytes": 15713,
+      "sha256": "9671de31356ab77da8f0bac6c656d36828c9588e64a28923d1ae0e62cc3abe7c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SN/Слой-03.svg": {
+      "bytes": 15688,
+      "sha256": "7ff7f204b5ba01d79edea8b65947ead133db1485a0658ccfa7d3b386dcd622fe",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SN/Слой-04.svg": {
+      "bytes": 9538,
+      "sha256": "6988b7613c01ba12903d8793a9eae3e4d8a2c0bd0e0534bb356a317c63350f9c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SX/Слой-01.svg": {
+      "bytes": 15163,
+      "sha256": "77cf9934a94c062d4cd791d57e156565f23e2cd36ff690665084a3a95676a276",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SX/Слой-02.svg": {
+      "bytes": 15163,
+      "sha256": "3217d276391fb8c702a8465f65522daca24c5b40123cb4cda4674f733133aa60",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SX/Слой-03.svg": {
+      "bytes": 15163,
+      "sha256": "dde77475bb5de16b5a22c1e4b6ca16d798b9dbeaa756604142ba8b34ed45f3b9",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_SX/Слой-04.svg": {
+      "bytes": 7363,
+      "sha256": "27639fae778eee8c09bb13ddb8328431972237e6f7657ac4a87a2b349cefc1ee",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_TJ/Слой-01.svg": {
+      "bytes": 1513,
+      "sha256": "06dee8f8b90a62f90c1ca619da9ae7aff448a67df88d0b8c3eb22d50c3d79e6c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XJ/Слой-01.svg": {
+      "bytes": 30315,
+      "sha256": "e7f54b0e312d56a23fbc40b4bed95212f13b96d683e8e4b6671caeec57605bc8",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XJ/Слой-02.svg": {
+      "bytes": 30315,
+      "sha256": "36ffcb87c7c965c76ae7aa57794a35f6cf0c6f7c8aaaf4e78fdb83ca0ff2ec6c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XJ/Слой-03.svg": {
+      "bytes": 31142,
+      "sha256": "502e782c12afde3bfc722409dd1967a93bd16285b5200952fe05c50e6636dccd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XJ/Слой-04.svg": {
+      "bytes": 23044,
+      "sha256": "e88657a609a08465f59febe7fc3ef07db9def0c823040e98972c8883881aa512",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XJ/Слой-05.svg": {
+      "bytes": 10390,
+      "sha256": "731a6052473e9a32902bbd15b59b0ab97c7bab4e4cc5f7d4a667a8ec0f0bd3ac",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XJ/Слой-06.svg": {
+      "bytes": 3594,
+      "sha256": "3c468cbdc228b2bd15e18c2813ea07598ad5416a351e9c7085553f5333a3afc5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XZ/Слой-01.svg": {
+      "bytes": 82367,
+      "sha256": "8b0e3beca1149c3f70cd5023c05255e2d8be3581eb1909ba8d8fb650090df4e5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XZ/Слой-02.svg": {
+      "bytes": 82367,
+      "sha256": "0074a4a6cce3bb681c66a41fb26229d3db4e4e9bf2396574108c055dd463a8db",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XZ/Слой-03.svg": {
+      "bytes": 82367,
+      "sha256": "a000d23a27dbc95a4fd17b4e30de35271e6ee5ee23c7d557f32b7969387a1e66",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XZ/Слой-04.svg": {
+      "bytes": 78142,
+      "sha256": "418642cf24c791c3d6b02e80ecaaefa71a84b4e3d383b9940bf9816b124fd7f6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XZ/Слой-05.svg": {
+      "bytes": 30638,
+      "sha256": "bdd16972e13996deb40adf77338eb48c939625b3666e891fbd03a73af4e53faf",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_XZ/Слой-06.svg": {
+      "bytes": 11217,
+      "sha256": "23de837aef3f8aa4850dd2f516b357019563360e3a9de099d655162ac9c21a1e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_YN/Слой-01.svg": {
+      "bytes": 64069,
+      "sha256": "359a8b4b07a9e7349a16429706b57babc471a917bd3d75a67116ac1b2a8a60df",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_YN/Слой-02.svg": {
+      "bytes": 64069,
+      "sha256": "ca881b0e6a4e1fda09ee1a22dd8e4da0ad703d34d4f4220c9010f67e05a80876",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_YN/Слой-03.svg": {
+      "bytes": 63694,
+      "sha256": "c8060e4b0ecccc5799af7535724e4a6c7511bee5d3ab3b8697fca71afb1f9f59",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_YN/Слой-04.svg": {
+      "bytes": 37421,
+      "sha256": "9c819fbfe396feffe8e01f838b1622f7b65926e90f7e4911d5ccdea897652029",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_ZJ/Слой-01.svg": {
+      "bytes": 3613,
+      "sha256": "0315f3efd5796d6b5ed1fe1df52ca23d93599254dd91c2542fe43b849fd96f89",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_ZJ/Слой-02.svg": {
+      "bytes": 2713,
+      "sha256": "c6dcdc538c6347e76db44b9616d4148e77dca92be1f767e6f9a7ff02974c58fa",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CN_ZJ/Слой-03.svg": {
+      "bytes": 1188,
+      "sha256": "791ffc530f917694d1e257dfb298c85efcdfcb7409bf365fa84f6ff5a0f9e1cc",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CYP/Слой-01.svg": {
+      "bytes": 1663,
+      "sha256": "33be6b6e0cb949930265376086eedf6513d6272906587c9f223ddb41f1115a94",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CYP/Слой-02.svg": {
+      "bytes": 1086,
+      "sha256": "ef9f1bbd6ee3cf539cbe8c7624beec202669a41095b689f74ede746be0115e1c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CYP/Слой-03.svg": {
+      "bytes": 436,
+      "sha256": "e3c0b1e1a745812c2ab038c4f0e814de971f9f435546b9309f37ad24c67bebbb",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CZE/Слой-01.svg": {
+      "bytes": 4211,
+      "sha256": "26b845951ef80d93e831528d0361c9ab61eca5e2f9f639d23119fe8d38fa3026",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CZE/Слой-02.svg": {
+      "bytes": 4211,
+      "sha256": "24ca9f2e8ed98e06a80950847fa1fb4c8006600f4a642296863a67292e6a1908",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CZE/Слой-03.svg": {
+      "bytes": 4211,
+      "sha256": "055c9e67ecb3f4db19a1c94b12735946c353116ee30332dca243c49b5ac0b0de",
+      "archive": "core"
+    },
+    "SVG-по-регионам/CZE/Слой-04.svg": {
+      "bytes": 3038,
+      "sha256": "85ffa1868f0b0307cfc0e320789d82a7d4c54f867fef47db15457db3e07da4a7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/DEU/Слой-01.svg": {
+      "bytes": 51212,
+      "sha256": "27b309dc875abd395f900faa657e950cabba790c8cfe234fbbd9c2bd4a71009a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/DEU/Слой-02.svg": {
+      "bytes": 45699,
+      "sha256": "53a0db560617c91964e4537ad2f516613845caa1046ffb3ba7b87dd6ac8cb069",
+      "archive": "core"
+    },
+    "SVG-по-регионам/DEU/Слой-03.svg": {
+      "bytes": 41888,
+      "sha256": "bbf75a90702e15a4b06587cd2b2660e851c821d8612970fa3c4c4ddc25f1a4f2",
+      "archive": "core"
+    },
+    "SVG-по-регионам/DEU/Слой-04.svg": {
+      "bytes": 20063,
+      "sha256": "8475f979c2ce71979afbfacc5dd35c3c7682a12ce2e68155aec66c50b0da2635",
+      "archive": "core"
+    },
+    "SVG-по-регионам/DEU/Слой-05.svg": {
+      "bytes": 1636,
+      "sha256": "1c0361e15cdc5ede957fa114d67e74ceef785ee5eeb7591eb2c7b02f1deae872",
+      "archive": "core"
+    },
+    "SVG-по-регионам/DNK/Слой-01.svg": {
+      "bytes": 7079,
+      "sha256": "c4c50593917ff329a354b82181500189dcb2e82149758d778785aabe8177d65d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ESP/Слой-01.svg": {
+      "bytes": 5013,
+      "sha256": "ce67c3eb9d757c11cabf1a0e570cd5d5e08edd05160d7c9c8a91ff5976ed25fc",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ESP/Слой-02.svg": {
+      "bytes": 5388,
+      "sha256": "41ed61730740873e1843af3ce99f39fd80812ffa261d82bf0dad5ada6a904548",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ESP/Слой-03.svg": {
+      "bytes": 4336,
+      "sha256": "26034ed251eeea9b7cdfeecbabf7e6eeaf0b6deefa0631583ab00fc6adc9b1ea",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ESP/Слой-04.svg": {
+      "bytes": 3436,
+      "sha256": "ea942aadfc8541e2eeff899d6bb4fab9b7a7070081a9e8679548b7bd92d49849",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ESP/Слой-05.svg": {
+      "bytes": 1813,
+      "sha256": "e6d04a74f301fe90b113abb9edc693d278cc20c82454209db31dd8a346a74e9d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/EST/Слой-01.svg": {
+      "bytes": 5711,
+      "sha256": "308447c8faf5cf23a9cfba35933a55a61db42e428caa5a0fc2bc7ed225c05fa7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/EST/Слой-02.svg": {
+      "bytes": 2587,
+      "sha256": "5c194c1d3ae4898412117ff6ab28c28a325225293eaa43b503c6cb645904bcd5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FIN/Слой-01.svg": {
+      "bytes": 24259,
+      "sha256": "2c2e9cb98d11e918bdc8108e76b618c5f7f33d899ca794d492bc099c99ae0c2b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FIN/Слой-02.svg": {
+      "bytes": 23885,
+      "sha256": "0cb8cc2b4db6bd65e0d2c7d6861068cfa2b8c971ab925dde99a7aea4520da988",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FIN/Слой-03.svg": {
+      "bytes": 9913,
+      "sha256": "5dccf35154390c58ffb9d4998c66f06071e5cd5412460f04ddb1a075ccd453d6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FIN/Слой-04.svg": {
+      "bytes": 763,
+      "sha256": "14b4cbd5e4dc9a2ecac41ac0435b4f4b060ea9707efbdee05eb42a347399d42a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FRA/Слой-01.svg": {
+      "bytes": 32040,
+      "sha256": "7eafd212696d515ed9a394c5d224eaf4355abc8e453e5e396ea32f8d42e7423e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FRA/Слой-02.svg": {
+      "bytes": 30815,
+      "sha256": "bc3ea039737c4ce0b952699c5b0a8a36b4d147264b8e39f6bd173b06e9188d25",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FRA/Слой-03.svg": {
+      "bytes": 26990,
+      "sha256": "1bc781171c736998943c85acf1d25408c4eb6a698ea4e72b07bad9d6f01c600a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FRA/Слой-04.svg": {
+      "bytes": 19690,
+      "sha256": "50b65833cd0115acf6ed47f06808c945801cf82579713ce6aef57bb02cded831",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FRA/Слой-05.svg": {
+      "bytes": 7265,
+      "sha256": "92bb7862ae0b6a28f84da11156e05404c4cf1741a4e591d2aa325e68b7133d2c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/FRA/Слой-06.svg": {
+      "bytes": 1711,
+      "sha256": "ffdb859b25ddf0ca4d10183b7f6822a600e55397e540c8ac789baa09730077d6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GBR/Слой-01.svg": {
+      "bytes": 33172,
+      "sha256": "74db00adef2fb90e475ab102f43481f55528d8b1da1ddb66b33007b4e70383a5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GBR/Слой-02.svg": {
+      "bytes": 20533,
+      "sha256": "a6807a8ec327f623f68b7fc12e8ca22325e7bda60413d49e7a7b5a48b68dbbad",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GBR/Слой-03.svg": {
+      "bytes": 6787,
+      "sha256": "dd4b98ae7482378fed3d8851111334f9e349d64d2dd041482be5b6942945b0c3",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GEO/Слой-01.svg": {
+      "bytes": 9538,
+      "sha256": "788410a51a8750ecda03754fae921a84bcb61d07b1014ddfa998b6a66e0c1edd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GEO/Слой-02.svg": {
+      "bytes": 12565,
+      "sha256": "592f8a019036ee44e6f475c72d4cf7eed80489076e9c07c17beb99f8087a08ed",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GEO/Слой-03.svg": {
+      "bytes": 10840,
+      "sha256": "96a3c561255778562a06c1136721f1d917782004f6983088b61440518cf77d1a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GEO/Слой-04.svg": {
+      "bytes": 9840,
+      "sha256": "66d35e9ff5a84071d4c7e9bcf271d79745571689f0be9021e88c957cbb31cbd2",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GEO/Слой-05.svg": {
+      "bytes": 2788,
+      "sha256": "99351e68fe096839c09c25453f3c7cd0394dbe58f34fcded154cae40664d2757",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GRC/Слой-01.svg": {
+      "bytes": 7363,
+      "sha256": "f1eba906949cc35307e1a03e88324cb8a93bf1308cab46a3385e4503c720c34b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GRC/Слой-02.svg": {
+      "bytes": 7063,
+      "sha256": "f3734d97e6bbd041530bb442914af7f564a46913877cbd8d0e5a78b03be7f929",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GRC/Слой-03.svg": {
+      "bytes": 4488,
+      "sha256": "52c168358941526aa86c4425573ff31c5430c96d0977d5ad996969064a02a738",
+      "archive": "core"
+    },
+    "SVG-по-регионам/GRC/Слой-04.svg": {
+      "bytes": 2513,
+      "sha256": "5403676399060c3eed3f170e53d7728d30b18f987a2eb5afefd25a6ec51595b5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/HRV/Слой-01.svg": {
+      "bytes": 6686,
+      "sha256": "6d8f960fc2b68cdb6217f6192e67da510c2f85bc1ba2264478154f81b7c45538",
+      "archive": "core"
+    },
+    "SVG-по-регионам/HRV/Слой-02.svg": {
+      "bytes": 6986,
+      "sha256": "085871cd883795ed08d898186d0f1d49d02137610b27e9eebafeecf0d40f92a1",
+      "archive": "core"
+    },
+    "SVG-по-регионам/HRV/Слой-03.svg": {
+      "bytes": 3911,
+      "sha256": "dbe581aa6e91a37563351f5b9448064e49fadb8494d7521c9ac2b111f5c10447",
+      "archive": "core"
+    },
+    "SVG-по-регионам/HRV/Слой-04.svg": {
+      "bytes": 1611,
+      "sha256": "e764b8d878edd09d861674e748cda2af337de451889e81149cbf530344acd166",
+      "archive": "core"
+    },
+    "SVG-по-регионам/HUN/Слой-01.svg": {
+      "bytes": 16015,
+      "sha256": "87479c165e1bf4280cef5e37eba71dd8e2462e13ae5d49da81b95c5212e84ccd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/HUN/Слой-02.svg": {
+      "bytes": 16015,
+      "sha256": "d014115b2cde8876d8b09da33e7bb21cc4be6dc03e12e5f1a967df599decfdf1",
+      "archive": "core"
+    },
+    "SVG-по-регионам/HUN/Слой-03.svg": {
+      "bytes": 3913,
+      "sha256": "3d14a8ee3a7db625029f4d3e0d5afa85bd8e07fe4b673a09c56f40ab87866d10",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IDN/Слой-01.svg": {
+      "bytes": 62553,
+      "sha256": "5e82fb43d684deb21ad1b02c0a8684ecf059f7f13817c428dfa3edacb3ea940b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IDN/Слой-02.svg": {
+      "bytes": 26837,
+      "sha256": "4ef9602287607c6c4ae31a4437ee995c42c3e087aa72637557b6843f1087965d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IDN/Слой-03.svg": {
+      "bytes": 8446,
+      "sha256": "6b537531c92eeeb82174612bf202c3630778ce137186e4ed28a4fd19457dd871",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IDN/Слой-04.svg": {
+      "bytes": 4792,
+      "sha256": "8879b7bd6120a7e640d259b51996ee321f129833f88a98e3296bfac0685f02d6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IDN/Слой-05.svg": {
+      "bytes": 3013,
+      "sha256": "880e3fcee5b02e5ec540af6ff3aa1b4c09256fc1591c0c612636da6a0e806328",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IND/Слой-01.svg": {
+      "bytes": 147596,
+      "sha256": "b84b122f420b8591e157eaaaa90c1cc63d9a84e145a09f15433cd2efccd64bd1",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IND/Слой-02.svg": {
+      "bytes": 66873,
+      "sha256": "62ebe87fb4c30b142901295542c8c25f13ea5a79976b9f256cff33ed354649e5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IND/Слой-03.svg": {
+      "bytes": 38000,
+      "sha256": "21ce08e3f1cbb9fb3f6342ff2fe6ed6a4521b6829b247e96632d39c40938f9e4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IND/Слой-04.svg": {
+      "bytes": 26096,
+      "sha256": "1cfaaa7e36554a50aba2b987e5f7a1f6d10ab871c5b3fc340654b180e66fcad0",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IND/Слой-05.svg": {
+      "bytes": 13298,
+      "sha256": "17108d30d6d1531460c325bae9e09e60f974bcaa7a615d9575e6b07f431a9acc",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IND/Слой-06.svg": {
+      "bytes": 2365,
+      "sha256": "0e39c1ce38fbb76fb518ac2ba37cc37275577ad43c15f0dc820fb3cdaf5aed84",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRL/Слой-01.svg": {
+      "bytes": 14111,
+      "sha256": "21069aa00a0f80d81f9e984958684872d3d9f96509c3a91b734e8c1673add258",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRL/Слой-02.svg": {
+      "bytes": 6184,
+      "sha256": "a9e872ad2e81e90a829af409e55051f5b70b392e6f2a2fe3b1c6f131c28df926",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRN/Слой-01.svg": {
+      "bytes": 14715,
+      "sha256": "a73210f3b11044add2cd17307cac6721029042a53728847362637412df4e7b1c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRN/Слой-02.svg": {
+      "bytes": 13290,
+      "sha256": "b812e8976a892c13aa0286735454447a2209c7e3c7e2df50273d4d7d1212e4f4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRN/Слой-03.svg": {
+      "bytes": 12615,
+      "sha256": "81e2e04fdd465a895f476f747f97a413eba9c8c331f50e94c31cc85a9724f128",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRN/Слой-04.svg": {
+      "bytes": 12417,
+      "sha256": "caf19dbe0ecff16573cb37a5e43435e2bee2a16352d8d9e81e3ef5b85662db7c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRN/Слой-05.svg": {
+      "bytes": 6088,
+      "sha256": "3b7ed159152a6f64c8321557a0b1d8be83067c7cfe5ce9b9b49d36cc6f22b8ba",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRN/Слой-06.svg": {
+      "bytes": 1611,
+      "sha256": "4e352b1706ff2afff902d4679a6651617db7cf76e6bdfea7d0e3d02e6a98bdcf",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRQ/Слой-01.svg": {
+      "bytes": 72490,
+      "sha256": "51133bbacf68f39c8875a9f1e52c96656c5ada3966b5a7d08e6daba2fd75a764",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRQ/Слой-02.svg": {
+      "bytes": 32015,
+      "sha256": "c98972dd9a971ec295569b85c47ebf92dff7f184952727f366cf47f7f25ba51e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRQ/Слой-03.svg": {
+      "bytes": 15265,
+      "sha256": "505ef3120b6c57ae44dc0ab542d030a477e3f734c4ae1b0be147eee10acbc77a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/IRQ/Слой-04.svg": {
+      "bytes": 2738,
+      "sha256": "9aa6a792c492313657f1f68ed35e0098f11ef53496f11bdf9b4ab83a4ce651fd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ISL/Слой-01.svg": {
+      "bytes": 23851,
+      "sha256": "775d650147f5847b322fe66b9c7704f684015010ff4b65dca6fcb14a54bb00be",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ISL/Слой-02.svg": {
+      "bytes": 22027,
+      "sha256": "41a0fff20e232febab9d98cbb8779a54ce35662cb6a2c35b72080e5659df7606",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ISL/Слой-03.svg": {
+      "bytes": 13363,
+      "sha256": "da8b99b859e23fabe0e7605380bfb9a85bba48aee74a913871c3089ec5c51fe9",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ISL/Слой-04.svg": {
+      "bytes": 2347,
+      "sha256": "44f9179a5c3e8a1dd1bf0ca2a42c56f3899424a5406553e0dbb24e1cbb9213f4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ISL/Слой-05.svg": {
+      "bytes": 2925,
+      "sha256": "a49c4475bedfe93b697eeb5fc204cd6e5da6950ae43265607a8362bfc9781233",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ISR/Слой-01.svg": {
+      "bytes": 2236,
+      "sha256": "2d7807dec9578e3281fbe063767f17ec458976c604e546c690809c346dc5ac66",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ISR/Слой-02.svg": {
+      "bytes": 2311,
+      "sha256": "83f374bc400150f319e0e6df367b3d504d836801d87734a2e601f1b5a728fb86",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ISR/Слой-03.svg": {
+      "bytes": 2163,
+      "sha256": "597bc4dcb5476b2be10cf777b0eb65a79ca8b8b8622c80f44cfbe09158e0c970",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ITA/Слой-01.svg": {
+      "bytes": 33546,
+      "sha256": "c3159a2182d02b84a1b2d7c53c1cedb3f8d3b284cc510fe3de7fcc18bc169e50",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ITA/Слой-02.svg": {
+      "bytes": 29971,
+      "sha256": "2b0f89a527914daeb2ea283f1fa12d3e7cfab9617f553b0e68286b08ffd619c5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ITA/Слой-03.svg": {
+      "bytes": 24444,
+      "sha256": "521792e573061eca592b58644c1c66b8e15687f4fa8971d2cdb0c69b4551b3e7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ITA/Слой-04.svg": {
+      "bytes": 12444,
+      "sha256": "e8ae573778123cdb6a044fb8505d4b70e2d1a1938ef325ea6f37644c023c96b6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ITA/Слой-05.svg": {
+      "bytes": 8694,
+      "sha256": "59420d6bc45bd2b9ca855e800ca0d6ef6b88b2717cf5bada5435c05ef68c5601",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ITA/Слой-06.svg": {
+      "bytes": 5315,
+      "sha256": "cc17371393c1963ad5027077f486c422d2f5172b5ccbff42982c8bc3c5ea1a67",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JOR/Слой-01.svg": {
+      "bytes": 1886,
+      "sha256": "f373a82ca0fb9fe33f9eeebaa53e45ea1f7e73c323103ca02fd55c0f1868e53a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JOR/Слой-02.svg": {
+      "bytes": 1886,
+      "sha256": "04d18db0e13a3b6194077b1ff2e5bd365aebcd1d5506e44c5b9bcdc9f1d74ffa",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JOR/Слой-03.svg": {
+      "bytes": 1886,
+      "sha256": "eaefb86ee4155e69863d00e0d9560512056b1bb4dd79ab1354ac6771f743edb1",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JOR/Слой-04.svg": {
+      "bytes": 936,
+      "sha256": "00c69e49ac62b65d1a40f563f20a1b505c778059dd3188126be28b1b9193f0b5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JPN/Слой-01.svg": {
+      "bytes": 28067,
+      "sha256": "403cd4218b5a39463abd3c183cf28cebec01c981f9931822e387f56833829b3a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JPN/Слой-02.svg": {
+      "bytes": 17542,
+      "sha256": "0d9fb5be31b57c649852c2ae4d25e4c528b374866f46b4b9b72b95bcc7a94bf4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JPN/Слой-03.svg": {
+      "bytes": 2565,
+      "sha256": "78b0f7a378e799fa8fe0684baa9502b10d267d72950a881f752d370b2d410f27",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JPN/Слой-04.svg": {
+      "bytes": 1861,
+      "sha256": "e925efcc4f3da58e2d9de642510da6eecdfaf2a5747b65f78f61053be8180532",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JPN/Слой-05.svg": {
+      "bytes": 1536,
+      "sha256": "58dad160eb9484ce885c313e2cf8dc277aa5e5012891ed818f4328f99719f34b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/JPN/Слой-06.svg": {
+      "bytes": 1611,
+      "sha256": "eabcf41f50f4c192640154ba5fff2603ebcf3259cc4371bd4720e1c1618081af",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KAZ/Слой-01.svg": {
+      "bytes": 158858,
+      "sha256": "fa7bd2b69a82747d81d2bb02e4fac4aece01330900843bea02927021c70e8e81",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KAZ/Слой-02.svg": {
+      "bytes": 141676,
+      "sha256": "d0685b1522399f2ece43c6365e5ecdca4bdd6b82a41693fcf032611eb86ae45d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KAZ/Слой-03.svg": {
+      "bytes": 52322,
+      "sha256": "d67c5bad92a885ee4b0aa9a352f9546de160f554c339b0eb518c22a2bfbd2874",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KAZ/Слой-04.svg": {
+      "bytes": 18021,
+      "sha256": "a1924cf9939ab99c3d52dcef86c6edd6dd88a64e45925ea956592526a8729864",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KAZ/Слой-05.svg": {
+      "bytes": 1690,
+      "sha256": "d95074594e9543b285ba0a733013dd75c5442e075254dbe244840dc2ac730568",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KAZ/Слой-06.svg": {
+      "bytes": 486,
+      "sha256": "526243c4d21da443c89ce82de71ad8ec4f3746ebdbaa78862319fc294d3c4dad",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KGZ/Слой-01.svg": {
+      "bytes": 8088,
+      "sha256": "c8e501dcf1ec69bc6a26c63ba4be370e8dc574b55ce587cc09fbe46ecbad12dc",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KGZ/Слой-02.svg": {
+      "bytes": 8088,
+      "sha256": "b327d12305572b0cd58facb970fa4b58ce06763d79e24c42f1b323bfb8cb506c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KGZ/Слой-03.svg": {
+      "bytes": 8088,
+      "sha256": "83b9f9c7f6fa075a7a37ea9be35a6145d5929bd7e4030a447a10460fde923477",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KGZ/Слой-04.svg": {
+      "bytes": 8063,
+      "sha256": "d9b536adabd0ad07b0f5156ffe7b7921cfd87f27791c5b72e7306f0a338b0f81",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KGZ/Слой-05.svg": {
+      "bytes": 5638,
+      "sha256": "a9641296e993b681caaba2070121af27dee5e0e219f3c61fa41a23d588e6dd36",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KGZ/Слой-06.svg": {
+      "bytes": 1713,
+      "sha256": "eb73e7d5473052ae3b04718887cb802d796c5e5302d84e64d25307fce97eea39",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KHM/Слой-01.svg": {
+      "bytes": 18088,
+      "sha256": "3f990d95368d2dc673b7fc83d40a8e39b1c1dfdde62d07b6e60e436e17381000",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KHM/Слой-02.svg": {
+      "bytes": 3038,
+      "sha256": "d28ca52155c0b4fc5602ca6b8796baf43d1ebe8defe0274c516e20d8caae214b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KOR/Слой-01.svg": {
+      "bytes": 1561,
+      "sha256": "4a9bd985b26aa65f76dfeed08d4aad8b73771ef1f7a0e8738b073d5c0be16617",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KOR/Слой-02.svg": {
+      "bytes": 1361,
+      "sha256": "1bb6516cb2d83c35c21b597969143b4d8311e48a88b2c59db77e667fac871041",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KOS/Слой-01.svg": {
+      "bytes": 1686,
+      "sha256": "da38ab5d0a57d8b4490299d00cde3e7b6487a4c46e53251aa90a67132cf3fa61",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KOS/Слой-02.svg": {
+      "bytes": 1686,
+      "sha256": "9a7bffa3b535f860aeebd51b9e92e0c8cb0a10de992262f02bd70a868f148d9b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KOS/Слой-03.svg": {
+      "bytes": 1686,
+      "sha256": "73b1d53423da0e3aa149a7d2f3e048a2181da90233ab572c2ba03ef119577200",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KOS/Слой-04.svg": {
+      "bytes": 1686,
+      "sha256": "5e04dcb2551dcff5bdfb034b597c9cc145621d86511bcbd838c22cdd0a0e02ee",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KWT/Слой-01.svg": {
+      "bytes": 2511,
+      "sha256": "a66337bd680fb7393fa0289111c05a168b11030d1c7aaafeacc19fefe41a0a2a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/KWT/Слой-02.svg": {
+      "bytes": 1211,
+      "sha256": "6208c2d35c30cd06cb0917fc2676521db4f859aed2877635eb0db86794698dc7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LAO/Слой-01.svg": {
+      "bytes": 34365,
+      "sha256": "e106305d4c95e977ba5d4865e66d5859452845d5124ad9e2294bacaf7a378634",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LAO/Слой-02.svg": {
+      "bytes": 34365,
+      "sha256": "794f9e61337da247fbfa6692b9afa0b565eb0c390d92bf9fb549e49efa80d0a4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LAO/Слой-03.svg": {
+      "bytes": 16890,
+      "sha256": "ccd672f12fa9787fec04104acf7f06a3a04b8a3cd9d4fbc901100bdbef1c7df2",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LAO/Слой-04.svg": {
+      "bytes": 3161,
+      "sha256": "0cded1ecdce98c23fb9caa97f5140df6ba886b217a40152999acbe3556eafb3f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LBN/Слой-01.svg": {
+      "bytes": 1211,
+      "sha256": "74060f74237b55b9c1fa8f0f292eace072cc2904786d921cd55d61c39eda4cca",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LBN/Слой-02.svg": {
+      "bytes": 1261,
+      "sha256": "d3c24cfbbca1e56d5791612584be36fc7177076f81a8a4924f52dd7d2f2fca5a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LBN/Слой-03.svg": {
+      "bytes": 1211,
+      "sha256": "d8a36030689f404111e420c0cd0856011ec86d6ae561a15c90ac64d1515906e3",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LBN/Слой-04.svg": {
+      "bytes": 986,
+      "sha256": "ece4a80db287f3950ac94bbccea8fabbe1fe791f92820524f4c49a44ed5bf359",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LIE/Слой-01.svg": {
+      "bytes": 811,
+      "sha256": "311fb15699d8bef63e030018d092622ba34ee36cb1d20a9a2e751d116c050f9b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LKA/Слой-01.svg": {
+      "bytes": 3386,
+      "sha256": "251c0aec752d14100a8b2d4c29f32f39f8cd0520de925a793ca70d0520136640",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LKA/Слой-02.svg": {
+      "bytes": 661,
+      "sha256": "7856574f2955625b70b3d8db29e13ab908d6e8707ae8181a1543853e1ca1d708",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LKA/Слой-03.svg": {
+      "bytes": 461,
+      "sha256": "c163622c2fdb9dba6920015e5ec7dd7ae71207e9a643bf105ad76dd8230ea168",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LTU/Слой-01.svg": {
+      "bytes": 1627,
+      "sha256": "fc362cfb8a5b6bfa8c5febc3db9b4459f3e56b0fd6d1b4121eafc85698a4f385",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LTU/Слой-02.svg": {
+      "bytes": 1795,
+      "sha256": "41ac0318ac311675813716f7ae3d7174c048da6dfdd05fe9a7ff0b9c03d2ebfb",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LUX/Слой-01.svg": {
+      "bytes": 1211,
+      "sha256": "c81390156c1e8fbcdd1f9609d0e4447b0c1a285bb9f2f824b85f3354d16f4287",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LUX/Слой-02.svg": {
+      "bytes": 1211,
+      "sha256": "61f5aa9f085e5618a34241501996f2a4abc42eb78e91f95926a65f534e0dc277",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LUX/Слой-03.svg": {
+      "bytes": 1211,
+      "sha256": "b44f730a92f55589a607295a04cbd2573c36ffefced06ab23260a7ecd48b8229",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LVA/Слой-01.svg": {
+      "bytes": 3115,
+      "sha256": "5315f4244efbd6eec6e2a16d7d021103001bd8a263986860cc2f32aceb500bad",
+      "archive": "core"
+    },
+    "SVG-по-регионам/LVA/Слой-02.svg": {
+      "bytes": 6851,
+      "sha256": "5dd8a28b5d05b3052b632de3a69c90e87814e5d37439efccbeb3559c956c610e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MDA/Слой-01.svg": {
+      "bytes": 4011,
+      "sha256": "b23e5e29d7fad2c7457527f543bc6882b760091c44198db0ffbaf5ba971de3cd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MDA/Слой-02.svg": {
+      "bytes": 3986,
+      "sha256": "d1f8764ec81dd87072728fb470d244730f4e8ab72018a824c1bdccffe1b60bb9",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MDA/Слой-03.svg": {
+      "bytes": 1261,
+      "sha256": "3f699af80595c8c31071961d3c2a8eb8753ebb21a46243306665ab080efae0db",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MKD/Слой-01.svg": {
+      "bytes": 2661,
+      "sha256": "07669ba48273406e853a38d0a0d15deba98d523f3f610a5daa7ca16eaf3efe8d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MKD/Слой-02.svg": {
+      "bytes": 2661,
+      "sha256": "529bfc84ac20a91964e7bc9c168f92055ee1bdd5a3c769212345559d7b2a8eb1",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MKD/Слой-03.svg": {
+      "bytes": 2661,
+      "sha256": "f6c7e493134dc63206e9b3d4248d531b687237a93d50dfb9963d91e3bf43b307",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MKD/Слой-04.svg": {
+      "bytes": 2611,
+      "sha256": "185c4c90914f78f2e9c501c154ec29242e69523d9d9a51a392594f4c509e598d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MLT/Слой-01.svg": {
+      "bytes": 411,
+      "sha256": "6449c6df59e610acd5d6a47fa29f3637067950e1ecfd1daa5b37818ec72a63cc",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MMR/Слой-01.svg": {
+      "bytes": 66888,
+      "sha256": "36e01c4dfa513bd0dc8f0676f4ae2a6885fc308fd5ddc01678efa2bf5db26430",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MMR/Слой-02.svg": {
+      "bytes": 52338,
+      "sha256": "1381228360ab8939852111a94368b381ad79131035be4b0679a2b86b3e0df36e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MMR/Слой-03.svg": {
+      "bytes": 21061,
+      "sha256": "3e1e0856a04c135d897d09a078414c8f17a4d85dc88f3ae59095f3bf02dc65a0",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MMR/Слой-04.svg": {
+      "bytes": 5438,
+      "sha256": "ac0ee54dfbc887ad183dce99fc95106db03e1134f57959afe81e4abae97e8275",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MMR/Слой-05.svg": {
+      "bytes": 761,
+      "sha256": "81782b44b1b9a3afdde08c869e22d053fa1323b37bf8c2051e990e41a4baba3c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MNE/Слой-01.svg": {
+      "bytes": 1586,
+      "sha256": "1efd3bf9ab4bec468fc29a09174c36c587f5b0d38360bf77e45ab6db0836f47c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MNE/Слой-02.svg": {
+      "bytes": 1661,
+      "sha256": "87b9077677bb168d742f39065eb007793df6b4ecd66134d5d913547c08b4a1a2",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MNE/Слой-03.svg": {
+      "bytes": 1611,
+      "sha256": "a1809270b17f381374acfeb2a71ca6f2ee2edde9637e552aab2ba466f8b61e9a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MNE/Слой-04.svg": {
+      "bytes": 1486,
+      "sha256": "4fd74493365238aa399b34e1e276b0275e94d72cd698e046028c8365a2ddf24d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MNG/Слой-01.svg": {
+      "bytes": 23536,
+      "sha256": "6282fdcc2facb9614d6d330f283dba6bc1647b9b37e7c4edd217fc075cf58330",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MNG/Слой-02.svg": {
+      "bytes": 51419,
+      "sha256": "076659b5bd233dd036528fdf12dc72abad6ddee9ba3cc4d9c297bc783f0ead50",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MNG/Слой-03.svg": {
+      "bytes": 52309,
+      "sha256": "9c5e1e5e2e21323d967cb1ad54ff6115726a7fa35397f5ace5112074aac96a36",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MNG/Слой-04.svg": {
+      "bytes": 50847,
+      "sha256": "f6db8933c50300f6f054957cac05f739d7b8f6d4494c7909ed319e1c582d7ed2",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MNG/Слой-05.svg": {
+      "bytes": 10802,
+      "sha256": "562f04f4cb76494e1d2d45fb1e0cbf6de7d0266fa7e17d1c51ad06d88fb1cae0",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MYS/Слой-01.svg": {
+      "bytes": 10163,
+      "sha256": "aa55cc1ddc2b72a398ebe1a0c9478bfd784482c53e03242b731715bf6f52bb7c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MYS/Слой-02.svg": {
+      "bytes": 4286,
+      "sha256": "fd53ec0424217dbce48b1ef037d37d6720b651d94160ae1cfb34b21a74c4d7bd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/MYS/Слой-03.svg": {
+      "bytes": 2686,
+      "sha256": "34e5d05c91645d1751b8dd4786b598265c121ed3689970d9f36d69aa305384c7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NLD/Слой-01.svg": {
+      "bytes": 6482,
+      "sha256": "ff57877e4342574b24d8b2e3b8bba6967349ec2e0e5e5cb316797625e103c1c5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NLD/Слой-02.svg": {
+      "bytes": 1061,
+      "sha256": "053d7ef66b74309abc7cab43646a88217f187113a3f980c0dd5b58715a6c284c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NOR/Слой-01.svg": {
+      "bytes": 89081,
+      "sha256": "4658342f68746cbb2561e626b9b00ad17a794a19b5d5527d9a3da4c0b3a07dc6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NOR/Слой-02.svg": {
+      "bytes": 79639,
+      "sha256": "054ee3b8b1bdad95f5fc995c39ee3b8a7438598e793c4d5c1881e833a97a3faa",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NOR/Слой-03.svg": {
+      "bytes": 48695,
+      "sha256": "3e28537b8b3296579d3203bbc00230258bcb6b6167c242c0841945be26a12a48",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NOR/Слой-04.svg": {
+      "bytes": 15163,
+      "sha256": "0ab20490d4abddd5dd207b88de706e1c9ce6d6b81b2072c9c7a96627acf296c5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NOR/Слой-05.svg": {
+      "bytes": 5011,
+      "sha256": "acdd9fe0c96afb943fdf8cdca03d8f7ce972ac4c75f116c80dc60f4b38095d87",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NPL/Слой-01.svg": {
+      "bytes": 20586,
+      "sha256": "afb139840f9176c27f021b80ea52408d40c4565f0a85a186c24661236b2513f8",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NPL/Слой-02.svg": {
+      "bytes": 22136,
+      "sha256": "195a5045c0ce4c8a73c3699350dcb69b1b799840d2fead37562fd13250f89936",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NPL/Слой-03.svg": {
+      "bytes": 14861,
+      "sha256": "34a27371f2c3d3a76a2bee00ec6d94b199755fe704070946b6d7124f64ec519f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NPL/Слой-04.svg": {
+      "bytes": 14036,
+      "sha256": "19ad8a687361d0f2b138bc78fdbc31be7fcca13204a83f051b56559da8ef3f63",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NPL/Слой-05.svg": {
+      "bytes": 13236,
+      "sha256": "8897f71974b6dd2649e9fbe4b16d327c6bfa182eeb9dabb05230d7e314492f37",
+      "archive": "core"
+    },
+    "SVG-по-регионам/NPL/Слой-06.svg": {
+      "bytes": 8363,
+      "sha256": "77dcf8bb79e7fe7630e797ef4574c8d34c55830148542ddf73f0922ce7da2ada",
+      "archive": "core"
+    },
+    "SVG-по-регионам/OMN/Слой-01.svg": {
+      "bytes": 2761,
+      "sha256": "70bc80b3526df5a31de31129857e265350df05bed291aabeddcbbb0c8132ce26",
+      "archive": "core"
+    },
+    "SVG-по-регионам/OMN/Слой-02.svg": {
+      "bytes": 2911,
+      "sha256": "94843b5eaabc362e13ce6ad258d0b630bd113207bc6f6d2c6dd43f8528d8a68a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/OMN/Слой-03.svg": {
+      "bytes": 861,
+      "sha256": "9fefd208a322e0573624d82e6700049930a332f4af39f10fe02888769e28b30e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PAK/Слой-01.svg": {
+      "bytes": 76063,
+      "sha256": "0746aebbdd2b01337dee85da8c097d319097a10e9e3117b568a499796e17717d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PAK/Слой-02.svg": {
+      "bytes": 46440,
+      "sha256": "262b96d2001623e8cbc97b003e9c00fde0eb24af5685e87a7fa80d4352cdd54c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PAK/Слой-03.svg": {
+      "bytes": 25438,
+      "sha256": "704c183ea078971118e082d036af7efc81531f2673732d4a50032df482475e6f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PAK/Слой-04.svg": {
+      "bytes": 21742,
+      "sha256": "b384acad4bc58b72658f7e2b46d7f79b1e79645a2cc9010410132c03fa7fde7e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PAK/Слой-05.svg": {
+      "bytes": 5638,
+      "sha256": "face20c83b12328edb2123817c4772dafd17ddcec329294bd9923ad94a8f0653",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PAK/Слой-06.svg": {
+      "bytes": 2065,
+      "sha256": "d9b7605ed9f04d42afab4ebad357203b91a953df50fe67ed93d7bfdca8b5ca36",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PHL/Слой-01.svg": {
+      "bytes": 24556,
+      "sha256": "a2d97ac1b383369441b30c663daea71014fd14ba6e1aa85068ed31948dee9405",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PHL/Слой-02.svg": {
+      "bytes": 8094,
+      "sha256": "a1ae444dd7f6cac8e63cc7a74d0980b8a59a0fa86b53f7d06ec85f960f1b965c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PHL/Слой-03.svg": {
+      "bytes": 1013,
+      "sha256": "5863b4d6fd7f82522507fa9f2cbbc9a50013170f71389d32f3c68cced77e158d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/POL/Слой-01.svg": {
+      "bytes": 6191,
+      "sha256": "5668b946b26cc3f95e40b85eb4ff06e66eeaaaabddfd68249d1a26887ceb6c6a",
+      "archive": "core"
+    },
+    "SVG-по-регионам/POL/Слой-02.svg": {
+      "bytes": 5781,
+      "sha256": "d96a59ebf7378c374fc194d3ff566fabef4f8c70fc63aa7ca7670c9761667ff7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/POL/Слой-03.svg": {
+      "bytes": 4361,
+      "sha256": "23521dc29d5d629fc441c73f52ee589d67510c418bcb9f14db893c810f46ccfc",
+      "archive": "core"
+    },
+    "SVG-по-регионам/POL/Слой-04.svg": {
+      "bytes": 1588,
+      "sha256": "32b85cf39d94bd742070d8f30f4659ad0d9e2bc6ca78394134a51f3b494df438",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PRK/Слой-01.svg": {
+      "bytes": 5511,
+      "sha256": "86464af2eb7092f95beebf0f2742426e922d50356f680d0d98c39c162746b4b6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PRK/Слой-02.svg": {
+      "bytes": 4436,
+      "sha256": "10120fefe2f49e206f4aafb4e80a97d0c33f47793b9a305c8850f0aff39ea8e5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PRK/Слой-03.svg": {
+      "bytes": 2736,
+      "sha256": "e150dd72b39dc63e3c61327bd53b797958cce2988f6aa078ca4363e7acc8ffd2",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PRT/Слой-01.svg": {
+      "bytes": 1811,
+      "sha256": "a449a03e126b0f870e5741e6c20131289101616cb9852d76ccc6f21c94cc37c4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PRT/Слой-02.svg": {
+      "bytes": 1936,
+      "sha256": "5ab12373270b4def6f3358a278ca4d87d0ecf16d4ac8dd90b5bdb031aa695740",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PRT/Слой-03.svg": {
+      "bytes": 1936,
+      "sha256": "3886c406fbc08967a81925108ad701b9e5157174b576a41b608ae58663b04054",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PRT/Слой-04.svg": {
+      "bytes": 1111,
+      "sha256": "1b0c70b2e8291391dc12da3cee08cafd1b6bff7dce3e603cb8a58c9f66d7f13e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PSX/Слой-01.svg": {
+      "bytes": 1136,
+      "sha256": "1e3b7d84ec25affea2b8f6bcd8184b09a377a5724702df29f15494d2006f1e04",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PSX/Слой-02.svg": {
+      "bytes": 1136,
+      "sha256": "49c07c4c825feb439fca9cfd45f88e392d11a1bcb1aab0ce3506d77c30b3d34d",
+      "archive": "core"
+    },
+    "SVG-по-регионам/PSX/Слой-03.svg": {
+      "bytes": 1036,
+      "sha256": "33e2376bd07cbcb8f29bd76f7e98119b1efdae0eabaa396e97a85e7cc41736db",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ROU/Слой-01.svg": {
+      "bytes": 21392,
+      "sha256": "d0c934af3598eabcc299c9ba2758698c1263977ad985005411325b55693d5dd1",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ROU/Слой-02.svg": {
+      "bytes": 13413,
+      "sha256": "51b971f998e28264615519a47381c11df2ba4f69a8d0a319666ff4162fb37389",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ROU/Слой-03.svg": {
+      "bytes": 6563,
+      "sha256": "1b6ca1e53f09d5f15fca053547d8ef5303d00cd704e2136eafcb1d11cc35b842",
+      "archive": "core"
+    },
+    "SVG-по-регионам/ROU/Слой-04.svg": {
+      "bytes": 1561,
+      "sha256": "a007bb59ad97c527f03cdc531b25fa09b08021024dd81085ec1c000b06a487ee",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SAU/Слой-01.svg": {
+      "bytes": 4988,
+      "sha256": "bba1be2d55f22d49e2e58e41bc578666712207edc8141ddf05ce99cd9da3d637",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SAU/Слой-02.svg": {
+      "bytes": 4188,
+      "sha256": "f9dccfd00829a1cfa3526323c222dba07e8d5001b26d7b870526d5d4f0fc99e7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SAU/Слой-03.svg": {
+      "bytes": 3461,
+      "sha256": "8475940c41bba195ce7810c2dc11cf7a2e0c63bb1232f8f23177726af53fa294",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SAU/Слой-04.svg": {
+      "bytes": 3336,
+      "sha256": "4b254813d6cbe52adb0dda76d4b9e27a026979bdbcceecfd9d398af2d4143037",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SAU/Слой-05.svg": {
+      "bytes": 1011,
+      "sha256": "96d8cd708a38b862d0bbfde7ea94ea46a7a9e4392e9b9ebc841ebaf53c133e08",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SGP/Слой-01.svg": {
+      "bytes": 436,
+      "sha256": "9912282c9fd825b473397f23a63dc4dcd11ee54f2b6e113b49bd73b9bb5e602e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SMR/Слой-01.svg": {
+      "bytes": 361,
+      "sha256": "b8edb379b285e1981bad1c2b19d680b3d0830104a7ed35235a1f65ede995cd64",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SRB/Слой-01.svg": {
+      "bytes": 15388,
+      "sha256": "17dff7723202f79592168b7055a0989977d6b015e6c4e0a2b0764a9bb80da232",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SRB/Слой-02.svg": {
+      "bytes": 15388,
+      "sha256": "648ff8b1583ccbfdc3882a946739187f675f3be50bbf1a989c693732a3dc3859",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SRB/Слой-03.svg": {
+      "bytes": 5361,
+      "sha256": "5df5513a01a5d9a0469ce523d4a1f9e052ef4c62bf0072555b9524187749e93e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SRB/Слой-04.svg": {
+      "bytes": 2836,
+      "sha256": "e5799780659a4dd24de6ac3c4954675e4bbc25534f8abb3095311e13796c27dd",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SVK/Слой-01.svg": {
+      "bytes": 4736,
+      "sha256": "d82d7509db20b2300739ece8a3a475081f18e791c149c1dcfba323379f5a96b5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SVK/Слой-02.svg": {
+      "bytes": 4736,
+      "sha256": "0a499a9534efe3b103312c9cc93b7a20c2aabf441b46c010cc5fae634f375db7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SVK/Слой-03.svg": {
+      "bytes": 3411,
+      "sha256": "3169011a8ada1fcb7b114284909be8721560f68c3aa21a540b04bd64988cd4d4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SVK/Слой-04.svg": {
+      "bytes": 1236,
+      "sha256": "cfcffba24941f0dfcada94d898184ca26b574dd154d72d475d123c1dab08d81c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SVN/Слой-01.svg": {
+      "bytes": 3911,
+      "sha256": "ba42529005a938153fa77e7907a7ed084d9c26467b78c52db54cef261602cb16",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SVN/Слой-02.svg": {
+      "bytes": 3911,
+      "sha256": "1a54e0e9e302020b01e4baa25192325ab13629c22aaaf5fa7211ab98cc4e94ed",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SVN/Слой-03.svg": {
+      "bytes": 3911,
+      "sha256": "43580198f2c051eac764012db1050d3986fc2fa9c68985b6d061c42406774a95",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SVN/Слой-04.svg": {
+      "bytes": 2086,
+      "sha256": "addc387a812997e8fe1b7f864712d4cbbaa65ee07f01bb878147404101430ab7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SVN/Слой-05.svg": {
+      "bytes": 586,
+      "sha256": "a3be9bb3a795c5c958535af88a1b1d3f04031aa62a937cf5ddc909bbce73afbe",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SWE/Слой-01.svg": {
+      "bytes": 27935,
+      "sha256": "200c1fca4d6213e5477955e074b05c433a7fcb72ca775f3fabd0136cf23c1191",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SWE/Слой-02.svg": {
+      "bytes": 7171,
+      "sha256": "b4b6d5c404d51400de9c27c16c4ecbaf0d1dc45cbbf7a8154732419caad2631b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SWE/Слой-03.svg": {
+      "bytes": 4651,
+      "sha256": "eb52191e963f29df9ae07a41ac23c25457614474dd6287d9383f602a4a716e20",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SWE/Слой-04.svg": {
+      "bytes": 3283,
+      "sha256": "c7180d4347eba97e8eacaecc5699f328653e887ae0ebdf5c98b03bad72d86fd0",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SYR/Слой-01.svg": {
+      "bytes": 20413,
+      "sha256": "7485de4115afc210ef20bb17fa7951d343c42e64a8c42e63d1d8afc9753a18a7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SYR/Слой-02.svg": {
+      "bytes": 20463,
+      "sha256": "35f1d77dfcca229f3fa2867e8750cbef9209fa62831f85aea4e26702fdef6f7b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SYR/Слой-03.svg": {
+      "bytes": 20388,
+      "sha256": "1d36cb77efe95d9915f95da8c4a43f642a5b23816d85cb6d024b834cb4111eac",
+      "archive": "core"
+    },
+    "SVG-по-регионам/SYR/Слой-04.svg": {
+      "bytes": 1486,
+      "sha256": "92035dd7c040be230c72c610e5620e32af13eab34e23e93291404bc0d185f8e9",
+      "archive": "core"
+    },
+    "SVG-по-регионам/THA/Слой-01.svg": {
+      "bytes": 20811,
+      "sha256": "68521908902908d59aaf874f259c7f21bf735ce84ba84ed986ddf1035d61213f",
+      "archive": "core"
+    },
+    "SVG-по-регионам/THA/Слой-02.svg": {
+      "bytes": 18611,
+      "sha256": "997b370ae9731c1fe25ced7d109f9d3a3a3ef0a636916f696d66be8e7cef1171",
+      "archive": "core"
+    },
+    "SVG-по-регионам/THA/Слой-03.svg": {
+      "bytes": 5761,
+      "sha256": "7b3f7db7efb2849b7f7e2ba04b20d05301ee83e50a869c9c8bf4abdf72f19f2e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TJK/Слой-01.svg": {
+      "bytes": 12365,
+      "sha256": "b865346238d0902f252d2ab668a463885bc981515969c70581e6ccb493abea3e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TJK/Слой-02.svg": {
+      "bytes": 12365,
+      "sha256": "dae7c363b0977d4754338b76d6a13d2282a2ece1de91b077f022547d57a8e963",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TJK/Слой-03.svg": {
+      "bytes": 12365,
+      "sha256": "beede18466b70bffd469197459b9db44381481c8926564b4a5d3b5372bde127e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TJK/Слой-04.svg": {
+      "bytes": 6965,
+      "sha256": "d3d924403b9e3e48ac9625f43f10df28a6dd9dfe36c79f1a454d46f513cd0083",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TJK/Слой-05.svg": {
+      "bytes": 4161,
+      "sha256": "c6d1d936872a0269421e072c2ac8878a769223b47473829cd30aee46e08c4056",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TJK/Слой-06.svg": {
+      "bytes": 2211,
+      "sha256": "4faf104737ae1f86aa58180f837514685baf25c63e3a8ea0a63ba1d0ada240e9",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TKM/Слой-01.svg": {
+      "bytes": 20844,
+      "sha256": "2ec0d61dda27529eacbc30018858b6db4490b3f1d6e70bfea8ef1c6a26f534a4",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TKM/Слой-02.svg": {
+      "bytes": 18115,
+      "sha256": "6903d63ecaf105b3d100227fb3fea2c063cf38f4bb87885b2d629b5dae5f125c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TKM/Слой-03.svg": {
+      "bytes": 3515,
+      "sha256": "c7fc44ddf60769afe914cb9e941c16c5bd39d1345c29a1299d5cbe7773fc883e",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TKM/Слой-04.svg": {
+      "bytes": 911,
+      "sha256": "f3191c8fc685a93168f76c9352540bbf3a6eb0674d76e63a4d1aab395e331977",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TLS/Слой-01.svg": {
+      "bytes": 1336,
+      "sha256": "5e09473e6b5c559fdac06c235d81963dd4581e76f0f827e8c64a0205d2d0a0a2",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TLS/Слой-02.svg": {
+      "bytes": 1236,
+      "sha256": "94c7bc44b547201faa846e1e65c268ceefcc9855efbaee6f7e89490f82ed131c",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TLS/Слой-03.svg": {
+      "bytes": 411,
+      "sha256": "2283aa97a990f59b59d683ded03a1ad401d7effd632506c32e5f59d67fe3a7c0",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TUR/Слой-01.svg": {
+      "bytes": 47763,
+      "sha256": "cb955f9b25bc8243be012dbc7957c7523f492442fde306060e353e3f27724804",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TUR/Слой-02.svg": {
+      "bytes": 49113,
+      "sha256": "2c91df598148c6f88471fd8d8e2d72e27b81b7509373e0b6a403830cf06eb267",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TUR/Слой-03.svg": {
+      "bytes": 47390,
+      "sha256": "7a954354042ba968762aed3209be30036aba31f97ffa582f60be380140d700f3",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TUR/Слой-04.svg": {
+      "bytes": 34436,
+      "sha256": "0085564fded4a9d8cf50c38dff8e9c49c789c31b80a19e1e87632f429fc39c08",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TUR/Слой-05.svg": {
+      "bytes": 17511,
+      "sha256": "b05ff97b0b4e4dcb0188bd05c1d0b890223d4d3b11a5003a38c6b54a26973e64",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TUR/Слой-06.svg": {
+      "bytes": 1386,
+      "sha256": "51b5d6215c3103dc289ed7f566948db5d4de34fb5d6e32c9435c5bbeedbd612b",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TWN/Слой-01.svg": {
+      "bytes": 2136,
+      "sha256": "a58197220bf29b4c5452179edf0bdf82ce388ac1d9722005a6b78b75ea4f5e46",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TWN/Слой-02.svg": {
+      "bytes": 1286,
+      "sha256": "f3fbfa348e14cfd1f50323c41b6d8cdc7e6ba520d18bfa0260b4f911357a28f7",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TWN/Слой-03.svg": {
+      "bytes": 861,
+      "sha256": "d4db7f2741567bf2ea0565dcfb1f7bf364634e46103710953e0cfb112232f3db",
+      "archive": "core"
+    },
+    "SVG-по-регионам/TWN/Слой-04.svg": {
+      "bytes": 561,
+      "sha256": "2fd92480cd21f1dbe25b25a6649152ac742ea2b0ac9dd53923d3521abc17ccff",
+      "archive": "core"
+    },
+    "SVG-по-регионам/UKR/Слой-01.svg": {
+      "bytes": 21061,
+      "sha256": "a0016230713e0893fd677041c0ef05036dd88d376836f462f21cde6d762e6765",
+      "archive": "core"
+    },
+    "SVG-по-регионам/UKR/Слой-02.svg": {
+      "bytes": 30516,
+      "sha256": "5b26fb3b336cdd24919bb7cc4ec7f16f737eb5172dd0b0b8cb293a81465f69a8",
+      "archive": "core"
+    },
+    "SVG-по-регионам/UKR/Слой-03.svg": {
+      "bytes": 4236,
+      "sha256": "963fa5852e89f828c1e297f5eedb0677e684e72bde5c5174894c09ef918f2c65",
+      "archive": "core"
+    },
+    "SVG-по-регионам/UKR/Слой-04.svg": {
+      "bytes": 1286,
+      "sha256": "3576dc6b964f6570afe4da16ef53beeba2dc4d5bb89fb0be4be1d77883768c24",
+      "archive": "core"
+    },
+    "SVG-по-регионам/UZB/Слой-01.svg": {
+      "bytes": 36217,
+      "sha256": "d4bb78371134f4a4b4295c843f2134ea363edd7ec3cbd79e0b86b1ec846461de",
+      "archive": "core"
+    },
+    "SVG-по-регионам/UZB/Слой-02.svg": {
+      "bytes": 23442,
+      "sha256": "23b738eb08bd5ee19f91081ff1637ba3b2f00fa7b592ff2c01eaae319ab94ea6",
+      "archive": "core"
+    },
+    "SVG-по-регионам/UZB/Слой-03.svg": {
+      "bytes": 8513,
+      "sha256": "aed187baa11429d5df4f97960ec2edf4faed8c7ddd696d8df7a2f4abbe001f21",
+      "archive": "core"
+    },
+    "SVG-по-регионам/UZB/Слой-04.svg": {
+      "bytes": 4763,
+      "sha256": "eaf78d1d2c71d7ee5e32836deaba6a767fc8043651ac43bc1e9f49ccca40a0df",
+      "archive": "core"
+    },
+    "SVG-по-регионам/UZB/Слой-05.svg": {
+      "bytes": 1390,
+      "sha256": "dbcb10ceff239661bf20811ddd840256eb6ed6dbda8a333f051feb27b64d05b5",
+      "archive": "core"
+    },
+    "SVG-по-регионам/VAT/Слой-01.svg": {
+      "bytes": 311,
+      "sha256": "a21b546093066995877e58154e7a6aeec285999be804183d9c09a3521169ac18",
+      "archive": "core"
+    },
+    "SVG-по-регионам/VNM/Слой-01.svg": {
+      "bytes": 13115,
+      "sha256": "1c1b852235574cf8229424b668ceb86853e6b232e0b8adef83acd32368b197be",
+      "archive": "core"
+    },
+    "SVG-по-регионам/VNM/Слой-02.svg": {
+      "bytes": 8588,
+      "sha256": "f212eb383e523e5a5769b8a3268c778f85eab90b7576a4055a071fd7bcba7116",
+      "archive": "core"
+    },
+    "SVG-по-регионам/VNM/Слой-03.svg": {
+      "bytes": 5415,
+      "sha256": "94fe60868b247ac5f3e58163ebb3c5a4c3037ff174a00479e5b10542e9691bde",
+      "archive": "core"
+    },
+    "SVG-по-регионам/VNM/Слой-04.svg": {
+      "bytes": 2463,
+      "sha256": "6c9b58eba923f008ea64bffc73345fb98cd2284910f89ec1005ca57c8401d652",
+      "archive": "core"
+    },
+    "SVG-по-регионам/YEM/Слой-01.svg": {
+      "bytes": 2463,
+      "sha256": "eec92710b8453788377b84b0c32b27f752fc4e4e959aff84100f7677400ec135",
+      "archive": "core"
+    },
+    "SVG-по-регионам/YEM/Слой-02.svg": {
+      "bytes": 1811,
+      "sha256": "65b8d7075b5104097083f9b63cbbb064860f85e71bb914e9cba7716494126cd3",
+      "archive": "core"
+    },
+    "SVG-по-регионам/YEM/Слой-03.svg": {
+      "bytes": 4088,
+      "sha256": "5908d2c0934fc3f8d195a0e984207f4ce07e62456c32c059565b7b7fba586966",
+      "archive": "core"
+    },
+    "SVG-по-регионам/YEM/Слой-04.svg": {
+      "bytes": 2561,
+      "sha256": "f069772d0966a2cf830e6d1ab11646ad332587f1ee640fdcdc79183befb0a5ac",
+      "archive": "core"
+    },
+    "SVG-по-регионам/YEM/Слой-05.svg": {
+      "bytes": 836,
+      "sha256": "badfe078cd4503870ec76b51b1425d66499b8faa338c3512e0be6054157f2279",
+      "archive": "core"
+    },
+    "data/ETOPO10-LICENSE.txt": {
+      "bytes": 1070,
+      "sha256": "607ecc4e30d94fbd60f38eac926ba753e862c41c6745461b10c78cd8aedb7781",
+      "archive": "both"
+    },
+    "data/NotoSans-LICENSE.txt": {
+      "bytes": 5208,
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "archive": "both"
+    },
+    "data/NotoSans-Regular.ttf": {
+      "bytes": 512672,
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "archive": "generator"
+    },
+    "data/base.json": {
+      "bytes": 1093733,
+      "sha256": "66629bea88bdc0783feca537ee054f4474e4b3653cc0a9be74da6a94653a19a6",
+      "archive": "generator"
+    },
+    "data/config.json": {
+      "bytes": 1473,
+      "sha256": "26386d115db26ec3d223ac8e94daa14e17bb7b5b2f281148cc87778f397123fb",
+      "archive": "generator"
+    },
+    "data/country-colors.json": {
+      "bytes": 4094,
+      "sha256": "572c8bf20a44e794c8e2f7e647958d510dbbb12aba8e305e910ff96988539451",
+      "archive": "generator"
+    },
+    "data/dem-eurasia.npz": {
+      "bytes": 1214870,
+      "sha256": "b9bea286ae37410749bd1ff7b2f4bc7cd4f17461b0830becc8e982bf1e607384",
+      "archive": "generator"
+    },
+    "data/geographic-features.json": {
+      "bytes": 614862,
+      "sha256": "fe85df64d058d3a2ce741d3edb18a54d2662a00d3c9970d29619ae5c2c9fd44a",
+      "archive": "generator"
+    },
+    "data/political-boundary-restoration.json": {
+      "bytes": 114646,
+      "sha256": "e4b5f7fc822b330be4a75108a463af502133f7c27e3e4dffe5ed13b7297c185a",
+      "archive": "generator"
+    },
+    "data/political-sliver-cleanup.json": {
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "archive": "generator"
+    },
+    "data/protected-existing-files.json": {
+      "bytes": 10584,
+      "sha256": "dbdd6ef08a66e56fbef103990b0e83e39b31f47c2a0a4dd701cc3bd5b5e0b184",
+      "archive": "generator"
+    },
+    "data/regions.json": {
+      "bytes": 2069378,
+      "sha256": "b9e7d1adc706d270ed04f07cf44cc33c77d2cf87f4eebdde0d0ec7ba60904823",
+      "archive": "generator"
+    },
+    "data/registration.json": {
+      "bytes": 360,
+      "sha256": "2b30e2a789f876f90cd881d4575a6443026c14673bfea118f006af0903545dbe",
+      "archive": "generator"
+    },
+    "data/russia-mesh-reference.json": {
+      "bytes": 18746319,
+      "sha256": "8e593d0885a7da22a5a8dab3d5623728ea53e088552576687ec905f56421f294",
+      "archive": "generator"
+    },
+    "data/russia-reference.json": {
+      "bytes": 10317464,
+      "sha256": "b01f485341623b53592a1408ab97dd23b2bd60365b81f3e1be5989b6ee9bc39c",
+      "archive": "generator"
+    },
+    "data/russia-shared-seam.json": {
+      "bytes": 1163307,
+      "sha256": "c57e742a42539eeef9ddc70b915d1af17a04b54c9db8a966f8abe6602019a0bc",
+      "archive": "generator"
+    },
+    "data/source-assembly.json": {
+      "bytes": 2406725,
+      "sha256": "7fb3973eabeb4a49d23cad3aea50cad1644c53135293749d1c4c4a2be1519230",
+      "archive": "generator"
+    },
+    "data/source-repair-log.json": {
+      "bytes": 132756,
+      "sha256": "37b83472480a461948e8b273ac45c231149f9f04dfe43c63bc269ad26f8cea2d",
+      "archive": "generator"
+    },
+    "data/Исходник-CDR-справочно.svg": {
+      "bytes": 2689186,
+      "sha256": "eca4595f5c7b32715fa5d3e43879c8749c7c60b6b00d7e4406ba877043cd2df0",
+      "archive": "both"
+    },
+    "data/ТЗ-пользователя.md": {
+      "bytes": 30408,
+      "sha256": "dc7a19f85019560aeb209261ea0032b34c8a5c89578b979fcef6d5199397b438",
+      "archive": "both"
+    },
+    "geometry.json": {
+      "bytes": 20864939,
+      "sha256": "a1a9525a7ac0fdebb62796c4c26ae3666cf3e1a94039bd153fa41a1f758156e2",
+      "archive": "generator"
+    },
+    "labels.json": {
+      "bytes": 1905261,
+      "sha256": "064b68677ad81cc1c9e1d47502a8af287dd4f7bcd1c2d03ce799fd6627cc38c2",
+      "archive": "generator"
+    },
+    "model-relations.json": {
+      "bytes": 22603,
+      "sha256": "58d6df147365a0e972f896f7064d225ba05ca3b224a5bd6924163e64eda5fdc1",
+      "archive": "generator"
+    },
+    "requirements.txt": {
+      "bytes": 93,
+      "sha256": "63aea63b6d887ab9d38896225da85b3fe0debebdc48b95830626cb7559d67c66",
+      "archive": "both"
+    },
+    "tools/build_scene.py": {
+      "bytes": 16749,
+      "sha256": "f365afe1d49d83263b7cf18d17506cf502b6d7663b79406fecdcf763eee6fae4",
+      "archive": "generator"
+    },
+    "tools/common.py": {
+      "bytes": 2201,
+      "sha256": "d7d75df57de815f065a8979602cc10de0845f53ebd90bb0f030fa08846aefaf1",
+      "archive": "generator"
+    },
+    "tools/export_mesh.py": {
+      "bytes": 6714,
+      "sha256": "1ff6cc3e4fb9ab8621e444d0d74f3cb852d71acee4625494a38c52da10d593f3",
+      "archive": "generator"
+    },
+    "tools/finish_assets.py": {
+      "bytes": 6129,
+      "sha256": "6185ace9c226db22ecabd6b99d556cca63c3c4f9605d510e6ac23e873c849327",
+      "archive": "generator"
+    },
+    "tools/generate.py": {
+      "bytes": 18314,
+      "sha256": "a15723aba69e20eaa55356303e91a3940332ae9897dd906ae953866e402c84e6",
+      "archive": "generator"
+    },
+    "tools/landscape.py": {
+      "bytes": 6115,
+      "sha256": "676ef6aee88f322e849019fad4eb8d18b2d28995e6d0a2eb3e1bf13eec88ad69",
+      "archive": "generator"
+    },
+    "tools/make_labels.py": {
+      "bytes": 4222,
+      "sha256": "54ba949d88629648515933232d1e22ea4a13dfa0a69511085863a43f2f00eb7a",
+      "archive": "generator"
+    },
+    "tools/render_views.py": {
+      "bytes": 2075,
+      "sha256": "d28a27cc809584a9621b0f29f15fcfe1510bd7a87fe5aec57dc4a01faea515e0",
+      "archive": "generator"
+    },
+    "tools/repartition.py": {
+      "bytes": 2240,
+      "sha256": "a04ae39965d6eaf821a7d9f813e8a4dc9683c0da6b3405cdcc4047fd5e7ed7cf",
+      "archive": "generator"
+    },
+    "tools/swap_region.py": {
+      "bytes": 4178,
+      "sha256": "fd80b7acb99288823fc5b2bd8178b8fd34b6b925ad87ecc7f42361f14c976724",
+      "archive": "generator"
+    },
+    "tools/verify_geography.py": {
+      "bytes": 2582,
+      "sha256": "5c5d6072bdf60a327a4cc1095d7bde343c348570fcb83f123a4a4f65ffe49dcf",
+      "archive": "generator"
+    },
+    "tools/verify_scene.py": {
+      "bytes": 3625,
+      "sha256": "f4f0319c61c74495053f89980b26603cee401f8caf1d2532044b4fb260ed7c1b",
+      "archive": "generator"
+    },
+    "Аравия-Иран-3D.png": {
+      "bytes": 3223137,
+      "sha256": "9c6139d057288085545217263706bc27190e8599ed5c0a48a1668f364f91cd54",
+      "archive": "core"
+    },
+    "Восстановленные-малые-острова.json": {
+      "bytes": 686,
+      "sha256": "79bb3a8ace65b92cebce509e34661dc2118faa7465c72d01015a96f6e18191a0",
+      "archive": "core"
+    },
+    "Гималаи-Тибет-3D.png": {
+      "bytes": 3379969,
+      "sha256": "409551308bb006a10a065d0d4fe68fce0a30e3dfc23029f4d9407794bca3196b",
+      "archive": "core"
+    },
+    "Гравировка-уровень-01.svg": {
+      "bytes": 9296,
+      "sha256": "bc2cb899dc89f50315b111bd2753d7163fe5f1f83fd1ac5c44298ade3aa0cb01",
+      "archive": "core"
+    },
+    "Гравировка-уровень-02.svg": {
+      "bytes": 26006,
+      "sha256": "f0b720cb7a26984ce5622203f72f6fccfc3018060c88d35a90a5c996fc9ab248",
+      "archive": "core"
+    },
+    "Гравировка-уровень-03.svg": {
+      "bytes": 26785,
+      "sha256": "e0afdde27abdec362bb94c6956bd214b7b4c35747799d8e70a2fe562da341d69",
+      "archive": "core"
+    },
+    "Гравировка-уровень-04.svg": {
+      "bytes": 20740,
+      "sha256": "fd38609b89581fc38333c07bb6497ffa3c43923bf0d35d872e8ec8a18a95511d",
+      "archive": "core"
+    },
+    "Гравировка-уровень-05.svg": {
+      "bytes": 10507,
+      "sha256": "498c24953c96c04baf2274d6a7575363415b4eb933e6088feaf524ed224b0350",
+      "archive": "core"
+    },
+    "Гравировка-уровень-06.svg": {
+      "bytes": 6789,
+      "sha256": "6193a78ac625f442c8ce66e272d06099f8b4659ebb43c92fe0d3e0fc8d92214a",
+      "archive": "core"
+    },
+    "Детали-для-сборки.csv": {
+      "bytes": 97627,
+      "sha256": "9a84bdc254c3a6b585ad7e18d3b07e30d9d1770a24a4a8607aeaec0b2cd11d52",
+      "archive": "core"
+    },
+    "Дополнительное-укрупнение-стыков.json": {
+      "bytes": 298,
+      "sha256": "87c983e98460e72abd8b831a6d7cbbafb9abdce72444daceea1df156790327da",
+      "archive": "core"
+    },
+    "Евразия-Россия-рельеф-3D.png": {
+      "bytes": 6314525,
+      "sha256": "c140d088f4c8f5163608938d6f0987726ae01f5a184e5c9ac6e65f35984bb9a3",
+      "archive": "core"
+    },
+    "Евразия-политическая-3D.png": {
+      "bytes": 5921839,
+      "sha256": "44dc9cebcfa6f66d7113768ca938d9233ccafa44b7b35f4af394861791e573d6",
+      "archive": "core"
+    },
+    "Евразия-политическая-с-водой.blend": {
+      "bytes": 12796839,
+      "sha256": "b46272dc3f872e7d387426830b937e93a20a83a0a2bd28352193d721130cc5b2",
+      "archive": "core"
+    },
+    "Евразия-политическая-с-водой.svg": {
+      "bytes": 2220234,
+      "sha256": "a16912b67b5e4985b1a62c88930b5de6bc8192732e41b05a00c29b59bfd51825",
+      "archive": "core"
+    },
+    "Евразия-политическая.blend": {
+      "bytes": 8750847,
+      "sha256": "aa8faeb535ba7f67f02cb8552b593f26d5fa869fcca75d10de2ee87053e036eb",
+      "archive": "core"
+    },
+    "Евразия-политическая.png": {
+      "bytes": 397844,
+      "sha256": "3320d3af4a59ca7107794a86fc3f7f69f7df4e54aaca5e061438d634ac984cbc",
+      "archive": "core"
+    },
+    "Евразия-политическая.svg": {
+      "bytes": 1166582,
+      "sha256": "55e4481d98ec8a423bc09016d8c1f8b610468a67ad350103d921a39c8225ffe0",
+      "archive": "core"
+    },
+    "Евразия-рельеф-по-регионам.blend": {
+      "bytes": 28603705,
+      "sha256": "5baea47dca634ba040e1ef1539f1172cff3eafe1c17a3a8fa1982276d787abe8",
+      "archive": "core"
+    },
+    "Евразия-рельеф-цветной.png": {
+      "bytes": 985048,
+      "sha256": "d0d54f46e71766200d37ebb1b6cee04cbbb87bb7aebe56ae092b2c6cc0852fd9",
+      "archive": "core"
+    },
+    "Евразия-рельеф-цветной.svg": {
+      "bytes": 7085053,
+      "sha256": "15af492a33f5c8498b391d151f3368c58eccddcc668fb475d664aecc2c79f2c9",
+      "archive": "core"
+    },
+    "Европа-Альпы-3D.png": {
+      "bytes": 3285041,
+      "sha256": "394bc71e1d0f0b766f27317598a6f3e83bb1719da0c20d5e696f7447c6bd4153",
+      "archive": "core"
+    },
+    "Индонезия-3D.png": {
+      "bytes": 2932709,
+      "sha256": "7cad1a22db37dc7da4bdd19705f2ca24dbe77ab17f7d0d308dbdf9b9365781df",
+      "archive": "core"
+    },
+    "Исправление-точечных-касаний.json": {
+      "bytes": 4210,
+      "sha256": "aa1b81bb2d3cb74ef7c5c3142628273dd30d31f8a4bd3b2f7def1b9590779d49",
+      "archive": "core"
+    },
+    "Малые-политические-детали.json": {
+      "bytes": 522,
+      "sha256": "be4bd20304ab2bc1b79a92c020ca46336c2ed8f583a8e8f59c439bbeff07dfe2",
+      "archive": "core"
+    },
+    "Маски-покрытия/AFG.svg": {
+      "bytes": 8916,
+      "sha256": "5f623181e622a953eb3c38ef419cfe05bf7364713c40fb440157c07123a4572a",
+      "archive": "core"
+    },
+    "Маски-покрытия/ALB.svg": {
+      "bytes": 2666,
+      "sha256": "1f185c9785033f61ad474b12a1408f6b9f955e747121c958cf4076ac63161c6d",
+      "archive": "core"
+    },
+    "Маски-покрытия/ARE.svg": {
+      "bytes": 1766,
+      "sha256": "8a480f750c74ef57b70e59a39a1497093fbf50b0fd29c783e4cb1bf941da0b9b",
+      "archive": "core"
+    },
+    "Маски-покрытия/ARM.svg": {
+      "bytes": 9345,
+      "sha256": "39486766a7265cdf23e32fe15760371e90f24374eb074be188c775844e1fb368",
+      "archive": "core"
+    },
+    "Маски-покрытия/AUT.svg": {
+      "bytes": 8120,
+      "sha256": "4bb59246c98d229f4aafc1ddafc3e1bb38e19f04f5a36b03c5a487a486281c6d",
+      "archive": "core"
+    },
+    "Маски-покрытия/AZE.svg": {
+      "bytes": 16718,
+      "sha256": "06124a190bed76b68093d27a2dab0e5c1adc3615bcaebac9f837f8277308522c",
+      "archive": "core"
+    },
+    "Маски-покрытия/BEL.svg": {
+      "bytes": 5116,
+      "sha256": "efe8f701123952b08c2e63aff91ad161a79a55f21f0c8dce27c492743eae7222",
+      "archive": "core"
+    },
+    "Маски-покрытия/BGR.svg": {
+      "bytes": 4416,
+      "sha256": "87107577cdb8f2756261beff49da03ad412bd5a23d431a9373f713ef07418eea",
+      "archive": "core"
+    },
+    "Маски-покрытия/BHR.svg": {
+      "bytes": 591,
+      "sha256": "be911349b305996bcef495bfbebb7b384782472ededbbc6c8e40ac3d26a6c603",
+      "archive": "core"
+    },
+    "Маски-покрытия/BIH.svg": {
+      "bytes": 2016,
+      "sha256": "90fcf87d01de6f35954823aae2041f29e03d90ef40e061c9a7fabbdb6e3cecf7",
+      "archive": "core"
+    },
+    "Маски-покрытия/BLR.svg": {
+      "bytes": 15145,
+      "sha256": "67c2cdf6eecd8ce61643538d391da2d6521e5099463536f92d06d8b58a4fa93c",
+      "archive": "core"
+    },
+    "Маски-покрытия/BRN.svg": {
+      "bytes": 791,
+      "sha256": "f833f9f64381f8af1db50a6f745f91c8cbd78ace20d8bcc5e2eb6a71acd9943d",
+      "archive": "core"
+    },
+    "Маски-покрытия/BTN.svg": {
+      "bytes": 7616,
+      "sha256": "19324c2eebca7f3d2f15fb1043b60453429f6da45e90f16f25892cb2f9acecb4",
+      "archive": "core"
+    },
+    "Маски-покрытия/CHE.svg": {
+      "bytes": 6068,
+      "sha256": "f923964a16131b12c0eecac3f766357864ce2f689c313b431e803eac3adbcab4",
+      "archive": "core"
+    },
+    "Маски-покрытия/CHN.svg": {
+      "bytes": 83233,
+      "sha256": "b5e64f5cf0d6763f887790fb070377cf3b57c154f9dde0cbec244f6190309e90",
+      "archive": "core"
+    },
+    "Маски-покрытия/CYP.svg": {
+      "bytes": 1693,
+      "sha256": "a2167e410697a42990e484661f3a7ebc8d05768d815bd101500453e5e702c8a9",
+      "archive": "core"
+    },
+    "Маски-покрытия/CZE.svg": {
+      "bytes": 4666,
+      "sha256": "50edd8459ccf72577fe90eb6168e56ef855daf930262c18c5d849b59a5bee04f",
+      "archive": "core"
+    },
+    "Маски-покрытия/DEU.svg": {
+      "bytes": 12412,
+      "sha256": "fcdb4e536e840989e45ccde60cbbd59e42d51f14f6e8d2d54b5e737291cafc99",
+      "archive": "core"
+    },
+    "Маски-покрытия/DNK.svg": {
+      "bytes": 7686,
+      "sha256": "7ae49b2d61dea9f183460254730b05367de19188b1e7554812c28b7cc80da833",
+      "archive": "core"
+    },
+    "Маски-покрытия/ESP.svg": {
+      "bytes": 5043,
+      "sha256": "c2d40ad372017dab6a38d8dace81413a49aa46abaa62d9c5afde618cdb9479b1",
+      "archive": "core"
+    },
+    "Маски-покрытия/EST.svg": {
+      "bytes": 8072,
+      "sha256": "c121e178ea1fc35d3214503d7805108082b345d389fcc76b23af81e67b0fc3e9",
+      "archive": "core"
+    },
+    "Маски-покрытия/FIN.svg": {
+      "bytes": 33128,
+      "sha256": "75cfc3a27a084a3106c895784fb1c28ac64ea343329771fb8e5535e2f4109d2d",
+      "archive": "core"
+    },
+    "Маски-покрытия/FRA.svg": {
+      "bytes": 13768,
+      "sha256": "bfddfaa9099f50b3c694bbe9f91000d73be770fa15788c2b3f16174217dc8d57",
+      "archive": "core"
+    },
+    "Маски-покрытия/GBR.svg": {
+      "bytes": 33843,
+      "sha256": "ed3020b1b4383ab2ffbcc5c7915f4a223b38395c6e514fff4d8146ce1cac76f0",
+      "archive": "core"
+    },
+    "Маски-покрытия/GEO.svg": {
+      "bytes": 12368,
+      "sha256": "f0fefd84554711addffafd8e03ac527d5b2554818c494c4cbaa44fe882b175e1",
+      "archive": "core"
+    },
+    "Маски-покрытия/GRC.svg": {
+      "bytes": 7543,
+      "sha256": "2bbefcf1979eb0b090452293ee6ce945be8f221f4a2fb9099f4fc35f866c8454",
+      "archive": "core"
+    },
+    "Маски-покрытия/HRV.svg": {
+      "bytes": 5641,
+      "sha256": "05995e35a938e1e60cb096206316ee2864032c5209414dcff79cd744194631d8",
+      "archive": "core"
+    },
+    "Маски-покрытия/HUN.svg": {
+      "bytes": 6091,
+      "sha256": "1de439713015446b049c64e8d353ccbb82b01c5d43146ee8fbc0252357293464",
+      "archive": "core"
+    },
+    "Маски-покрытия/IDN.svg": {
+      "bytes": 63385,
+      "sha256": "0ba544e2cf63e96cdbfcd3d4fb272aab48db847164d060f5ecc0ce3baca41315",
+      "archive": "core"
+    },
+    "Маски-покрытия/IND.svg": {
+      "bytes": 36947,
+      "sha256": "d1f566fb6128f3b2e7504c6740986380c19c16bbee3f569cd7bf43338bd52e9e",
+      "archive": "core"
+    },
+    "Маски-покрытия/IRL.svg": {
+      "bytes": 14116,
+      "sha256": "0cf76893b55b557b4dee6911a721a99d5edbaeff4f91242d917b7c478bcbc8db",
+      "archive": "core"
+    },
+    "Маски-покрытия/IRN.svg": {
+      "bytes": 14245,
+      "sha256": "49f4bbd9796d0b13577925567087f07ea3b98e017dbf0b132e01ed40583cd1b9",
+      "archive": "core"
+    },
+    "Маски-покрытия/IRQ.svg": {
+      "bytes": 4616,
+      "sha256": "6ff23b5611ad8847f393a02641b7a95a4ef974ed5f0aaa2c134b64b50852c8b1",
+      "archive": "core"
+    },
+    "Маски-покрытия/ISL.svg": {
+      "bytes": 23856,
+      "sha256": "3dadd4686851a4e4de617c3ea38948331b94fe41b7c6dc45b106ba59b0d20a01",
+      "archive": "core"
+    },
+    "Маски-покрытия/ISR.svg": {
+      "bytes": 2116,
+      "sha256": "ee06626cc20d696e651feb07951e4546598110324b631e50e42060c0bb0259ae",
+      "archive": "core"
+    },
+    "Маски-покрытия/ITA.svg": {
+      "bytes": 13324,
+      "sha256": "1bee93546e8b20d7f74665262589b1b64f1b14f08190f817d86f31963229ffe9",
+      "archive": "core"
+    },
+    "Маски-покрытия/JOR.svg": {
+      "bytes": 1566,
+      "sha256": "a835c1c85eca6c3ddffaf152c95225875ae19aa762f5b937dcaeb16a6ccdc50c",
+      "archive": "core"
+    },
+    "Маски-покрытия/JPN.svg": {
+      "bytes": 28072,
+      "sha256": "083a8c804d8585f98a1c58800b454de63410ca1d9f849c021e403a245112113c",
+      "archive": "core"
+    },
+    "Маски-покрытия/KAZ.svg": {
+      "bytes": 62828,
+      "sha256": "81ee9342e23be9ac52436a0555d55f77ceab16838d23c8417bd1ebe1cb0650fe",
+      "archive": "core"
+    },
+    "Маски-покрытия/KGZ.svg": {
+      "bytes": 6241,
+      "sha256": "2fc3a0271486a36bd3d127cbc837f49db7e6d1c864753ba368e995e89426d65a",
+      "archive": "core"
+    },
+    "Маски-покрытия/KHM.svg": {
+      "bytes": 4516,
+      "sha256": "f8869bb52dd17c8c3cfd2c098d2bee37f1ae3fd0c28590804b5068e7ad3b59b5",
+      "archive": "core"
+    },
+    "Маски-покрытия/KOR.svg": {
+      "bytes": 1591,
+      "sha256": "4c534fe56bfd747b68e8bb8fd5cbcfd63ffb28241f41a0588ccaf91fe2258366",
+      "archive": "core"
+    },
+    "Маски-покрытия/KOS.svg": {
+      "bytes": 1691,
+      "sha256": "2529f1ba11fe9c2310680f9bcdbff45effba1d83610113b1773eec708aadb75c",
+      "archive": "core"
+    },
+    "Маски-покрытия/KWT.svg": {
+      "bytes": 3141,
+      "sha256": "06e18945de5a4ff915681e9229cbd770721e319c715db3d5c09aff54d7cce986",
+      "archive": "core"
+    },
+    "Маски-покрытия/LAO.svg": {
+      "bytes": 9566,
+      "sha256": "4b108f1ea8cf547f64649e10dbef39d12f77a1190d6327142c4d7d828843d1ff",
+      "archive": "core"
+    },
+    "Маски-покрытия/LBN.svg": {
+      "bytes": 1216,
+      "sha256": "2fc4bb0c7a52c5d65c36f60dcdfaa0c98c24dba5fe9cc625b7a77becae0ff733",
+      "archive": "core"
+    },
+    "Маски-покрытия/LIE.svg": {
+      "bytes": 416,
+      "sha256": "0266f0110a679714e34b6b5863f14f7fe9fcda9b063be395309d5c89b2564164",
+      "archive": "core"
+    },
+    "Маски-покрытия/LKA.svg": {
+      "bytes": 3391,
+      "sha256": "3602cbc4137f1ae85fcf1195f6d9b69ff5914599d89a2c8fd42dc1ea01732620",
+      "archive": "core"
+    },
+    "Маски-покрытия/LTU.svg": {
+      "bytes": 1680,
+      "sha256": "cec23aa5a3fe561d39073ccac0f8de7a1269f84d871bc8eae7668ef26af6062d",
+      "archive": "core"
+    },
+    "Маски-покрытия/LUX.svg": {
+      "bytes": 1291,
+      "sha256": "a4ef753760fb9377e0f7f5eb62e691e0fc641a53b1c86295591009c9db4164a2",
+      "archive": "core"
+    },
+    "Маски-покрытия/LVA.svg": {
+      "bytes": 5016,
+      "sha256": "eca3effaa036b5820bc4fe37ff7f56e8383500cda71c4f2caeaa629648a673f7",
+      "archive": "core"
+    },
+    "Маски-покрытия/MDA.svg": {
+      "bytes": 4116,
+      "sha256": "92c8ee459cee70b3e8d4e1f91522babd4ea3066ace820fd98b43670e7d553673",
+      "archive": "core"
+    },
+    "Маски-покрытия/MKD.svg": {
+      "bytes": 2666,
+      "sha256": "b72ca51a6c43a956a550eb3f12fdc898447b4b0be07c7dc80e2701c1ff21a747",
+      "archive": "core"
+    },
+    "Маски-покрытия/MLT.svg": {
+      "bytes": 416,
+      "sha256": "7c8b33599823bb2c1c0b108db16e4b853ee24dd1ede56aa5b719184964f2aced",
+      "archive": "core"
+    },
+    "Маски-покрытия/MMR.svg": {
+      "bytes": 11941,
+      "sha256": "1ef2d70c004311770b442a4ceb20ec5fdb3659b221e65023a556a2fff77a757b",
+      "archive": "core"
+    },
+    "Маски-покрытия/MNE.svg": {
+      "bytes": 1616,
+      "sha256": "46bac80a25699a7cde909a36bc65b8c22b7232f2ac8a17d779f3e9d215bd9615",
+      "archive": "core"
+    },
+    "Маски-покрытия/MNG.svg": {
+      "bytes": 36793,
+      "sha256": "6630accb808dc8c66649b3d890725ab9841d93381c1aec5cf75f08a1f804c8c7",
+      "archive": "core"
+    },
+    "Маски-покрытия/MYS.svg": {
+      "bytes": 10168,
+      "sha256": "3a49cc7c661641f871bdc4f1cd5ed6b3e894620b25738ab2736c44ce67ad8067",
+      "archive": "core"
+    },
+    "Маски-покрытия/NLD.svg": {
+      "bytes": 3410,
+      "sha256": "ff528085a354c87b2f929864c0f9c0ac9d0b78bb58e3af034a127a71805287ae",
+      "archive": "core"
+    },
+    "Маски-покрытия/NOR.svg": {
+      "bytes": 90388,
+      "sha256": "54524dc86dca55c8e00066ab04b257888dca3130235666af3927a2bd6d84cabc",
+      "archive": "core"
+    },
+    "Маски-покрытия/NPL.svg": {
+      "bytes": 20891,
+      "sha256": "94cfb4da4eb3d69d68c2cc78d81ffb627a2075560c987c60903005f6876c15f1",
+      "archive": "core"
+    },
+    "Маски-покрытия/OMN.svg": {
+      "bytes": 2766,
+      "sha256": "82447578b42079abe0c03e3cc25b961999f67b34c27fe074c7c5b5698246f132",
+      "archive": "core"
+    },
+    "Маски-покрытия/PAK.svg": {
+      "bytes": 9666,
+      "sha256": "892f4c5e7ed349671b28b5c1720e164f0184d8f16b809129bf4b71ece99acd15",
+      "archive": "core"
+    },
+    "Маски-покрытия/PHL.svg": {
+      "bytes": 24561,
+      "sha256": "918b7b09ac6d4edb33ac6284b4160f871c4efc84303dabbb76fae45c0be0b6b4",
+      "archive": "core"
+    },
+    "Маски-покрытия/POL.svg": {
+      "bytes": 7439,
+      "sha256": "2e9cacfcbd51f943a67868fe1fb62453a7334124502e499e3ceed385a96fcf98",
+      "archive": "core"
+    },
+    "Маски-покрытия/PRK.svg": {
+      "bytes": 5566,
+      "sha256": "4eba91956412eacb21db32a4dd07fd89ea1708a4ce157d4bee29581c9f1700da",
+      "archive": "core"
+    },
+    "Маски-покрытия/PRT.svg": {
+      "bytes": 1816,
+      "sha256": "b52b3710a00bdff94cb590f96f38138cff61c6f19d5af39b590df902185388e0",
+      "archive": "core"
+    },
+    "Маски-покрытия/PSX.svg": {
+      "bytes": 1066,
+      "sha256": "5087afc8ffba97a8acd6c904ba61241fd62329c5be5022c6df4cee8611515317",
+      "archive": "core"
+    },
+    "Маски-покрытия/ROU.svg": {
+      "bytes": 7545,
+      "sha256": "ccb08980935477e0741b6e25ade10cb62f649e1fe80eb780719dde01bf44952d",
+      "archive": "core"
+    },
+    "Маски-покрытия/SAU.svg": {
+      "bytes": 5518,
+      "sha256": "7abe7ec8316ccd6c0d85c7ce63930e28338c7cbd42c30f4d0e81e5709a469242",
+      "archive": "core"
+    },
+    "Маски-покрытия/SGP.svg": {
+      "bytes": 441,
+      "sha256": "4b694218c730e2d8da6ada53d5bb3a83e5a94d1cf53f0bd8b5bff4d2193c89ca",
+      "archive": "core"
+    },
+    "Маски-покрытия/SMR.svg": {
+      "bytes": 366,
+      "sha256": "f7b914d998c40cf8279aa752d20bc7be90be630929b87dc97d56e74b89059d2e",
+      "archive": "core"
+    },
+    "Маски-покрытия/SRB.svg": {
+      "bytes": 5091,
+      "sha256": "b78dc018a00d9d6992ae38b6ff3f92f3a5c61537ca4e2db1d76430ed5d4e7254",
+      "archive": "core"
+    },
+    "Маски-покрытия/SVK.svg": {
+      "bytes": 3091,
+      "sha256": "f0ccea140a34841a5009b281848574dcb8ed482a217399498e4e8d9b795d22f2",
+      "archive": "core"
+    },
+    "Маски-покрытия/SVN.svg": {
+      "bytes": 4391,
+      "sha256": "486a6a5d02422dd7befb7d349b6782cbd52ed5a15945e60801d4fc187aec03ea",
+      "archive": "core"
+    },
+    "Маски-покрытия/SWE.svg": {
+      "bytes": 27940,
+      "sha256": "08cd2555dd4ca3c39b80ed93418592f00c9b37b35e7e08ff4cd3a0215710f96a",
+      "archive": "core"
+    },
+    "Маски-покрытия/SYR.svg": {
+      "bytes": 2241,
+      "sha256": "2b5d6acb09643adc5c8597c0d74132b4daece32e9f7d411b6826041dd477a434",
+      "archive": "core"
+    },
+    "Маски-покрытия/THA.svg": {
+      "bytes": 10516,
+      "sha256": "7aa8910861094ee9289f8730f30e1f9a564673b4a5c36583c4efe821441fa623",
+      "archive": "core"
+    },
+    "Маски-покрытия/TJK.svg": {
+      "bytes": 7441,
+      "sha256": "a3ec75d4dc253fec153f25b1351a3f51698f771a422ed8511a479d88022db7b0",
+      "archive": "core"
+    },
+    "Маски-покрытия/TKM.svg": {
+      "bytes": 7849,
+      "sha256": "96af581e05b4f1ee33e1d5c257fae4062d2a4b86776694511108427e51087042",
+      "archive": "core"
+    },
+    "Маски-покрытия/TLS.svg": {
+      "bytes": 1341,
+      "sha256": "aa98b1bd496b7c1cb3c56f1076de1153d3e0a43ce760814f48527ca4939b4ed3",
+      "archive": "core"
+    },
+    "Маски-покрытия/TUR.svg": {
+      "bytes": 8291,
+      "sha256": "ea08ef6bdf5a129b8626d09bbdd1e99254ecd4b5d6b41cdc1634494cc2e8e1c6",
+      "archive": "core"
+    },
+    "Маски-покрытия/TWN.svg": {
+      "bytes": 2141,
+      "sha256": "35899d14acd7318d85894b1cf97a6f9de1381e0b487e4c8fbd3db8b462fe914e",
+      "archive": "core"
+    },
+    "Маски-покрытия/UKR.svg": {
+      "bytes": 45484,
+      "sha256": "63b434c79ff077078abf5d9f5b24fc6d4e9dff8882f92b0e009f930110a5330d",
+      "archive": "core"
+    },
+    "Маски-покрытия/UZB.svg": {
+      "bytes": 10395,
+      "sha256": "de225f8863245300e320d7bbe071187e225662b817b123796068b341a37ff204",
+      "archive": "core"
+    },
+    "Маски-покрытия/VAT.svg": {
+      "bytes": 316,
+      "sha256": "5dd5e85c9bdc810f578930676948a794b79e5fc45e6e42951c0167eadbad81d3",
+      "archive": "core"
+    },
+    "Маски-покрытия/VNM.svg": {
+      "bytes": 9793,
+      "sha256": "690a0c94d80b664a6516c838e0d4072f76f4bf88376202bcba1b8cdcfacf26ce",
+      "archive": "core"
+    },
+    "Маски-покрытия/YEM.svg": {
+      "bytes": 2518,
+      "sha256": "3d3556b199eaee5678bfb0e4d95183d7c03c7f8a02ddae86130e22abf6909fc7",
+      "archive": "core"
+    },
+    "Общий-рельеф-слой-01.svg": {
+      "bytes": 1723544,
+      "sha256": "3a245a62957ffd98c3d9935ba388c6434a9714eafc96dda30d8c0a97b3d04733",
+      "archive": "core"
+    },
+    "Общий-рельеф-слой-02.svg": {
+      "bytes": 1349210,
+      "sha256": "8d875a54511426b9fe503b9dd5cddea8dbfb1cf2265771d3920b424e65331aaa",
+      "archive": "core"
+    },
+    "Общий-рельеф-слой-03.svg": {
+      "bytes": 856959,
+      "sha256": "972d7b5859b908657559cd4488d2a0cf39550d4ec7a7c8b71977c9cbdebaf64b",
+      "archive": "core"
+    },
+    "Общий-рельеф-слой-04.svg": {
+      "bytes": 496632,
+      "sha256": "c64cb778c5963961b7ed6740ca8147ddd454a87177b865959b9eb64cc66fa1bd",
+      "archive": "core"
+    },
+    "Общий-рельеф-слой-05.svg": {
+      "bytes": 150651,
+      "sha256": "3b5d07ae22bdaba4014d80c7e24a14972ff191ce96b324020dd9910b9467cfbe",
+      "archive": "core"
+    },
+    "Общий-рельеф-слой-06.svg": {
+      "bytes": 32746,
+      "sha256": "a59764a3e61d4e3907e6664c5ddef16c18e75977dddc6c829e4d24846465ce25",
+      "archive": "core"
+    },
+    "Оптимизация-после-политического-разделения.json": {
+      "bytes": 41029,
+      "sha256": "e9d3a5657458d7d948c96ee55ccf7f34ebbd27898cd91184665eac72d1b4fd74",
+      "archive": "core"
+    },
+    "ПРОЧИТАТЬ.md": {
+      "bytes": 16586,
+      "sha256": "b93ecd2dd2d34bf9b00677df3ed649b66f976bdcb706a794b6e3d425914b1755",
+      "archive": "both"
+    },
+    "Подписи-стран-в-кривых.svg": {
+      "bytes": 1127334,
+      "sha256": "af0dc43df6d99b32fb891fa1aecd6e7ef8b98f6a5f8acccd90c84d5fed4d3658",
+      "archive": "core"
+    },
+    "Политические-SVG/AFG.svg": {
+      "bytes": 8682,
+      "sha256": "fbafb5bba7368a504e09251d97a5bba3f65d61402943058e40998bc5d0906957",
+      "archive": "core"
+    },
+    "Политические-SVG/ALB.svg": {
+      "bytes": 2482,
+      "sha256": "716354d2633942855a14771892f86bd751b578a1bdd2c15b0a9e4ec70cc5f606",
+      "archive": "core"
+    },
+    "Политические-SVG/ARE.svg": {
+      "bytes": 1757,
+      "sha256": "d8b575c1d76e75139819ee2b69a036c7a8f9ad606adfe77cc1618d98f4f40dce",
+      "archive": "core"
+    },
+    "Политические-SVG/ARM.svg": {
+      "bytes": 8836,
+      "sha256": "a259221dd3b42dc2f1737347186f95b51af3e71f8db11cf68b646b15dbb9296d",
+      "archive": "core"
+    },
+    "Политические-SVG/AUT.svg": {
+      "bytes": 7511,
+      "sha256": "cbdf853649266f75554b8c41c15576e96d283725603c792e3e8affaa1a85c1de",
+      "archive": "core"
+    },
+    "Политические-SVG/AZE.svg": {
+      "bytes": 14034,
+      "sha256": "bad4a47cf834907fe3ac4866a5eac1034b4b3410e4443985e6b4764128fe4b8c",
+      "archive": "core"
+    },
+    "Политические-SVG/BEL.svg": {
+      "bytes": 4632,
+      "sha256": "dc585afed0d0659cc5eacd4713df435ec540d8ee03df0842ee7eded08e53b62a",
+      "archive": "core"
+    },
+    "Политические-SVG/BGR.svg": {
+      "bytes": 4332,
+      "sha256": "d332f6bf30323bf085f08f4228285b3ded3a6d246663041ada1f290cb67bb2b2",
+      "archive": "core"
+    },
+    "Политические-SVG/BHR.svg": {
+      "bytes": 582,
+      "sha256": "18c854fbfacea47e0b5fee80f3f070f2c6e28e0a1794a25bcde9944801f9f216",
+      "archive": "core"
+    },
+    "Политические-SVG/BIH.svg": {
+      "bytes": 2007,
+      "sha256": "9e34b515f052e7750f3c8e6d7881054ad7ad3419000ac34d0d88f9d6ea37dbf0",
+      "archive": "core"
+    },
+    "Политические-SVG/BLR.svg": {
+      "bytes": 10006,
+      "sha256": "ea693915df742ac1992b16e5f6c78c0a797c4f1f80c57575a7cceeed8093c891",
+      "archive": "core"
+    },
+    "Политические-SVG/BRN.svg": {
+      "bytes": 782,
+      "sha256": "8ca318c031cc0d86bec5ac79c73de462b3a22fe159f8180acc634eaebd8fdb9b",
+      "archive": "core"
+    },
+    "Политические-SVG/BTN.svg": {
+      "bytes": 7232,
+      "sha256": "ebf3781d356f9fb48fbdf2d5518b482892c04ec10dbcda2a4ae5152458760199",
+      "archive": "core"
+    },
+    "Политические-SVG/CHE.svg": {
+      "bytes": 5509,
+      "sha256": "45c139a0be7bcbedf9c4077d9c88a515a904bc6a93e22765656e3d78f2a99d4d",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_AH.svg": {
+      "bytes": 5784,
+      "sha256": "cc579f681063bfbf02cf5368cb1e034d1d1f79c6493881f276ebe78fab76e275",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_BJ.svg": {
+      "bytes": 1759,
+      "sha256": "8c4f4e1f35abdf175ce56e13b1ee637e5757aee2acb6b6cbc2d347b1d69a5de9",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_CQ.svg": {
+      "bytes": 4459,
+      "sha256": "b0878661844c0bb3864b4d676e50277ecf8093c874f2b364bfb609b4fcfe727e",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_FJ.svg": {
+      "bytes": 3359,
+      "sha256": "93f5034cb242e1c6b71b61e5235df18e43ed447ca70924b8008b8246a3caf56e",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_GD.svg": {
+      "bytes": 4934,
+      "sha256": "ebd34b961283000d0d742ee964470df30fa9143ff3a3f2d324246fe576928617",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_GS.svg": {
+      "bytes": 11484,
+      "sha256": "1f7148411ada78ff537a45e26b5484598631002f832a0bd21d021d261a8e48b7",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_GX.svg": {
+      "bytes": 7209,
+      "sha256": "6cb42d1334f9e390fb320a14518c85f63c36ce1dd2a5c11b2a1bd727aecdf756",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_GZ.svg": {
+      "bytes": 6159,
+      "sha256": "f47954f596dae87c0a824991b90d54b3caea3d0df637e2027fd6f42563dc4b48",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_HA.svg": {
+      "bytes": 5484,
+      "sha256": "e0c0ddd525174a6e31e3af18e6c2aab35bf7010aa84ecd65abb0a0af7e64289f",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_HB.svg": {
+      "bytes": 6434,
+      "sha256": "2dc765755b1bf5053a85c3c16d1f50893967e923968b3222cb18352ad8be90ae",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_HE.svg": {
+      "bytes": 7386,
+      "sha256": "34207fa0ca51f7e2a05e79c268fb05fc66839e2ca475ca46e6470fd3a65843e0",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_HI.svg": {
+      "bytes": 3384,
+      "sha256": "00dd1d46a8b34b37fb57883e3cdebad2499a2571fd90bbd5272c7181ca06f906",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_HK.svg": {
+      "bytes": 1261,
+      "sha256": "8c4c498d947819f4fc2e2fe269aea5b83234ff90cc2baecbff52cf73bacafd49",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_HL.svg": {
+      "bytes": 17088,
+      "sha256": "bbe58487d1d1c8962bd3e3c9bb3f4b47bd7baac764972138be3fabfb83ebf4e9",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_HN.svg": {
+      "bytes": 6334,
+      "sha256": "6fc4b5dcf553d3ea25408850724d427d6480eefe1aa8b670c97698b49aafd382",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_JL.svg": {
+      "bytes": 7190,
+      "sha256": "20ba577991d5868577672222c72fb0f724870c3f9f7a73b64edfbfa0bdad9252",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_JS.svg": {
+      "bytes": 3959,
+      "sha256": "3e7177e66c25c376d3654523878d6c26300820e8ede651d27f11be11634048ee",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_JX.svg": {
+      "bytes": 5059,
+      "sha256": "aad7154dbf0742e3e44354e57ae80ffde71d5654378d3c4315407bfa711e0eab",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_LN.svg": {
+      "bytes": 4034,
+      "sha256": "5d6eb043a52989435375b45059de971e764bfb2fc49a2b898c63705d1888245c",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_MO.svg": {
+      "bytes": 461,
+      "sha256": "545427a3019f79438928c1e5ac964b4296be1996fb5b1e2cc857e7b9b0b84f5a",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_NM.svg": {
+      "bytes": 19899,
+      "sha256": "dc6336c9fea79bc81b99993b984f35ff3a4cb46db7b443216adf2ce2132a49db",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_NX.svg": {
+      "bytes": 2634,
+      "sha256": "9022d8f4bb6c39d8f5ecb16e0becea8dc7de15bd86ec31a7e78a7b17df939b0e",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_QH.svg": {
+      "bytes": 9459,
+      "sha256": "c6cc8f1e1e05fa775124bb68b191c54a6d2df8d1b203fb56b4bf80fc18736e42",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_SC.svg": {
+      "bytes": 10584,
+      "sha256": "8ce74ab0f98529cc629daf73078725e219f29754eea8370c62b63e5ad6a75ca7",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_SD.svg": {
+      "bytes": 3334,
+      "sha256": "3d24b1dd771b464891e3386aba121441f015cfe2e29f4fb9937984676f062891",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_SH.svg": {
+      "bytes": 784,
+      "sha256": "5a5e9d223305fa3fb78ea3d95d3ceffd7baaad914e7504c65fcac34f9d8489a1",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_SN.svg": {
+      "bytes": 6934,
+      "sha256": "bf3e072ab7cc4975fcfa12524be1048e79e180ac75afc144f0d14202b68a8acc",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_SX.svg": {
+      "bytes": 4559,
+      "sha256": "944e9f425c4f88b00ed3db330335a6663f97dab003499bbbdd85ad53b876b3af",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_TJ.svg": {
+      "bytes": 1509,
+      "sha256": "e80c040bbdf5e9cc0e742e2ab5de7422da70a9b672aed3df5db62e3d0deb73ae",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_XJ.svg": {
+      "bytes": 12509,
+      "sha256": "edd627b6315d052686dd5ead580e6d0eb6b43b7f2a212d08709157fc2cbd3e3b",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_XZ.svg": {
+      "bytes": 19984,
+      "sha256": "2633c3e1aef9030138eb4dd26829bdf32bb69e0ba8b933a1a9bc23cfed41f96d",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_YN.svg": {
+      "bytes": 11434,
+      "sha256": "2a80bec88ebe6a1b1ec14c19c2c9b3083492af01ef16e65a99134bceb5592d40",
+      "archive": "core"
+    },
+    "Политические-SVG/CN_ZJ.svg": {
+      "bytes": 3609,
+      "sha256": "be0e792b6b80b0dec7d95edc6366218c928924d01d43dcf7b69f78a784ec1870",
+      "archive": "core"
+    },
+    "Политические-SVG/CYP.svg": {
+      "bytes": 1659,
+      "sha256": "110983a9c60fb16e2531b493b62927dedf01f9f3ccf5dc55464a7aeb37e3da34",
+      "archive": "core"
+    },
+    "Политические-SVG/CZE.svg": {
+      "bytes": 4207,
+      "sha256": "f05cf4b183fc4d154036c8f019b4949b8041b8141f3eb593cb48621af88dbc0d",
+      "archive": "core"
+    },
+    "Политические-SVG/DEU.svg": {
+      "bytes": 11583,
+      "sha256": "7a87f422c6f95067b19b572afcf4d9da6d1ed9bdb061a103881fd02bfbb5a44a",
+      "archive": "core"
+    },
+    "Политические-SVG/DNK.svg": {
+      "bytes": 7677,
+      "sha256": "46af68744c159e5c3736237b41d6e9200efb7abe65605a9e9b3d283c394c8dd8",
+      "archive": "core"
+    },
+    "Политические-SVG/ESP.svg": {
+      "bytes": 5009,
+      "sha256": "8c9a894092c9d3f35f1ef1b6e9bb5c6f6a45adf9ac761119cba9e9e4f989248b",
+      "archive": "core"
+    },
+    "Политические-SVG/EST.svg": {
+      "bytes": 6311,
+      "sha256": "8841fdffd2a07d124cb4446c94f339bb89a86f08ed8d6dd011309a73dbf6cfe2",
+      "archive": "core"
+    },
+    "Политические-SVG/FIN.svg": {
+      "bytes": 26327,
+      "sha256": "a3380194e79ef3daaafb554b0c2becdf047dddf03852aa1018e5a433368bd5b6",
+      "archive": "core"
+    },
+    "Политические-SVG/FRA.svg": {
+      "bytes": 12234,
+      "sha256": "e778f7ddfd3a78aa7c89a5bad3ca0e82caf9a95dbd04cbfbba7d2332dbc8cbdd",
+      "archive": "core"
+    },
+    "Политические-SVG/GBR.svg": {
+      "bytes": 33834,
+      "sha256": "9605ac87e47b47f0fbc18cf90eedd8f644ec8f1bac82449e8978416345a59777",
+      "archive": "core"
+    },
+    "Политические-SVG/GEO.svg": {
+      "bytes": 9559,
+      "sha256": "d49681ace04617da1c71b0d70a3c01d0f2b5f9a32a722285c4b20d028392d516",
+      "archive": "core"
+    },
+    "Политические-SVG/GRC.svg": {
+      "bytes": 7359,
+      "sha256": "9bdd70a82a01d96df82b6394bfcdd965dd4487e5a43190536c689c3f218b8fee",
+      "archive": "core"
+    },
+    "Политические-SVG/HRV.svg": {
+      "bytes": 5007,
+      "sha256": "6e0177eada1fdb4ab75e17333eb75aed4dcb2541160ad4c7e8eb616698fd05ff",
+      "archive": "core"
+    },
+    "Политические-SVG/HUN.svg": {
+      "bytes": 5557,
+      "sha256": "d905e1b3d1fb6a257bf50d950a99e383eeec7511edaf01741694e5bee31da781",
+      "archive": "core"
+    },
+    "Политические-SVG/IDN.svg": {
+      "bytes": 63376,
+      "sha256": "dbaacdec0beb179cf70df84500f834eae2a50c2c809441ba81cf3d3bd603de31",
+      "archive": "core"
+    },
+    "Политические-SVG/IND.svg": {
+      "bytes": 34863,
+      "sha256": "0a1385532c2a2112a2e209f5b0784188231442b77a8e363fe8f7b478b19eff05",
+      "archive": "core"
+    },
+    "Политические-SVG/IRL.svg": {
+      "bytes": 14107,
+      "sha256": "07cfcd747107ee8cb2469060cf20deec8dc65470003cdf6a80772e064a959e7b",
+      "archive": "core"
+    },
+    "Политические-SVG/IRN.svg": {
+      "bytes": 13461,
+      "sha256": "e7763049f5601c4091921f158a72a05def9dab5556099dddd604176089cd7282",
+      "archive": "core"
+    },
+    "Политические-SVG/IRQ.svg": {
+      "bytes": 4582,
+      "sha256": "a1fe2acba9ad4047fcd76448a9574ea8930d23ff52d5433150a263b86cbaf31c",
+      "archive": "core"
+    },
+    "Политические-SVG/ISL.svg": {
+      "bytes": 23847,
+      "sha256": "dd31374d99d5feb7baf46d65ad2701b9ade09c4593f4b2002c4c9b59e6048770",
+      "archive": "core"
+    },
+    "Политические-SVG/ISR.svg": {
+      "bytes": 2107,
+      "sha256": "f5cb7bd4ca64bc74d7802e35676beaa6e3bf6270d02b4269fb19753056191853",
+      "archive": "core"
+    },
+    "Политические-SVG/ITA.svg": {
+      "bytes": 13115,
+      "sha256": "b4ad8ddf617a3569004f552055f6b2ad7d2391cc1639ec3b6d020a5336c53c66",
+      "archive": "core"
+    },
+    "Политические-SVG/JOR.svg": {
+      "bytes": 1482,
+      "sha256": "7734f8326189241b921258c5ed854e917ce799ab99e766298ac7fea01cae8314",
+      "archive": "core"
+    },
+    "Политические-SVG/JPN.svg": {
+      "bytes": 28063,
+      "sha256": "72a6af2efbf697c627c4fa55e38ecd34af175e76d6c49852146f0802cac0cb92",
+      "archive": "core"
+    },
+    "Политические-SVG/KAZ.svg": {
+      "bytes": 38803,
+      "sha256": "b387475e35507373737486b8ceaba23fb5e1b633a1b793120414b1ea0326727b",
+      "archive": "core"
+    },
+    "Политические-SVG/KGZ.svg": {
+      "bytes": 6157,
+      "sha256": "be25e0cdae26aee13672ce2119087dcf3ca78d9d9fcada4b72e9920f98e1abef",
+      "archive": "core"
+    },
+    "Политические-SVG/KHM.svg": {
+      "bytes": 4507,
+      "sha256": "6e4a6ebe186047f2b8eaf8fea1052ad6f4231a19535bce5dbfb9991ab0a69aa2",
+      "archive": "core"
+    },
+    "Политические-SVG/KOR.svg": {
+      "bytes": 1557,
+      "sha256": "45abfba3b7b5762fcacc1a9e195f28e0c5c8c4088fc7fd545fa97cb6e059a228",
+      "archive": "core"
+    },
+    "Политические-SVG/KOS.svg": {
+      "bytes": 1682,
+      "sha256": "0bd0ea360c0afa6696b0a5ac1e4a56639c323b9555313b720b7a88b99a5cd303",
+      "archive": "core"
+    },
+    "Политические-SVG/KWT.svg": {
+      "bytes": 2532,
+      "sha256": "203aaff7a7cb5ccfe9a583fe5548ddc2650bf6d878d245b8e0718db20a0fcdc3",
+      "archive": "core"
+    },
+    "Политические-SVG/LAO.svg": {
+      "bytes": 9482,
+      "sha256": "ef30b145a83a9ec245b0f54c82feb822b87b65670010eb852131ec73040ce9cf",
+      "archive": "core"
+    },
+    "Политические-SVG/LBN.svg": {
+      "bytes": 1207,
+      "sha256": "d687242cedf3a8260b50a04f2d02f2804866805f177d0e3966d9bca854eed1f0",
+      "archive": "core"
+    },
+    "Политические-SVG/LIE.svg": {
+      "bytes": 407,
+      "sha256": "0dc7f55dfa2a13810810586129d6219af56ecb37cd73c6be8178fe88aabb2332",
+      "archive": "core"
+    },
+    "Политические-SVG/LKA.svg": {
+      "bytes": 3382,
+      "sha256": "a4c2457abb72356f837f71e2089a066593022d7887c87f063ac075ace5ad015a",
+      "archive": "core"
+    },
+    "Политические-SVG/LTU.svg": {
+      "bytes": 1623,
+      "sha256": "646b0287519523ff3d2f4ea46e4756dd584bd14f3a75e085beb794fe486cb96d",
+      "archive": "core"
+    },
+    "Политические-SVG/LUX.svg": {
+      "bytes": 1207,
+      "sha256": "430338788a09475385e8c9a72c54fed87c43dfe201d1af9475940bfcc82bfcb3",
+      "archive": "core"
+    },
+    "Политические-SVG/LVA.svg": {
+      "bytes": 3111,
+      "sha256": "cbed71383d2e1b71b3a3b579a77b340ca51ff604648cb05e103449e380ba901a",
+      "archive": "core"
+    },
+    "Политические-SVG/MDA.svg": {
+      "bytes": 3657,
+      "sha256": "774ab5f4e6ee549850d026e6e44526c99a0f25a05647175d38ea7ed80aaa5a43",
+      "archive": "core"
+    },
+    "Политические-SVG/MKD.svg": {
+      "bytes": 2657,
+      "sha256": "081ee9b8fa3e34a5ace8486f6685232574e9729391a7d74c9a5fc72cf65ed8b5",
+      "archive": "core"
+    },
+    "Политические-SVG/MLT.svg": {
+      "bytes": 407,
+      "sha256": "54c27bbed59bcd515354167ac0f042c692426c079f8484849adc7c0063e23d4a",
+      "archive": "core"
+    },
+    "Политические-SVG/MMR.svg": {
+      "bytes": 10357,
+      "sha256": "7ced9afa6f8d7bb370ed2460e517bcab89006e6b60e47454589e5aebe7d351d0",
+      "archive": "core"
+    },
+    "Политические-SVG/MNE.svg": {
+      "bytes": 1607,
+      "sha256": "5498753a087067a5876726ef0704c9d72d4b8f9726b8609dbbd0690a6ecaf72a",
+      "archive": "core"
+    },
+    "Политические-SVG/MNG.svg": {
+      "bytes": 22382,
+      "sha256": "13a49abf519b704196f79533b073604d1a191f16e194edf693388c386cf80572",
+      "archive": "core"
+    },
+    "Политические-SVG/MYS.svg": {
+      "bytes": 10159,
+      "sha256": "ed95da33216b318e5a6c95b16453b613e10f8905b06d5093386456aac744376f",
+      "archive": "core"
+    },
+    "Политические-SVG/NLD.svg": {
+      "bytes": 3401,
+      "sha256": "267db7f47e612305f75b69d1c0c09ffbd8a417662a0f380e77bf662b8945cf0c",
+      "archive": "core"
+    },
+    "Политические-SVG/NOR.svg": {
+      "bytes": 89707,
+      "sha256": "ff043475ad3f35f220eeda7a62d31595dfd528f89b62ec1ad6c6122ee6fa7114",
+      "archive": "core"
+    },
+    "Политические-SVG/NPL.svg": {
+      "bytes": 20007,
+      "sha256": "45a47c24eb04475986ac0cef0e00d3945d4404c5ddfb316807401c4b7a4a8ac4",
+      "archive": "core"
+    },
+    "Политические-SVG/OMN.svg": {
+      "bytes": 2757,
+      "sha256": "4673bfe07441b8bed38e573293d3add1f09392a168c732371022db7df18a8ba0",
+      "archive": "core"
+    },
+    "Политические-SVG/PAK.svg": {
+      "bytes": 9607,
+      "sha256": "defec75713b3812feec3de42b9ce0b2e1ec46e804b240c3a14bcaedee3bc088d",
+      "archive": "core"
+    },
+    "Политические-SVG/PHL.svg": {
+      "bytes": 24552,
+      "sha256": "ad955f6431f73deb3d4b1eec1139f452b3812df086d2112f359b97dc054d2825",
+      "archive": "core"
+    },
+    "Политические-SVG/POL.svg": {
+      "bytes": 6187,
+      "sha256": "dd3eb665ab6764600790da2ecc2f3764bcfadb16d4786e0ee2f026c4afa8d79b",
+      "archive": "core"
+    },
+    "Политические-SVG/PRK.svg": {
+      "bytes": 5507,
+      "sha256": "73dd33b95ccd21f124c9550a08bf909f5223895ac9af6f32239d477ec9fba1e4",
+      "archive": "core"
+    },
+    "Политические-SVG/PRT.svg": {
+      "bytes": 1807,
+      "sha256": "ded5d39b9606e799e89e8f66735f2c050bc7242e6061194ce443979453addb7d",
+      "archive": "core"
+    },
+    "Политические-SVG/PSX.svg": {
+      "bytes": 1057,
+      "sha256": "77e011b63584c850e2104e228fc4537ffd2463f2ef1bb10c16734fcae9939cfa",
+      "archive": "core"
+    },
+    "Политические-SVG/ROU.svg": {
+      "bytes": 6836,
+      "sha256": "b55a7b3b5565ff212fef287dcaeb72f29e1b67fef72268739cd6ed2ff14d2866",
+      "archive": "core"
+    },
+    "Политические-SVG/SAU.svg": {
+      "bytes": 4984,
+      "sha256": "7fc4f78081da960a454e90c4678d74104321886092bb6fbade908026b4b17155",
+      "archive": "core"
+    },
+    "Политические-SVG/SGP.svg": {
+      "bytes": 432,
+      "sha256": "24fbcc14d5c82f366ec892e87c005a1f34d29845252a452a11c20447dd5bffd3",
+      "archive": "core"
+    },
+    "Политические-SVG/SMR.svg": {
+      "bytes": 357,
+      "sha256": "ab6a0b4d69b9519532bf6b6a5721bd4f66e054d0f262d57e565c0fb865766c0e",
+      "archive": "core"
+    },
+    "Политические-SVG/SRB.svg": {
+      "bytes": 4982,
+      "sha256": "7066d6edc823cc8bdcb02f3f8812422e29ca598e4d70be574c4486b619c11a9d",
+      "archive": "core"
+    },
+    "Политические-SVG/SVK.svg": {
+      "bytes": 2882,
+      "sha256": "499e7b895b384ab5b45681c88ffe8d4743a839ad301653c5d9de78e201ed1488",
+      "archive": "core"
+    },
+    "Политические-SVG/SVN.svg": {
+      "bytes": 3907,
+      "sha256": "9c116854886d30dfa1a76baedeaa8d0828b620552b60bd07be551dcb40ac9fd5",
+      "archive": "core"
+    },
+    "Политические-SVG/SWE.svg": {
+      "bytes": 27931,
+      "sha256": "d18550a9c3363b418b9c06a8c593a95b7f9b92c2a0b4339fbdc60934ab39a70a",
+      "archive": "core"
+    },
+    "Политические-SVG/SYR.svg": {
+      "bytes": 2207,
+      "sha256": "11da3dfd4f615cd83e857492bdfb8cfb4630a01a8170d74f675728b21fe14004",
+      "archive": "core"
+    },
+    "Политические-SVG/THA.svg": {
+      "bytes": 9832,
+      "sha256": "1c886796917babc59d8408dba2d9e82c07dc7be1096b742842327231f315af0c",
+      "archive": "core"
+    },
+    "Политические-SVG/TJK.svg": {
+      "bytes": 7307,
+      "sha256": "051e0b411ccf7177e1b46e34ff890f69fd3c4b2d9e41ab97734d9a58d0fb905f",
+      "archive": "core"
+    },
+    "Политические-SVG/TKM.svg": {
+      "bytes": 7838,
+      "sha256": "c5f67084462464b741096886cb3bd9cfcda913f44b566ceafce8b21f4a1ce552",
+      "archive": "core"
+    },
+    "Политические-SVG/TLS.svg": {
+      "bytes": 1332,
+      "sha256": "1f8250320f703467770e52eacdc61d716e31a2549ecc7a0bde784c703cfd08d3",
+      "archive": "core"
+    },
+    "Политические-SVG/TUR.svg": {
+      "bytes": 8282,
+      "sha256": "0b865e5b75c0bdd18d3ba104328d35d3ca39e64714f043e0666dccf6b366b910",
+      "archive": "core"
+    },
+    "Политические-SVG/TWN.svg": {
+      "bytes": 2132,
+      "sha256": "dde3c6cfd8d0a6945e88932d953b7fe6c0a45c54263b44cfabfb8930e596b52f",
+      "archive": "core"
+    },
+    "Политические-SVG/UKR.svg": {
+      "bytes": 28673,
+      "sha256": "acc627a075f040de0b23c1f1f897b11322f073ab699a4f782d6a41f94cb7a57f",
+      "archive": "core"
+    },
+    "Политические-SVG/UZB.svg": {
+      "bytes": 10011,
+      "sha256": "712b7ae56effa8198e00b33407744145eb88cb616560250a6eb26279f650cbe3",
+      "archive": "core"
+    },
+    "Политические-SVG/VAT.svg": {
+      "bytes": 307,
+      "sha256": "cb5edee2221f40163eb45fbfb65220d27a3f9a3bc57211be0309a2a07805dc9d",
+      "archive": "core"
+    },
+    "Политические-SVG/VNM.svg": {
+      "bytes": 9734,
+      "sha256": "4cc1324e2bb6001d713ba2c1fe53c12451cf4507ca7e6d04d254b06ea37075ef",
+      "archive": "core"
+    },
+    "Политические-SVG/YEM.svg": {
+      "bytes": 2459,
+      "sha256": "f50f66b9e230dd153899c01f9e2ac65616eb9c1bdbcc5d124b86c6604c9300e2",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/AFG.svg": {
+      "bytes": 13057,
+      "sha256": "9f170d20b358691da5dd2a7eac961f9a8a2a06875e36e7040d5e8540e35e27af",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/ALB.svg": {
+      "bytes": 2482,
+      "sha256": "a9cc698dd137269f8ccdf40df94d6d77b350847770042b4db17aa06d66a1c8f2",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/ARE.svg": {
+      "bytes": 1757,
+      "sha256": "dfc3dd34611117d13849a4a54dddc9e194c0193afd51cd811df378fb69b59b3f",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/ARM.svg": {
+      "bytes": 9786,
+      "sha256": "38ac30ae1c5f85626a91c455f9675f005175dd3e2cf12891a80831c355e10e61",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/AUT.svg": {
+      "bytes": 18263,
+      "sha256": "1aca08c5a37bf9d3fad5b447ff1e689e49cc3e7b93fc2c9d6cc6f39d896f7b82",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/AZE.svg": {
+      "bytes": 15709,
+      "sha256": "cb6a34f035efc72186f37718cdaea7eac0f2ad57d2bea8fb49b4a89f1fecc792",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/BEL.svg": {
+      "bytes": 4632,
+      "sha256": "0b35c7076877bc7bf36ec9d0bc789b5d50b497a9af3525a3a08b8325e92612a9",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/BGR.svg": {
+      "bytes": 8232,
+      "sha256": "e79db2adb773db6890b312557ae64a89ecf48087e68b9673c4c67b413e9d5a75",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/BHR.svg": {
+      "bytes": 582,
+      "sha256": "187a13433616ac59a906198e1481e448ce91813f35eb559e83ca8f2c502e3855",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/BIH.svg": {
+      "bytes": 2007,
+      "sha256": "0c9a10e3833f0c5e3b93611efef2b0253a372ef6a4c7952759154d882e2650fa",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/BLR.svg": {
+      "bytes": 10078,
+      "sha256": "ad840bec5f9d9639f4bb917ee77f26752a31b42820f3732b3ded2c778c719847",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/BRN.svg": {
+      "bytes": 782,
+      "sha256": "281ebe21bf91feec65837ce505ba8a1f8ce2314d2da840da089fba528ad1fbe8",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/BTN.svg": {
+      "bytes": 7432,
+      "sha256": "193f8ca1dd9ef14f67a1096da9de9ef8d9121ca3b4f72dd0e8f4e5822aa48e05",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CHE.svg": {
+      "bytes": 16809,
+      "sha256": "84c2d50ffc92441f51db5e8a43cc47c6393f8993da142ca72ab6455f607df2b2",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_AH.svg": {
+      "bytes": 15736,
+      "sha256": "87522757ed0fbb1a6d577bd345bdfec487edcedd9fe5cb1d33d352cae54f8ed4",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_BJ.svg": {
+      "bytes": 1759,
+      "sha256": "a3e83226d897b2ba62e5c42e26d9a87ea4fb3f3ea7740463ee319e329ab761ba",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_CQ.svg": {
+      "bytes": 20586,
+      "sha256": "b4c572b3316ee3d674c2685e14caa369f7bbfff56ab34f586be64e89be59afbf",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_FJ.svg": {
+      "bytes": 3384,
+      "sha256": "1fb711cd94b851c89e8104d6a361df0ed6d603355964f5c551f96d9911b87a0b",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_GD.svg": {
+      "bytes": 15186,
+      "sha256": "6eda95a623d4ffde5793ba2b82bd50734b5c28836e513d8f93f4496d30bb6519",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_GS.svg": {
+      "bytes": 27988,
+      "sha256": "cdf3cb28832f2d40a0f7197c8123f767c159458796329dbefc8994ffdf4f8aff",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_GX.svg": {
+      "bytes": 28536,
+      "sha256": "86935653affaaf3f04af54c5ed57b0f980687da631faff1ad832a3177c764630",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_GZ.svg": {
+      "bytes": 6734,
+      "sha256": "7ed99d92d0d23422ff70f9b6fe95ba5ba2542231e272307e503bb0212dc94dde",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_HA.svg": {
+      "bytes": 26711,
+      "sha256": "320e6a2b53884519d3c3b39340b63bfc4b4db86c1270f096cf40965996e03bb7",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_HB.svg": {
+      "bytes": 25213,
+      "sha256": "30ab7081c5feb8f477c75aa0f234d498794d9796f8668005a31f79305c1b3463",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_HE.svg": {
+      "bytes": 7386,
+      "sha256": "165f4f31a18de5da84bc24fa2ca5cf1a5e27a530dc1957120b084711efe678d4",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_HI.svg": {
+      "bytes": 3384,
+      "sha256": "5a26e0a5e03e29a73e42bed503de884771a6f254e67abf63818af1ca97f99565",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_HK.svg": {
+      "bytes": 1261,
+      "sha256": "a06a64d956ec0a84aa76500256c53b767aaf658294f5f23adc740bd44683103a",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_HL.svg": {
+      "bytes": 42159,
+      "sha256": "d6e802b0312dc500be22fd3e8aed7addcd3a15a3574a1af1218c35b318fb2c9d",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_HN.svg": {
+      "bytes": 7959,
+      "sha256": "0ebf951f843b86c7f7250cc09746f148e109a97063c52f1265da580461f3b36a",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_JL.svg": {
+      "bytes": 5811,
+      "sha256": "5b62dcc0ea8736820398f9cbcf1ed631fc7557c2a1d30876af72a6b33f278f1b",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_JS.svg": {
+      "bytes": 9288,
+      "sha256": "d52bcd4fccf579798b1a2bb2ed26cbb26193929c9fa7806004253030aeacd1bc",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_JX.svg": {
+      "bytes": 9934,
+      "sha256": "97a854f218ab7afd8dca5ab93ac6281e915d2d265b1e3220cbc417d8cbf896e0",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_LN.svg": {
+      "bytes": 4034,
+      "sha256": "a3897b90fc51befd1b92a64df9ff4684b49116f578049cdb0d4af7168007b6eb",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_MO.svg": {
+      "bytes": 309,
+      "sha256": "516c6db717263c36e92a5e29858685b9e818e1982e019be007eb62bbdd28ce5f",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_NM.svg": {
+      "bytes": 45706,
+      "sha256": "0507711fb92a046d79ca4682662efed21cd2b1b77eafd5afcf19ee64367bce33",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_NX.svg": {
+      "bytes": 9961,
+      "sha256": "2cb134b41e8d93dfa89d1b6b59e000598084e4c9995b4a02046829a5ba4748ee",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_QH.svg": {
+      "bytes": 74613,
+      "sha256": "4a1eb70d37089faf93398815f4bde30b8ee86d9ccf941bf17d1a5f8df9d2ed76",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_SC.svg": {
+      "bytes": 34915,
+      "sha256": "3f848f7796b13a950330419a10bd2756251ed0ff8be240afe20ea56cdf9f6e64",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_SD.svg": {
+      "bytes": 17436,
+      "sha256": "de8b4275ca9811a6b83c7783e1f0adb3b0e4674d07ac05845290821b4850a206",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_SH.svg": {
+      "bytes": 784,
+      "sha256": "d42bccd836f8d29d73a6bc740ef342be1e8bc65971426637675291cb881dab0a",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_SN.svg": {
+      "bytes": 15709,
+      "sha256": "86cbc95daf80feacdeb9b6defd624b24602a6f1e9d5e946ceaf81b0c21db80b7",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_SX.svg": {
+      "bytes": 15159,
+      "sha256": "455298055750f8171eef0aa494ac70720b9abc563d63b81f1862452ce0009a36",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_TJ.svg": {
+      "bytes": 1509,
+      "sha256": "4547072847340f953ba3a9f3d5e12abc310f748e0d65b687b64dd5d7eb63a484",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_XJ.svg": {
+      "bytes": 30311,
+      "sha256": "49931c92117cb1cdc9f70cbd058ba09db2b3a195304b5ea8183b057fe6789c65",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_XZ.svg": {
+      "bytes": 82363,
+      "sha256": "dce62c70530a355ecf96432341cd022156ad9827a1488e5fd7a59519f9f4748c",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_YN.svg": {
+      "bytes": 64065,
+      "sha256": "e4aa32a3180be6f19b14a865567d352569897176800e1caab31941f25fcab3bc",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CN_ZJ.svg": {
+      "bytes": 3609,
+      "sha256": "f432f8baf6dd184520d2876786e8bfd8ba3a4b2d778f286c21e2d8ae07b30a78",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CYP.svg": {
+      "bytes": 1659,
+      "sha256": "a5c1b4ac001a0e3e353e9c07df11dd51f90a849478947e5978f0d8baf64cbfb2",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/CZE.svg": {
+      "bytes": 4207,
+      "sha256": "087eef11f488555a2974c61492dd0a88d43147b6ab66baa96e3c6d1a086dfc26",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/DEU.svg": {
+      "bytes": 51208,
+      "sha256": "fbf5a381bcd9680ab68acbfbcebf5397bb099b2fdd809bfa95a9cf4daa8ca4af",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/DNK.svg": {
+      "bytes": 7075,
+      "sha256": "5f71bbb86ea97740dcfdf78a7b06864c4447ec916080ae259046c1f005a9ce57",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/ESP.svg": {
+      "bytes": 5009,
+      "sha256": "decc79e28aed22c4bbbf2c3b407c52fe51d7b35e59eb7849504f310c2a6ba277",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/EST.svg": {
+      "bytes": 5707,
+      "sha256": "8b5b5923ba30d3e011879daeff64b3969afa3a2f1592aaaec04b48f627a4b64d",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/FIN.svg": {
+      "bytes": 24255,
+      "sha256": "6513aeec29be636c6daddbcc1e1f2b6cb945069424a156fb4c07767e123955bf",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/FRA.svg": {
+      "bytes": 32036,
+      "sha256": "7f5aa49bacc896ec7314745a64084e04320969fb1d1d0bad52e4b649ce8c095b",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/GBR.svg": {
+      "bytes": 33168,
+      "sha256": "b1d22123d0942a674990e46477c4371086330c968a47337b7e7e5cc1d1fa2912",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/GEO.svg": {
+      "bytes": 9534,
+      "sha256": "b7b850ca7203847aac0e1fee9d7a93dc5b452892cc11f1ed1f66d7801e6beaa3",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/GRC.svg": {
+      "bytes": 7359,
+      "sha256": "ddc4f7104a9ee79bbb826ebb0f8085ccb655c4150f3dc799485785e13fc409a0",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/HRV.svg": {
+      "bytes": 6682,
+      "sha256": "b613806c90da99a865d9f8932b2d64c80e012ad5e7aa67d079a3bbf8fa3f0518",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/HUN.svg": {
+      "bytes": 16011,
+      "sha256": "5eaa78aaf140928ef2fd8accfc8515f872cdf725c1f3ea9a4f487f1b936fb1b9",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/IDN.svg": {
+      "bytes": 62549,
+      "sha256": "55e742da45b5355b07fdd6fd240f4663a77f907ccd4d6f4d38da70e48d40f135",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/IND.svg": {
+      "bytes": 147592,
+      "sha256": "6fb3176ca2c54644e9ea4afd13c804c5ec9298dc184f5d3254500b690177c280",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/IRL.svg": {
+      "bytes": 14107,
+      "sha256": "9832d665eb225183e9b1de8e9021bf005b794a47fb6bd8202c18317ba4a941cf",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/IRN.svg": {
+      "bytes": 14711,
+      "sha256": "03e38c1b82da2fe33e13a303148f55dbae720efb9e523a45585e084f8255202c",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/IRQ.svg": {
+      "bytes": 72486,
+      "sha256": "f717861774ac077700e282c44922c7de609a0119295eef24bd0c6c6c4603ca3e",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/ISL.svg": {
+      "bytes": 23847,
+      "sha256": "9d74c2b5b7975756efd910ed1be458f730978a9565c9a3e8cf819aa43a986cf3",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/ISR.svg": {
+      "bytes": 2232,
+      "sha256": "267b20ae813f0662e0da08b6f893868ef9717e8bb80e1cc23b9fd5c8d6acbc65",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/ITA.svg": {
+      "bytes": 33542,
+      "sha256": "f47ec310ffd67562c717d1c19da29f834a72de25316265c81b93eb14e5247aed",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/JOR.svg": {
+      "bytes": 1882,
+      "sha256": "24ca70a0ddc79c5dd9a150a289b276aa2c7bd82f0fa97d4898bd3dc4c9a7fc01",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/JPN.svg": {
+      "bytes": 28063,
+      "sha256": "86679d134be158144ae8b7b77ae05c2bb7762638dadf3ad2f78472c40706a7b6",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/KAZ.svg": {
+      "bytes": 158854,
+      "sha256": "8e368dffcf34832f71099c9ef5a7f7871fe614c748a31531a64807355b48ee6f",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/KGZ.svg": {
+      "bytes": 8084,
+      "sha256": "458d040ec1d3f01bf0f72d1c7e04072934d37b519dde48e6fbe0b57901d64d99",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/KHM.svg": {
+      "bytes": 18084,
+      "sha256": "b5f7a9adbc560f87d72bcb6129234a85a6ba8c19eb6ae7f5b5fa49c8e09b5b4b",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/KOR.svg": {
+      "bytes": 1557,
+      "sha256": "ddf01ac6a9d99ed35a95699101492e16d94c57d2379212242c97bd6ed95cfd32",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/KOS.svg": {
+      "bytes": 1682,
+      "sha256": "04044e95a4ac1d7bf6b6ceaae297f3df1d259b17ebf96fba6faa8da946a39794",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/KWT.svg": {
+      "bytes": 2507,
+      "sha256": "f75d6d2359c19d1912cf189983309e02ed63fe0b21ee0335d0e99dfcef644ff9",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/LAO.svg": {
+      "bytes": 34361,
+      "sha256": "89ee921e2bbf601f85b8d182e2a70141007dfd02df0572dc9ab10a40419ad103",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/LBN.svg": {
+      "bytes": 1207,
+      "sha256": "b527e150822a3ba59861a10fb7d77eff26be2ddcdc2ab05eba9a3d96b31d047e",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/LIE.svg": {
+      "bytes": 807,
+      "sha256": "c5e37f0a20e9ac66e0bdf9c849ee2b8d8a1e2cbb7647a357afd6151789900931",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/LKA.svg": {
+      "bytes": 3382,
+      "sha256": "1623890cc90a8bd04faafecc2ae72ee93efb044d86b840b3236d113cea7197f2",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/LTU.svg": {
+      "bytes": 1623,
+      "sha256": "61728368c89b9b69dbe76384124f0e8d905646ee06759ee76292d46912122fe5",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/LUX.svg": {
+      "bytes": 1207,
+      "sha256": "a92f5c9dbb397e110f2d8ae6f8686ca6398549ff574867076fa4b2ce21316222",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/LVA.svg": {
+      "bytes": 3111,
+      "sha256": "2436c86d9f892e95ef0d35ef5df0f22bc32ed0a27fe536bedad55bc9f880b29a",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/MDA.svg": {
+      "bytes": 4007,
+      "sha256": "572682e0cec0fe00e80776e295a283e4684a69837db2e29b1d36c51e15cea039",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/MKD.svg": {
+      "bytes": 2657,
+      "sha256": "a8b918e84f53da31e8ef71e70636bce6c5ce3ae32c21ac78dea0193f4765cee8",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/MLT.svg": {
+      "bytes": 407,
+      "sha256": "1f15d1ec2aeb2a6a3f024fd5a8714a75f1ab39112fc8667061c8142e013f18d0",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/MMR.svg": {
+      "bytes": 66884,
+      "sha256": "94524a84db31f80a025b55faed0444826c13730a2d816a516e625fab27b9b75f",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/MNE.svg": {
+      "bytes": 1582,
+      "sha256": "256bc176ba56f9513154eb534af7d3850bd625174916098b8d2bd46eac77d41f",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/MNG.svg": {
+      "bytes": 23532,
+      "sha256": "5ad0ef5d63bfcde51436221cb5bbc1612cf996a5110f76ec89e51c9e689cb926",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/MYS.svg": {
+      "bytes": 10159,
+      "sha256": "3913679715ea60591370edaa2e6e7349e929ae09ee2edb5a3092edec1fa02a55",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/NLD.svg": {
+      "bytes": 6478,
+      "sha256": "1319c76070a1ec1bab6537dd295a0b4c6f86ff2d3657055f52fcb74ffe6089ca",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/NOR.svg": {
+      "bytes": 89077,
+      "sha256": "08a999b2bcb60e751abe811053c067de081feb4f14ea771d3e2b700e924653e8",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/NPL.svg": {
+      "bytes": 20582,
+      "sha256": "893268f7ead560ae5ef0b0d8cc0907c019e2bc7351aa68968889631e8c2e9eb3",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/OMN.svg": {
+      "bytes": 2757,
+      "sha256": "da742d62dcd7ee121d3863ff3a183b734d11c6e372818c9a9ea85bdbd28e448c",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/PAK.svg": {
+      "bytes": 76059,
+      "sha256": "5304f7b8e1addebf0aaac4ceffbed9a533f3054f72d2bdd4e7a6e543a5a71679",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/PHL.svg": {
+      "bytes": 24552,
+      "sha256": "b099f072932871ead1d41eb2d4738ec7131e50957f1b3d0427194d245b7b8a12",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/POL.svg": {
+      "bytes": 6187,
+      "sha256": "936179bc40681271f850c077bcb7ca3dfc6e81fe3d22fd922801b1a2c809d055",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/PRK.svg": {
+      "bytes": 5507,
+      "sha256": "55dba3fbb0870f7999b59ce59f84f614141f42a008169480af0d605f213c0e7c",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/PRT.svg": {
+      "bytes": 1807,
+      "sha256": "8f596be2a6f8a8127ce1c1c1acb44113f14b9ac36d35ad7c7a6104e2c4cdf34d",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/PSX.svg": {
+      "bytes": 1132,
+      "sha256": "b130631b8a99e1ba577cdb33029316d911c192713ab5e32129120a69a3b603b3",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/ROU.svg": {
+      "bytes": 21388,
+      "sha256": "8c15241aa6e21cebe030cd422715e277610956ab6f2ef6d91c68cb1549321e80",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/SAU.svg": {
+      "bytes": 4984,
+      "sha256": "3c8ef2bcf0b66a6dedec25bf5ebb581a1c9ea7b96587c842fbfa42706eb7ee1c",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/SGP.svg": {
+      "bytes": 432,
+      "sha256": "0d4167d15cc400068c2b0e8c05a5386e0bfa6f9601945e456262d5cba4be4131",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/SMR.svg": {
+      "bytes": 357,
+      "sha256": "7af9742cd4ea8ac36e497e346df540f28602d15a4c786643b91b42e4fd41dade",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/SRB.svg": {
+      "bytes": 15384,
+      "sha256": "07bfb8d96c3a6bad7a97696caa1e4f7e6a43253922544610ced47c09db90ab29",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/SVK.svg": {
+      "bytes": 4732,
+      "sha256": "b255bc190677bf5c89d459b7a24305da27c976b8432d9c99ea347b5e57a3d0da",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/SVN.svg": {
+      "bytes": 3907,
+      "sha256": "7463e1866e1df434347351fbcc21d3243b070c70da469ab7dca2cc823e3eddec",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/SWE.svg": {
+      "bytes": 27931,
+      "sha256": "487a2a23fdd0ea718fca22d41fa71bd3a2e7fb8aa6f6c48916f0817455f5b50f",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/SYR.svg": {
+      "bytes": 20409,
+      "sha256": "49903748cc02e3bbc37f09179690669679c7998e10ee854128fb1ef19f9a2591",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/THA.svg": {
+      "bytes": 20807,
+      "sha256": "31d0fbe917bd70d40fb501d7309432574542751838041b0f0b4e2d23a24f1824",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/TJK.svg": {
+      "bytes": 12361,
+      "sha256": "9066f1d6376c2fdd823cc92074d449887e8762c9cbc66d41600a2d7a0a9fa4a3",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/TKM.svg": {
+      "bytes": 20840,
+      "sha256": "0310fc1fb8752f8c74e5585323cba64f80343f704a8ea2edff7801f58f3b82f9",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/TLS.svg": {
+      "bytes": 1332,
+      "sha256": "aa8b30eea665531e76d341011f8c53ac816eeb49e74fff6bb6e5de9e40668dad",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/TUR.svg": {
+      "bytes": 47759,
+      "sha256": "afa4ede5109bf7c6fb996327d85b41fd018686ddacaac264a04a1be66d6b2b73",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/TWN.svg": {
+      "bytes": 2132,
+      "sha256": "526da08738b1f0f5c370108a126e9b89b7aa42cee83b6a55e5efae34d4c87942",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/UKR.svg": {
+      "bytes": 21057,
+      "sha256": "7fe72191e8d265420f7b0dce62b092e3c91bcbd0fc28301c925f4805d3b5f82d",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/UZB.svg": {
+      "bytes": 36213,
+      "sha256": "92fd2507304570fe2ff7cdc038738a589bf973cd670897dcd057a7f20472218c",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/VAT.svg": {
+      "bytes": 307,
+      "sha256": "a2ff42d3456d775b9c5b483c14d9d6047d32ab7bf53e0ad6894c6bb0ea2d2b9c",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/VNM.svg": {
+      "bytes": 13111,
+      "sha256": "dea47707005d7e5df0b4e0881418f678054d7e0fac2c937708032fdabbe2eadd",
+      "archive": "core"
+    },
+    "Политические-SVG-с-водой/YEM.svg": {
+      "bytes": 2459,
+      "sha256": "7f12fe490011e410949d7dbfb6256ea694f10a6be2f28adf2ace7e95f23c5b4e",
+      "archive": "core"
+    },
+    "Природные-объекты.csv": {
+      "bytes": 3236,
+      "sha256": "7fb3bbdfdbf4d12d9cc243aa44eb4a5e277bf8d398af749a158faa27c4164dc6",
+      "archive": "core"
+    },
+    "Проверка-Blender-political.json": {
+      "bytes": 1806,
+      "sha256": "8ff7c33544333748ef07b72c07494f77f987a680a0e85ab92503d4bbc537999e",
+      "archive": "core"
+    },
+    "Проверка-Blender-political_water.json": {
+      "bytes": 1812,
+      "sha256": "eb02a959a261befefaa2ae4dfdfaf6146829587857d8502149bdaf3700bd0e2d",
+      "archive": "core"
+    },
+    "Проверка-Blender-relief.json": {
+      "bytes": 1803,
+      "sha256": "ad5bdaf4b2f87b3ceeac212dd1a16538c2a3f34975d8befef586f84acf78702b",
+      "archive": "core"
+    },
+    "Проверка-географии-и-покрытий.json": {
+      "bytes": 895,
+      "sha256": "57ca2be44612a7693b58c1112a0c51107cd6385d1679254b0c1275c63fa54bd7",
+      "archive": "core"
+    },
+    "Проверка-геометрии.json": {
+      "bytes": 1382,
+      "sha256": "013688187c79ac5c422c3796145f4a055182a3f178ec7b5705113d8f77c62826",
+      "archive": "core"
+    },
+    "Проверка-реальной-сцены.json": {
+      "bytes": 1988,
+      "sha256": "2aaa9eb315954c38595bf21735085bf934729ad44051cfd3c5b97a66e0545130",
+      "archive": "core"
+    },
+    "Проверка-сохранности-материков.json": {
+      "bytes": 52,
+      "sha256": "da86cdf6afe0d20970f81b49e91d4fe8707432eb554c89c19e6ba8e5a0da4743",
+      "archive": "core"
+    },
+    "Проверка-экспорта.json": {
+      "bytes": 276,
+      "sha256": "7f4a47926f87b8d4493eb2757655358a5047d947a018ccca75ed74f697dc69fa",
+      "archive": "core"
+    },
+    "Резка-без-дублей/Слой-01.svg": {
+      "bytes": 2974749,
+      "sha256": "d5b1164b39fbd76a7699ba105a85428b8848b23845b03e9536e8196124ae8ad2",
+      "archive": "core"
+    },
+    "Резка-без-дублей/Слой-02.svg": {
+      "bytes": 2449848,
+      "sha256": "81a265cdd15fdfb6830fed139b11a05ece21815655e01656b54f1000a10df81e",
+      "archive": "core"
+    },
+    "Резка-без-дублей/Слой-03.svg": {
+      "bytes": 1707465,
+      "sha256": "e8d01caaaf58584ac2e3918d351312c2e607055ceb3588cd5831216e0e793583",
+      "archive": "core"
+    },
+    "Резка-без-дублей/Слой-04.svg": {
+      "bytes": 1009344,
+      "sha256": "426041dbdecd015648fba6645146bfdb0aa802f2a34493f4ad5ace80567398aa",
+      "archive": "core"
+    },
+    "Резка-без-дублей/Слой-05.svg": {
+      "bytes": 365512,
+      "sha256": "44945bcaa6fa2b6d39768d730fe1d32cac05ce7192640ca6480a576885b5f178",
+      "archive": "core"
+    },
+    "Резка-без-дублей/Слой-06.svg": {
+      "bytes": 104099,
+      "sha256": "d374e9d69949d902305ef74b2658c1625bda208981016c8c1bb0c47d993094d3",
+      "archive": "core"
+    },
+    "Реки-и-озёра-сквозные.svg": {
+      "bytes": 1347934,
+      "sha256": "a8f4153f76e82fb519fac28fc9072dab193ef64120123e10e7e55547438ca80e",
+      "archive": "core"
+    },
+    "Слой-01-по-политическим-регионам.svg": {
+      "bytes": 2216394,
+      "sha256": "f1f4d44d5cdcfb602002178c6e11c7cbb023f3c7c3b41c20f7debca7803fa65e",
+      "archive": "core"
+    },
+    "Слой-02-по-политическим-регионам.svg": {
+      "bytes": 1778547,
+      "sha256": "95d7b435d4aef535edfe76d5ce2ba51e20cdd64ed821a7089839aee6b034e8ec",
+      "archive": "core"
+    },
+    "Слой-03-по-политическим-регионам.svg": {
+      "bytes": 1188185,
+      "sha256": "65dd32b70e700bdf7bcebaf7fbda641f1406f020ede55ddb3bc9ea8da5e0aff9",
+      "archive": "core"
+    },
+    "Слой-04-по-политическим-регионам.svg": {
+      "bytes": 690240,
+      "sha256": "7abca707e03e7de092693faf0416a04c20b3377019864edf658a0150935893b2",
+      "archive": "core"
+    },
+    "Слой-05-по-политическим-регионам.svg": {
+      "bytes": 228282,
+      "sha256": "eb3efb92d208b8bca7bf02b53a81f07a6b7752f61ed779624aa95dacd29616ad",
+      "archive": "core"
+    },
+    "Слой-06-по-политическим-регионам.svg": {
+      "bytes": 57224,
+      "sha256": "d43e24bfaf7dbc071491f57ed2b6a17b77dae79382420f45475f0535be7fdd17",
+      "archive": "core"
+    },
+    "Состав-слоёв.csv": {
+      "bytes": 218,
+      "sha256": "a5b03188d1d6edc53cc46aa7bf906ceb67017c039858cbbfe3f847635a20a86c",
+      "archive": "core"
+    },
+    "Страны-и-покрытия.csv": {
+      "bytes": 4629,
+      "sha256": "3d23606b3180bf7e3f45243b508bb5d31ce387070bdee2082937bc7cf1aab3a4",
+      "archive": "core"
+    },
+    "Схема-природных-объектов.png": {
+      "bytes": 1207749,
+      "sha256": "28c3bec231be04ee43a0e2c5f5e5602a85721ad9db98e7278ef565d147101333",
+      "archive": "core"
+    },
+    "Схема-природных-объектов.svg": {
+      "bytes": 7102046,
+      "sha256": "2ce54fb964339525cd6382d7531bbe7a610a1efdf13576a9894eff26c00853e7",
+      "archive": "core"
+    },
+    "Тянь-Шань-Памир-3D.png": {
+      "bytes": 3334902,
+      "sha256": "0059ea4bc82d51dbd7845bf426f43f329a357b65f662f0139fc97f40c0e02649",
+      "archive": "core"
+    },
+    "Численная-точность-геометрии.json": {
+      "bytes": 665,
+      "sha256": "d13c5df157e78451837aa6feab00a7de986774c1e2237a25fc7461b2e2389b60",
+      "archive": "core"
+    },
+    "Япония-Фудзи-3D.png": {
+      "bytes": 3096493,
+      "sha256": "ce2a2c239a265b1dbd6b69e54bba332c86f43539550a23ba9eaadfc677d9f00a",
+      "archive": "core"
+    }
+  }
+}

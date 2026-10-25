@@ -1,0 +1,75 @@
+{
+  "world_width_mm": 1600,
+  "world_height_mm": 1000,
+  "viewBox": [
+    0,
+    0,
+    4251.9685,
+    2657.4803125
+  ],
+  "mm_per_unit": 0.3762962966447188,
+  "projection": {
+    "type": "cylindrical_mercator_affine",
+    "source_xmin": 1858.0484276517368,
+    "source_ymax": 1208.0562835928397,
+    "lonmin": 27.328027,
+    "latmin": 41.192681,
+    "kx_per_degree": 12.565894355649785,
+    "ky_per_mercator": 721.9912051207863,
+    "geographic_extents": [
+      27.328027,
+      41.192681,
+      190.358616,
+      77.737535
+    ]
+  },
+  "sheet_mm": 3,
+  "levels": 6,
+  "production": {
+    "simplify_mm": 0.11,
+    "join_radius_mm": 2.5,
+    "min_neck_mm": 2.2,
+    "ordinary_min_area_mm2": [
+      0,
+      260,
+      180,
+      120,
+      70,
+      25
+    ],
+    "river_width_mm": 1.35,
+    "min_detached_river_islet_mm2": 14,
+    "min_terrain_hole_mm2": 90,
+    "political_min_upper_part_mm2": 2.5,
+    "political_min_base_scrap_mm2": 0.55
+  },
+  "style": {
+    "dem_smoothing_pixels": [
+      1.2,
+      1.6
+    ],
+    "seam_blend_mm": 7,
+    "palette": [
+      {
+        "name": "Натуральная фанера",
+        "hex": "#e9dfca"
+      },
+      {
+        "name": "Тик",
+        "hex": "#be7745"
+      },
+      {
+        "name": "Орех",
+        "hex": "#77513b"
+      },
+      {
+        "name": "Тёмный акцент",
+        "hex": "#44352e"
+      },
+      {
+        "name": "Терракота",
+        "hex": "#ad6049"
+      }
+    ]
+  }
+}

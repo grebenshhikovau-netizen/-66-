@@ -1,0 +1,3 @@
+# Raw reference documents retain their source formatting.
+data/Исходник-CDR-справочно.svg -whitespace
+data/ТЗ-пользователя.md -whitespace
