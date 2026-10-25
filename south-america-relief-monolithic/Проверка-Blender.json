@@ -1,0 +1,346 @@
+{
+  "all_source_solids_manifold": true,
+  "all_evaluated_wood_solids_manifold": true,
+  "bottom_origins": true,
+  "height_follow_tests": [
+    {
+      "base_mm": 3,
+      "passed": true
+    },
+    {
+      "base_mm": 6,
+      "passed": true
+    },
+    {
+      "base_mm": 9,
+      "passed": true
+    }
+  ],
+  "wood_meshes": 78,
+  "engraving_groups": 52,
+  "engraving_representation": "20 micrometre surface mark, production outlines in SVG",
+  "political_seams_are_engraving_not_extra_relief_layers": true,
+  "main_level_count": 6,
+  "heights_mm": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    18
+  ],
+  "checks": [
+    {
+      "id": "L01_BRA",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_ARG",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_PER",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_BOL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_CHL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_COL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_VEN",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_ECU",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_PRY",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_URY",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_GUY",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_SUR",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L01_GUF",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_BRA_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_BRA_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_BRA_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_ARG_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_ARG_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_PER_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_PER_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_PER_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_BOL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_CHL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_COL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_VEN_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_VEN_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_VEN_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_ECU",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_PRY_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_PRY_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_URY",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_GUY",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_SUR",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L02_GUF",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_BRA_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_BRA_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_ARG_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_ARG_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_ARG_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_PER",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_BOL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_CHL_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_CHL_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_COL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_VEN_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_VEN_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_ECU",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L03_GUY",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_ARG_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_ARG_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_PER",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_BOL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_CHL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_COL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_VEN_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_VEN_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L04_ECU",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_ARG",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_PER_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_PER_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_PER_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_BOL",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_CHL_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_CHL_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_COL_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_COL_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_VEN",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L05_ECU",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_ARG",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_PER",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_BOL_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_BOL_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_CHL_P01",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_CHL_P02",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_CHL_P03",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_CHL_P04",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_CHL_P05",
+      "non_manifold_edges": 0
+    },
+    {
+      "id": "L06_CHL_P06",
+      "non_manifold_edges": 0
+    }
+  ]
+}

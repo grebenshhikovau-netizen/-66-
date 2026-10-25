@@ -1,0 +1,33 @@
+{
+  "actual_scene_ray_tests": [
+    {
+      "landmark": "Титикака",
+      "expected_floor_or_top_mm": 12,
+      "actual_mm": 12.0
+    },
+    {
+      "landmark": "Уюни",
+      "expected_floor_or_top_mm": 15,
+      "actual_mm": 15.0
+    },
+    {
+      "landmark": "Ауянтепуи / Анхель",
+      "expected_floor_or_top_mm": 15,
+      "actual_mm": 15.0
+    },
+    {
+      "landmark": "Игуасу",
+      "expected_floor_or_top_mm": 3,
+      "actual_mm": 3.0
+    },
+    {
+      "landmark": "Мачу-Пикчу",
+      "expected_floor_or_top_mm": 15,
+      "actual_mm": 15.0
+    }
+  ],
+  "country_partition_unchanged": true,
+  "palette_unchanged": true,
+  "base_unchanged": true,
+  "passed": true
+}
