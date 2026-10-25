@@ -1,0 +1,15 @@
+{
+  "opened_with_blender": "5.2.3 LTS",
+  "wood_count": 30,
+  "closed_manifold_solids": true,
+  "bottom_origins": true,
+  "nominal_ply_thickness_mm": 3,
+  "children_above_top": true,
+  "curve_splines_cyclic": true,
+  "external_fonts_packed": true,
+  "coat_colors_match_corrected_plan": true,
+  "scenes": [
+    "01 — Собранная карта",
+    "02 — Три слоя отдельно"
+  ]
+}

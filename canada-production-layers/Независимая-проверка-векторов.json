@@ -1,0 +1,31 @@
+{
+  "layers": [
+    {
+      "tier": 1,
+      "pieces": 1,
+      "layer_error_mm2": 5.53070088239843e-15,
+      "duplicate_area_mm2": 0.0
+    },
+    {
+      "tier": 2,
+      "pieces": 11,
+      "layer_error_mm2": 5.684341886107943e-16,
+      "duplicate_area_mm2": 2.6921043172478676e-10
+    },
+    {
+      "tier": 3,
+      "pieces": 18,
+      "layer_error_mm2": 5.684341886107943e-16,
+      "duplicate_area_mm2": -2.1827872842550278e-11
+    }
+  ],
+  "upper_pieces_with_exposed_paint_color_conflicts": [],
+  "pieces_split_by_1mm_erosion_into_areas_over_5mm2": [],
+  "complete_annotations": 158,
+  "relocated_annotations": 13,
+  "base_masks_required": [
+    "Arizona / Mexico",
+    "Labrador / Quebec"
+  ],
+  "source_file_unchanged": true
+}

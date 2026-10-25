@@ -1,0 +1,145 @@
+{
+  "total_pieces": 30,
+  "layers": [
+    {
+      "tier": 1,
+      "pieces": 1,
+      "visible_conflicts_require_cut_or_stencil": 2
+    },
+    {
+      "tier": 2,
+      "pieces": 11,
+      "visible_conflicts_require_cut_or_stencil": 10
+    },
+    {
+      "tier": 3,
+      "pieces": 18,
+      "visible_conflicts_require_cut_or_stencil": 6
+    }
+  ],
+  "checks": {
+    "layer_1": {
+      "reconstruction_error_mm2": 5.53070088239843e-15,
+      "duplicate_area_mm2": 0.0,
+      "paint_outside_upper_cover_mm2": 9.491922825295412e-16,
+      "valid_closed_polygons": true
+    },
+    "layer_2": {
+      "reconstruction_error_mm2": 5.684341886107943e-16,
+      "duplicate_area_mm2": 2.6921043172478676e-10,
+      "paint_outside_upper_cover_mm2": 2.4080632261840804e-15,
+      "valid_closed_polygons": true
+    },
+    "layer_3": {
+      "reconstruction_error_mm2": 5.684341886107943e-16,
+      "duplicate_area_mm2": -2.1827872842550278e-11,
+      "paint_outside_upper_cover_mm2": 0.0,
+      "valid_closed_polygons": true
+    },
+    "all_annotations_on_single_exposed_surface": true
+  },
+  "annotations_moved": [
+    {
+      "source_id": "TEXT_050",
+      "piece": "L02_P010",
+      "dx_mm": 2.5,
+      "dy_mm": 0.0,
+      "scale": 0.9
+    },
+    {
+      "source_id": "TEXT_043",
+      "piece": "L02_P008",
+      "dx_mm": -15.0,
+      "dy_mm": 0.0,
+      "scale": 0.8
+    },
+    {
+      "source_id": "TEXT_055",
+      "piece": "L02_P002",
+      "dx_mm": 5.5,
+      "dy_mm": 1.5,
+      "scale": 0.9
+    },
+    {
+      "source_id": "TEXT_001",
+      "piece": "L03_P001",
+      "dx_mm": -1.0,
+      "dy_mm": -2.5,
+      "scale": 0.9
+    },
+    {
+      "source_id": "TEXT_037",
+      "piece": "L02_P008",
+      "dx_mm": -0.5,
+      "dy_mm": -0.5,
+      "scale": 0.9
+    },
+    {
+      "source_id": "TEXT_029",
+      "piece": "L03_P001",
+      "dx_mm": -2.0,
+      "dy_mm": -0.5,
+      "scale": 1
+    },
+    {
+      "source_id": "MARK_058",
+      "piece": "L03_P016",
+      "dx_mm": 0.0,
+      "dy_mm": 2.25,
+      "scale": 1
+    },
+    {
+      "source_id": "MARK_004",
+      "piece": "L01_P001",
+      "dx_mm": 0.0,
+      "dy_mm": 1.0,
+      "scale": 1
+    },
+    {
+      "source_id": "MARK_065",
+      "piece": "L02_P008",
+      "dx_mm": 0.25,
+      "dy_mm": -0.5,
+      "scale": 1
+    },
+    {
+      "source_id": "MARK_067",
+      "piece": "L01_P001",
+      "dx_mm": 0.5,
+      "dy_mm": -0.75,
+      "scale": 1
+    },
+    {
+      "source_id": "MARK_053",
+      "piece": "L02_P002",
+      "dx_mm": 0.0,
+      "dy_mm": -1.0,
+      "scale": 1
+    },
+    {
+      "source_id": "MARK_070",
+      "piece": "L02_P008",
+      "dx_mm": 0.0,
+      "dy_mm": 0.75,
+      "scale": 1
+    },
+    {
+      "source_id": "TEXT_063",
+      "piece": "L02_P002",
+      "dx_mm": -2,
+      "dy_mm": 0,
+      "scale": 0.9,
+      "rotation_degrees": 40
+    }
+  ],
+  "annotations_requiring_review": [],
+  "excluded_misplaced_objects": [
+    "REG_52_Honduras__L03"
+  ],
+  "point_contact_repairs": 2,
+  "paint_overlap_mm": 2,
+  "source_scale_width_mm": 509.80999999999995,
+  "source_scale_height_mm": 434.7,
+  "kerf_compensated": false,
+  "sheet_nesting": false
+}
