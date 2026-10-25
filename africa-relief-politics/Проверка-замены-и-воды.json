@@ -1,0 +1,20 @@
+{
+  "through_water_rays": {
+    "Нил": 1,
+    "Конго": 1,
+    "Замбези": 1,
+    "Альберт": 1,
+    "Малави": 1,
+    "Танганьика": 1,
+    "Виктория": 1,
+    "Тана": 1,
+    "Туркана": 1,
+    "Водопад Виктория": 1
+  },
+  "exchange_between_three_variants": [
+    "DZA",
+    "COD"
+  ],
+  "moved_rotated_pose_retained": true,
+  "passed": true
+}

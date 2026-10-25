@@ -1,0 +1,3 @@
+# Keep spreadsheet CRLF and bundled license formatting.
+*.csv whitespace=cr-at-eol
+NotoSans-LICENSE.txt -whitespace

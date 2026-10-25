@@ -1,0 +1,32 @@
+[
+  {
+    "level": 1,
+    "source_vs_mesh_difference_mm2": 0.11374554947873768,
+    "fraction": 1.9057910265630038e-06
+  },
+  {
+    "level": 2,
+    "source_vs_mesh_difference_mm2": 0.07188000583887101,
+    "fraction": 1.2669149850228438e-06
+  },
+  {
+    "level": 3,
+    "source_vs_mesh_difference_mm2": 0.006619331906922046,
+    "fraction": 2.936964347700005e-07
+  },
+  {
+    "level": 4,
+    "source_vs_mesh_difference_mm2": 0.0010727938248502697,
+    "fraction": 2.1848948603416037e-07
+  },
+  {
+    "level": 5,
+    "source_vs_mesh_difference_mm2": 5.2623786156541315e-05,
+    "fraction": 1.1370272356566385e-07
+  },
+  {
+    "level": 6,
+    "source_vs_mesh_difference_mm2": 5.2837058344260563e-14,
+    "fraction": 1.0210586127760612e-15
+  }
+]
