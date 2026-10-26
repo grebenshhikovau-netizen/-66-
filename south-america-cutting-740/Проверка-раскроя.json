@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "parts_per_kit": 18,
+  "layers": [
+    5,
+    5,
+    8
+  ],
+  "source_height_levels_mm": [
+    3,
+    6,
+    9
+  ],
+  "fields": [
+    {
+      "folder": "south-america-cutting-740",
+      "kits": 3,
+      "physical_parts": 54,
+      "editable_blue_country_titles": 39,
+      "source_city_labels": 0,
+      "svg_colors": [
+        "#000000",
+        "#0000ff",
+        "#ff0000"
+      ],
+      "stock_mm": [
+        740,
+        740
+      ],
+      "pdf_page_mm": [
+        740.0000722222221,
+        740.0000722222221
+      ],
+      "actual_min_gap_mm": 4.857640089095464,
+      "max_cut_rounding_error_mm2": 0.00012322677809171304,
+      "max_red_line_rounding_error_mm": 6.759927065790728e-07,
+      "all_parts_translation_only": true,
+      "all_titles_fit_one_exposed_surface": true,
+      "all_kits_complete": true,
+      "pdf_text_is_live_and_searchable": true
+    },
+    {
+      "folder": "Один-комплект",
+      "kits": 1,
+      "physical_parts": 18,
+      "editable_blue_country_titles": 13,
+      "source_city_labels": 0,
+      "svg_colors": [
+        "#000000",
+        "#0000ff",
+        "#ff0000"
+      ],
+      "stock_mm": [
+        740,
+        740
+      ],
+      "pdf_page_mm": [
+        740.0000722222221,
+        740.0000722222221
+      ],
+      "actual_min_gap_mm": 4.696694978294536,
+      "max_cut_rounding_error_mm2": 0.00012322673551786177,
+      "max_red_line_rounding_error_mm": 6.759927065790728e-07,
+      "all_parts_translation_only": true,
+      "all_titles_fit_one_exposed_surface": true,
+      "all_kits_complete": true,
+      "pdf_text_is_live_and_searchable": true
+    }
+  ],
+  "paint_conflicts_not_joined": true,
+  "bleed_only_under_upper_parts": true,
+  "hidden_political_boundaries_removed": true,
+  "immediate_next_piece_placement_guides_kept": true,
+  "source_height_field_symmetric_difference_mm2": [
+    0.008374516433795208,
+    0.0048654187705756925,
+    0.0017523960992091906
+  ],
+  "source_palette_preserved": true
+}

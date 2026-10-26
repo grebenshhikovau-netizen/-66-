@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "wood_parts": 18,
+  "layers": [
+    5,
+    5,
+    8
+  ],
+  "all_parts_one_connected_manifold_solid": true,
+  "bottom_origins": true,
+  "height_driver_tests_mm": [
+    3,
+    6,
+    9
+  ],
+  "labels_follow_top": true,
+  "checks": [
+    {
+      "id": "L01_P001",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.013840846172162139,
+      "volume_mm3": 25172.51463256663
+    },
+    {
+      "id": "L01_P002",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0013304107999566439,
+      "volume_mm3": 1350.037811063458
+    },
+    {
+      "id": "L01_P003",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.010162405180735442,
+      "volume_mm3": 33907.268964132905
+    },
+    {
+      "id": "L01_P004",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.014890826794643194,
+      "volume_mm3": 50740.195022393134
+    },
+    {
+      "id": "L01_P005",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0009725069255125213,
+      "volume_mm3": 657.6677529842594
+    },
+    {
+      "id": "L02_P001",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0034293385683005838,
+      "volume_mm3": 4955.6412257929505
+    },
+    {
+      "id": "L02_P002",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.008617612213528716,
+      "volume_mm3": 23100.443527214986
+    },
+    {
+      "id": "L02_P003",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.007380242154066801,
+      "volume_mm3": 13108.88952856474
+    },
+    {
+      "id": "L02_P004",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.01341508877028345,
+      "volume_mm3": 17654.004115903153
+    },
+    {
+      "id": "L02_P005",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.01533538153503374,
+      "volume_mm3": 38524.67372438337
+    },
+    {
+      "id": "L03_P001",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0051607772691489645,
+      "volume_mm3": 9077.218059503883
+    },
+    {
+      "id": "L03_P002",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.010940788237918268,
+      "volume_mm3": 7738.870525823543
+    },
+    {
+      "id": "L03_P003",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.007897808520610781,
+      "volume_mm3": 2674.533662071477
+    },
+    {
+      "id": "L03_P004",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.003143197941573385,
+      "volume_mm3": 3819.6085569789293
+    },
+    {
+      "id": "L03_P005",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.005896210657806505,
+      "volume_mm3": 6239.246345804591
+    },
+    {
+      "id": "L03_P006",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0015404211187588722,
+      "volume_mm3": 836.1786403347091
+    },
+    {
+      "id": "L03_P007",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0015085016660641528,
+      "volume_mm3": 1159.930580382197
+    },
+    {
+      "id": "L03_P008",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0012136967016343658,
+      "volume_mm3": 795.2563188753862
+    }
+  ]
+}

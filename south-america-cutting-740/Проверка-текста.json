@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "editable_country_texts": 39,
+  "country_labels_per_kit": 13,
+  "kits": 3,
+  "svg_open_save_round_trip_preserves_text": true,
+  "pdf_text_is_searchable": true,
+  "font_supplied": "Шрифт/OpenSans-Light.ttf",
+  "coreldraw_not_installed_in_environment": true
+}

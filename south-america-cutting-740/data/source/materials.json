@@ -1,0 +1,781 @@
+{
+  "BRA — Бразилия.001": {
+    "color_linear": [
+      0.7822527289390564,
+      0.7083939909934998,
+      0.5669940859079361
+    ],
+    "diffuse": [
+      0.8148465752601624,
+      0.7379103899002075,
+      0.5906188488006592
+    ],
+    "top_material_indices": {
+      "0": 3725
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "CHL — Чили.001": {
+    "color_linear": [
+      0.7822527289390564,
+      0.7083939909934998,
+      0.5669940859079361
+    ],
+    "diffuse": [
+      0.8148465752601624,
+      0.7379103899002075,
+      0.5906188488006592
+    ],
+    "top_material_indices": {
+      "0": 2544
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "ARG — Аргентина.001": {
+    "color_linear": [
+      0.49432097375392914,
+      0.17709599435329437,
+      0.05713078752160072
+    ],
+    "diffuse": [
+      0.5149176716804504,
+      0.18447498977184296,
+      0.05951123684644699
+    ],
+    "top_material_indices": {
+      "0": 2718
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "BOL — Боливия.001": {
+    "color_linear": [
+      0.17709599435329437,
+      0.07899139821529388,
+      0.04198562726378441
+    ],
+    "diffuse": [
+      0.18447498977184296,
+      0.08228270709514618,
+      0.04373503103852272
+    ],
+    "top_material_indices": {
+      "0": 1117
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "PER — Перу.001": {
+    "color_linear": [
+      0.05549321323633194,
+      0.034177263267338276,
+      0.026228055357933044
+    ],
+    "diffuse": [
+      0.05780543014407158,
+      0.03560131415724754,
+      0.027320891618728638
+    ],
+    "top_material_indices": {
+      "0": 1388
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "VEN — Венесуэла.001": {
+    "color_linear": [
+      0.40116967260837555,
+      0.1122918389737606,
+      0.06396090239286423
+    ],
+    "diffuse": [
+      0.41788506507873535,
+      0.11697066575288773,
+      0.0666259378194809
+    ],
+    "top_material_indices": {
+      "0": 1086
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "BRA — Бразилия": {
+    "color_linear": [
+      0.7822527289390564,
+      0.7083939909934998,
+      0.5669940859079361
+    ],
+    "diffuse": [
+      0.8148465752601624,
+      0.7379103899002075,
+      0.5906188488006592
+    ],
+    "top_material_indices": {
+      "0": 3725
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "ARG — Аргентина": {
+    "color_linear": [
+      0.49432097375392914,
+      0.17709599435329437,
+      0.05713078752160072
+    ],
+    "diffuse": [
+      0.5149176716804504,
+      0.18447498977184296,
+      0.05951123684644699
+    ],
+    "top_material_indices": {
+      "0": 2718
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "PER — Перу": {
+    "color_linear": [
+      0.05549321323633194,
+      0.034177263267338276,
+      0.026228055357933044
+    ],
+    "diffuse": [
+      0.05780543014407158,
+      0.03560131415724754,
+      0.027320891618728638
+    ],
+    "top_material_indices": {
+      "0": 1388
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "BOL — Боливия": {
+    "color_linear": [
+      0.17709599435329437,
+      0.07899139821529388,
+      0.04198562726378441
+    ],
+    "diffuse": [
+      0.18447498977184296,
+      0.08228270709514618,
+      0.04373503103852272
+    ],
+    "top_material_indices": {
+      "0": 1117
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "CHL — Чили": {
+    "color_linear": [
+      0.7822527289390564,
+      0.7083939909934998,
+      0.5669940859079361
+    ],
+    "diffuse": [
+      0.8148465752601624,
+      0.7379103899002075,
+      0.5906188488006592
+    ],
+    "top_material_indices": {
+      "0": 2544
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "COL — Колумбия": {
+    "color_linear": [
+      0.40116967260837555,
+      0.1122918389737606,
+      0.06396090239286423
+    ],
+    "diffuse": [
+      0.41788506507873535,
+      0.11697066575288773,
+      0.0666259378194809
+    ],
+    "top_material_indices": {
+      "0": 1299
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "VEN — Венесуэла": {
+    "color_linear": [
+      0.40116967260837555,
+      0.1122918389737606,
+      0.06396090239286423
+    ],
+    "diffuse": [
+      0.41788506507873535,
+      0.11697066575288773,
+      0.0666259378194809
+    ],
+    "top_material_indices": {
+      "0": 1086
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "ECU — Эквадор": {
+    "color_linear": [
+      0.2927878201007843,
+      0.15554820001125336,
+      0.0810011625289917
+    ],
+    "diffuse": [
+      0.3049873113632202,
+      0.16202937066555023,
+      0.08437620848417282
+    ],
+    "top_material_indices": {
+      "0": 510
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "PRY — Парагвай": {
+    "color_linear": [
+      0.44359391927719116,
+      0.31915347278118134,
+      0.17709599435329437
+    ],
+    "diffuse": [
+      0.46207699179649353,
+      0.3324515223503113,
+      0.18447498977184296
+    ],
+    "top_material_indices": {
+      "0": 682
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "URY — Уругвай": {
+    "color_linear": [
+      0.2517606392502785,
+      0.27594320476055145,
+      0.17077288031578064
+    ],
+    "diffuse": [
+      0.2622506618499756,
+      0.28744083642959595,
+      0.177888423204422
+    ],
+    "top_material_indices": {
+      "0": 435
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "GUY — Гайана": {
+    "color_linear": [
+      0.3858986645936966,
+      0.2927878201007843,
+      0.16766151040792465
+    ],
+    "diffuse": [
+      0.4019777774810791,
+      0.3049873113632202,
+      0.17464740574359894
+    ],
+    "top_material_indices": {
+      "0": 479
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "SUR — Суринам": {
+    "color_linear": [
+      0.20722607523202896,
+      0.21074514836072922,
+      0.14396139979362488
+    ],
+    "diffuse": [
+      0.2158605009317398,
+      0.21952620148658752,
+      0.14995978772640228
+    ],
+    "top_material_indices": {
+      "0": 337
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  },
+  "GUF — Французская Гвиана": {
+    "color_linear": [
+      0.5238954722881317,
+      0.40116967260837555,
+      0.24398601800203323
+    ],
+    "diffuse": [
+      0.5457244515419006,
+      0.41788506507873535,
+      0.2541520893573761
+    ],
+    "top_material_indices": {
+      "0": 301
+    },
+    "shader_nodes": [
+      [
+        "Principled BSDF",
+        "BSDF_PRINCIPLED"
+      ],
+      [
+        "Material Output",
+        "OUTPUT_MATERIAL"
+      ],
+      [
+        "Geometry",
+        "NEW_GEOMETRY"
+      ],
+      [
+        "Vector Math",
+        "VECT_MATH"
+      ],
+      [
+        "Noise Texture",
+        "TEX_NOISE"
+      ],
+      [
+        "Color Ramp",
+        "VALTORGB"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stock_mm": [
+    740,
+    740
+  ],
+  "kits_on_primary_sheet": 3,
+  "parts_on_primary_sheet": 54,
+  "parts_per_kit": 18,
+  "layers_per_kit": [
+    5,
+    5,
+    8
+  ],
+  "ply_thickness_mm": 3,
+  "no_part_rotation_or_mirroring": true,
+  "scale": 1,
+  "country_titles_per_kit": 13,
+  "original_city_labels": 0,
+  "files_sha256": {
+    "Поле-01-740x740.svg": "894b7f137453ea360d959e5fe2ddf0147bd571320cabe4962ddc805b94a13d4f",
+    "Поле-01-740x740.pdf": "3e26148829974a5917a1cdaf45ccf201aa746d3ef67211b75423a88061245ad6",
+    "Один-комплект/Поле-01-740x740.svg": "bacf0c380f54d9656e7ad08b11e65035e1cda2659199a62f0ef154257371d394",
+    "Один-комплект/Поле-01-740x740.pdf": "759e2a7028671633db9c43c7f12456f6d346cf56e585c2874723eb7f26604271",
+    "Южная-Америка-производственная-сборка.blend": "c8b9ad6970275bf9406f320df0e7632e897cf1d42b7d832f564f6d745964ce51",
+    "Шрифт/OpenSans-Light.ttf": "cf5f5184c1441a1660aa52526328e9d5c2793e77b6d8d3a3ad654bdb07ab8424"
+  }
+}

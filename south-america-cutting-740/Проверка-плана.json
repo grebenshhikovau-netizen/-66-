@@ -1,0 +1,156 @@
+{
+  "layers": [
+    {
+      "tier": 1,
+      "pieces": 5,
+      "paint_conflicts_separated": 8
+    },
+    {
+      "tier": 2,
+      "pieces": 5,
+      "paint_conflicts_separated": 9
+    },
+    {
+      "tier": 3,
+      "pieces": 8,
+      "paint_conflicts_separated": 4
+    }
+  ],
+  "physical_parts": 18,
+  "paint_conflicts_separated": [
+    {
+      "tier": 1,
+      "a": "BRA",
+      "b": "BOL",
+      "exposed_gap_mm": 0.03999999233026547
+    },
+    {
+      "tier": 1,
+      "a": "BRA",
+      "b": "PER",
+      "exposed_gap_mm": 0.03999999340230364
+    },
+    {
+      "tier": 1,
+      "a": "BRA",
+      "b": "VEN",
+      "exposed_gap_mm": 0.039999999999969206
+    },
+    {
+      "tier": 1,
+      "a": "PER",
+      "b": "ECU",
+      "exposed_gap_mm": 0.039999999999835834
+    },
+    {
+      "tier": 1,
+      "a": "BRA",
+      "b": "PRY",
+      "exposed_gap_mm": 0.039999991577059794
+    },
+    {
+      "tier": 1,
+      "a": "BOL",
+      "b": "PRY",
+      "exposed_gap_mm": 0.03999999486001868
+    },
+    {
+      "tier": 1,
+      "a": "BRA",
+      "b": "URY",
+      "exposed_gap_mm": 0.03999999465714854
+    },
+    {
+      "tier": 1,
+      "a": "BRA",
+      "b": "GUF",
+      "exposed_gap_mm": 0.0399999999998793
+    },
+    {
+      "tier": 2,
+      "a": "BRA",
+      "b": "ARG",
+      "exposed_gap_mm": 0.039999997248542904
+    },
+    {
+      "tier": 2,
+      "a": "ARG",
+      "b": "CHL",
+      "exposed_gap_mm": 0.039999990487034356
+    },
+    {
+      "tier": 2,
+      "a": "BRA",
+      "b": "BOL",
+      "exposed_gap_mm": 0.03999999194371681
+    },
+    {
+      "tier": 2,
+      "a": "BRA",
+      "b": "BOL",
+      "exposed_gap_mm": 0.03999999053967978
+    },
+    {
+      "tier": 2,
+      "a": "ARG",
+      "b": "BOL",
+      "exposed_gap_mm": 0.039999994836129246
+    },
+    {
+      "tier": 2,
+      "a": "BRA",
+      "b": "PER",
+      "exposed_gap_mm": 0.03999999120331685
+    },
+    {
+      "tier": 2,
+      "a": "CHL",
+      "b": "PER",
+      "exposed_gap_mm": 0.039999996110344965
+    },
+    {
+      "tier": 2,
+      "a": "BOL",
+      "b": "PER",
+      "exposed_gap_mm": 0.0399999902988828
+    },
+    {
+      "tier": 2,
+      "a": "BRA",
+      "b": "VEN",
+      "exposed_gap_mm": 0.03999999488159657
+    },
+    {
+      "tier": 3,
+      "a": "ARG",
+      "b": "CHL",
+      "exposed_gap_mm": 0.039999990678342326
+    },
+    {
+      "tier": 3,
+      "a": "CHL",
+      "b": "PER",
+      "exposed_gap_mm": 0.039999999999849774
+    },
+    {
+      "tier": 3,
+      "a": "VEN",
+      "b": "GUY",
+      "exposed_gap_mm": 0.03999999040781638
+    },
+    {
+      "tier": 3,
+      "a": "GUY",
+      "b": "SUR",
+      "exposed_gap_mm": 0.039999995360557
+    }
+  ],
+  "source_height_field_error_mm2": [
+    0.008374516433795208,
+    0.0048654187705756925,
+    0.0017523960992091932
+  ],
+  "subpixel_seam_repairs": 113,
+  "max_height_mm": 9,
+  "no_country_color_changes": true
+}

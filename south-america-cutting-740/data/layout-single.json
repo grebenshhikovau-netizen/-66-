@@ -1,0 +1,223 @@
+{
+  "stock_mm": [
+    740,
+    740
+  ],
+  "kits": 1,
+  "parts_per_kit": 18,
+  "part_count": 18,
+  "placements": [
+    {
+      "id": "K01_L02_P003",
+      "source_id": "L02_P003",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -820,
+      "dy_mm": 502,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L01_P003",
+      "source_id": "L01_P003",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -754,
+      "dy_mm": 464,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L01_P004",
+      "source_id": "L01_P004",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -652,
+      "dy_mm": 588,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L02_P005",
+      "source_id": "L02_P005",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -526,
+      "dy_mm": 706,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L02_P002",
+      "source_id": "L02_P002",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -693,
+      "dy_mm": 537,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L03_P003",
+      "source_id": "L03_P003",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -790,
+      "dy_mm": 531,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L03_P002",
+      "source_id": "L03_P002",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -393,
+      "dy_mm": 442,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L01_P001",
+      "source_id": "L01_P001",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -625,
+      "dy_mm": 803,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L02_P004",
+      "source_id": "L02_P004",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -534,
+      "dy_mm": 819,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L03_P001",
+      "source_id": "L03_P001",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -557,
+      "dy_mm": 504,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L03_P005",
+      "source_id": "L03_P005",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -729,
+      "dy_mm": 821,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L03_P004",
+      "source_id": "L03_P004",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -750,
+      "dy_mm": 778,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L02_P001",
+      "source_id": "L02_P001",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -529,
+      "dy_mm": 538,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L03_P007",
+      "source_id": "L03_P007",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -887,
+      "dy_mm": 588,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L01_P002",
+      "source_id": "L01_P002",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -629,
+      "dy_mm": 555,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L01_P005",
+      "source_id": "L01_P005",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -723,
+      "dy_mm": 576,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L03_P006",
+      "source_id": "L03_P006",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -447,
+      "dy_mm": 646,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "K01_L03_P008",
+      "source_id": "L03_P008",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -468,
+      "dy_mm": 577,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    }
+  ],
+  "edge_margin_mm": 5,
+  "required_gap_mm": 3,
+  "actual_min_gap_mm": 4.696694978294568,
+  "used_bounds_mm": [
+    7.393000000000029,
+    7.499000000000024,
+    491.09000000000003,
+    373.93899993543545
+  ],
+  "translation_only": true,
+  "part_rotation": 0,
+  "part_reflection": false,
+  "scale": 1,
+  "attempts": []
+}
