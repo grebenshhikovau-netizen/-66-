@@ -1,0 +1,584 @@
+{
+  "passed": true,
+  "svg_text_count": 82,
+  "svg_round_trip_preserves_text": true,
+  "pdf_has_searchable_unicode_text": true,
+  "font_rendering_checked_in_inkscape": true,
+  "coreldraw_not_installed_in_environment": true,
+  "rendered_glyph_checks": [
+    {
+      "id": "TEXT_003",
+      "renderer_glyph_difference_mm2": 0.002793350607267358,
+      "expected_area_mm2": 2.3272532775665513,
+      "rendered_area_mm2": 2.3273469125616333,
+      "glyph_bounds_error_mm": 3.799999944931187e-06
+    },
+    {
+      "id": "TEXT_004",
+      "renderer_glyph_difference_mm2": 0.0014409347913007995,
+      "expected_area_mm2": 2.1391319067922296,
+      "rendered_area_mm2": 2.139002056128754,
+      "glyph_bounds_error_mm": 3.971858347995294e-06
+    },
+    {
+      "id": "TEXT_005",
+      "renderer_glyph_difference_mm2": 0.003926322408088233,
+      "expected_area_mm2": 7.8353958630128915,
+      "rendered_area_mm2": 7.834527156110388,
+      "glyph_bounds_error_mm": 4.816388241124514e-06
+    },
+    {
+      "id": "TEXT_008",
+      "renderer_glyph_difference_mm2": 0.0033857717386481536,
+      "expected_area_mm2": 5.4377474683368625,
+      "rendered_area_mm2": 5.436943361940381,
+      "glyph_bounds_error_mm": 6.247719340990443e-06
+    },
+    {
+      "id": "TEXT_012",
+      "renderer_glyph_difference_mm2": 0.002563887500070997,
+      "expected_area_mm2": 3.3187950222320284,
+      "rendered_area_mm2": 3.3183961338212558,
+      "glyph_bounds_error_mm": 4.110712666260952e-05
+    },
+    {
+      "id": "TEXT_013",
+      "renderer_glyph_difference_mm2": 0.0016688349113204996,
+      "expected_area_mm2": 2.0454786713120674,
+      "rendered_area_mm2": 2.04525963639356,
+      "glyph_bounds_error_mm": 4.738097004519659e-06
+    },
+    {
+      "id": "TEXT_014",
+      "renderer_glyph_difference_mm2": 0.002832422840127121,
+      "expected_area_mm2": 4.1127092218588555,
+      "rendered_area_mm2": 4.111893073674072,
+      "glyph_bounds_error_mm": 3.3023988521563297e-06
+    },
+    {
+      "id": "TEXT_018",
+      "renderer_glyph_difference_mm2": 0.004629954179296858,
+      "expected_area_mm2": 4.939002208355464,
+      "rendered_area_mm2": 4.937876252951812,
+      "glyph_bounds_error_mm": 0.0002910076347006907
+    },
+    {
+      "id": "TEXT_019",
+      "renderer_glyph_difference_mm2": 0.004210037643370042,
+      "expected_area_mm2": 8.549221372023895,
+      "rendered_area_mm2": 8.549009996976396,
+      "glyph_bounds_error_mm": 3.4999999911633495e-06
+    },
+    {
+      "id": "TEXT_023",
+      "renderer_glyph_difference_mm2": 0.003365113646775057,
+      "expected_area_mm2": 5.8137015667214635,
+      "rendered_area_mm2": 5.813056398854551,
+      "glyph_bounds_error_mm": 3.2000000373955118e-06
+    },
+    {
+      "id": "TEXT_024",
+      "renderer_glyph_difference_mm2": 0.004984361774742267,
+      "expected_area_mm2": 8.30157891828814,
+      "rendered_area_mm2": 8.299904535877396,
+      "glyph_bounds_error_mm": 3.714424849476927e-06
+    },
+    {
+      "id": "TEXT_025",
+      "renderer_glyph_difference_mm2": 0.0020881748597563364,
+      "expected_area_mm2": 5.076390161443351,
+      "rendered_area_mm2": 5.076192365646606,
+      "glyph_bounds_error_mm": 8.199706940104079e-06
+    },
+    {
+      "id": "TEXT_026",
+      "renderer_glyph_difference_mm2": 0.009621251764156092,
+      "expected_area_mm2": 12.115750462351777,
+      "rendered_area_mm2": 12.113692889991782,
+      "glyph_bounds_error_mm": 4.300000000512227e-06
+    },
+    {
+      "id": "TEXT_032",
+      "renderer_glyph_difference_mm2": 0.004232456638458411,
+      "expected_area_mm2": 3.9574415362360575,
+      "rendered_area_mm2": 3.955527103111759,
+      "glyph_bounds_error_mm": 2.281457057051739e-06
+    },
+    {
+      "id": "TEXT_036",
+      "renderer_glyph_difference_mm2": 0.006520222505962591,
+      "expected_area_mm2": 8.253893381253285,
+      "rendered_area_mm2": 8.253744360791977,
+      "glyph_bounds_error_mm": 1.0435439662614954e-05
+    },
+    {
+      "id": "TEXT_038",
+      "renderer_glyph_difference_mm2": 0.01261338445602614,
+      "expected_area_mm2": 17.073038085048537,
+      "rendered_area_mm2": 17.07041230154283,
+      "glyph_bounds_error_mm": 4.153934156647665e-06
+    },
+    {
+      "id": "TEXT_042",
+      "renderer_glyph_difference_mm2": 0.007493452882638567,
+      "expected_area_mm2": 13.025155410458094,
+      "rendered_area_mm2": 13.025258278818505,
+      "glyph_bounds_error_mm": 2.9246737369703624e-06
+    },
+    {
+      "id": "TEXT_049",
+      "renderer_glyph_difference_mm2": 0.0033293853023704293,
+      "expected_area_mm2": 5.705725284583871,
+      "rendered_area_mm2": 5.705863757856851,
+      "glyph_bounds_error_mm": 6.421371210763027e-06
+    },
+    {
+      "id": "TEXT_052",
+      "renderer_glyph_difference_mm2": 0.007660970054441417,
+      "expected_area_mm2": 10.267971009575483,
+      "rendered_area_mm2": 10.265719124655437,
+      "glyph_bounds_error_mm": 3.4991705888387514e-06
+    },
+    {
+      "id": "TEXT_059",
+      "renderer_glyph_difference_mm2": 0.003628289136806267,
+      "expected_area_mm2": 6.135394119161595,
+      "rendered_area_mm2": 6.135201578360421,
+      "glyph_bounds_error_mm": 0.00033566733259249304
+    },
+    {
+      "id": "TEXT_060",
+      "renderer_glyph_difference_mm2": 0.00142664268011784,
+      "expected_area_mm2": 1.5494822720103207,
+      "rendered_area_mm2": 1.5493488930869073,
+      "glyph_bounds_error_mm": 9.064247171863826e-05
+    },
+    {
+      "id": "TEXT_072",
+      "renderer_glyph_difference_mm2": 0.003356391078885279,
+      "expected_area_mm2": 4.53382312054073,
+      "rendered_area_mm2": 4.5333702522508865,
+      "glyph_bounds_error_mm": 3.700000092976552e-06
+    },
+    {
+      "id": "TEXT_073",
+      "renderer_glyph_difference_mm2": 0.0012779326618553985,
+      "expected_area_mm2": 3.035432598756863,
+      "rendered_area_mm2": 3.0356281951810806,
+      "glyph_bounds_error_mm": 0.00010267782965911465
+    },
+    {
+      "id": "TEXT_074",
+      "renderer_glyph_difference_mm2": 0.002568808341094308,
+      "expected_area_mm2": 4.401326663504502,
+      "rendered_area_mm2": 4.400805288266734,
+      "glyph_bounds_error_mm": 6.24961799076118e-05
+    },
+    {
+      "id": "TEXT_082",
+      "renderer_glyph_difference_mm2": 0.002662714695677215,
+      "expected_area_mm2": 3.6211959620675858,
+      "rendered_area_mm2": 3.6201347910203516,
+      "glyph_bounds_error_mm": 3.7000006614107406e-07
+    },
+    {
+      "id": "TEXT_083",
+      "renderer_glyph_difference_mm2": 0.00478722108307135,
+      "expected_area_mm2": 5.112193764840077,
+      "rendered_area_mm2": 5.111401211451943,
+      "glyph_bounds_error_mm": 3.4100000334547076e-06
+    },
+    {
+      "id": "TEXT_085",
+      "renderer_glyph_difference_mm2": 0.007103393107872552,
+      "expected_area_mm2": 6.629316320224044,
+      "rendered_area_mm2": 6.62732419215211,
+      "glyph_bounds_error_mm": 0.00033093283750673663
+    },
+    {
+      "id": "TEXT_086",
+      "renderer_glyph_difference_mm2": 0.006824316078629424,
+      "expected_area_mm2": 9.842344037138062,
+      "rendered_area_mm2": 9.84058132343444,
+      "glyph_bounds_error_mm": 3.6230013051863352e-06
+    },
+    {
+      "id": "TEXT_007",
+      "renderer_glyph_difference_mm2": 0.009182414470831695,
+      "expected_area_mm2": 16.113446215168793,
+      "rendered_area_mm2": 16.11168643333057,
+      "glyph_bounds_error_mm": 5.1341175435482e-06
+    },
+    {
+      "id": "TEXT_009",
+      "renderer_glyph_difference_mm2": 0.006211039913339082,
+      "expected_area_mm2": 8.285095532008725,
+      "rendered_area_mm2": 8.2833197548507,
+      "glyph_bounds_error_mm": 3.5492352594701515e-06
+    },
+    {
+      "id": "TEXT_015",
+      "renderer_glyph_difference_mm2": 0.005171266784277824,
+      "expected_area_mm2": 7.471780164538091,
+      "rendered_area_mm2": 7.471750247979513,
+      "glyph_bounds_error_mm": 4.699999976764957e-06
+    },
+    {
+      "id": "TEXT_017",
+      "renderer_glyph_difference_mm2": 0.013165893761556465,
+      "expected_area_mm2": 14.181854648566167,
+      "rendered_area_mm2": 14.181350209867892,
+      "glyph_bounds_error_mm": 3.6917472812092456e-06
+    },
+    {
+      "id": "TEXT_020",
+      "renderer_glyph_difference_mm2": 0.004592938889677996,
+      "expected_area_mm2": 9.643385984312738,
+      "rendered_area_mm2": 9.64297057153033,
+      "glyph_bounds_error_mm": 4.740000008496281e-06
+    },
+    {
+      "id": "TEXT_021",
+      "renderer_glyph_difference_mm2": 0.007696005447756426,
+      "expected_area_mm2": 7.036586551768854,
+      "rendered_area_mm2": 7.035282918897285,
+      "glyph_bounds_error_mm": 5.000000044219632e-06
+    },
+    {
+      "id": "TEXT_028",
+      "renderer_glyph_difference_mm2": 0.004315326724205041,
+      "expected_area_mm2": 11.78281978122191,
+      "rendered_area_mm2": 11.780873678054801,
+      "glyph_bounds_error_mm": 2.8000000611427822e-06
+    },
+    {
+      "id": "TEXT_030",
+      "renderer_glyph_difference_mm2": 0.0017905023770651122,
+      "expected_area_mm2": 2.893645922519724,
+      "rendered_area_mm2": 2.8931780220454257,
+      "glyph_bounds_error_mm": 4.8177716394093295e-06
+    },
+    {
+      "id": "TEXT_035",
+      "renderer_glyph_difference_mm2": 0.005566988318508044,
+      "expected_area_mm2": 6.1138805122688655,
+      "rendered_area_mm2": 6.112520616382227,
+      "glyph_bounds_error_mm": 4.636969208604569e-06
+    },
+    {
+      "id": "TEXT_037",
+      "renderer_glyph_difference_mm2": 0.009558531406095784,
+      "expected_area_mm2": 10.593289329776669,
+      "rendered_area_mm2": 10.594230682632935,
+      "glyph_bounds_error_mm": 4.636764072074584e-05
+    },
+    {
+      "id": "TEXT_047",
+      "renderer_glyph_difference_mm2": 0.003674668877636229,
+      "expected_area_mm2": 5.5671730091543585,
+      "rendered_area_mm2": 5.566679928819387,
+      "glyph_bounds_error_mm": 1.620474822061624e-05
+    },
+    {
+      "id": "TEXT_048",
+      "renderer_glyph_difference_mm2": 0.005305937412421844,
+      "expected_area_mm2": 7.405529345764168,
+      "rendered_area_mm2": 7.404013742602765,
+      "glyph_bounds_error_mm": 4.149999995206599e-06
+    },
+    {
+      "id": "TEXT_078",
+      "renderer_glyph_difference_mm2": 0.003561218013372484,
+      "expected_area_mm2": 6.645269721209157,
+      "rendered_area_mm2": 6.644677104880173,
+      "glyph_bounds_error_mm": 3.3978511311261173e-06
+    },
+    {
+      "id": "TEXT_079",
+      "renderer_glyph_difference_mm2": 0.003516160029568676,
+      "expected_area_mm2": 8.338172726332845,
+      "rendered_area_mm2": 8.337023917722243,
+      "glyph_bounds_error_mm": 1.9000000293090125e-06
+    },
+    {
+      "id": "TEXT_080",
+      "renderer_glyph_difference_mm2": 0.007717049231368797,
+      "expected_area_mm2": 7.931128087472394,
+      "rendered_area_mm2": 7.929877598580644,
+      "glyph_bounds_error_mm": 3.900000081102917e-06
+    },
+    {
+      "id": "TEXT_084",
+      "renderer_glyph_difference_mm2": 0.00486124207843222,
+      "expected_area_mm2": 8.254348496318462,
+      "rendered_area_mm2": 8.253390646957419,
+      "glyph_bounds_error_mm": 6.999999868639861e-07
+    },
+    {
+      "id": "TEXT_051",
+      "renderer_glyph_difference_mm2": 0.008923250724921167,
+      "expected_area_mm2": 11.009757846946261,
+      "rendered_area_mm2": 11.008902255393838,
+      "glyph_bounds_error_mm": 4.100000012385863e-06
+    },
+    {
+      "id": "TEXT_066",
+      "renderer_glyph_difference_mm2": 0.002526225685052779,
+      "expected_area_mm2": 3.1159677813446027,
+      "rendered_area_mm2": 3.115781879539908,
+      "glyph_bounds_error_mm": 2.496781803529302e-06
+    },
+    {
+      "id": "TEXT_067",
+      "renderer_glyph_difference_mm2": 0.0012204764432367796,
+      "expected_area_mm2": 3.6959424214144283,
+      "rendered_area_mm2": 3.695825587060916,
+      "glyph_bounds_error_mm": 4.978085144102806e-06
+    },
+    {
+      "id": "TEXT_070",
+      "renderer_glyph_difference_mm2": 0.0035915466797432215,
+      "expected_area_mm2": 4.057524785297304,
+      "rendered_area_mm2": 4.057151884422288,
+      "glyph_bounds_error_mm": 5.322454853740055e-06
+    },
+    {
+      "id": "TEXT_075",
+      "renderer_glyph_difference_mm2": 0.006857382189389916,
+      "expected_area_mm2": 8.428954828534872,
+      "rendered_area_mm2": 8.426826079889345,
+      "glyph_bounds_error_mm": 1.2722545079668635e-06
+    },
+    {
+      "id": "TEXT_076",
+      "renderer_glyph_difference_mm2": 0.02405897719383019,
+      "expected_area_mm2": 20.143517674726958,
+      "rendered_area_mm2": 20.141931146653647,
+      "glyph_bounds_error_mm": 2.527229435145273e-05
+    },
+    {
+      "id": "TEXT_001",
+      "renderer_glyph_difference_mm2": 0.007472004736615287,
+      "expected_area_mm2": 11.432516147971489,
+      "rendered_area_mm2": 11.433020662766515,
+      "glyph_bounds_error_mm": 0.00031883599545068364
+    },
+    {
+      "id": "TEXT_010",
+      "renderer_glyph_difference_mm2": 0.0027135434790113684,
+      "expected_area_mm2": 4.985800034772932,
+      "rendered_area_mm2": 4.985625182735334,
+      "glyph_bounds_error_mm": 3.7517338341785944e-05
+    },
+    {
+      "id": "TEXT_029",
+      "renderer_glyph_difference_mm2": 0.012912004204452465,
+      "expected_area_mm2": 17.33650740422413,
+      "rendered_area_mm2": 17.334796757662126,
+      "glyph_bounds_error_mm": 3.1105058724278933e-06
+    },
+    {
+      "id": "TEXT_031",
+      "renderer_glyph_difference_mm2": 0.00663073814088789,
+      "expected_area_mm2": 9.71213843629729,
+      "rendered_area_mm2": 9.710518532281043,
+      "glyph_bounds_error_mm": 0.00037051550660294197
+    },
+    {
+      "id": "TEXT_034",
+      "renderer_glyph_difference_mm2": 0.014155308995551459,
+      "expected_area_mm2": 13.605107369256569,
+      "rendered_area_mm2": 13.600874902158239,
+      "glyph_bounds_error_mm": 3.0956599630371784e-06
+    },
+    {
+      "id": "TEXT_039",
+      "renderer_glyph_difference_mm2": 0.004825257333156731,
+      "expected_area_mm2": 9.791111078897371,
+      "rendered_area_mm2": 9.79052322170839,
+      "glyph_bounds_error_mm": 3.7210938899079338e-06
+    },
+    {
+      "id": "TEXT_040",
+      "renderer_glyph_difference_mm2": 0.010278942691697645,
+      "expected_area_mm2": 17.092391115030683,
+      "rendered_area_mm2": 17.08835467242129,
+      "glyph_bounds_error_mm": 8.53385245136451e-07
+    },
+    {
+      "id": "TEXT_041",
+      "renderer_glyph_difference_mm2": 0.01993987100633862,
+      "expected_area_mm2": 24.892258480191234,
+      "rendered_area_mm2": 24.891782248850244,
+      "glyph_bounds_error_mm": 8.496305099470192e-07
+    },
+    {
+      "id": "TEXT_045",
+      "renderer_glyph_difference_mm2": 0.005819290571435593,
+      "expected_area_mm2": 7.184475259923007,
+      "rendered_area_mm2": 7.183049522877481,
+      "glyph_bounds_error_mm": 1.3824514667248877e-05
+    },
+    {
+      "id": "TEXT_046",
+      "renderer_glyph_difference_mm2": 0.005648341647754771,
+      "expected_area_mm2": 5.858685102919342,
+      "rendered_area_mm2": 5.857057647112047,
+      "glyph_bounds_error_mm": 5.01428246479918e-06
+    },
+    {
+      "id": "TEXT_053",
+      "renderer_glyph_difference_mm2": 0.009182049018674084,
+      "expected_area_mm2": 12.613325794931127,
+      "rendered_area_mm2": 12.610677111123026,
+      "glyph_bounds_error_mm": 3.3100000109698158e-06
+    },
+    {
+      "id": "TEXT_054",
+      "renderer_glyph_difference_mm2": 0.005983011314598776,
+      "expected_area_mm2": 8.451331472700826,
+      "rendered_area_mm2": 8.450892095854494,
+      "glyph_bounds_error_mm": 8.537828762200661e-06
+    },
+    {
+      "id": "TEXT_068",
+      "renderer_glyph_difference_mm2": 0.0030688936937607178,
+      "expected_area_mm2": 4.571637063347247,
+      "rendered_area_mm2": 4.571162093319281,
+      "glyph_bounds_error_mm": 5.703118290512066e-06
+    },
+    {
+      "id": "TEXT_069",
+      "renderer_glyph_difference_mm2": 0.0030635204819453405,
+      "expected_area_mm2": 2.957540891029886,
+      "rendered_area_mm2": 2.9577979569138977,
+      "glyph_bounds_error_mm": 3.900000024259498e-06
+    },
+    {
+      "id": "TEXT_071",
+      "renderer_glyph_difference_mm2": 0.0035760653123062345,
+      "expected_area_mm2": 2.888814502163699,
+      "rendered_area_mm2": 2.887554646550412,
+      "glyph_bounds_error_mm": 3.700000036133133e-06
+    },
+    {
+      "id": "TEXT_055",
+      "renderer_glyph_difference_mm2": 0.012389371979412419,
+      "expected_area_mm2": 12.836283790502554,
+      "rendered_area_mm2": 12.835371716362157,
+      "glyph_bounds_error_mm": 9.703826398776982e-05
+    },
+    {
+      "id": "TEXT_057",
+      "renderer_glyph_difference_mm2": 0.0038650233493811963,
+      "expected_area_mm2": 6.596391195935535,
+      "rendered_area_mm2": 6.595596217227442,
+      "glyph_bounds_error_mm": 4.152490930664499e-06
+    },
+    {
+      "id": "TEXT_033",
+      "renderer_glyph_difference_mm2": 0.011878295784971776,
+      "expected_area_mm2": 15.53135688307218,
+      "rendered_area_mm2": 15.529272962517847,
+      "glyph_bounds_error_mm": 3.999999989900971e-06
+    },
+    {
+      "id": "TEXT_044",
+      "renderer_glyph_difference_mm2": 0.011554293626556153,
+      "expected_area_mm2": 13.801563710011036,
+      "rendered_area_mm2": 13.803069136856228,
+      "glyph_bounds_error_mm": 4.643662123271497e-06
+    },
+    {
+      "id": "TEXT_077",
+      "renderer_glyph_difference_mm2": 0.005408875254216685,
+      "expected_area_mm2": 5.838876434419621,
+      "rendered_area_mm2": 5.8386740735240314,
+      "glyph_bounds_error_mm": 4.100000012385863e-06
+    },
+    {
+      "id": "TEXT_002",
+      "renderer_glyph_difference_mm2": 0.012461587506334778,
+      "expected_area_mm2": 18.16917613189328,
+      "rendered_area_mm2": 18.16601321067707,
+      "glyph_bounds_error_mm": 0.0011869464445339872
+    },
+    {
+      "id": "TEXT_006",
+      "renderer_glyph_difference_mm2": 0.012704732373088789,
+      "expected_area_mm2": 15.639303555426977,
+      "rendered_area_mm2": 15.638387174647223,
+      "glyph_bounds_error_mm": 4.258138233126374e-06
+    },
+    {
+      "id": "TEXT_016",
+      "renderer_glyph_difference_mm2": 0.003767936397460524,
+      "expected_area_mm2": 4.48819088789836,
+      "rendered_area_mm2": 4.487946274092306,
+      "glyph_bounds_error_mm": 9.139097585375566e-07
+    },
+    {
+      "id": "TEXT_027",
+      "renderer_glyph_difference_mm2": 0.00386772827708822,
+      "expected_area_mm2": 8.165378305125758,
+      "rendered_area_mm2": 8.165061788105746,
+      "glyph_bounds_error_mm": 0.0004025255207071865
+    },
+    {
+      "id": "TEXT_011",
+      "renderer_glyph_difference_mm2": 0.001959033589980223,
+      "expected_area_mm2": 4.14175465525646,
+      "rendered_area_mm2": 4.141200790427305,
+      "glyph_bounds_error_mm": 4.5777813966196845e-06
+    },
+    {
+      "id": "TEXT_022",
+      "renderer_glyph_difference_mm2": 0.002765610804170866,
+      "expected_area_mm2": 5.777040008570986,
+      "rendered_area_mm2": 5.776307931895511,
+      "glyph_bounds_error_mm": 3.239363479679014e-06
+    },
+    {
+      "id": "TEXT_056",
+      "renderer_glyph_difference_mm2": 0.007908667714869129,
+      "expected_area_mm2": 9.319063779821276,
+      "rendered_area_mm2": 9.317790349998594,
+      "glyph_bounds_error_mm": 3.044463767309935e-06
+    },
+    {
+      "id": "TEXT_064",
+      "renderer_glyph_difference_mm2": 0.0015745687956936843,
+      "expected_area_mm2": 3.011419740896477,
+      "rendered_area_mm2": 3.0111856933232306,
+      "glyph_bounds_error_mm": 7.996099782303645e-07
+    },
+    {
+      "id": "TEXT_062",
+      "renderer_glyph_difference_mm2": 0.005018155226642888,
+      "expected_area_mm2": 6.548541514919381,
+      "rendered_area_mm2": 6.54753956805367,
+      "glyph_bounds_error_mm": 1.0511089953979535e-06
+    },
+    {
+      "id": "TEXT_061",
+      "renderer_glyph_difference_mm2": 0.002244916184027628,
+      "expected_area_mm2": 2.986629786500626,
+      "rendered_area_mm2": 2.9864064143225324,
+      "glyph_bounds_error_mm": 5.80912094960695e-06
+    },
+    {
+      "id": "TEXT_058",
+      "renderer_glyph_difference_mm2": 0.0026771245328750673,
+      "expected_area_mm2": 4.11909575785518,
+      "rendered_area_mm2": 4.118482403320871,
+      "glyph_bounds_error_mm": 0.00039972487383010957
+    },
+    {
+      "id": "TEXT_065",
+      "renderer_glyph_difference_mm2": 0.0013151390885427112,
+      "expected_area_mm2": 1.662248700290711,
+      "rendered_area_mm2": 1.661952079690163,
+      "glyph_bounds_error_mm": 4.336984147812473e-06
+    }
+  ]
+}

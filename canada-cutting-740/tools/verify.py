@@ -1,50 +1,39 @@
-"""Independently parse serialized cuts, single strokes, fills, colors and guides."""
+"""Verify editable Unicode SVG text while preserving every cut and non-text mark."""
 import json,re,hashlib
 from pathlib import Path
 from lxml import etree as E
-from shapely.geometry import Polygon,LineString,shape,box
+from shapely.geometry import shape,Polygon,box
 from shapely.ops import unary_union
 from shapely.affinity import translate
 from pypdf import PdfReader
-P=Path(__file__).resolve().parent.parent;D=json.load(open(P/'data/manufacturing.json'));N=json.load(open(P/'data/layout.json'));source=json.load(open(P/'data/source/production-plan.json'));original={q['id']:shape(q['geom'])for q in source['pieces']};A=json.load(open(P/'data/annotations.json'));locations={q['id']:q for q in N['placements']};report=[]
-def rings(d):
- out=[]
+from fontTools.ttLib import TTFont
+P=Path(__file__).resolve().parent.parent;D=json.load(open(P/'data/manufacturing.json'));C=json.load(open(P/'data/text-content.json'));before=json.load(open(P/'data/unchanged-geometry-before-live-text.json'));plan=json.load(open(P/'data/source/production-plan.json'));source={q['id']:q for q in plan['pieces']};font=TTFont(P/'Шрифт/OpenSans-Light.ttf');cmap=font.getBestCmap();reports=[]
+def parse(d):
+ rings=[]
  for seq in re.findall(r'M([^M]+)',d):
-  v=[float(x)for x in re.findall(r'[-+]?(?:\d*\.\d+|\d+)(?:[eE][-+]?\d+)?',seq)];out.append(list(zip(v[::2],v[1::2])))
- return out
-def parse_fill(d):
- exteriors=[];holes=[]
- for ring in rings(d):
-  a=sum(x*y2-x2*y for(x,y),(x2,y2)in zip(ring,ring[1:]+ring[:1]))/2
-  (exteriors if a<0 else holes).append(ring)
- outer=[Polygon(r)for r in exteriors];assigned={i:[]for i in range(len(outer))}
+  v=[float(x)for x in re.findall(r'[-+]?(?:\d*\.\d+|\d+)(?:[eE][-+]?\d+)?',seq)];rings.append(list(zip(v[::2],v[1::2])))
+ outer=[];holes=[]
+ for r in rings:
+  a=sum(x*y2-x2*y for(x,y),(x2,y2)in zip(r,r[1:]+r[:1]))
+  (outer if a<0 else holes).append(r)
+ pp=[Polygon(r)for r in outer];assigned={i:[]for i in range(len(pp))}
  for h in holes:
-  point=Polygon(h).representative_point();owners=[i for i,g in enumerate(outer)if g.covers(point)];assert owners
-  assigned[min(owners,key=lambda i:outer[i].area)].append(h)
- return unary_union([Polygon(r,assigned[i])for i,r in enumerate(exteriors)])
-def parse_stroke(d):return unary_union([LineString(r)for r in rings(d)if len(r)>1])
-for si in sorted(set(q['sheet']for q in D['pieces'])):
- tree=E.parse(str(P/f'Поле-{si:02d}-740x740.svg'));root=tree.getroot();assert root.get('width')==root.get('height')=='740mm';assert root.get('viewBox')=='0 0 740 740';assert not root.xpath('//*[@transform]');assert not root.xpath('//*[local-name()="text" or local-name()="image"]')
- paths={p.get('id'):p for p in root.xpath('//*[local-name()="path"]')};cuts={};colors=set();textcount=0;markcount=0;bluecount=0;errors=[];lineerrors=[]
- for id,path in paths.items():
-  color=path.get('stroke')or path.get('fill');colors.add(color)
-  if id.endswith('_CUT'):
-   assert color=='#000000' and path.get('fill')=='none' and path.get('d').rstrip().endswith('Z');cuts[id[:-4]]=parse_fill(path.get('d'))
- assert colors=={'#000000','#ff0000','#0000ff'}
- for part in [q for q in D['pieces']if q['sheet']==si]:
-  id=part['id'];loc=locations[id];assert loc['rotation_degrees']==0 and not loc['mirrored'];g=cuts[id];expected=translate(original[part['source_id']],loc['dx_mm'],loc['dy_mm']);ee=g.symmetric_difference(expected).area;assert ee<.001;errors.append(ee);assert g.is_valid and box(5,5,735,735).covers(g)
-  for aid,geom in part['red_strokes'].items():
-   el=paths[id+'_'+aid];assert el.get('stroke')=='#ff0000' and el.get('fill')=='none';assert el.get('data-engraving')=='centerline';assert 'Z'not in el.get('d');actual=parse_stroke(el.get('d'));expected=shape(geom);err=actual.hausdorff_distance(expected);assert err<.000002,(aid,err);lineerrors.append(err);assert actual.difference(g.buffer(.025)).length<.03;textcount+=1
-  for aid,geom in part['red_marks'].items():
-   el=paths[id+'_'+aid];assert el.get('fill')=='#ff0000'and el.get('stroke')is None;actual=parse_fill(el.get('d'));assert actual.symmetric_difference(shape(geom)).area<.001;markcount+=1
-  for aid,geom in part['blue'].items():
-   assert aid in {'TEXT_043','TEXT_050','TEXT_063','TEXT_081'};el=paths[id+'_'+aid];assert el.get('fill')=='#0000ff'and el.get('stroke')is None;actual=parse_fill(el.get('d'));assert actual.symmetric_difference(shape(geom)).area<.001;bluecount+=1
-  if not shape(part['red_internal']).is_empty:
-   el=paths[id+'_INTERNAL'];assert el.get('stroke')=='#ff0000'and el.get('fill')=='none';assert 'Z'not in el.get('d');assert parse_stroke(el.get('d')).hausdorff_distance(shape(part['red_internal']))<.000002
-  # Guides are evaluated in source assembly coordinates, not sheet coordinates.
-  upper=unary_union([shape(q['geom'])for q in source['pieces']if q['tier']==part['tier']+1]);political=translate(shape(part['red_political']),-loc['dx_mm'],-loc['dy_mm']);assert political.intersection(upper.buffer(-.001)).length<.001
+  owners=[i for i,g in enumerate(pp)if g.covers(Polygon(h).representative_point())];assert owners;assigned[min(owners,key=lambda i:pp[i].area)].append(h)
+ return unary_union([Polygon(r,assigned[i])for i,r in enumerate(outer)])
+for sheet in sorted(set(p['sheet']for p in D['pieces'])):
+ tree=E.parse(str(P/f'Поле-{sheet:02d}-740x740.svg'));root=tree.getroot();assert root.get('width')==root.get('height')=='740mm';assert root.get('viewBox')=='0 0 740 740';assert not root.xpath('//*[local-name()="image"]');texts=root.xpath('//*[local-name()="text"]');assert len(texts)==82*D['sets'];elements={e.get('id'):e for e in texts}
+ paths={e.get('id'):e for e in root.xpath('//*[local-name()="path"]')};assert set(paths)==set(before)
+ for id,attrs in before.items():assert dict(paths[id].attrib)==attrs,(id,'non-text geometry changed')
+ assert not root.xpath('//*[local-name()="path"][@transform]');cuts={id[:-4]:parse(el.get('d'))for id,el in paths.items()if id.endswith('_CUT')};assert len(cuts)==28*D['sets'];errors=[]
+ for p in D['pieces']:
+  if p['sheet']!=sheet:continue
+  expected=translate(shape(source[p['source_id']]['geom']),p['dx_mm'],p['dy_mm']);g=cuts[p['id']];error=g.symmetric_difference(expected).area;assert error<.001;errors.append(error);assert g.is_valid and box(5,5,735,735).covers(g)
+  for id,a in p['red_texts'].items():
+   key=p['id']+'_'+id;el=elements[key];assert el.text==C[id]==a['text'];assert len(el)==0;assert el.get('fill')=='#ff0000'and el.get('stroke')=='none';assert el.get('font-family')=='Open Sans Light';assert all(ord(ch)in cmap for ch in el.text);assert float(el.get('font-size'))>0
+   values=[float(x)for x in el.get('transform').removeprefix('matrix(').removesuffix(')').split(',')];assert max(abs(x-y)for x,y in zip(values,a['matrix']))<1e-10;assert abs(float(el.get('font-size'))-a['font_size_mm'])<1e-8
+   visible=translate(shape(source[p['source_id']]['visible']),p['dx_mm'],p['dy_mm']);assert shape(a['outline_for_validation']).difference(visible.buffer(.015)).area<.0002,(id,'outside exposed surface')
  distances=[g.distance(h)for id,g in cuts.items()for other,h in cuts.items()if id<other];assert min(distances)>=3
- page=PdfReader(P/f'Поле-{si:02d}-740x740.pdf').pages[0];size=[float(page.mediabox.width)*25.4/72,float(page.mediabox.height)*25.4/72];assert all(abs(x-740)<.001 for x in size)
- report.append({'sheet':si,'pieces':len(cuts),'red_single_line_labels':textcount,'red_city_markers':markcount,'blue_titles':bluecount,'colors':sorted(colors),'actual_min_gap_mm':min(distances),'max_cut_area_rounding_error_mm2':max(errors),'max_stroke_rounding_error_mm':max(lineerrors),'pdf_page_mm':size,'translation_only':True,'scale':1,'hidden_political_boundaries_removed':True})
-assert sum(q['red_single_line_labels']for q in report)==82*D['sets'];assert sum(q['red_city_markers']for q in report)==72*D['sets'];assert sum(q['blue_titles']for q in report)==4*D['sets']
-result={'passed':True,'sets':D['sets'],'physical_parts_per_set':28,'fields':report,'country_names_blue':D['country_texts'],'annotations_per_set':158,'red_text_is_actual_centerline_vectors':True,'source_plan_sha256':D['source_sha256'],'slit_repairs_report':'Исправление-щелей.json','density_attempts_file':'data/layout.json'};(P/'Проверка-раскроя.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print('VERIFIED',report,flush=True)
+ pdf=PdfReader(P/f'Поле-{sheet:02d}-740x740.pdf');page=pdf.pages[0];width=float(page.mediabox.width)*25.4/72;height=float(page.mediabox.height)*25.4/72;assert abs(width-740)<.001 and abs(height-740)<.001;content=re.sub(r'\s+','',page.extract_text());expectedtext=[a['text']for p in D['pieces']for a in p['red_texts'].values()]
+ for word in expectedtext:assert re.sub(r'\s+','',word)in content,(word,'PDF is missing searchable text')
+ reports.append({'sheet':sheet,'editable_red_text_objects':len(texts),'text_stored_as':'UTF-8 SVG text elements','font':'Open Sans Light','font_file_supplied':True,'pdf_contains_searchable_unicode_text':True,'all_non_text_paths_unchanged':True,'black_cut_parts':len(cuts),'max_cut_rounding_error_mm2':max(errors),'actual_min_gap_mm':min(distances),'page_mm':[width,height],'part_rotation':0,'part_reflection':False,'part_scale':1,'blue_titles_unchanged':['США','КАНАДА','МЕКСИКА','АЛЯСКА']})
+result={'passed':True,'fields':reports,'all_original_wordings_transcribed_from_source':True,'cdr_source_already_contained_outlines':True,'coreldraw_not_available_for_native_application_test':True,'pdf_import_instruction':'Import text as text; do not choose curves.'};(P/'Проверка-раскроя.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print('EDITABLE TEXT AND UNCHANGED CUTS VERIFIED',reports,flush=True)

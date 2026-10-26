@@ -5,4 +5,5 @@ shapely>=2.1
 lxml>=5
 reportlab>=4
 pypdf>=5
-scikit-image>=0.25
+fonttools>=4
+svgpathtools>=1.6

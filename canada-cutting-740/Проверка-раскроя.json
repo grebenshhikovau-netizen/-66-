@@ -1,40 +1,34 @@
 {
   "passed": true,
-  "sets": 1,
-  "physical_parts_per_set": 28,
   "fields": [
     {
       "sheet": 1,
-      "pieces": 28,
-      "red_single_line_labels": 82,
-      "red_city_markers": 72,
-      "blue_titles": 4,
-      "colors": [
-        "#000000",
-        "#0000ff",
-        "#ff0000"
-      ],
+      "editable_red_text_objects": 82,
+      "text_stored_as": "UTF-8 SVG text elements",
+      "font": "Open Sans Light",
+      "font_file_supplied": true,
+      "pdf_contains_searchable_unicode_text": true,
+      "all_non_text_paths_unchanged": true,
+      "black_cut_parts": 28,
+      "max_cut_rounding_error_mm2": 1.2313350790389345e-05,
       "actual_min_gap_mm": 5.069744879048277,
-      "max_cut_area_rounding_error_mm2": 1.2313350790389345e-05,
-      "max_stroke_rounding_error_mm": 5.23334292289214e-07,
-      "pdf_page_mm": [
+      "page_mm": [
         740.0000722222221,
         740.0000722222221
       ],
-      "translation_only": true,
-      "scale": 1,
-      "hidden_political_boundaries_removed": true
+      "part_rotation": 0,
+      "part_reflection": false,
+      "part_scale": 1,
+      "blue_titles_unchanged": [
+        "США",
+        "КАНАДА",
+        "МЕКСИКА",
+        "АЛЯСКА"
+      ]
     }
   ],
-  "country_names_blue": {
-    "TEXT_043": "США",
-    "TEXT_050": "Канада",
-    "TEXT_063": "Мексика",
-    "TEXT_081": "Аляска"
-  },
-  "annotations_per_set": 158,
-  "red_text_is_actual_centerline_vectors": true,
-  "source_plan_sha256": "5b6d35a457b0cc3407f268eb8a64cdfb168fdf71729326a9c2664373958a3553",
-  "slit_repairs_report": "Исправление-щелей.json",
-  "density_attempts_file": "data/layout.json"
+  "all_original_wordings_transcribed_from_source": true,
+  "cdr_source_already_contained_outlines": true,
+  "coreldraw_not_available_for_native_application_test": true,
+  "pdf_import_instruction": "Import text as text; do not choose curves."
 }

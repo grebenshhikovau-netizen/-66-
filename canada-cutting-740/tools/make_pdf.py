@@ -33,13 +33,14 @@ def draw_strokes(c,g):
  c.setStrokeColorRGB(1,0,0);c.setLineWidth(.05);c.setLineCap(1);c.setLineJoin(1);c.drawPath(p,stroke=1,fill=0)
 def drawing(c,parts):
  for row in parts:
-  
-  for q in row['red_strokes'].values():draw_strokes(c,shape(q))
+
+  for a in row.get('red_texts',{}).values():
+   c.saveState();c.transform(*a['matrix']);c.scale(1,-1);c.setFillColorRGB(1,0,0);c.setFont('LiveText',a['font_size_mm']);c.drawString(0,0,a['text']);c.restoreState()
   for q in row['red_marks'].values():draw(c,shape(q),(1,0,0))
   draw_strokes(c,shape(row['red_internal']))
   for b in row['blue'].values():draw(c,shape(b),(0,0,1))
  for row in parts:draw(c,shape(row['geom']),(0,0,0),True)
-font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';pdfmetrics.registerFont(TTFont('Noto',font))
+font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';pdfmetrics.registerFont(TTFont('Noto',font));pdfmetrics.registerFont(TTFont('LiveText',str(P/'Шрифт/OpenSans-Light.ttf')))
 for sheet in sorted(set(p['sheet']for p in D['pieces'])):
  parts=[p for p in D['pieces']if p['sheet']==sheet]
  c=canvas.Canvas(str(P/f'Поле-{sheet:02d}-740x740.pdf'),pagesize=(740*M,740*M));c.setTitle(f'Канада: поле {sheet}, 740 × 740 мм, 1:1');c.saveState();c.translate(0,740*M);c.scale(M,-M);drawing(c,parts);c.restoreState();c.save()
@@ -55,7 +56,7 @@ for sheet in sorted(set(p['sheet']for p in D['pieces'])):
   c.setFont('Noto',size);c.setFillColorRGB(*rgb);c.drawString(x,y,t);y-=17
  text('ЦВЕТА ОПЕРАЦИЙ',12);y-=7
  text('Чёрный — сквозная резка',10,(0,0,0));text('Красный — надписи, города и внутренние области',9,(1,0,0));text('Синий — США, Канада, Мексика, Аляска',10,(0,0,1));y-=12
- text('Только 3 рабочих цвета в SVG и PDF.');text('Красные надписи — однолинейные векторы.');text('Поле — 740 × 740 мм; импортировать 1:1.');text('Зазор между деталями — не менее 5 мм.');text('Все детали направлены как в исходной сборке.');y-=12
+ text('Только 3 рабочих цвета в SVG и PDF.');text('Красные надписи — редактируемый текст.');text('Поле — 740 × 740 мм; импортировать 1:1.');text('Зазор между деталями — не менее 5 мм.');text('Все детали направлены как в исходной сборке.');y-=12
  text('№    ДЕТАЛЬ                СЛОЙ',10)
  for row in sorted(parts,key=lambda p:p['id']):text(f'{numbers[row["id"]]:02d}    {row["id"]}              {row["tier"]}',8)
  y-=8;text('Номера есть только в этой схеме,',8);text('в рабочих файлах они отсутствуют.',8);text('Для станка: Поле-01-740x740.svg / .pdf',8)

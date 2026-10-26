@@ -8,7 +8,7 @@ from shapely.ops import unary_union,linemerge
 from shapely.affinity import translate
 from shapely import make_valid,set_precision
 from lxml import etree as E
-P=Path(__file__).resolve().parent.parent;SRC=P/'data/source';D=json.load(open(SRC/'production-plan.json'));R=json.load(open(SRC/'extracted.json'));N=json.load(open(P/'data/layout.json'));A=json.load(open(P/'data/annotations.json'));S='http://www.w3.org/2000/svg';WIDTH=.05
+P=Path(__file__).resolve().parent.parent;SRC=P/'data/source';D=json.load(open(SRC/'production-plan.json'));R=json.load(open(SRC/'extracted.json'));N=json.load(open(P/'data/layout.json'));A=json.load(open(P/'data/annotations.json'));S='http://www.w3.org/2000/svg';WIDTH=.05;LIVE=json.load(open(P/'data/live-text.json'))
 COUNTRIES={q['id']:q['name']for q in A if q['kind']=='blue_fill'}
 def polys(g):
  if g.geom_type=='Polygon':return[g]if not g.is_empty and g.area>1e-8 else[]
@@ -42,7 +42,11 @@ translated=[];labels_table=[]
 for loc in N['placements']:
  src=loc.get('source_id',loc['id']);p=parts[src];t=templates[src]
  def moved(g):return translate(g,loc['dx_mm'],loc['dy_mm'])
- row={'id':loc['id'],'source_id':src,'set':loc.get('set',1),'tier':p['tier'],'sheet':loc['sheet'],'geom':mapping(moved(t['geom'])),'red_labels':mapping(Polygon()),'red_strokes':{k:mapping(moved(g))for k,g in t['strokes'].items()},'red_marks':{k:mapping(moved(g))for k,g in t['marks'].items()},'red_internal':mapping(moved(t['internal'])),'red_political':mapping(moved(t['political'])),'placement_guides':mapping(moved(t['guides'])),'blue':{k:mapping(moved(g))for k,g in t['blue'].items()},'dx_mm':loc['dx_mm'],'dy_mm':loc['dy_mm']}
+ live={}
+ for a in LIVE:
+  if a['piece']!=src:continue
+  entry={k:v for k,v in a.items()if k!='outline_for_validation'};entry['matrix']=a['matrix'][:];entry['matrix'][4]+=loc['dx_mm'];entry['matrix'][5]+=loc['dy_mm'];entry['outline_for_validation']=mapping(moved(shape(a['outline_for_validation'])));live[a['id']]=entry
+ row={'id':loc['id'],'source_id':src,'set':loc.get('set',1),'tier':p['tier'],'sheet':loc['sheet'],'geom':mapping(moved(t['geom'])),'red_labels':mapping(Polygon()),'red_strokes':{},'red_texts':live,'red_marks':{k:mapping(moved(g))for k,g in t['marks'].items()},'red_internal':mapping(moved(t['internal'])),'red_political':mapping(moved(t['political'])),'placement_guides':mapping(moved(t['guides'])),'blue':{k:mapping(moved(g))for k,g in t['blue'].items()},'dx_mm':loc['dx_mm'],'dy_mm':loc['dy_mm']}
  translated.append(row)
  for id in t['blue']:labels_table.append({'id':id,'name':COUNTRIES[id],'part':loc['id'],'sheet':loc['sheet'],'color':'#0000ff'})
 
@@ -76,13 +80,15 @@ def stroke(r,g,id,color='#ff0000'):
 def save(r,file):
  dest=P/file;dest.parent.mkdir(parents=True,exist_ok=True);E.ElementTree(r).write(str(dest),encoding='UTF-8',xml_declaration=True)
 for si in sorted(set(p['sheet']for p in translated)):
- main=root();red=group(main,'RED_TEXT_CITIES','Красные однолинейные надписи и метки');inner=group(main,'RED_INTERNAL_REGIONS','Видимые границы и контуры установки');blue=group(main,'BLUE_COUNTRY_NAMES','США, Канада, Мексика, Аляска');cut=group(main,'BLACK_THROUGH_CUT','Сквозная резка')
+ main=root();red=group(main,'RED_TEXT_CITIES','Красные редактируемые надписи и метки');inner=group(main,'RED_INTERNAL_REGIONS','Видимые границы и контуры установки');blue=group(main,'BLUE_COUNTRY_NAMES','США, Канада, Мексика, Аляска');cut=group(main,'BLACK_THROUGH_CUT','Сквозная резка')
  single={k:root()for k in ['Красный-надписи-и-метки','Красный-внутренние-области','Синий-названия-стран','Чёрный-сквозная-резка']}
  for p in translated:
   if p['sheet']!=si:continue
   for dest in [cut,single['Чёрный-сквозная-резка']]:path(dest,shape(p['geom']),p['id']+'_CUT','#000000',True)
-  for id,g in p['red_strokes'].items():
-   for dest in [red,single['Красный-надписи-и-метки']]:stroke(dest,shape(g),p['id']+'_'+id)
+  for id,a in p['red_texts'].items():
+   for dest in [red,single['Красный-надписи-и-метки']]:
+    attrs={'font-family':a['font_family'],'font-size':format(a['font_size_mm'],'.9f'),'font-weight':'300','font-style':'normal','font-kerning':'none','letter-spacing':'0','transform':'matrix('+','.join(format(x,'.12f')for x in a['matrix'])+')','style':"font-kerning:none;font-feature-settings:'kern' 0"}
+    el=E.SubElement(dest,'text',id=p['id']+'_'+id,x='0',y='0',fill='#ff0000',stroke='none',attrib=attrs);el.text=a['text']
   for id,g in p['red_marks'].items():
    for dest in [red,single['Красный-надписи-и-метки']]:path(dest,shape(g),p['id']+'_'+id,'#ff0000')
   for dest in [inner,single['Красный-внутренние-области']]:stroke(dest,shape(p['red_internal']),p['id']+'_INTERNAL')
@@ -95,4 +101,4 @@ with open(P/'Расположение-деталей.csv','w',encoding='utf-8-si
  for p in translated:w.writerow([p['id'],p['source_id'],p['set'],p['tier'],p['sheet'],p['dx_mm'],p['dy_mm'],0,'Нет',1])
 with open(P/'Синие-названия-стран.csv','w',encoding='utf-8-sig',newline='')as f:
  w=csv.DictWriter(f,fieldnames=['id','name','part','sheet','color']);w.writeheader();w.writerows(labels_table)
-output={'pieces':translated,'country_texts':COUNTRIES,'red_text_mode':'single_centerline_strokes','red_text_count_per_set':82,'city_mark_count_per_set':72,'internal_guides':'visible political boundaries plus immediate next-ply placement outlines only','guide_statistics':guide_stats,'alaska_title_blue':True,'unique_annotations':158,'source_piece_count':28,'sets':N.get('sets',1),'source_sha256':hashlib.sha256((SRC/'production-plan.json').read_bytes()).hexdigest()};(P/'data/manufacturing.json').write_text(json.dumps(output,ensure_ascii=False));print('EXPORTED',len(translated),'parts, red single strokes, blue',COUNTRIES,flush=True)
+output={'pieces':translated,'country_texts':COUNTRIES,'red_text_mode':'editable_unicode_text','red_text_count_per_set':82,'city_mark_count_per_set':72,'internal_guides':'visible political boundaries plus immediate next-ply placement outlines only','guide_statistics':guide_stats,'alaska_title_blue':True,'unique_annotations':158,'source_piece_count':28,'sets':N.get('sets',1),'source_sha256':hashlib.sha256((SRC/'production-plan.json').read_bytes()).hexdigest()};(P/'data/manufacturing.json').write_text(json.dumps(output,ensure_ascii=False));print('EXPORTED',len(translated),'parts, editable red text, blue',COUNTRIES,flush=True)
