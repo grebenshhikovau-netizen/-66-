@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "fields": [
+    {
+      "sheet": 1,
+      "pieces": 28,
+      "svg_colors": [
+        "#000000",
+        "#0000ff",
+        "#ff0000"
+      ],
+      "actual_min_gap_mm": 5.069744879048277,
+      "max_serialized_shape_error_mm2": 9.173276322990028e-06,
+      "no_transforms": true,
+      "no_rotation": true,
+      "no_mirroring": true,
+      "scale": 1,
+      "stock_mm": [
+        740,
+        740
+      ],
+      "original_engraving_preserved": true,
+      "max_serialized_engraving_error_mm2": 8.061663963174311e-05
+    }
+  ],
+  "country_names_blue": {
+    "TEXT_081": "Аляска",
+    "TEXT_043": "США",
+    "TEXT_050": "Канада",
+    "TEXT_058": "Коста-Рика",
+    "TEXT_059": "Никарагуа",
+    "TEXT_060": "Сальвадор",
+    "TEXT_061": "Гватемала",
+    "TEXT_062": "Гондурас",
+    "TEXT_063": "Мексика",
+    "TEXT_064": "Панама",
+    "TEXT_065": "Белиз"
+  },
+  "unique_original_annotations": 158,
+  "physical_parts": 28,
+  "interior_boundaries_red": true,
+  "through_cut_exterior_and_hole_contours_black": true,
+  "no_production_frame_or_part_numbers": true,
+  "source_plan_sha256": "42cd611f78a45e11967d3a9aaa05c301cecf0a1ebbcd0c0d9107a76238cad14e",
+  "production_pdf_page_mm": [
+    740.0000722222221,
+    740.0000722222221
+  ],
+  "alaska_title_blue_confirmed": true,
+  "joined_prongs_target": "L03_P001",
+  "removed_standalone_prongs": [
+    "L03_P002",
+    "L03_P003"
+  ]
+}

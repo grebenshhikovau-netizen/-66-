@@ -1,0 +1,14 @@
+{
+  "wood_count": 28,
+  "joined_target": "L03_P001",
+  "absorbed_objects_removed": [
+    "L03_P002",
+    "L03_P003"
+  ],
+  "joined_mesh_connected_components": 1,
+  "all_wood_manifold": true,
+  "bottom_origin": true,
+  "ply_thickness_mm": 3,
+  "nominal_top_mm": 9,
+  "source_prongs_positions_retained": true
+}
