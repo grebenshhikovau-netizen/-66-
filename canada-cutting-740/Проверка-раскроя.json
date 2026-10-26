@@ -1,55 +1,40 @@
 {
   "passed": true,
+  "sets": 1,
+  "physical_parts_per_set": 28,
   "fields": [
     {
       "sheet": 1,
       "pieces": 28,
-      "svg_colors": [
+      "red_single_line_labels": 82,
+      "red_city_markers": 72,
+      "blue_titles": 4,
+      "colors": [
         "#000000",
         "#0000ff",
         "#ff0000"
       ],
       "actual_min_gap_mm": 5.069744879048277,
-      "max_serialized_shape_error_mm2": 9.173276322990028e-06,
-      "no_transforms": true,
-      "no_rotation": true,
-      "no_mirroring": true,
-      "scale": 1,
-      "stock_mm": [
-        740,
-        740
+      "max_cut_area_rounding_error_mm2": 1.2313350790389345e-05,
+      "max_stroke_rounding_error_mm": 5.23334292289214e-07,
+      "pdf_page_mm": [
+        740.0000722222221,
+        740.0000722222221
       ],
-      "original_engraving_preserved": true,
-      "max_serialized_engraving_error_mm2": 8.061663963174311e-05
+      "translation_only": true,
+      "scale": 1,
+      "hidden_political_boundaries_removed": true
     }
   ],
   "country_names_blue": {
-    "TEXT_081": "Аляска",
     "TEXT_043": "США",
     "TEXT_050": "Канада",
-    "TEXT_058": "Коста-Рика",
-    "TEXT_059": "Никарагуа",
-    "TEXT_060": "Сальвадор",
-    "TEXT_061": "Гватемала",
-    "TEXT_062": "Гондурас",
     "TEXT_063": "Мексика",
-    "TEXT_064": "Панама",
-    "TEXT_065": "Белиз"
+    "TEXT_081": "Аляска"
   },
-  "unique_original_annotations": 158,
-  "physical_parts": 28,
-  "interior_boundaries_red": true,
-  "through_cut_exterior_and_hole_contours_black": true,
-  "no_production_frame_or_part_numbers": true,
-  "source_plan_sha256": "42cd611f78a45e11967d3a9aaa05c301cecf0a1ebbcd0c0d9107a76238cad14e",
-  "production_pdf_page_mm": [
-    740.0000722222221,
-    740.0000722222221
-  ],
-  "alaska_title_blue_confirmed": true,
-  "joined_prongs_target": "L03_P001",
-  "removed_standalone_prongs": [
-    "L03_P002",
-    "L03_P003"
-  ]
+  "annotations_per_set": 158,
+  "red_text_is_actual_centerline_vectors": true,
+  "source_plan_sha256": "5b6d35a457b0cc3407f268eb8a64cdfb168fdf71729326a9c2664373958a3553",
+  "slit_repairs_report": "Исправление-щелей.json",
+  "density_attempts_file": "data/layout.json"
 }

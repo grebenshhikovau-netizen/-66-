@@ -1,0 +1,602 @@
+{
+  "parts": [
+    {
+      "id": "L01_P001",
+      "removed_sliver_holes": [
+        {
+          "area_mm2": 0.0006999999999994373,
+          "max_inradius_mm": 0.002111347168530877,
+          "bounds": [
+            827.24,
+            -175.3,
+            827.54,
+            -175.16
+          ]
+        },
+        {
+          "area_mm2": 0.0009999999999991758,
+          "max_inradius_mm": 0.0029672254738879206,
+          "bounds": [
+            824.33,
+            -177.05,
+            824.6,
+            -176.85
+          ]
+        },
+        {
+          "area_mm2": 0.0008999999999992156,
+          "max_inradius_mm": 0.004014549533607422,
+          "bounds": [
+            818.5,
+            -185.53,
+            818.63,
+            -185.35
+          ]
+        },
+        {
+          "area_mm2": 0.0021499999999908307,
+          "max_inradius_mm": 0.0019846889834586406,
+          "bounds": [
+            816.95,
+            -188.18,
+            817.47,
+            -187.23
+          ]
+        },
+        {
+          "area_mm2": 0.0015999999999985106,
+          "max_inradius_mm": 0.004213214309862946,
+          "bounds": [
+            816.48,
+            -188.97,
+            816.68,
+            -188.65
+          ]
+        },
+        {
+          "area_mm2": 0.0007999999999993974,
+          "max_inradius_mm": 0.004072858333968849,
+          "bounds": [
+            816.07,
+            -189.61,
+            816.18,
+            -189.45
+          ]
+        },
+        {
+          "area_mm2": 0.0008499999999991644,
+          "max_inradius_mm": 0.0031326403214510796,
+          "bounds": [
+            801.29,
+            -191.66,
+            801.5,
+            -191.49
+          ]
+        },
+        {
+          "area_mm2": 0.0004749999999995623,
+          "max_inradius_mm": 0.003322278759460275,
+          "bounds": [
+            800.775,
+            -192.125,
+            800.88,
+            -192.03
+          ]
+        },
+        {
+          "area_mm2": 0.0009999999999991758,
+          "max_inradius_mm": 0.0035167617845044677,
+          "bounds": [
+            800.28,
+            -192.61,
+            800.48,
+            -192.41
+          ]
+        },
+        {
+          "area_mm2": 0.0009999999999990336,
+          "max_inradius_mm": 0.004059526285997376,
+          "bounds": [
+            798.96,
+            -194.2,
+            799.1,
+            -194.0
+          ]
+        },
+        {
+          "area_mm2": 0.0026999999999975047,
+          "max_inradius_mm": 0.0044189324490447185,
+          "bounds": [
+            798.02,
+            -195.85,
+            798.3,
+            -195.31
+          ]
+        },
+        {
+          "area_mm2": 0.0016500000000173201,
+          "max_inradius_mm": 0.0033693921023013407,
+          "bounds": [
+            795.46,
+            -198.96,
+            795.82,
+            -198.63
+          ]
+        },
+        {
+          "area_mm2": 0.002299999999997806,
+          "max_inradius_mm": 0.0033424992815580014,
+          "bounds": [
+            793.51,
+            -200.73,
+            794.02,
+            -200.27
+          ]
+        },
+        {
+          "area_mm2": 0.002899999999997283,
+          "max_inradius_mm": 0.004951044074448212,
+          "bounds": [
+            898.55,
+            -271.14,
+            898.63,
+            -270.56
+          ]
+        },
+        {
+          "area_mm2": 0.009199999999991793,
+          "max_inradius_mm": 0.004739201994486163,
+          "bounds": [
+            865.51,
+            -298.6,
+            866.25,
+            -297.12
+          ]
+        },
+        {
+          "area_mm2": 0.05929718071926352,
+          "max_inradius_mm": 0.00499776996959148,
+          "bounds": [
+            801.42,
+            -304.97999952457326,
+            813.28,
+            -304.97
+          ]
+        },
+        {
+          "area_mm2": 0.0007499999999992042,
+          "max_inradius_mm": 0.0026426593941463873,
+          "bounds": [
+            682.32,
+            -359.02,
+            682.56,
+            -358.87
+          ]
+        },
+        {
+          "area_mm2": 0.000599999999999477,
+          "max_inradius_mm": 0.0031049101295921497,
+          "bounds": [
+            663.05,
+            -385.61,
+            663.2,
+            -385.49
+          ]
+        },
+        {
+          "area_mm2": 0.0003499999999996476,
+          "max_inradius_mm": 0.0014662713752007514,
+          "bounds": [
+            646.66,
+            -389.12,
+            646.79,
+            -388.92
+          ]
+        },
+        {
+          "area_mm2": 1.3690019999998533,
+          "max_inradius_mm": 0.08536953200278898,
+          "bounds": [
+            709.2164,
+            -397.85,
+            713.5,
+            -389.82
+          ]
+        },
+        {
+          "area_mm2": 10.777645951860778,
+          "max_inradius_mm": 0.08991577148435681,
+          "bounds": [
+            665.6,
+            -459.99,
+            702.29,
+            -397.16
+          ]
+        },
+        {
+          "area_mm2": 0.03779261904762231,
+          "max_inradius_mm": 0.03801315561746186,
+          "bounds": [
+            638.79,
+            -392.24,
+            639.73,
+            -392.01
+          ]
+        },
+        {
+          "area_mm2": 0.11339526785714099,
+          "max_inradius_mm": 0.021750867626884066,
+          "bounds": [
+            641.1528571428571,
+            -392.67,
+            644.599875,
+            -392.0
+          ]
+        },
+        {
+          "area_mm2": 0.0015999999999985106,
+          "max_inradius_mm": 0.004772399890128249,
+          "bounds": [
+            753.86,
+            -312.95,
+            753.95,
+            -312.63
+          ]
+        },
+        {
+          "area_mm2": 0.001199999999999096,
+          "max_inradius_mm": 0.004220548992323022,
+          "bounds": [
+            755.44,
+            -218.26,
+            755.48,
+            -217.98
+          ]
+        },
+        {
+          "area_mm2": 1.2490009027033011e-15,
+          "max_inradius_mm": 0.0,
+          "bounds": [
+            754.49,
+            -227.06,
+            754.88,
+            -227.01
+          ]
+        },
+        {
+          "area_mm2": 0.0006159999999994707,
+          "max_inradius_mm": 0.005992655407735528,
+          "bounds": [
+            867.48,
+            -231.76,
+            867.5416,
+            -231.68
+          ]
+        },
+        {
+          "area_mm2": 0.008949999999997502,
+          "max_inradius_mm": 0.00601841341494317,
+          "bounds": [
+            885.46,
+            -205.52,
+            885.86,
+            -204.13
+          ]
+        },
+        {
+          "area_mm2": 0.0006499999999993861,
+          "max_inradius_mm": 0.004908851835702089,
+          "bounds": [
+            858.67,
+            -210.17,
+            858.69,
+            -210.04
+          ]
+        },
+        {
+          "area_mm2": 0.0018000000000086627,
+          "max_inradius_mm": 0.004368817756535263,
+          "bounds": [
+            911.14,
+            -264.94,
+            911.5,
+            -264.74
+          ]
+        },
+        {
+          "area_mm2": 0.0011999999999989554,
+          "max_inradius_mm": 0.0025724787770869152,
+          "bounds": [
+            922.91,
+            -271.75,
+            923.15,
+            -271.36
+          ]
+        },
+        {
+          "area_mm2": 0.006449999999994236,
+          "max_inradius_mm": 0.005537762100498352,
+          "bounds": [
+            947.85,
+            -280.81,
+            947.92,
+            -279.47
+          ]
+        },
+        {
+          "area_mm2": 0.0032271637026686346,
+          "max_inradius_mm": 0.01893319872213824,
+          "bounds": [
+            961.57,
+            -292.99,
+            962.08,
+            -292.57
+          ]
+        }
+      ],
+      "closed_exterior_slits": 1,
+      "added_area_mm2": 16.395050358492675,
+      "removed_area_mm2": 2.9774673017422873e-06,
+      "final_added_area_including_support_mm2": 16.395049875375037
+    },
+    {
+      "id": "L02_P001",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 6.670769320550846e-07,
+      "final_added_area_including_support_mm2": 8.139014437874663e-07
+    },
+    {
+      "id": "L02_P002",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 6.400001031096184e-07,
+      "final_added_area_including_support_mm2": 5.150000606489541e-07
+    },
+    {
+      "id": "L02_P003",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L02_P004",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L02_P005",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L02_P006",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L02_P007",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 7.13857888766487e-08,
+      "final_added_area_including_support_mm2": 1.4130212134662535e-08
+    },
+    {
+      "id": "L02_P008",
+      "removed_sliver_holes": [
+        {
+          "area_mm2": 1.0430999999999715,
+          "max_inradius_mm": 0.26209960937501364,
+          "bounds": [
+            636.6,
+            -413.01,
+            637.13,
+            -410.04
+          ]
+        },
+        {
+          "area_mm2": 0.0015999999999985106,
+          "max_inradius_mm": 0.0047723998901283305,
+          "bounds": [
+            753.86,
+            -312.95,
+            753.95,
+            -312.63
+          ]
+        },
+        {
+          "area_mm2": 0.0011999999999990959,
+          "max_inradius_mm": 0.004220548992327045,
+          "bounds": [
+            755.44,
+            -218.26,
+            755.48,
+            -217.98
+          ]
+        },
+        {
+          "area_mm2": 0.008949999999997502,
+          "max_inradius_mm": 0.00601841341494317,
+          "bounds": [
+            885.46,
+            -205.52,
+            885.86,
+            -204.13
+          ]
+        }
+      ],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 1.054849999999967,
+      "removed_area_mm2": 1.8264696692008596e-07,
+      "final_added_area_including_support_mm2": 7.234487494986442
+    },
+    {
+      "id": "L02_P009",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L02_P010",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 1.112993106777689e-06,
+      "final_added_area_including_support_mm2": 5.864682249360328e-07
+    },
+    {
+      "id": "L02_P011",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 1.3662046235499412
+    },
+    {
+      "id": "L03_P001",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 2.216754077831432e-06,
+      "final_added_area_including_support_mm2": 2.8593040443575264e-06
+    },
+    {
+      "id": "L03_P004",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P005",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P006",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 5.500000185066298e-08
+    },
+    {
+      "id": "L03_P007",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P008",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P009",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P010",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P011",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P012",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P013",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 2.9750810782082497e-09,
+      "final_added_area_including_support_mm2": 6.3682534687792e-11
+    },
+    {
+      "id": "L03_P014",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P015",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 2,
+      "added_area_mm2": 7.5466232954813055,
+      "removed_area_mm2": 4.61860836317229e-08,
+      "final_added_area_including_support_mm2": 7.546623643560435
+    },
+    {
+      "id": "L03_P016",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 4.08960545457317e-08,
+      "final_added_area_including_support_mm2": 1.0218391333063449e-10
+    },
+    {
+      "id": "L03_P017",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    },
+    {
+      "id": "L03_P018",
+      "removed_sliver_holes": [],
+      "closed_exterior_slits": 0,
+      "added_area_mm2": 0.0,
+      "removed_area_mm2": 0.0,
+      "final_added_area_including_support_mm2": 0.0
+    }
+  ],
+  "physical_parts": 28,
+  "real_holes_preserved": true
+}

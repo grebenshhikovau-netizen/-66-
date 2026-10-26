@@ -6,8 +6,8 @@
       "closed_solid": true,
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
-      "volume_mm3": 265994.5201876823,
-      "expected_mm3": 265994.51775996934,
+      "volume_mm3": 266043.7053105595,
+      "expected_mm3": 266043.7029099784,
       "local_bottom_mm": 0.0
     },
     {
@@ -17,7 +17,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 3988.905109246755,
-      "expected_mm3": 3988.9051611663767,
+      "expected_mm3": 3988.9051611663836,
       "local_bottom_mm": 0.0
     },
     {
@@ -27,7 +27,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 9077.161774354732,
-      "expected_mm3": 9077.161649625008,
+      "expected_mm3": 9077.161649625006,
       "local_bottom_mm": 0.0
     },
     {
@@ -37,7 +37,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 119.08680159614705,
-      "expected_mm3": 119.08679999999933,
+      "expected_mm3": 119.08679999999936,
       "local_bottom_mm": 0.0
     },
     {
@@ -47,7 +47,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 629.2518043679211,
-      "expected_mm3": 629.2517999999993,
+      "expected_mm3": 629.2517999999995,
       "local_bottom_mm": 0.0
     },
     {
@@ -57,7 +57,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 562.5820649758898,
-      "expected_mm3": 562.5820500000003,
+      "expected_mm3": 562.5820500000004,
       "local_bottom_mm": 0.0
     },
     {
@@ -77,7 +77,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 1024.39765947062,
-      "expected_mm3": 1024.3976512992865,
+      "expected_mm3": 1024.397651299287,
       "local_bottom_mm": 0.0
     },
     {
@@ -85,9 +85,9 @@
       "nonmanifold_edges": 0,
       "closed_solid": true,
       "precision_grid_mm": 1e-06,
-      "footprint_difference_mm2": 2.7409999930799666e-09,
-      "volume_mm3": 90646.28082764744,
-      "expected_mm3": 90646.28105151012,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 90667.98431814769,
+      "expected_mm3": 90667.98450630365,
       "local_bottom_mm": 0.0
     },
     {
@@ -107,7 +107,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 80150.96291204407,
-      "expected_mm3": 80150.96260515512,
+      "expected_mm3": 80150.96260515471,
       "local_bottom_mm": 0.0
     },
     {
@@ -116,8 +116,8 @@
       "closed_solid": true,
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
-      "volume_mm3": 2720.234846067491,
-      "expected_mm3": 2720.2348499999985,
+      "volume_mm3": 2724.333492899949,
+      "expected_mm3": 2724.3334693845536,
       "local_bottom_mm": 0.0
     },
     {
@@ -127,7 +127,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 17377.98745742611,
-      "expected_mm3": 17377.987192842204,
+      "expected_mm3": 17377.98719284217,
       "local_bottom_mm": 0.0
     },
     {
@@ -137,7 +137,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 7727.158155377337,
-      "expected_mm3": 7727.1580500000055,
+      "expected_mm3": 7727.158050000004,
       "local_bottom_mm": 0.0
     },
     {
@@ -157,7 +157,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 2630.2308408758295,
-      "expected_mm3": 2630.230800165,
+      "expected_mm3": 2630.2308001650003,
       "local_bottom_mm": 0.0
     },
     {
@@ -177,7 +177,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 1401.1296138181883,
-      "expected_mm3": 1401.1295999999988,
+      "expected_mm3": 1401.129599999998,
       "local_bottom_mm": 0.0
     },
     {
@@ -196,8 +196,8 @@
       "closed_solid": true,
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
-      "volume_mm3": 966.4857026079685,
-      "expected_mm3": 966.4857000000015,
+      "volume_mm3": 966.4857026079687,
+      "expected_mm3": 966.4857000000011,
       "local_bottom_mm": 0.0
     },
     {
@@ -206,8 +206,8 @@
       "closed_solid": true,
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
-      "volume_mm3": 270.8605503523196,
-      "expected_mm3": 270.86054999999993,
+      "volume_mm3": 270.86055035231965,
+      "expected_mm3": 270.86054999999976,
       "local_bottom_mm": 0.0
     },
     {
@@ -217,7 +217,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 999.6885023849134,
-      "expected_mm3": 999.6884999999984,
+      "expected_mm3": 999.6884999999991,
       "local_bottom_mm": 0.0
     },
     {
@@ -226,7 +226,7 @@
       "closed_solid": true,
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
-      "volume_mm3": 1586.160137002362,
+      "volume_mm3": 1586.1601370023623,
       "expected_mm3": 1586.160134835,
       "local_bottom_mm": 0.0
     },
@@ -237,7 +237,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 3112.8383170988955,
-      "expected_mm3": 3112.8382500000025,
+      "expected_mm3": 3112.838250000002,
       "local_bottom_mm": 0.0
     },
     {
@@ -246,8 +246,8 @@
       "closed_solid": true,
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
-      "volume_mm3": 13461.37057843077,
-      "expected_mm3": 13461.369832740009,
+      "volume_mm3": 13484.010449252783,
+      "expected_mm3": 13484.0097036314,
       "local_bottom_mm": 0.0
     },
     {
@@ -257,7 +257,7 @@
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
       "volume_mm3": 12575.13062482192,
-      "expected_mm3": 12575.130450300014,
+      "expected_mm3": 12575.130450299996,
       "local_bottom_mm": 0.0
     },
     {
@@ -266,8 +266,8 @@
       "closed_solid": true,
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
-      "volume_mm3": 13098.174847925724,
-      "expected_mm3": 13098.174149999988,
+      "volume_mm3": 13098.174847925717,
+      "expected_mm3": 13098.174150000006,
       "local_bottom_mm": 0.0
     },
     {
@@ -276,8 +276,8 @@
       "closed_solid": true,
       "precision_grid_mm": 1e-06,
       "footprint_difference_mm2": 0.0,
-      "volume_mm3": 25526.80144726746,
-      "expected_mm3": 25526.801249999935,
+      "volume_mm3": 25526.801447267466,
+      "expected_mm3": 25526.80124999999,
       "local_bottom_mm": 0.0
     }
   ],

@@ -1,0 +1,516 @@
+{
+  "passed": true,
+  "labels": [
+    {
+      "id": "TEXT_001",
+      "source_glyph_components": 15,
+      "centerline_connected_components": 15,
+      "stroke_length_mm": 70.3281589533044
+    },
+    {
+      "id": "TEXT_002",
+      "source_glyph_components": 13,
+      "centerline_connected_components": 13,
+      "stroke_length_mm": 92.41575763332085
+    },
+    {
+      "id": "TEXT_003",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 23.025330586996844
+    },
+    {
+      "id": "TEXT_004",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 20.82257710249511
+    },
+    {
+      "id": "TEXT_005",
+      "source_glyph_components": 12,
+      "centerline_connected_components": 12,
+      "stroke_length_mm": 59.774491149700296
+    },
+    {
+      "id": "TEXT_006",
+      "source_glyph_components": 12,
+      "centerline_connected_components": 12,
+      "stroke_length_mm": 81.64591968968239
+    },
+    {
+      "id": "TEXT_007",
+      "source_glyph_components": 11,
+      "centerline_connected_components": 11,
+      "stroke_length_mm": 81.37797460223231
+    },
+    {
+      "id": "TEXT_008",
+      "source_glyph_components": 11,
+      "centerline_connected_components": 11,
+      "stroke_length_mm": 46.784504969837194
+    },
+    {
+      "id": "TEXT_009",
+      "source_glyph_components": 10,
+      "centerline_connected_components": 10,
+      "stroke_length_mm": 56.18133883972976
+    },
+    {
+      "id": "TEXT_010",
+      "source_glyph_components": 11,
+      "centerline_connected_components": 11,
+      "stroke_length_mm": 41.903632956686394
+    },
+    {
+      "id": "TEXT_011",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 35.54966664465375
+    },
+    {
+      "id": "TEXT_012",
+      "source_glyph_components": 9,
+      "centerline_connected_components": 9,
+      "stroke_length_mm": 33.84593501178449
+    },
+    {
+      "id": "TEXT_013",
+      "source_glyph_components": 9,
+      "centerline_connected_components": 9,
+      "stroke_length_mm": 23.834468950369544
+    },
+    {
+      "id": "TEXT_014",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 35.3008137798806
+    },
+    {
+      "id": "TEXT_015",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 47.46327718681152
+    },
+    {
+      "id": "TEXT_016",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 37.96238174642454
+    },
+    {
+      "id": "TEXT_017",
+      "source_glyph_components": 9,
+      "centerline_connected_components": 9,
+      "stroke_length_mm": 67.66297831468505
+    },
+    {
+      "id": "TEXT_018",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 36.46125022747211
+    },
+    {
+      "id": "TEXT_019",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 52.20349089718668
+    },
+    {
+      "id": "TEXT_020",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 51.408766990529685
+    },
+    {
+      "id": "TEXT_021",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 45.44956625717404
+    },
+    {
+      "id": "TEXT_022",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 39.021527138875506
+    },
+    {
+      "id": "TEXT_023",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 40.78637593850608
+    },
+    {
+      "id": "TEXT_024",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 47.45683856760427
+    },
+    {
+      "id": "TEXT_025",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 38.82683241898947
+    },
+    {
+      "id": "TEXT_026",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 57.91572873446852
+    },
+    {
+      "id": "TEXT_027",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 43.80564300597266
+    },
+    {
+      "id": "TEXT_028",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 52.68456298787721
+    },
+    {
+      "id": "TEXT_029",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 69.79150106205631
+    },
+    {
+      "id": "TEXT_030",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 23.374385092487
+    },
+    {
+      "id": "TEXT_031",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 43.92548698530481
+    },
+    {
+      "id": "TEXT_032",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 27.534898791148464
+    },
+    {
+      "id": "TEXT_033",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 62.51215200729486
+    },
+    {
+      "id": "TEXT_034",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 53.974048920205526
+    },
+    {
+      "id": "TEXT_035",
+      "source_glyph_components": 4,
+      "centerline_connected_components": 4,
+      "stroke_length_mm": 29.383108294527794
+    },
+    {
+      "id": "TEXT_036",
+      "source_glyph_components": 12,
+      "centerline_connected_components": 12,
+      "stroke_length_mm": 59.28479502213711
+    },
+    {
+      "id": "TEXT_037",
+      "source_glyph_components": 10,
+      "centerline_connected_components": 10,
+      "stroke_length_mm": 64.15669687240499
+    },
+    {
+      "id": "TEXT_038",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 71.07498324896848
+    },
+    {
+      "id": "TEXT_039",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 51.839108397215114
+    },
+    {
+      "id": "TEXT_040",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 71.53839137518743
+    },
+    {
+      "id": "TEXT_041",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 77.07621867956038
+    },
+    {
+      "id": "TEXT_042",
+      "source_glyph_components": 5,
+      "centerline_connected_components": 5,
+      "stroke_length_mm": 46.85921543505408
+    },
+    {
+      "id": "TEXT_043",
+      "unchanged_blue_outline_error_mm2": 0.0
+    },
+    {
+      "id": "TEXT_044",
+      "source_glyph_components": 5,
+      "centerline_connected_components": 5,
+      "stroke_length_mm": 47.69883930152395
+    },
+    {
+      "id": "TEXT_045",
+      "source_glyph_components": 9,
+      "centerline_connected_components": 9,
+      "stroke_length_mm": 45.47802975636431
+    },
+    {
+      "id": "TEXT_046",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 35.773455326940415
+    },
+    {
+      "id": "TEXT_047",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 38.33508993467148
+    },
+    {
+      "id": "TEXT_048",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 46.78058983583397
+    },
+    {
+      "id": "TEXT_049",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 40.46563577403671
+    },
+    {
+      "id": "TEXT_050",
+      "unchanged_blue_outline_error_mm2": 0.0
+    },
+    {
+      "id": "TEXT_051",
+      "source_glyph_components": 12,
+      "centerline_connected_components": 12,
+      "stroke_length_mm": 68.49269403329907
+    },
+    {
+      "id": "TEXT_052",
+      "source_glyph_components": 12,
+      "centerline_connected_components": 12,
+      "stroke_length_mm": 60.24918500299898
+    },
+    {
+      "id": "TEXT_053",
+      "source_glyph_components": 14,
+      "centerline_connected_components": 14,
+      "stroke_length_mm": 76.76144568084386
+    },
+    {
+      "id": "TEXT_054",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 53.10720355724894
+    },
+    {
+      "id": "TEXT_055",
+      "source_glyph_components": 18,
+      "centerline_connected_components": 18,
+      "stroke_length_mm": 92.94179356645901
+    },
+    {
+      "id": "TEXT_056",
+      "source_glyph_components": 10,
+      "centerline_connected_components": 10,
+      "stroke_length_mm": 59.402716673293156
+    },
+    {
+      "id": "TEXT_057",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 38.87260791438706
+    },
+    {
+      "id": "TEXT_058",
+      "source_glyph_components": 10,
+      "centerline_connected_components": 10,
+      "stroke_length_mm": 35.45672248956922
+    },
+    {
+      "id": "TEXT_059",
+      "source_glyph_components": 9,
+      "centerline_connected_components": 9,
+      "stroke_length_mm": 45.254110979426244
+    },
+    {
+      "id": "TEXT_060",
+      "source_glyph_components": 4,
+      "centerline_connected_components": 4,
+      "stroke_length_mm": 24.204358032266303
+    },
+    {
+      "id": "TEXT_061",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 31.91637173580311
+    },
+    {
+      "id": "TEXT_062",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 43.065674266061286
+    },
+    {
+      "id": "TEXT_063",
+      "unchanged_blue_outline_error_mm2": 0.0
+    },
+    {
+      "id": "TEXT_064",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 26.797017628492235
+    },
+    {
+      "id": "TEXT_065",
+      "source_glyph_components": 5,
+      "centerline_connected_components": 5,
+      "stroke_length_mm": 16.94355128768685
+    },
+    {
+      "id": "TEXT_066",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 27.21963613787434
+    },
+    {
+      "id": "TEXT_067",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 31.733979496506628
+    },
+    {
+      "id": "TEXT_068",
+      "source_glyph_components": 11,
+      "centerline_connected_components": 11,
+      "stroke_length_mm": 41.94379542145787
+    },
+    {
+      "id": "TEXT_069",
+      "source_glyph_components": 5,
+      "centerline_connected_components": 5,
+      "stroke_length_mm": 25.060213451716503
+    },
+    {
+      "id": "TEXT_070",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 36.11935809362013
+    },
+    {
+      "id": "TEXT_071",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 24.83083234798727
+    },
+    {
+      "id": "TEXT_072",
+      "source_glyph_components": 9,
+      "centerline_connected_components": 9,
+      "stroke_length_mm": 40.16715187771793
+    },
+    {
+      "id": "TEXT_073",
+      "source_glyph_components": 7,
+      "centerline_connected_components": 7,
+      "stroke_length_mm": 27.405233751486673
+    },
+    {
+      "id": "TEXT_074",
+      "source_glyph_components": 10,
+      "centerline_connected_components": 10,
+      "stroke_length_mm": 38.346695287393075
+    },
+    {
+      "id": "TEXT_075",
+      "source_glyph_components": 4,
+      "centerline_connected_components": 4,
+      "stroke_length_mm": 32.14668955153651
+    },
+    {
+      "id": "TEXT_076",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 86.37649261593268
+    },
+    {
+      "id": "TEXT_077",
+      "source_glyph_components": 13,
+      "centerline_connected_components": 13,
+      "stroke_length_mm": 53.58954592501747
+    },
+    {
+      "id": "TEXT_078",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 41.45050923042045
+    },
+    {
+      "id": "TEXT_079",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 50.503450066677914
+    },
+    {
+      "id": "TEXT_080",
+      "source_glyph_components": 8,
+      "centerline_connected_components": 8,
+      "stroke_length_mm": 52.00340480783631
+    },
+    {
+      "id": "TEXT_081",
+      "unchanged_blue_outline_error_mm2": 0.0
+    },
+    {
+      "id": "TEXT_082",
+      "source_glyph_components": 3,
+      "centerline_connected_components": 3,
+      "stroke_length_mm": 20.24767385682543
+    },
+    {
+      "id": "TEXT_083",
+      "source_glyph_components": 5,
+      "centerline_connected_components": 5,
+      "stroke_length_mm": 31.102227347298175
+    },
+    {
+      "id": "TEXT_084",
+      "source_glyph_components": 11,
+      "centerline_connected_components": 11,
+      "stroke_length_mm": 51.05997831845238
+    },
+    {
+      "id": "TEXT_085",
+      "source_glyph_components": 6,
+      "centerline_connected_components": 6,
+      "stroke_length_mm": 39.72530302021982
+    },
+    {
+      "id": "TEXT_086",
+      "source_glyph_components": 11,
+      "centerline_connected_components": 11,
+      "stroke_length_mm": 62.214822649713696
+    }
+  ],
+  "red_labels": 82,
+  "blue_titles_preserved": 4,
+  "all_glyph_components_preserved": true
+}

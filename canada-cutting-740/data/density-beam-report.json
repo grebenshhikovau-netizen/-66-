@@ -1,0 +1,46 @@
+{
+  "orders_tested": [
+    [
+      "L01_P001",
+      "L02_P008",
+      "L02_P008",
+      "L02_P008",
+      "L02_P010",
+      "L02_P010",
+      "L02_P010"
+    ],
+    [
+      "L01_P001",
+      "L02_P010",
+      "L02_P010",
+      "L02_P010",
+      "L02_P008",
+      "L02_P008",
+      "L02_P008"
+    ],
+    [
+      "L01_P001",
+      "L02_P008",
+      "L02_P010",
+      "L02_P008",
+      "L02_P010",
+      "L02_P008",
+      "L02_P010"
+    ],
+    [
+      "L02_P008",
+      "L02_P010",
+      "L02_P008",
+      "L02_P010",
+      "L02_P008",
+      "L02_P010",
+      "L01_P001"
+    ]
+  ],
+  "beam_width": 32,
+  "large_pieces_required": 7,
+  "maximum_placed_in_search": 6,
+  "found_complete_solution": false,
+  "rotations_allowed": false,
+  "source_shapes_unchanged": true
+}

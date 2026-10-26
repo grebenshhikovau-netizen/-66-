@@ -1,0 +1,15 @@
+{
+  "grid_mm": 1,
+  "two_whole_bases_possible": true,
+  "valid_relative_translations": 3720,
+  "base_mask_mm": [
+    516,
+    441
+  ],
+  "available_field_mm": [
+    730,
+    730
+  ],
+  "rotation": 0,
+  "mirroring": false
+}
