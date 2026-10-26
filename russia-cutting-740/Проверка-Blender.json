@@ -1,0 +1,514 @@
+{
+  "pieces": [
+    {
+      "id": "L01_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 324039.0220921793,
+      "expected_mm3": 324039.0197940003,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L01_P002",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 102328.98578571106,
+      "expected_mm3": 102328.98576900049,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L01_P003",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 855.2173580018161,
+      "expected_mm3": 855.2173574999998,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L01_P004",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 66.98977657503046,
+      "expected_mm3": 66.98977649999921,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L01_P005",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 47.740138597420575,
+      "expected_mm3": 47.7401385000002,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L01_P006",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 46.83257692767249,
+      "expected_mm3": 46.832576999999354,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L01_P007",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 46.65968793082179,
+      "expected_mm3": 46.65968849999899,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L01_P009",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 44.79079779175716,
+      "expected_mm3": 44.79079800000055,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L01_P010",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 35.6211133687013,
+      "expected_mm3": 35.62111350000058,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 82875.6391786451,
+      "expected_mm3": 82875.63833849985,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P002",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 70702.62311162223,
+      "expected_mm3": 70702.62207599997,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P003",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 45819.491870442274,
+      "expected_mm3": 45819.49132349999,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P004",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 37246.179255960065,
+      "expected_mm3": 37246.17913949992,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P005",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 30130.044838860358,
+      "expected_mm3": 30130.044651000084,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P006",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 11934.878261860975,
+      "expected_mm3": 11934.87819450002,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P007",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 6168.361439245972,
+      "expected_mm3": 6168.361382999994,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P008",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 3512.381951437076,
+      "expected_mm3": 3512.3819115000038,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P009",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 3230.589327370619,
+      "expected_mm3": 3230.5892954999986,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P010",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 2269.653876380081,
+      "expected_mm3": 2269.6538564999996,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P011",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1210.8469875602525,
+      "expected_mm3": 1210.8469799999984,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P012",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1195.9885232617603,
+      "expected_mm3": 1195.9884974999989,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P013",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1105.4515695411835,
+      "expected_mm3": 1105.4515545000008,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 26913.048890677655,
+      "expected_mm3": 26913.048552000055,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P002",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 20576.41111391842,
+      "expected_mm3": 20576.410987500014,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P003",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 10531.44388036602,
+      "expected_mm3": 10531.443819000007,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P004",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 7065.534598623033,
+      "expected_mm3": 7065.534463499984,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P005",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 5262.803604017128,
+      "expected_mm3": 5262.8035365000005,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P006",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 3557.209778436969,
+      "expected_mm3": 3557.2097205,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P007",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 2967.137487789568,
+      "expected_mm3": 2967.137469000003,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P008",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 2908.468227763173,
+      "expected_mm3": 2908.468207500001,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P009",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 2836.7890247349496,
+      "expected_mm3": 2836.7890605000002,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P010",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 2734.9736012053045,
+      "expected_mm3": 2734.973579999999,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P011",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 2278.857762807413,
+      "expected_mm3": 2278.8577485000014,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P012",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 2207.6976688502314,
+      "expected_mm3": 2207.6976540000005,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P013",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1941.4393981374872,
+      "expected_mm3": 1941.4393694999985,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P014",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1836.7757340975695,
+      "expected_mm3": 1836.7757129999968,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P015",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1334.1794571183696,
+      "expected_mm3": 1334.1794460000012,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P016",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1231.8682799138992,
+      "expected_mm3": 1231.8682860000013,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P017",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1189.53535232796,
+      "expected_mm3": 1189.535351999999,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P018",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1175.1572119783043,
+      "expected_mm3": 1175.1572055000006,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P019",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 842.9794589853237,
+      "expected_mm3": 842.979453,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P020",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 747.5234547241266,
+      "expected_mm3": 747.5234384999999,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P021",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 342.7850718403319,
+      "expected_mm3": 342.7850685000009,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P022",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 242.18532359020108,
+      "expected_mm3": 242.18532299999933,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P023",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 88.23316582191165,
+      "expected_mm3": 88.2331650000005,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P024",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 86.9546887804034,
+      "expected_mm3": 86.95468949999923,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L04_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 7799.23552376528,
+      "expected_mm3": 7799.235389999998,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L04_P002",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 757.9671688089566,
+      "expected_mm3": 757.9671585000033,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L04_P003",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 432.82870277050256,
+      "expected_mm3": 432.82869899999764,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L04_P004",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 91.46094407132891,
+      "expected_mm3": 91.46094450000058,
+      "local_bottom_mm": 0.0
+    }
+  ],
+  "all_closed_manifold": true,
+  "bottom_origins": true,
+  "labels_follow_height": true,
+  "upper_plies_follow_base": true,
+  "height_test_mm": [
+    3,
+    6,
+    9
+  ],
+  "wood_count": 50
+}

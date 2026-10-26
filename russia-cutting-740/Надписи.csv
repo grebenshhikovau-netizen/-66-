@@ -1,0 +1,173 @@
+﻿ID,Текст,Тип,Деталь,Слой,Размер шрифта мм,Выноска
+COUNTRY_RUSSIA,РОССИЯ,country,L02_P002,2,6.2,Нет
+CITY_001_TEXT,Москва,city,L03_P005,3,2.0,Да
+CITY_002_TEXT,Санкт-Петербург,city,L03_P009,3,2.0,Да
+CITY_003_TEXT,Новосибирск,city,L01_P001,1,2.0,Да
+CITY_004_TEXT,Екатеринбург,city,L01_P002,1,2.0,Да
+CITY_005_TEXT,Казань,city,L02_P003,2,2.0,Да
+CITY_006_TEXT,Нижний Новгород,city,L01_P002,1,2.0,Да
+CITY_007_TEXT,Челябинск,city,L03_P007,3,2.0,Да
+CITY_008_TEXT,Красноярск,city,L03_P011,3,2.0,Да
+CITY_009_TEXT,Самара,city,L02_P003,2,2.0,Да
+CITY_010_TEXT,Уфа,city,L02_P003,2,2.0,Да
+CITY_011_TEXT,Ростов-на-Дону,city,L02_P005,2,2.0,Да
+CITY_012_TEXT,Омск,city,L02_P007,2,2.0,Да
+CITY_013_TEXT,Краснодар,city,L02_P005,2,2.0,Да
+CITY_014_TEXT,Воронеж,city,L01_P002,1,2.0,Да
+CITY_015_TEXT,Пермь,city,L03_P012,3,2.0,Да
+CITY_016_TEXT,Волгоград,city,L01_P002,1,2.0,Да
+CITY_017_TEXT,Саратов,city,L02_P005,2,1.7,Да
+CITY_018_TEXT,Тюмень,city,L02_P003,2,1.7,Да
+CITY_019_TEXT,Иркутск,city,L02_P013,2,1.7,Да
+CITY_020_TEXT,Кемерово,city,L01_P001,1,1.7,Да
+CITY_021_TEXT,Томск,city,L02_P004,2,1.7,Да
+CITY_022_TEXT,Барнаул,city,L02_P010,2,1.7,Да
+CITY_023_TEXT,Горно-Алтайск,city,L01_P001,1,1.7,Да
+CITY_024_TEXT,Абакан,city,L03_P011,3,1.7,Да
+CITY_025_TEXT,Кызыл,city,L02_P004,2,1.7,Да
+CITY_026_TEXT,Улан-Удэ,city,L01_P001,1,1.7,Нет
+CITY_027_TEXT,Чита,city,L02_P001,2,1.7,Да
+CITY_028_TEXT,Благовещенск,city,L01_P001,1,1.7,Да
+CITY_029_TEXT,Хабаровск,city,L01_P001,1,1.7,Да
+CITY_030_TEXT,Владивосток,city,L01_P001,1,1.7,Да
+CITY_031_TEXT,Южно-Сахалинск,city,L02_P012,2,0.9,Да
+CITY_032_TEXT,Петропавловск-Камчатский,city,L02_P008,2,1.7,Да
+CITY_033_TEXT,Якутск,city,L01_P001,1,1.7,Да
+CITY_034_TEXT,Магадан,city,L02_P001,2,1.7,Да
+CITY_035_TEXT,Анадырь,city,L01_P001,1,1.7,Да
+CITY_036_TEXT,Норильск,city,L03_P002,3,1.7,Да
+CITY_037_TEXT,Салехард,city,L02_P003,2,1.7,Да
+CITY_038_TEXT,Ханты-Мансийск,city,L02_P004,2,1.7,Да
+CITY_039_TEXT,Сургут,city,L02_P004,2,1.7,Да
+CITY_040_TEXT,Нарьян-Мар,city,L01_P002,1,1.7,Да
+CITY_041_TEXT,Воркута,city,L02_P003,2,1.7,Да
+CITY_042_TEXT,Сыктывкар,city,L02_P003,2,1.7,Да
+CITY_043_TEXT,Архангельск,city,L02_P005,2,1.7,Да
+CITY_044_TEXT,Мурманск,city,L03_P004,3,1.7,Да
+CITY_045_TEXT,Петрозаводск,city,L02_P005,2,1.7,Да
+CITY_046_TEXT,Смоленск,city,L02_P005,2,1.7,Да
+CITY_047_TEXT,Брянск,city,L01_P002,1,1.7,Да
+CITY_048_TEXT,Орёл,city,L03_P005,3,1.7,Да
+CITY_049_TEXT,Тула,city,L03_P005,3,1.7,Да
+CITY_050_TEXT,Рязань,city,L01_P002,1,1.7,Да
+CITY_051_TEXT,Тверь,city,L02_P011,2,1.7,Да
+CITY_052_TEXT,Ярославль,city,L02_P005,2,1.7,Да
+CITY_053_TEXT,Владимир,city,L03_P005,3,1.7,Да
+CITY_054_TEXT,Иваново,city,L02_P005,2,1.7,Да
+CITY_055_TEXT,Кострома,city,L01_P002,1,1.7,Да
+CITY_056_TEXT,Махачкала,city,L02_P005,2,1.7,Да
+CITY_057_TEXT,Владикавказ,city,L02_P005,2,1.7,Да
+CITY_058_TEXT,Грозный,city,L02_P005,2,1.7,Да
+CITY_059_TEXT,Ставрополь,city,L02_P005,2,1.7,Да
+CITY_060_TEXT,Сочи,city,L02_P005,2,1.7,Да
+CITY_061_TEXT,Астрахань,city,L03_P019,3,1.7,Да
+CITY_062_TEXT,Оренбург,city,L03_P007,3,1.7,Да
+CITY_063_TEXT,Пенза,city,L03_P005,3,1.7,Да
+CITY_064_TEXT,Чебоксары,city,L02_P005,2,1.7,Да
+CITY_065_TEXT,Йошкар-Ола,city,L02_P003,2,1.7,Да
+CITY_066_TEXT,Саранск,city,L01_P002,1,1.7,Да
+CITY_067_TEXT,Ижевск,city,L02_P003,2,1.7,Да
+CITY_068_TEXT,Киров,city,L02_P003,2,1.7,Да
+CITY_069_TEXT,Курган,city,L01_P002,1,1.7,Да
+CITY_070_TEXT,Псков,city,L03_P009,3,1.7,Да
+CITY_071_TEXT,Великий Новгород,city,L01_P002,1,1.7,Да
+CITY_072_TEXT,Вологда,city,L01_P002,1,1.7,Да
+CITY_073_TEXT,Липецк,city,L03_P005,3,1.7,Да
+CITY_074_TEXT,Тамбов,city,L03_P005,3,1.7,Да
+CITY_075_TEXT,Белгород,city,L03_P005,3,1.7,Да
+CITY_076_TEXT,Курск,city,L03_P005,3,1.7,Да
+CITY_077_TEXT,Калуга,city,L02_P005,2,1.7,Да
+CITY_078_TEXT,Ульяновск,city,L02_P005,2,1.7,Да
+CITY_079_TEXT,Майкоп,city,L02_P005,2,1.7,Да
+CITY_080_TEXT,Нальчик,city,L01_P002,1,1.7,Да
+CITY_081_TEXT,Черкесск,city,L02_P005,2,1.7,Да
+CITY_082_TEXT,Магас,city,L01_P002,1,1.7,Да
+CITY_083_TEXT,Элиста,city,L03_P019,3,1.7,Да
+CITY_084_TEXT,Биробиджан,city,L03_P021,3,1.7,Да
+CITY_085_TEXT,Симферополь,city,L01_P002,1,1.7,Да
+CITY_086_TEXT,Севастополь,city,L01_P002,1,1.4,Да
+CITY_087_TEXT,Новокузнецк,city,L01_P001,1,1.7,Да
+CITY_088_TEXT,Тольятти,city,L02_P003,2,1.7,Да
+CITY_089_TEXT,Братск,city,L02_P004,2,1.7,Да
+CITY_090_TEXT,Дудинка,city,L02_P002,2,1.7,Да
+REGION_RU_SA,ЯКУТИЯ,region,L02_P001,2,3.2,Нет
+REGION_RU_KYA,КРАСНОЯРСКИЙ КРАЙ,region,L04_P001,4,3.2,Нет
+REGION_RU_YAN,ЯМАЛО-НЕНЕЦКИЙ АВТОНОМНЫЙ ОКРУГ,region,L02_P004,2,3.2,Нет
+REGION_RU_CHU,ЧУКОТСКИЙ АВТОНОМНЫЙ ОКРУГ,region,L02_P001,2,3.2,Нет
+REGION_RU_IRK,ИРКУТСКАЯ ОБЛАСТЬ,region,L03_P008,3,3.075,Нет
+REGION_RU_KHA,ХАБАРОВСКИЙ КРАЙ,region,L02_P001,2,3.021,Нет
+REGION_RU_KHM,ХАНТЫ-МАНСИЙСКИЙ АВТОНОМНЫЙ ОКРУГ — ЮГРА,region,L02_P004,2,2.503,Нет
+REGION_RU_MAG,МАГАДАНСКАЯ ОБЛАСТЬ,region,L03_P001,3,2.94,Нет
+REGION_RU_KO,РЕСПУБЛИКА КОМИ,region,L02_P003,2,2.938,Нет
+REGION_RU_OMS,ОМСКАЯ ОБЛАСТЬ,region,L02_P007,2,2.887,Нет
+REGION_RU_KAM,КАМЧАТСКИЙ КРАЙ,region,L02_P009,2,2.783,Нет
+REGION_RU_ARK,АРХАНГЕЛЬСКАЯ ОБЛАСТЬ,region,L02_P003,2,2.692,Нет
+REGION_RU_NEN,НЕНЕЦКИЙ АВТОНОМНЫЙ ОКРУГ,region,L02_P003,2,2.134,Нет
+REGION_RU_ZAB,ЗАБАЙКАЛЬСКИЙ КРАЙ,region,L02_P001,2,2.515,Нет
+REGION_RU_MUR,МУРМАНСКАЯ ОБЛАСТЬ,region,L03_P004,3,2.424,Нет
+REGION_RU_BU,БУРЯТИЯ,region,L01_P001,1,2.4,Нет
+REGION_RU_AMU,АМУРСКАЯ ОБЛАСТЬ,region,L01_P001,1,2.399,Нет
+REGION_RU_KR,КАРЕЛИЯ,region,L02_P005,2,2.345,Нет
+REGION_RU_SVE,СВЕРДЛОВСКАЯ ОБЛАСТЬ,region,L01_P002,1,2.219,Нет
+REGION_RU_PER,ПЕРМСКИЙ КРАЙ,region,L03_P012,3,2.134,Нет
+REGION_RU_VLG,ВОЛОГОДСКАЯ ОБЛАСТЬ,region,L01_P002,1,2.106,Нет
+REGION_RU_NVS,НОВОСИБИРСКАЯ ОБЛАСТЬ,region,L01_P001,1,2.07,Нет
+REGION_RU_ALT,АЛТАЙСКИЙ КРАЙ,region,L02_P010,2,1.976,Нет
+REGION_RU_KIR,КИРОВСКАЯ ОБЛАСТЬ,region,L02_P003,2,1.972,Нет
+REGION_RU_ROS,РОСТОВСКАЯ ОБЛАСТЬ,region,L03_P005,3,1.545,Нет
+REGION_RU_BA,РЕСПУБЛИКА БАШКОРТОСТАН,region,L02_P003,2,1.943,Нет
+REGION_RU_TY,ТЫВА,region,L02_P004,2,1.941,Нет
+REGION_RU_LEN,ЛЕНИНГРАДСКАЯ ОБЛАСТЬ,region,L03_P009,3,1.833,Нет
+REGION_RU_PRI,ПРИМОРСКИЙ КРАЙ,region,L01_P001,1,1.823,Нет
+REGION_RU_ORE,ОРЕНБУРГСКАЯ ОБЛАСТЬ,region,L03_P007,3,1.798,Нет
+REGION_RU_KEM,КЕМЕРОВСКАЯ ОБЛАСТЬ,region,L01_P001,1,1.766,Нет
+REGION_RU_TVE,ТВЕРСКАЯ ОБЛАСТЬ,region,L02_P011,2,1.765,Нет
+REGION_RU_VGG,ВОЛГОГРАДСКАЯ ОБЛАСТЬ,region,L01_P002,1,1.745,Нет
+REGION_RU_CHE,ЧЕЛЯБИНСКАЯ ОБЛАСТЬ,region,L03_P007,3,1.224,Нет
+REGION_RU_SAR,САРАТОВСКАЯ ОБЛАСТЬ,region,L02_P003,2,1.421,Нет
+REGION_RU_NIZ,НИЖЕГОРОДСКАЯ ОБЛАСТЬ,region,L02_P003,2,1.394,Нет
+REGION_RU_SAK,САХАЛИНСКАЯ ОБЛАСТЬ,region,L01_P001,1,1.0,Да
+REGION_RU_KOS,КОСТРОМСКАЯ ОБЛАСТЬ,region,L01_P002,1,1.652,Нет
+REGION_RU_AL,РЕСПУБЛИКА АЛТАЙ,region,L01_P001,1,1.645,Нет
+REGION_RU_KGN,КУРГАНСКАЯ ОБЛАСТЬ,region,L01_P002,1,1.644,Нет
+REGION_RU_TA,ТАТАРСТАН,region,L01_P002,1,1.632,Нет
+REGION_RU_NGR,НОВГОРОДСКАЯ ОБЛАСТЬ,region,L01_P002,1,1.612,Нет
+REGION_RU_PSK,ПСКОВСКАЯ ОБЛАСТЬ,region,L03_P009,3,1.294,Нет
+REGION_RU_KK,ХАКАСИЯ,region,L03_P011,3,1.541,Нет
+REGION_RU_KL,КАЛМЫКИЯ,region,L03_P019,3,1.513,Нет
+REGION_RU_SAM,САМАРСКАЯ ОБЛАСТЬ,region,L02_P003,2,0.9,Нет
+REGION_RU_SMO,СМОЛЕНСКАЯ ОБЛАСТЬ,region,L02_P005,2,1.493,Нет
+REGION_RU_KDA,КРАСНОДАРСКИЙ КРАЙ,region,L02_P005,2,1.193,Нет
+REGION_RU_UD,УДМУРТИЯ,region,L02_P003,2,1.481,Нет
+REGION_RU_MOW,МОСКОВСКАЯ ОБЛАСТЬ,region,L03_P005,3,0.971,Нет
+REGION_RU_VOR,ВОРОНЕЖСКАЯ ОБЛАСТЬ,region,L01_P002,1,1.17,Нет
+REGION_RU_STA,СТАВРОПОЛЬСКИЙ КРАЙ,region,L02_P005,2,1.157,Нет
+REGION_RU_YAR,ЯРОСЛАВСКАЯ ОБЛАСТЬ,region,L02_P011,2,1.239,Нет
+REGION_RU_PNZ,ПЕНЗЕНСКАЯ ОБЛАСТЬ,region,L03_P005,3,1.424,Нет
+REGION_RU_RYA,РЯЗАНСКАЯ ОБЛАСТЬ,region,L01_P002,1,1.408,Нет
+REGION_RU_DA,ДАГЕСТАН,region,L02_P005,2,1.403,Нет
+REGION_RU_ULY,УЛЬЯНОВСКАЯ ОБЛАСТЬ,region,L03_P005,3,1.379,Да
+REGION_RU_AST,АСТРАХАНСКАЯ ОБЛАСТЬ,region,L03_P019,3,0.973,Да
+REGION_RU_BRY,БРЯНСКАЯ ОБЛАСТЬ,region,L01_P002,1,1.337,Нет
+REGION_RU_VLA,ВЛАДИМИРСКАЯ ОБЛАСТЬ,region,L03_P005,3,1.236,Нет
+REGION_RU_TAM,ТАМБОВСКАЯ ОБЛАСТЬ,region,L03_P005,3,1.335,Да
+REGION_RU_KLU,КАЛУЖСКАЯ ОБЛАСТЬ,region,L02_P005,2,1.009,Нет
+REGION_RU_IVA,ИВАНОВСКАЯ ОБЛАСТЬ,region,L02_P005,2,1.2,Нет
+REGION_RU_ME,МАРИЙ ЭЛ,region,L02_P003,2,1.3,Нет
+REGION_RU_BEL,БЕЛГОРОДСКАЯ ОБЛАСТЬ,region,L01_P002,1,1.3,Да
+REGION_RU_MO,МОРДОВИЯ,region,L01_P002,1,1.3,Нет
+REGION_RU_KRS,КУРСКАЯ ОБЛАСТЬ,region,L03_P005,3,1.0,Нет
+REGION_RU_SE,РЕСПУБЛИКА СЕВЕРНАЯ ОСЕТИЯ — АЛАНИЯ,region,L02_P005,2,0.9,Нет
+REGION_RU_TUL,ТУЛЬСКАЯ ОБЛАСТЬ,region,L03_P005,3,1.3,Нет
+REGION_UA_43,КРЫМ,region,L01_P002,1,1.3,Нет
+REGION_RU_YEV,ЕВРЕЙСКАЯ АВТОНОМНАЯ ОБЛАСТЬ,region,L02_P001,2,1.3,Да
+REGION_RU_TOM,ТОМСКАЯ ОБЛАСТЬ,region,L02_P004,2,1.3,Да
+REGION_RU_ORL,ОРЛОВСКАЯ ОБЛАСТЬ,region,L03_P005,3,1.1,Нет
+REGION_RU_LIP,ЛИПЕЦКАЯ ОБЛАСТЬ,region,L03_P005,3,1.3,Да
+REGION_RU_CU,ЧУВАШИЯ,region,L02_P005,2,1.3,Нет
+REGION_RU_KC,КАРАЧАЕВО-ЧЕРКЕСИЯ,region,L02_P005,2,1.3,Да
+REGION_RU_KB,КАБАРДИНО-БАЛКАРИЯ,region,L02_P005,2,1.2,Да
+REGION_RU_CE,ЧЕЧНЯ,region,L01_P002,1,1.3,Нет
+REGION_RU_TYU,ТЮМЕНСКАЯ ОБЛАСТЬ,region,L02_P003,2,1.3,Да
+REGION_RU_AD,АДЫГЕЯ,region,L02_P005,2,1.3,Да
+REGION_RU_IN,ИНГУШЕТИЯ,region,L02_P005,2,1.3,Да

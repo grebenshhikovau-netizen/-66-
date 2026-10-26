@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "editable_svg_texts": 172,
+  "city_texts": 90,
+  "regional_texts": 81,
+  "country_title": 1,
+  "text_survives_open_save_round_trip": true,
+  "font_supplied": "Шрифт/OpenSans-Light.ttf",
+  "coreldraw_not_installed_in_environment": true
+}

@@ -1,0 +1,193 @@
+{
+  "project": "Россия — раскрой 740 × 740 мм",
+  "physical_parts": 50,
+  "parts_per_layer": [
+    9,
+    13,
+    24,
+    4
+  ],
+  "sheets": 1,
+  "rotation": false,
+  "mirroring": false,
+  "scaling": false,
+  "live_text_objects": 172,
+  "city_markers": 90,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 11535,
+      "sha256": "709c958aff2964a2ac1cd218b3b9abbe19e39de0e49bf127a42c8fc9368b96ce"
+    },
+    {
+      "path": "Байкал-ступени-3D.png",
+      "bytes": 2899044,
+      "sha256": "17652314cfd47b335e663b25c61077d5f333de5532f2c2e26dc2b9d67af31ffc"
+    },
+    {
+      "path": "Водные-ступени.pdf",
+      "bytes": 45418,
+      "sha256": "3bedf137a3de9f60b7db7f990e9fb91496aa7598cf5ef371dd52b82c08d9bb74"
+    },
+    {
+      "path": "Водные-ступени.png",
+      "bytes": 140628,
+      "sha256": "336e683a9567bd891ef43cca4511f9fcf14120de60cf41ca5e7269d3999c8940"
+    },
+    {
+      "path": "Города.csv",
+      "bytes": 5047,
+      "sha256": "51d64f62fbad7629e5d060963df7b3bfbcc903a9d22bc8ced83bb4a2990fa35f"
+    },
+    {
+      "path": "Надписи.csv",
+      "bytes": 11630,
+      "sha256": "31ec1f10186fe1f2fd83ace938595eb49edcbebae460b7d6ac649fa49e3f5c70"
+    },
+    {
+      "path": "Операции-по-цветам/Поле-01-Красный-разметка.svg",
+      "bytes": 1093596,
+      "sha256": "c871ba488941dfb972540e07bfa486c96df51785cf78598ce77a2bf271a07253"
+    },
+    {
+      "path": "Операции-по-цветам/Поле-01-Красный-текст-и-города.svg",
+      "bytes": 148917,
+      "sha256": "66954b2304baebb4b9651f1baf0d7494284b09585d5be00c25062c2998db68e1"
+    },
+    {
+      "path": "Операции-по-цветам/Поле-01-Синий-страна.svg",
+      "bytes": 584,
+      "sha256": "da5373c657b2f0da445b9d79d8097429b34d49e7f35005f0bf6c8d45340fcb38"
+    },
+    {
+      "path": "Операции-по-цветам/Поле-01-Чёрный-резка.svg",
+      "bytes": 1895339,
+      "sha256": "d8d4f897ad912c647c88f770557de433ad58b30af5d2b2c9a8bf2f045d2ab7bc"
+    },
+    {
+      "path": "ПРОЧИТАТЬ.md",
+      "bytes": 11535,
+      "sha256": "709c958aff2964a2ac1cd218b3b9abbe19e39de0e49bf127a42c8fc9368b96ce"
+    },
+    {
+      "path": "ПРОЧТИ-МЕНЯ.txt",
+      "bytes": 2045,
+      "sha256": "b5b295c3ffdab7e14c8596caea4166efe6a8fb9533b789c14bc0f20ac6908bd3"
+    },
+    {
+      "path": "Поле-01-740x740.pdf",
+      "bytes": 1037863,
+      "sha256": "f87e93af9e8c5c6d677de23025bf67ece2506ddcdff2487343ce92d55d24c36a"
+    },
+    {
+      "path": "Поле-01-740x740.svg",
+      "bytes": 3138399,
+      "sha256": "034ca7a98b24ad249eab13471614fa215d205cdc4de81f4d20dcbfb1d6c7801d"
+    },
+    {
+      "path": "Поле-01-предпросмотр.png",
+      "bytes": 476729,
+      "sha256": "d25c9b594d0ba883b8dce51f94d1b808ce231ae686f6c4f99daa832a5b46e016"
+    },
+    {
+      "path": "Проверка-Blender.json",
+      "bytes": 14085,
+      "sha256": "e0890809f6f3450716f500c2aa0a317c8847c418662556a9d7ed433593d36cd7"
+    },
+    {
+      "path": "Проверка-раскроя.json",
+      "bytes": 2417,
+      "sha256": "e170b5c637b8f2111857641ddc3409e8c2c4e0aa6337be83bb1bfd05eca7942d"
+    },
+    {
+      "path": "Проверка-сглаживания-и-воды.json",
+      "bytes": 6746,
+      "sha256": "3137ac258a0e23c3194bc63b08abb7ed41ac6d0be88c99ff895c486b383e0eb5"
+    },
+    {
+      "path": "Проверка-сохранённого-Blender.json",
+      "bytes": 12100,
+      "sha256": "35aa662d92a7354d8e5469535813d944c55d153c086345646a59e941dceb4002"
+    },
+    {
+      "path": "Проверка-текста.json",
+      "bytes": 263,
+      "sha256": "7f3e4a25b18c02807df0ad2e99d8f9356193013ad1437ef5cacb13e6ebc03e84"
+    },
+    {
+      "path": "Расположение-деталей.csv",
+      "bytes": 1820,
+      "sha256": "533258f66a7cb507e7c9f1b7a0edf063810a14af693f39bb749d4a1a311c4585"
+    },
+    {
+      "path": "Россия-запад-города.png",
+      "bytes": 4307920,
+      "sha256": "6dde739d8c6065393d531716016c75f0d2a40311a6bef83cc8e990213cd46602"
+    },
+    {
+      "path": "Россия-производственная-сборка.blend",
+      "bytes": 10995980,
+      "sha256": "7884d1c3fdcca386bbdac84c034561d59035db16336c7963b6b864245e93e5ca"
+    },
+    {
+      "path": "Россия-сборка-3D.png",
+      "bytes": 3383778,
+      "sha256": "d7381b105b5072c18a03392beaccb76c52ee2bc43bf7d89ac5ea3a966a0d7dd5"
+    },
+    {
+      "path": "Сглаживание-до-и-после.pdf",
+      "bytes": 1384431,
+      "sha256": "f65b09b3ddc54283a19b704655afac2cce3aec2d657273c646162794c41c6937"
+    },
+    {
+      "path": "Сглаживание-до-и-после.png",
+      "bytes": 207629,
+      "sha256": "efba48dceb9c480605ac8bb119fc2d6bf29698f0476650512e29845da7f4da5c"
+    },
+    {
+      "path": "Слои-и-сборка.pdf",
+      "bytes": 1808292,
+      "sha256": "ab3817533dbef5535c7d897bfe26a1d084bf93b4242a25f9158fd819402fc54d"
+    },
+    {
+      "path": "Схема-раскладки-с-номерами.pdf",
+      "bytes": 1070240,
+      "sha256": "0aa0b68d797228b9ea047341f029ef8e49d874a8927a00030feb1961aa6bd135"
+    },
+    {
+      "path": "Схема-раскладки-с-номерами.png",
+      "bytes": 475602,
+      "sha256": "3e1e1c760f0daad036e67c3584f4affddd238648e0f7473f6e68248c7e45cac0"
+    },
+    {
+      "path": "Таймыр-профиль.json",
+      "bytes": 315,
+      "sha256": "82d4e1532d28011e3b5b624caddb51750ed2a9abb0c3700c6774e1474e7da26a"
+    },
+    {
+      "path": "Таймыр-ступени-3D.png",
+      "bytes": 2631665,
+      "sha256": "d25f57a54752ca22c40e761a476d7d644821eeb1347dc3b0982aa0250381a500"
+    },
+    {
+      "path": "Шрифт/DejaVu-copyright.txt",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "path": "Шрифт/LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "Шрифт/OpenSans-Light.ttf",
+      "bytes": 222412,
+      "sha256": "cf5f5184c1441a1660aa52526328e9d5c2793e77b6d8d3a3ad654bdb07ab8424"
+    },
+    {
+      "path": "Шрифт/copyright.txt",
+      "bytes": 1031,
+      "sha256": "94d4b78643f99d7cfa872145b38da578299f401405ca5cba66a5c95bf13933b0"
+    }
+  ]
+}
