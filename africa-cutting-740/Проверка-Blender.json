@@ -1,0 +1,164 @@
+{
+  "pieces": [
+    {
+      "id": "L01_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 177072.4576917244,
+      "expected_mm3": 177072.45456749998,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L01_P002",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 3786.284741826882,
+      "expected_mm3": 3786.284716499996,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 117088.80408747085,
+      "expected_mm3": 117088.80269850002,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P002",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 14768.277041900206,
+      "expected_mm3": 14768.276863499985,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L02_P003",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 103.87882821851002,
+      "expected_mm3": 103.878828,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 33344.844209952884,
+      "expected_mm3": 33344.843842500006,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P002",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 11877.94001493315,
+      "expected_mm3": 11877.940204499986,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P003",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 8708.452702142042,
+      "expected_mm3": 8708.452694999993,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P004",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 6282.410690330231,
+      "expected_mm3": 6282.41061150001,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P005",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 4000.485499292296,
+      "expected_mm3": 4000.4857259999853,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L03_P006",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 102.62706424345885,
+      "expected_mm3": 102.62706449999938,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L04_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 2131.7501673366905,
+      "expected_mm3": 2131.750054500004,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L04_P002",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 1786.0269704172115,
+      "expected_mm3": 1786.0269435000037,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L05_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 846.2520098092535,
+      "expected_mm3": 846.2520059999991,
+      "local_bottom_mm": 0.0
+    },
+    {
+      "id": "L06_P001",
+      "nonmanifold_edges": 0,
+      "closed_solid": true,
+      "precision_grid_mm": 1e-06,
+      "footprint_difference_mm2": 0.0,
+      "volume_mm3": 143.55032644942648,
+      "expected_mm3": 143.5503210000026,
+      "local_bottom_mm": 0.0
+    }
+  ],
+  "all_closed_manifold": true,
+  "bottom_origins": true,
+  "labels_follow_height": true,
+  "upper_plies_follow_base": true,
+  "height_test_mm": [
+    3,
+    6,
+    9
+  ],
+  "wood_count": 15
+}

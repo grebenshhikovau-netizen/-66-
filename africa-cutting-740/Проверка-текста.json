@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "application": "Inkscape open/save plain SVG",
+  "reports": [
+    {
+      "file": "Поле-01-740x740.svg",
+      "live_texts_before": 110,
+      "live_texts_after": 110,
+      "all_text_contents_preserved": true
+    },
+    {
+      "file": "Два-комплекта/Поле-01-740x740.svg",
+      "live_texts_before": 220,
+      "live_texts_after": 220,
+      "all_text_contents_preserved": true
+    }
+  ],
+  "font": "Open Sans Light",
+  "CorelDRAW_available": false
+}

@@ -1,0 +1,6 @@
+{
+  "method": "thin_plate_spline",
+  "smoothing": 2,
+  "mm_per_unit": 0.3762962966447188,
+  "svg_y_offset_mm": -1000
+}

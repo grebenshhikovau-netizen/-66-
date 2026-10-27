@@ -1,0 +1,201 @@
+{
+  "passed": true,
+  "kits": 2,
+  "physical_parts": 30,
+  "parts_per_kit": 15,
+  "parts_by_layer": [
+    2,
+    3,
+    6,
+    2,
+    1,
+    1
+  ],
+  "top_heights_mm": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    18
+  ],
+  "fields": [
+    {
+      "sheet": 1,
+      "parts": 30,
+      "editable_texts": 220,
+      "city_marks": 116,
+      "svg_colors": [
+        "#000000",
+        "#0000ff",
+        "#ff0000"
+      ],
+      "actual_min_gap_mm": 4.616839940798227,
+      "max_serialized_cut_error_mm2": 7.631588449909685e-11,
+      "max_serialized_red_line_error_mm": 7.071067794012746e-07,
+      "page_mm": [
+        740.0000722222221,
+        740.0000722222221
+      ],
+      "all_parts_translation_only": true,
+      "all_text_bboxes_fit_one_exposed_surface": true,
+      "pdf_text_is_searchable": true
+    }
+  ],
+  "cities": 58,
+  "countries_and_territories_named": 52,
+  "all_text_objects": 110,
+  "pyramid": [
+    {
+      "tier": 3,
+      "part": "L03_P005",
+      "one_piece": true,
+      "no_holes": true
+    },
+    {
+      "tier": 4,
+      "part": "L04_P001",
+      "one_piece": true,
+      "no_holes": true
+    },
+    {
+      "tier": 5,
+      "part": "L05_P001",
+      "one_piece": true,
+      "no_holes": true
+    },
+    {
+      "tier": 6,
+      "part": "L06_P001",
+      "one_piece": true,
+      "no_holes": true
+    }
+  ],
+  "closed_rift_strip": [
+    {
+      "tier": 3,
+      "filled_area_mm2": 92.08511099999299,
+      "interior_not_reopened": true
+    },
+    {
+      "tier": 4,
+      "filled_area_mm2": 0.002564000000007431,
+      "interior_not_reopened": true
+    },
+    {
+      "tier": 5,
+      "filled_area_mm2": 0.0,
+      "interior_not_reopened": true
+    },
+    {
+      "tier": 6,
+      "filled_area_mm2": 0.0,
+      "interior_not_reopened": true
+    }
+  ],
+  "water_steps": [
+    {
+      "feature": "Нил",
+      "type": "river",
+      "upper_nominal_width_mm": 1.65,
+      "lower_nominal_width_mm": 0.825
+    },
+    {
+      "feature": "Конго",
+      "type": "river",
+      "upper_nominal_width_mm": 1.7,
+      "lower_nominal_width_mm": 0.85
+    },
+    {
+      "feature": "Замбези",
+      "type": "river",
+      "upper_nominal_width_mm": 1.2,
+      "lower_nominal_width_mm": 0.6
+    },
+    {
+      "feature": "Водопад Виктория",
+      "type": "river",
+      "upper_nominal_width_mm": 1.3,
+      "lower_nominal_width_mm": 0.65
+    }
+  ],
+  "lake_profiles": [
+    {
+      "lake": "Виктория",
+      "lower_connected": true,
+      "lower_area_mm2": 56.17313850000032,
+      "upper_area_mm2": 86.45738549999987
+    },
+    {
+      "lake": "Танганьика",
+      "lower_connected": true,
+      "lower_area_mm2": 34.10037549999993,
+      "upper_area_mm2": 61.46556949999976
+    },
+    {
+      "lake": "Малави",
+      "lower_connected": true,
+      "lower_area_mm2": 40.70513249999974,
+      "upper_area_mm2": 75.69048049999874
+    },
+    {
+      "lake": "Туркана",
+      "lower_connected": true,
+      "lower_area_mm2": 6.198240000000159,
+      "upper_area_mm2": 11.464490999999096
+    },
+    {
+      "lake": "Альберт",
+      "lower_connected": true,
+      "lower_area_mm2": 4.876941000000223,
+      "upper_area_mm2": 8.700970499999688
+    },
+    {
+      "lake": "Тана",
+      "lower_connected": true,
+      "lower_area_mm2": 2.762709999999936,
+      "upper_area_mm2": 5.602666999999942
+    }
+  ],
+  "confluences": [
+    {
+      "a": "Нил",
+      "b": "Альберт",
+      "lower_connection_area_mm2": 0.10899156276548397,
+      "upper_connection_area_mm2": 0.5182782183541028
+    },
+    {
+      "a": "Нил",
+      "b": "Тана",
+      "lower_connection_area_mm2": 0.05427127433255911,
+      "upper_connection_area_mm2": 0.3897586844408316
+    },
+    {
+      "a": "Замбези",
+      "b": "Водопад Виктория",
+      "lower_connection_area_mm2": 1.458753023364813,
+      "upper_connection_area_mm2": 4.152076934160304
+    }
+  ],
+  "no_text_overlap": true,
+  "max_city_surface_shift_mm": 3.49764795603605,
+  "hidden_political_borders_removed": true,
+  "removed_micro_parts": [
+    {
+      "tier": 1,
+      "area_mm2": 0.00021500000001455945
+    },
+    {
+      "tier": 1,
+      "area_mm2": 0.3678355000000366
+    },
+    {
+      "tier": 1,
+      "area_mm2": 1.0100819999999466
+    },
+    {
+      "tier": 2,
+      "area_mm2": 0.3271050000000212
+    }
+  ]
+}
