@@ -1,0 +1,14 @@
+{
+  "source_file": "Африка на доработке.cdr",
+  "removed_old_thin_red_paths": 281,
+  "replacement_geographic_instances": 16,
+  "all_source_black_paths_preserved_in_full_review": true,
+  "all_source_text_objects_preserved_in_full_review": true,
+  "source_text_objects": 46,
+  "source_single_line_lettering_and_blue_letter_curves_preserved": true,
+  "main_page_mm": [
+    740,
+    740
+  ],
+  "off_page_duplicate_kept_in_full_review_only": true
+}

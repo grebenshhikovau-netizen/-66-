@@ -29,7 +29,7 @@ def polygon(r,g,id,color,cut=False):
  el=E.SubElement(r,'path',id=id,d=' '.join(rings),fill='none'if cut else color,attrib={'fill-rule':'nonzero'})
  if cut:el.set('stroke',color);el.set('stroke-width','.05');el.set('stroke-linejoin','round')
 def stroke(r,g,id):
- paths=['M'+' L'.join(f'{x:.6f},{y:.6f}'for x,y in q.coords)for q in lines(g)]
+ paths=['M'+' L'.join(f'{x:.6f},{y:.6f}'for x,y in (list(q.coords)[:-1]if q.is_ring else q.coords))+(' Z'if q.is_ring else'')for q in lines(g)]
  if paths:E.SubElement(r,'path',id=id,d=' '.join(paths),fill='none',stroke='#ff0000',attrib={'stroke-width':'.05','stroke-linecap':'round','stroke-linejoin':'round'})
 def text(r,a,id):
  el=E.SubElement(r,'text',id=id,fill=a['color'],stroke='none',attrib={'font-family':'Open Sans Light','font-size':format(a['font_size_mm'],'.9f'),'font-weight':'300','font-style':'normal','font-kerning':'none','letter-spacing':'0','transform':'matrix('+','.join(format(x,'.12f')for x in a['matrix'])+')','style':"font-kerning:none;font-feature-settings:'kern' 0"})

@@ -32,7 +32,7 @@
       ],
       "actual_min_gap_mm": 4.965874213046685,
       "max_serialized_cut_error_mm2": 1.456128550265924e-11,
-      "max_serialized_red_line_error_mm": 7.071067693526829e-07,
+      "max_serialized_red_line_error_mm": 6.868004900299956e-07,
       "page_mm": [
         740.0000722222221,
         740.0000722222221

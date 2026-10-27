@@ -8,7 +8,7 @@ from shapely.affinity import translate,scale
 from shapely.prepared import prep
 from font_geometry import word_geom
 from geo import xy
-P=Path(__file__).resolve().parent.parent;D=json.load(open(P/'data/production-plan.json'));cities=json.load(open(P/'data/cities.json'));source_texts=json.load(open(P/'data/source/source-texts.json'));pieces=D['pieces'];labels=[];markers=[];occupied=Polygon();sourceNames={q['region']:q['text']for q in source_texts};overrides=json.load(open(P/'data/region-name-overrides.json'));D['region_names'].update(overrides);regions={c:shape(g)for c,g in D['regions'].items()};safe={q['id']:shape(q['visible']).buffer(-.24)for q in pieces};prepared={k:prep(g)for k,g in safe.items()};notes=[]
+P=Path(__file__).resolve().parent.parent;D=json.load(open(P/'data/production-plan.json'));cities=json.load(open(P/'data/cities.json'));source_texts=json.load(open(P/'data/source/source-texts.json'));pieces=D['pieces'];labels=[];markers=[];occupied=Polygon();sourceNames={q['region']:q['text']for q in source_texts};overrides=json.load(open(P/'data/region-name-overrides.json'));D['region_names'].update(overrides);regions={c:shape(g)for c,g in D['regions'].items()};safe={q['id']:shape(q['visible']).buffer(-.24).difference(shape(q['structural_engraving']).buffer(.28))for q in pieces};prepared={k:prep(g)for k,g in safe.items()};notes=[]
 def ps(g):
  if g.geom_type=='Polygon':return[g]if not g.is_empty and g.area>1e-7 else[]
  return[p for a in getattr(g,'geoms',[])for p in ps(a)]
@@ -28,7 +28,7 @@ def raw_text(lines):
   g=word_geom(text);x0,y0,x1,y1=g.bounds;dx=-(x0+x1)/2;dy=i*1.24;specs.append({'text':text,'x_em':dx,'y_em':dy});gg.append(translate(g,dx,dy))
  raw=unary_union(gg);return raw,specs
 # Cities are optional in small countries and are seated on the nearest exposed bank.
-marker_safe={row['id']:shape(row['visible']).buffer(-.32)for row in pieces};city_candidates=[]
+marker_safe={row['id']:shape(row['visible']).buffer(-.32).difference(shape(row['structural_engraving']).buffer(.27))for row in pieces};city_candidates=[]
 for name,lon,lat,code in cities:
  if code not in regions or regions[code].area<170:notes.append({'city':name,'country':code,'omitted':'small country, preserve breathing room'});continue
  anchor=Point(xy(lon,lat));best=None
@@ -46,6 +46,7 @@ def add_label(id,text,kind,preferred,target=1.8,region=None,marker=None,color='#
  for row in pieces:
   area=safe[row['id']]
   if area.is_empty:continue
+  if marker is not None and row['id']!=marker['piece']:continue
   if kind=='city'and area.distance(preferred)>18:continue
   if region is not None:
    area=area.intersection(regions[region])
@@ -70,6 +71,9 @@ def add_label(id,text,kind,preferred,target=1.8,region=None,marker=None,color='#
   for x,y in centers:
    dx,dy=x-cx,y-cy;candidate=translate(rect,dx,dy);reserve=candidate.buffer(.18,join_style=2)
    if occupied.intersects(reserve):continue
+   if marker is not None:
+    stem=LineString([Point(marker['point_mm']),nearest_points(Point(marker['point_mm']),candidate)[1]])
+    if not shape(next(q['visible']for q in pieces if q['id']==marker['piece'])).covers(stem):continue
    for row,area,pr in options:
     if pr.covers(candidate):found=(row,float(size),x,y,candidate,reserve);break
    if found:break

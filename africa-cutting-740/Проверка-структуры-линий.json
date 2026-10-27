@@ -1,0 +1,79 @@
+{
+  "pieces": [
+    {
+      "piece": "L01_P001",
+      "chains": 119,
+      "length_mm": 1966.7053441187566
+    },
+    {
+      "piece": "L01_P002",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L02_P001",
+      "chains": 81,
+      "length_mm": 1390.4930512652925
+    },
+    {
+      "piece": "L02_P002",
+      "chains": 6,
+      "length_mm": 129.32160142824665
+    },
+    {
+      "piece": "L02_P003",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P001",
+      "chains": 11,
+      "length_mm": 96.41772326764163
+    },
+    {
+      "piece": "L03_P002",
+      "chains": 5,
+      "length_mm": 35.77215224976929
+    },
+    {
+      "piece": "L03_P003",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P004",
+      "chains": 5,
+      "length_mm": 145.8834209899549
+    },
+    {
+      "piece": "L03_P005",
+      "chains": 8,
+      "length_mm": 133.9589704701791
+    },
+    {
+      "piece": "L03_P006",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L04_P001",
+      "chains": 8,
+      "length_mm": 94.51867759363387
+    },
+    {
+      "piece": "L04_P002",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L05_P001",
+      "chains": 8,
+      "length_mm": 55.077044462806626
+    },
+    {
+      "piece": "L06_P001",
+      "chains": 4,
+      "length_mm": 19.07420547478457
+    }
+  ]
+}
