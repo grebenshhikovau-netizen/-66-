@@ -19,7 +19,7 @@ COUNTRY_DEU,ГЕРМАНИЯ,country,L03_P007,3,3.435,Нет
 COUNTRY_ESP,ИСПАНИЯ,country,L03_P008,3,3.395,Нет
 COUNTRY_POL,ПОЛЬША,country,L02_P003,2,3.372,Нет
 COUNTRY_TKM,ТУРКМЕНИЯ,country,L03_P009,3,3.345,Нет
-COUNTRY_UZB,УЗБЕКИСТАН,country,L02_P002,2,3.329,Нет
+COUNTRY_UZB,УЗБЕКИСТАН,country,L02_P001,2,3.329,Нет
 COUNTRY_MMR,МЬЯНМА,country,L01_P001,1,3.314,Нет
 COUNTRY_GBR,ВЕЛИКОБРИТАНИЯ,country,L01_P004,1,2.708,Нет
 COUNTRY_IRQ,ИРАК,country,L01_P001,1,3.122,Нет
@@ -27,24 +27,24 @@ COUNTRY_BLR,БЕЛОРУССИЯ,country,L03_P010,3,3.092,Нет
 COUNTRY_JPN,ЯПОНИЯ,country,L01_P012,1,3.075,Нет
 COUNTRY_ISL,ИСЛАНДИЯ,country,L01_P005,1,3.057,Нет
 COUNTRY_ITA,ИТАЛИЯ,country,L01_P001,1,3.051,Нет
-COUNTRY_THA,ТАИЛАНД,country,L02_P009,2,3.05,Нет
+COUNTRY_THA,ТАИЛАНД,country,L02_P001,2,3.05,Нет
 COUNTRY_YEM,ЙЕМЕН,country,L02_P005,2,2.96,Нет
 COUNTRY_ROU,РУМЫНИЯ,country,L03_P011,3,2.944,Нет
 COUNTRY_OMN,ОМАН,country,L01_P001,1,2.762,Нет
 COUNTRY_VNM,ВЬЕТНАМ,country,L01_P001,1,2.738,Нет
-COUNTRY_KGZ,КИРГИЗИЯ,country,L02_P002,2,2.731,Нет
+COUNTRY_KGZ,КИРГИЗИЯ,country,L02_P001,2,2.731,Нет
 COUNTRY_MYS,МАЛАЙЗИЯ,country,L01_P003,1,2.677,Нет
-COUNTRY_SYR,СИРИЯ,country,L02_P010,2,2.581,Нет
+COUNTRY_SYR,СИРИЯ,country,L02_P001,2,2.581,Нет
 COUNTRY_PHL,ФИЛИППИНЫ,country,L01_P015,1,1.572,Нет
 COUNTRY_LAO,ЛАОС,country,L03_P014,3,2.503,Нет
 COUNTRY_TJK,ТАДЖИКИСТАН,country,L01_P001,1,2.443,Нет
-COUNTRY_GRC,ГРЕЦИЯ,country,L02_P006,2,2.4,Нет
+COUNTRY_GRC,ГРЕЦИЯ,country,L02_P001,2,2.4,Нет
 COUNTRY_LVA,ЛАТВИЯ,country,L02_P003,2,2.4,Нет
 COUNTRY_BGR,БОЛГАРИЯ,country,L01_P001,1,2.383,Нет
 COUNTRY_PRK,КНДР,country,L01_P001,1,2.378,Нет
 COUNTRY_HUN,ВЕНГРИЯ,country,L02_P012,2,2.357,Нет
 COUNTRY_LTU,ЛИТВА,country,L01_P001,1,2.352,Нет
-COUNTRY_KHM,КАМБОДЖА,country,L03_P015,3,2.345,Нет
+COUNTRY_KHM,КАМБОДЖА,country,L03_P014,3,2.345,Нет
 COUNTRY_NPL,НЕПАЛ,country,L01_P001,1,2.338,Нет
 COUNTRY_IRL,ИРЛАНДИЯ,country,L01_P010,1,2.331,Нет
 COUNTRY_CZE,ЧЕХИЯ,country,L01_P001,1,2.329,Нет
@@ -67,7 +67,7 @@ COUNTRY_ARE,ОАЭ,country,L01_P001,1,1.817,Нет
 COUNTRY_LKA,ШРИ-ЛАНКА,country,L01_P016,1,1.494,Нет
 COUNTRY_BTN,БУТАН,country,L01_P001,1,1.684,Нет
 COUNTRY_ARM,АРМЕНИЯ,country,L01_P001,1,1.477,Нет
-COUNTRY_ALB,АЛБАНИЯ,country,L02_P006,2,1.459,Нет
+COUNTRY_ALB,АЛБАНИЯ,country,L02_P001,2,1.459,Нет
 COUNTRY_MKD,СЕВЕРНАЯ МАКЕДОНИЯ,country,L01_P001,1,1.45,Да
 COUNTRY_SVN,СЛОВЕНИЯ,country,L02_P003,2,1.594,Нет
 COUNTRY_TWN,ТАЙВАНЬ,country,L01_P017,1,1.194,Нет
@@ -78,7 +78,7 @@ COUNTRY_KOS,РЕСПУБЛИКА КОСОВО,country,L01_P001,1,1.35,Да
 COUNTRY_GEO,ГРУЗИЯ,country,L01_P001,1,1.45,Да
 COUNTRY_TLS,В. ТИМОР,country,L01_P021,1,1.15,Нет
 COUNTRY_CYP,КИПР,country,L01_P029,1,1.45,Нет
-COUNTRY_LBN,ЛИВАН,country,L02_P010,2,1.45,Да
+COUNTRY_LBN,ЛИВАН,country,L02_P001,2,1.45,Да
 COUNTRY_PSX,ПАЛЕСТИНА,country,L01_P001,1,1.45,Да
 COUNTRY_LUX,ЛЮКСЕМБУРГ,country,L02_P003,2,1.45,Да
 COUNTRY_BRN,БРУНЕЙ,country,L01_P003,1,1.45,Да
@@ -103,7 +103,7 @@ CITY_019_TEXT,Белград,city,L02_P007,2,1.6,Да
 CITY_020_TEXT,Сараево,city,L02_P007,2,1.6,Да
 CITY_021_TEXT,София,city,L01_P001,1,1.6,Да
 CITY_022_TEXT,Бухарест,city,L03_P011,3,1.6,Да
-CITY_023_TEXT,Афины,city,L02_P006,2,1.6,Да
+CITY_023_TEXT,Афины,city,L02_P001,2,1.6,Да
 CITY_024_TEXT,Киев,city,L01_P001,1,1.6,Да
 CITY_025_TEXT,Минск,city,L03_P010,3,1.6,Да
 CITY_026_TEXT,Вильнюс,city,L01_P001,1,1.6,Да
@@ -114,7 +114,7 @@ CITY_030_TEXT,Стамбул,city,L03_P005,3,1.6,Да
 CITY_031_TEXT,Баку,city,L01_P001,1,1.6,Да
 CITY_032_TEXT,Тегеран,city,L02_P001,2,1.6,Да
 CITY_033_TEXT,Багдад,city,L01_P009,1,1.6,Да
-CITY_034_TEXT,Дамаск,city,L02_P010,2,1.6,Да
+CITY_034_TEXT,Дамаск,city,L02_P001,2,1.6,Да
 CITY_035_TEXT,Амман,city,L01_P001,1,1.6,Да
 CITY_036_TEXT,Эр-Рияд,city,L03_P003,3,1.6,Да
 CITY_037_TEXT,Джидда,city,L03_P003,3,1.6,Да
@@ -122,9 +122,9 @@ CITY_038_TEXT,Сана,city,L02_P005,2,1.6,Да
 CITY_039_TEXT,Маскат,city,L01_P001,1,1.6,Да
 CITY_040_TEXT,Астана,city,L03_P001,3,1.6,Да
 CITY_041_TEXT,Алматы,city,L03_P001,3,1.6,Да
-CITY_042_TEXT,Ташкент,city,L02_P002,2,1.6,Да
+CITY_042_TEXT,Ташкент,city,L02_P001,2,1.6,Да
 CITY_043_TEXT,Ашхабад,city,L03_P009,3,1.6,Нет
-CITY_044_TEXT,Бишкек,city,L02_P002,2,1.6,Да
+CITY_044_TEXT,Бишкек,city,L02_P001,2,1.6,Да
 CITY_045_TEXT,Душанбе,city,L01_P001,1,1.6,Да
 CITY_046_TEXT,Кабул,city,L01_P001,1,1.6,Да
 CITY_047_TEXT,Исламабад,city,L03_P006,3,1.6,Да
@@ -147,9 +147,9 @@ CITY_064_TEXT,Сеул,city,L02_P013,2,1.6,Да
 CITY_065_TEXT,Пхеньян,city,L01_P001,1,1.6,Да
 CITY_066_TEXT,Ханой,city,L01_P001,1,1.6,Да
 CITY_067_TEXT,Хошимин,city,L01_P001,1,1.6,Да
-CITY_068_TEXT,Бангкок,city,L02_P009,2,1.6,Да
+CITY_068_TEXT,Бангкок,city,L02_P001,2,1.6,Да
 CITY_069_TEXT,Вьентьян,city,L03_P014,3,1.6,Да
-CITY_070_TEXT,Пномпень,city,L03_P015,3,1.6,Да
+CITY_070_TEXT,Пномпень,city,L03_P014,3,1.6,Да
 CITY_071_TEXT,Нейпьидо,city,L01_P001,1,1.6,Да
 CITY_072_TEXT,Куала-Лумпур,city,L01_P001,1,1.6,Да
 CITY_073_TEXT,Джакарта,city,L01_P013,1,1.6,Да

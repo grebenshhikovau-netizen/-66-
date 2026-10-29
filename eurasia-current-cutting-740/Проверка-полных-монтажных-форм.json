@@ -1,15 +1,10 @@
 {
   "passed": true,
-  "upper_piece_count": 30,
+  "upper_piece_count": 23,
   "each_true_upper_outline_once": true,
   "assignments": [
     {
       "upper_piece": "L02_P001",
-      "carrier": "L01_P001",
-      "full_physical_outline": true
-    },
-    {
-      "upper_piece": "L02_P002",
       "carrier": "L01_P001",
       "full_physical_outline": true
     },
@@ -29,32 +24,7 @@
       "full_physical_outline": true
     },
     {
-      "upper_piece": "L02_P006",
-      "carrier": "L01_P001",
-      "full_physical_outline": true
-    },
-    {
       "upper_piece": "L02_P007",
-      "carrier": "L01_P001",
-      "full_physical_outline": true
-    },
-    {
-      "upper_piece": "L02_P008",
-      "carrier": "L01_P001",
-      "full_physical_outline": true
-    },
-    {
-      "upper_piece": "L02_P009",
-      "carrier": "L01_P001",
-      "full_physical_outline": true
-    },
-    {
-      "upper_piece": "L02_P010",
-      "carrier": "L01_P001",
-      "full_physical_outline": true
-    },
-    {
-      "upper_piece": "L02_P011",
       "carrier": "L01_P001",
       "full_physical_outline": true
     },
@@ -70,7 +40,7 @@
     },
     {
       "upper_piece": "L03_P001",
-      "carrier": "L02_P002",
+      "carrier": "L02_P001",
       "full_physical_outline": true
     },
     {
@@ -90,7 +60,7 @@
     },
     {
       "upper_piece": "L03_P005",
-      "carrier": "L02_P006",
+      "carrier": "L02_P001",
       "full_physical_outline": true
     },
     {
@@ -110,7 +80,7 @@
     },
     {
       "upper_piece": "L03_P009",
-      "carrier": "L02_P008",
+      "carrier": "L02_P001",
       "full_physical_outline": true
     },
     {
@@ -135,12 +105,7 @@
     },
     {
       "upper_piece": "L03_P014",
-      "carrier": "L02_P011",
-      "full_physical_outline": true
-    },
-    {
-      "upper_piece": "L03_P015",
-      "carrier": "L02_P009",
+      "carrier": "L02_P001",
       "full_physical_outline": true
     },
     {

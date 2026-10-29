@@ -6,7 +6,7 @@ from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 
 P = Path(__file__).resolve().parent.parent
-ARCHIVE = P / 'Евразия-актуальная-раскрой-740x740.zip'
+ARCHIVE = P / 'Евразия-актуальная-исправлено-740x740.zip'
 MANIFEST = P / 'Контрольные-суммы.json'
 
 for name in (

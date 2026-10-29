@@ -2,15 +2,19 @@
   "passed": true,
   "Austria_France_Poland_second_ply": "L02_P003",
   "Hungary_separate": "L02_P012",
-  "Greece_Albania_Turkey_second_ply": "L02_P006",
+  "Greece_Albania_Turkey_second_ply": "L02_P001",
+  "Turkey_Iran_Syria_continuous_second_ply": true,
+  "Turkey_third_ply_unchanged": true,
+  "Turkey_top_mm": 9,
+  "Turkey_third_ply_geometry_sha256": "fa45142a1f76ea6e6ec723455ab0291ee4a10f42f6eafa829cd8959c3a66ac22",
   "Turkmenistan_separate_from_Kazakhstan": [
-    "L02_P008",
     "L03_P009"
   ],
   "Laos_separate_from_China": [
-    "L02_P011",
     "L03_P014"
   ],
+  "Laos_Cambodia_one_third_ply_piece": "L03_P014",
+  "common_eastern_second_ply": "L02_P001",
   "shared_seams_valid_on_0_001mm_precision_grid": true,
   "max_float_union_difference_mm2": 0.1,
   "parts": [
@@ -353,14 +357,8 @@
     {
       "id": "L02_P001",
       "tier": 2,
-      "paint_group": "Основной массив",
-      "area_mm2": 39904.47305599993
-    },
-    {
-      "id": "L02_P002",
-      "tier": 2,
-      "paint_group": "Основной массив",
-      "area_mm2": 12452.177606499996
+      "paint_group": "Общий второй слой — восточный массив",
+      "area_mm2": 59079.64839899985
     },
     {
       "id": "L02_P003",
@@ -381,40 +379,10 @@
       "area_mm2": 5295.971851000002
     },
     {
-      "id": "L02_P006",
-      "tier": 2,
-      "paint_group": "Греция-Албания-Турция",
-      "area_mm2": 2899.7163625000003
-    },
-    {
       "id": "L02_P007",
       "tier": 2,
       "paint_group": "Основной массив",
       "area_mm2": 1509.098717000001
-    },
-    {
-      "id": "L02_P008",
-      "tier": 2,
-      "paint_group": "Туркмения",
-      "area_mm2": 1474.5260505000006
-    },
-    {
-      "id": "L02_P009",
-      "tier": 2,
-      "paint_group": "Основной массив",
-      "area_mm2": 1369.789333499998
-    },
-    {
-      "id": "L02_P010",
-      "tier": 2,
-      "paint_group": "Основной массив",
-      "area_mm2": 517.0239729999995
-    },
-    {
-      "id": "L02_P011",
-      "tier": 2,
-      "paint_group": "Лаос",
-      "area_mm2": 461.9418694999996
     },
     {
       "id": "L02_P012",
@@ -509,14 +477,8 @@
     {
       "id": "L03_P014",
       "tier": 3,
-      "paint_group": "Лаос",
-      "area_mm2": 459.24315849999937
-    },
-    {
-      "id": "L03_P015",
-      "tier": 3,
-      "paint_group": "Основной массив",
-      "area_mm2": 354.31496899999985
+      "paint_group": "Лаос-Камбоджа",
+      "area_mm2": 813.5581274999989
     },
     {
       "id": "L03_P016",
