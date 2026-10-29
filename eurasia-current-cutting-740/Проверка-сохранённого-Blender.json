@@ -1,0 +1,795 @@
+{
+  "passed": true,
+  "wood_parts": 86,
+  "layers": [
+    56,
+    13,
+    16,
+    1
+  ],
+  "all_parts_one_connected_manifold_solid": true,
+  "bottom_origins": true,
+  "height_driver_tests_mm": [
+    3,
+    6,
+    9
+  ],
+  "labels_follow_top": true,
+  "independent_material_per_layer_and_paint_group": true,
+  "checks": [
+    {
+      "id": "L01_P001",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.1239973924730537,
+      "volume_mm3": 283535.4562065277
+    },
+    {
+      "id": "L01_P002",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.017121821095162224,
+      "volume_mm3": 31279.482517692315
+    },
+    {
+      "id": "L01_P003",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.005819495878060075,
+      "volume_mm3": 4034.4368181458644
+    },
+    {
+      "id": "L01_P004",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.006273512058939879,
+      "volume_mm3": 3526.3653022122967
+    },
+    {
+      "id": "L01_P005",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0026852845886313364,
+      "volume_mm3": 3177.6906209477825
+    },
+    {
+      "id": "L01_P006",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.003711267261955784,
+      "volume_mm3": 2429.5446527040326
+    },
+    {
+      "id": "L01_P007",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.009038359391060383,
+      "volume_mm3": 2426.4170609624357
+    },
+    {
+      "id": "L01_P008",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.005289205651665615,
+      "volume_mm3": 2180.3496297620645
+    },
+    {
+      "id": "L01_P009",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.004800755575760329,
+      "volume_mm3": 1450.1360108639576
+    },
+    {
+      "id": "L01_P010",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0018017593314508674,
+      "volume_mm3": 1327.4110556888293
+    },
+    {
+      "id": "L01_P011",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.006281765136284687,
+      "volume_mm3": 966.4298513784445
+    },
+    {
+      "id": "L01_P012",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.002837090796369492,
+      "volume_mm3": 815.1086744880198
+    },
+    {
+      "id": "L01_P013",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0018718622202451966,
+      "volume_mm3": 761.296234702648
+    },
+    {
+      "id": "L01_P014",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.004683154114934956,
+      "volume_mm3": 690.2517185019406
+    },
+    {
+      "id": "L01_P015",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00286043443414535,
+      "volume_mm3": 525.3758998116228
+    },
+    {
+      "id": "L01_P016",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0006863239101431453,
+      "volume_mm3": 373.40192023594534
+    },
+    {
+      "id": "L01_P017",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.002161585768392745,
+      "volume_mm3": 230.67414800216116
+    },
+    {
+      "id": "L01_P018",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0007377819046250543,
+      "volume_mm3": 225.38503138137443
+    },
+    {
+      "id": "L01_P019",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0009161578373498252,
+      "volume_mm3": 222.79100030324574
+    },
+    {
+      "id": "L01_P020",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0009211470618360712,
+      "volume_mm3": 210.29943853540692
+    },
+    {
+      "id": "L01_P021",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0008663979887671506,
+      "volume_mm3": 159.6904635881078
+    },
+    {
+      "id": "L01_P022",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0007979159994698647,
+      "volume_mm3": 113.14159462140147
+    },
+    {
+      "id": "L01_P023",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0009625777759907706,
+      "volume_mm3": 110.96300900248
+    },
+    {
+      "id": "L01_P024",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.002284508792476314,
+      "volume_mm3": 109.24530233290412
+    },
+    {
+      "id": "L01_P025",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0011018640815613487,
+      "volume_mm3": 105.80958605157338
+    },
+    {
+      "id": "L01_P026",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0017314673991031717,
+      "volume_mm3": 101.66004659718925
+    },
+    {
+      "id": "L01_P027",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0005377728479157765,
+      "volume_mm3": 99.4436620574944
+    },
+    {
+      "id": "L01_P028",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0004026202280595693,
+      "volume_mm3": 87.40074695382722
+    },
+    {
+      "id": "L01_P029",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0003003451315226212,
+      "volume_mm3": 71.23404750371824
+    },
+    {
+      "id": "L01_P030",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0005917959935408403,
+      "volume_mm3": 70.76113200165017
+    },
+    {
+      "id": "L01_P031",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0006498225470761759,
+      "volume_mm3": 67.88070557955363
+    },
+    {
+      "id": "L01_P032",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0009013614175889914,
+      "volume_mm3": 67.14298074854413
+    },
+    {
+      "id": "L01_P033",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00059188127403722,
+      "volume_mm3": 65.96212822126527
+    },
+    {
+      "id": "L01_P034",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0004746837143317739,
+      "volume_mm3": 58.48727647385615
+    },
+    {
+      "id": "L01_P035",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0002929987279705673,
+      "volume_mm3": 55.887214138561156
+    },
+    {
+      "id": "L01_P036",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0003776260179308253,
+      "volume_mm3": 51.632730237607085
+    },
+    {
+      "id": "L01_P037",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00018799900603641234,
+      "volume_mm3": 45.68003867278274
+    },
+    {
+      "id": "L01_P038",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0002676247554754406,
+      "volume_mm3": 44.17991422414935
+    },
+    {
+      "id": "L01_P039",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00025315460190400164,
+      "volume_mm3": 41.54101066628337
+    },
+    {
+      "id": "L01_P040",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00022717704113055495,
+      "volume_mm3": 34.646488517066764
+    },
+    {
+      "id": "L01_P041",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00040818782834747065,
+      "volume_mm3": 24.0084614522047
+    },
+    {
+      "id": "L01_P042",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00018874248768413723,
+      "volume_mm3": 23.955688418934372
+    },
+    {
+      "id": "L01_P043",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00023662890014749307,
+      "volume_mm3": 22.340105657490717
+    },
+    {
+      "id": "L01_P044",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00025654968344893884,
+      "volume_mm3": 21.91656450786123
+    },
+    {
+      "id": "L01_P045",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00022003812306756418,
+      "volume_mm3": 21.620989055425305
+    },
+    {
+      "id": "L01_P046",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00040197541437299615,
+      "volume_mm3": 21.437314113269622
+    },
+    {
+      "id": "L01_P047",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00025498777094467564,
+      "volume_mm3": 20.27291900812075
+    },
+    {
+      "id": "L01_P048",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.000314688453002693,
+      "volume_mm3": 20.03178729097502
+    },
+    {
+      "id": "L01_P049",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 9.379597297638573e-05,
+      "volume_mm3": 19.772098701305026
+    },
+    {
+      "id": "L01_P050",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0004651530858824726,
+      "volume_mm3": 18.436846947632013
+    },
+    {
+      "id": "L01_P051",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00024697222002387524,
+      "volume_mm3": 18.358026233990717
+    },
+    {
+      "id": "L01_P052",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0007873110731394668,
+      "volume_mm3": 17.318853044018557
+    },
+    {
+      "id": "L01_P053",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 8.59145481921627e-05,
+      "volume_mm3": 16.520670269269807
+    },
+    {
+      "id": "L01_P054",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00015818222380103007,
+      "volume_mm3": 15.864034809896104
+    },
+    {
+      "id": "L01_P055",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00022842546339941436,
+      "volume_mm3": 13.298164437336686
+    },
+    {
+      "id": "L01_P056",
+      "tier": 1,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0002602406365712164,
+      "volume_mm3": 12.64085243009506
+    },
+    {
+      "id": "L02_P001",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.04863799668444239,
+      "volume_mm3": 119713.42084918612
+    },
+    {
+      "id": "L02_P002",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.014814322541403583,
+      "volume_mm3": 37356.53324894509
+    },
+    {
+      "id": "L02_P003",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.012688575861953013,
+      "volume_mm3": 27095.689341947145
+    },
+    {
+      "id": "L02_P004",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.015592016820193597,
+      "volume_mm3": 17693.949129665212
+    },
+    {
+      "id": "L02_P005",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.00461915305502509,
+      "volume_mm3": 15887.915615679944
+    },
+    {
+      "id": "L02_P006",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.008960142905380677,
+      "volume_mm3": 8699.149119590007
+    },
+    {
+      "id": "L02_P007",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.003997075845917625,
+      "volume_mm3": 4527.296127557222
+    },
+    {
+      "id": "L02_P008",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.002906203201099959,
+      "volume_mm3": 4423.578182857428
+    },
+    {
+      "id": "L02_P009",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.011527927611556183,
+      "volume_mm3": 4109.368027922924
+    },
+    {
+      "id": "L02_P010",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0020544794317062195,
+      "volume_mm3": 1551.0719266682647
+    },
+    {
+      "id": "L02_P011",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.005922103333883397,
+      "volume_mm3": 1385.8256169229678
+    },
+    {
+      "id": "L02_P012",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0010704690036389454,
+      "volume_mm3": 1084.6523880738164
+    },
+    {
+      "id": "L02_P013",
+      "tier": 2,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0019802173687460158,
+      "volume_mm3": 796.3917043237107
+    },
+    {
+      "id": "L03_P001",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.01723708671801424,
+      "volume_mm3": 31073.296393014127
+    },
+    {
+      "id": "L03_P002",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.010814104392353877,
+      "volume_mm3": 18325.457978314815
+    },
+    {
+      "id": "L03_P003",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.004749649105973456,
+      "volume_mm3": 13186.089352057843
+    },
+    {
+      "id": "L03_P004",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.004597633981727113,
+      "volume_mm3": 8445.259671292479
+    },
+    {
+      "id": "L03_P005",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0040903520255039655,
+      "volume_mm3": 7308.467611511222
+    },
+    {
+      "id": "L03_P006",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0060572422047156195,
+      "volume_mm3": 6511.218335891409
+    },
+    {
+      "id": "L03_P007",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.004473277133378426,
+      "volume_mm3": 4900.203018987462
+    },
+    {
+      "id": "L03_P008",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0025427006000001587,
+      "volume_mm3": 4662.971790326342
+    },
+    {
+      "id": "L03_P009",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.002595920588650727,
+      "volume_mm3": 4417.787585199636
+    },
+    {
+      "id": "L03_P010",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0022434662666867377,
+      "volume_mm3": 3230.1792833172867
+    },
+    {
+      "id": "L03_P011",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.001926497928079631,
+      "volume_mm3": 2639.9628644823038
+    },
+    {
+      "id": "L03_P012",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0029971966778984736,
+      "volume_mm3": 2603.3301731712813
+    },
+    {
+      "id": "L03_P013",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.004391843365751893,
+      "volume_mm3": 2588.86111959013
+    },
+    {
+      "id": "L03_P014",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.006111992307969402,
+      "volume_mm3": 1377.7294966014244
+    },
+    {
+      "id": "L03_P015",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.001543354229944944,
+      "volume_mm3": 1062.9449182788987
+    },
+    {
+      "id": "L03_P016",
+      "tier": 3,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.0013670158747650777,
+      "volume_mm3": 995.7737234554432
+    },
+    {
+      "id": "L04_P001",
+      "tier": 4,
+      "closed_manifold": true,
+      "connected_components": 1,
+      "bottom_origin": true,
+      "footprint_error_mm2": 0.01655173493998782,
+      "volume_mm3": 9682.586568112865
+    }
+  ]
+}

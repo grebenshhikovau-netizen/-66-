@@ -1,0 +1,201 @@
+{
+  "passed": true,
+  "kits": 1,
+  "physical_parts": 86,
+  "parts_per_kit": 86,
+  "parts_by_layer": [
+    56,
+    13,
+    16,
+    1
+  ],
+  "top_heights_mm": [
+    3.0,
+    6.0,
+    9.0,
+    12.0
+  ],
+  "fields": [
+    {
+      "sheet": 1,
+      "parts": 86,
+      "editable_texts": 156,
+      "city_marks": 74,
+      "svg_colors": [
+        "#000000",
+        "#0000ff",
+        "#ff0000"
+      ],
+      "actual_min_gap_mm": 4.5163908983137695,
+      "max_serialized_cut_error_mm2": 2.3695641536805244e-11,
+      "max_serialized_red_line_error_mm": 6.725594529018895e-07,
+      "page_mm": [
+        740.0000722222221,
+        740.0000722222221
+      ],
+      "all_parts_translation_only": true,
+      "all_text_bboxes_fit_one_exposed_surface": true,
+      "pdf_text_is_searchable": true
+    }
+  ],
+  "cities": 74,
+  "countries_and_territories_named": 82,
+  "small_country_labels_omitted": [
+    "BHR",
+    "LIE",
+    "MLT",
+    "SGP",
+    "SMR",
+    "VAT"
+  ],
+  "all_text_objects": 156,
+  "rivers": [
+    {
+      "name": "Иравади",
+      "lower_cut_area_mm2": 65.33737199999932,
+      "included": true
+    },
+    {
+      "name": "Рейн",
+      "lower_cut_area_mm2": 45.41462449999988,
+      "included": true
+    },
+    {
+      "name": "Чжуцзян",
+      "lower_cut_area_mm2": 46.617017499999704,
+      "included": true
+    },
+    {
+      "name": "Янцзы",
+      "lower_cut_area_mm2": 162.36718700000114,
+      "included": true
+    },
+    {
+      "name": "Тигр",
+      "lower_cut_area_mm2": 49.00043450000135,
+      "included": true
+    },
+    {
+      "name": "Салуин",
+      "lower_cut_area_mm2": 39.850788500000284,
+      "included": true
+    },
+    {
+      "name": "Сырдарья",
+      "lower_cut_area_mm2": 54.44274250000018,
+      "included": true
+    },
+    {
+      "name": "Амударья",
+      "lower_cut_area_mm2": 54.2398409999997,
+      "included": true
+    },
+    {
+      "name": "Рона",
+      "lower_cut_area_mm2": 28.639109999999718,
+      "included": true
+    },
+    {
+      "name": "Дунай",
+      "lower_cut_area_mm2": 99.20376600000246,
+      "included": true
+    },
+    {
+      "name": "Иртыш",
+      "lower_cut_area_mm2": 93.54975649999962,
+      "included": true
+    },
+    {
+      "name": "Меконг",
+      "lower_cut_area_mm2": 122.11265699999772,
+      "included": true
+    },
+    {
+      "name": "Или",
+      "lower_cut_area_mm2": 28.895581999999845,
+      "included": true
+    },
+    {
+      "name": "Брахмапутра",
+      "lower_cut_area_mm2": 57.4335524999998,
+      "included": true
+    },
+    {
+      "name": "Ганг",
+      "lower_cut_area_mm2": 104.00831799999975,
+      "included": true
+    },
+    {
+      "name": "Инд",
+      "lower_cut_area_mm2": 84.81116750000128,
+      "included": true
+    },
+    {
+      "name": "Евфрат",
+      "lower_cut_area_mm2": 76.12251749999918,
+      "included": true
+    },
+    {
+      "name": "Хуанхэ",
+      "lower_cut_area_mm2": 154.79289699999765,
+      "included": true
+    },
+    {
+      "name": "Амур",
+      "lower_cut_area_mm2": 78.63474250000023,
+      "included": true
+    },
+    {
+      "name": "Шатт-эль-Араб",
+      "lower_cut_area_mm2": 5.519688499999922,
+      "included": true
+    },
+    {
+      "name": "По",
+      "lower_cut_area_mm2": 20.70913500000005,
+      "included": true
+    }
+  ],
+  "water_outline_simplification_tolerance_mm": 0.03,
+  "lower_water_corner_clearance_mm": 0.08,
+  "source_upper_geometry_checks": [
+    {
+      "tier": 2,
+      "source_upper_voids_preserved": true,
+      "unexpected_overhang_mm2": 0.007720196923793098,
+      "retained_bridge_area_mm2": 1078.698559243337
+    },
+    {
+      "tier": 3,
+      "source_upper_voids_preserved": true,
+      "unexpected_overhang_mm2": 0.0,
+      "retained_bridge_area_mm2": 0.40812106549958593
+    },
+    {
+      "tier": 4,
+      "source_upper_voids_preserved": true,
+      "unexpected_overhang_mm2": 0.0,
+      "retained_bridge_area_mm2": 0.029408603204167074
+    }
+  ],
+  "confluences": [
+    {
+      "a": "Ганг",
+      "b": "Брахмапутра",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "Тигр",
+      "b": "Евфрат",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "Тигр",
+      "b": "Шатт-эль-Араб",
+      "gap_mm": 0.0
+    }
+  ],
+  "no_text_overlap": true,
+  "max_city_surface_shift_mm": 1.0484950877759,
+  "hidden_political_borders_removed": true
+}
