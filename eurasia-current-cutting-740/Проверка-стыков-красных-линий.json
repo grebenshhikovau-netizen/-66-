@@ -1,8 +1,8 @@
 {
   "passed": true,
-  "physical_parts": 79,
+  "physical_parts": 78,
   "free_geographic_end_count": 0,
-  "duplicate_geographic_length_mm": 2.7000623958883807e-13,
+  "duplicate_geographic_length_mm": 2.5579538487363607e-13,
   "rows": [
     {
       "part": "L01_P001",
@@ -367,14 +367,8 @@
     {
       "part": "L02_P007",
       "free_geographic_ends": [],
-      "duplicate_length_mm": 1.4210854715202004e-14,
-      "continuous_trails": 5
-    },
-    {
-      "part": "L02_P012",
-      "free_geographic_ends": [],
       "duplicate_length_mm": 0,
-      "continuous_trails": 0
+      "continuous_trails": 6
     },
     {
       "part": "L02_P013",

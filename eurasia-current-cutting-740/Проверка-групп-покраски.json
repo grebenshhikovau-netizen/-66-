@@ -1,7 +1,8 @@
 {
   "passed": true,
   "Austria_France_Poland_second_ply": "L02_P003",
-  "Hungary_separate": "L02_P012",
+  "Hungary_with_Romania_Serbia": "L02_P007",
+  "Hungary_separate_only_from_Austrian_carrier": true,
   "Greece_Albania_Turkey_second_ply": "L02_P001",
   "Turkey_Iran_Syria_continuous_second_ply": true,
   "Turkey_third_ply_unchanged": true,
@@ -381,14 +382,8 @@
     {
       "id": "L02_P007",
       "tier": 2,
-      "paint_group": "Основной массив",
-      "area_mm2": 1509.098717000001
-    },
-    {
-      "id": "L02_P012",
-      "tier": 2,
-      "paint_group": "Венгрия",
-      "area_mm2": 361.5507925000002
+      "paint_group": "Венгрия и балканский массив",
+      "area_mm2": 1870.6495095000007
     },
     {
       "id": "L02_P013",

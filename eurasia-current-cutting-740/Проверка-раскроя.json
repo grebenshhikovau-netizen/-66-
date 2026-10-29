@@ -1,11 +1,11 @@
 {
   "passed": true,
   "kits": 1,
-  "physical_parts": 79,
-  "parts_per_kit": 79,
+  "physical_parts": 78,
+  "parts_per_kit": 78,
   "parts_by_layer": [
     56,
-    7,
+    6,
     15,
     1
   ],
@@ -18,7 +18,7 @@
   "fields": [
     {
       "sheet": 1,
-      "parts": 79,
+      "parts": 78,
       "editable_texts": 156,
       "city_marks": 74,
       "svg_colors": [
@@ -26,7 +26,7 @@
         "#0000ff",
         "#ff0000"
       ],
-      "actual_min_gap_mm": 4.259615627493882,
+      "actual_min_gap_mm": 4.435947300764375,
       "max_serialized_cut_error_mm2": 1.0214367989527984e-10,
       "max_serialized_red_line_error_mm": 6.725594529018895e-07,
       "page_mm": [

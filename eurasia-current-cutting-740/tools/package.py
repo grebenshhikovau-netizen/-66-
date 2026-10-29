@@ -6,11 +6,11 @@ from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 
 P = Path(__file__).resolve().parent.parent
-ARCHIVE = P / 'Евразия-актуальная-исправлено-740x740.zip'
+ARCHIVE = P / 'Евразия-78-деталей-740x740.zip'
 MANIFEST = P / 'Контрольные-суммы.json'
 
 for name in (
-    'Проверка-раскроя.json', 'Проверка-сохранённого-Blender.json', 'Проверка-групп-покраски.json',
+    'Проверка-раскроя.json', 'Проверка-сохранённого-Blender.json', 'Проверка-выданного-SVG.json', 'Проверка-групп-покраски.json',
     'Проверка-стыков-красных-линий.json', 'Проверка-монтажных-контуров.json',
     'Проверка-полных-монтажных-форм.json', 'Проверка-текста.json',
 ):

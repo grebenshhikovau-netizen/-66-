@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "file": "Евразия-78-деталей-740x740.svg",
+  "sha256": "a4cd5f058aaecc89410240f9769a02b0daa500e80ac263581048210c16053cbe",
+  "black_part_paths": 78,
+  "live_text_objects": 156,
+  "Laos_country_text_count": 1,
+  "Laos_Cambodia_single_third_ply_cut": "L03_P014_CUT",
+  "no_separate_Laos_second_ply_cut": true,
+  "Hungary_Romania_Serbia_shared_second_ply_cut": "L02_P007_CUT",
+  "separate_from_Austria": true
+}

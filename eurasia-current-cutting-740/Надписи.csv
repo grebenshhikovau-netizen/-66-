@@ -42,7 +42,7 @@ COUNTRY_GRC,ГРЕЦИЯ,country,L02_P001,2,2.4,Нет
 COUNTRY_LVA,ЛАТВИЯ,country,L02_P003,2,2.4,Нет
 COUNTRY_BGR,БОЛГАРИЯ,country,L01_P001,1,2.383,Нет
 COUNTRY_PRK,КНДР,country,L01_P001,1,2.378,Нет
-COUNTRY_HUN,ВЕНГРИЯ,country,L02_P012,2,2.357,Нет
+COUNTRY_HUN,ВЕНГРИЯ,country,L02_P007,2,2.357,Нет
 COUNTRY_LTU,ЛИТВА,country,L01_P001,1,2.352,Нет
 COUNTRY_KHM,КАМБОДЖА,country,L03_P014,3,2.345,Нет
 COUNTRY_NPL,НЕПАЛ,country,L01_P001,1,2.338,Нет
@@ -96,7 +96,7 @@ CITY_012_TEXT,Рейкьявик,city,L01_P005,1,1.6,Да
 CITY_013_TEXT,Варшава,city,L02_P003,2,1.6,Да
 CITY_014_TEXT,Прага,city,L01_P001,1,1.6,Да
 CITY_015_TEXT,Вена,city,L02_P003,2,1.6,Нет
-CITY_016_TEXT,Будапешт,city,L02_P012,2,1.6,Да
+CITY_016_TEXT,Будапешт,city,L02_P007,2,1.6,Да
 CITY_017_TEXT,Братислава,city,L01_P001,1,1.6,Да
 CITY_018_TEXT,Загреб,city,L01_P001,1,1.6,Да
 CITY_019_TEXT,Белград,city,L02_P007,2,1.6,Да

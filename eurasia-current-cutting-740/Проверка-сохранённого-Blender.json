@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "wood_parts": 79,
+  "wood_parts": 78,
   "layers": [
     56,
-    7,
+    6,
     15,
     1
   ],
@@ -563,17 +563,8 @@
       "closed_manifold": true,
       "connected_components": 1,
       "bottom_origin": true,
-      "footprint_error_mm2": 0.003997075845917625,
-      "volume_mm3": 4527.296127557222
-    },
-    {
-      "id": "L02_P012",
-      "tier": 2,
-      "closed_manifold": true,
-      "connected_components": 1,
-      "bottom_origin": true,
-      "footprint_error_mm2": 0.0010704690036389454,
-      "volume_mm3": 1084.6523880738164
+      "footprint_error_mm2": 0.005192266208633422,
+      "volume_mm3": 5611.9485367838
     },
     {
       "id": "L02_P013",

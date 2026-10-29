@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "upper_piece_count": 23,
+  "upper_piece_count": 22,
   "each_true_upper_outline_once": true,
   "assignments": [
     {
@@ -25,11 +25,6 @@
     },
     {
       "upper_piece": "L02_P007",
-      "carrier": "L01_P001",
-      "full_physical_outline": true
-    },
-    {
-      "upper_piece": "L02_P012",
       "carrier": "L01_P001",
       "full_physical_outline": true
     },

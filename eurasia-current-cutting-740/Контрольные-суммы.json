@@ -1,14 +1,14 @@
 {
-  "archive": "Евразия-актуальная-исправлено-740x740.zip",
+  "archive": "Евразия-78-деталей-740x740.zip",
   "original_source": {
     "original_file": "Евразия-политическая.blendактуалочка.blend",
     "bytes": 10549094,
     "sha256": "7be467b5eafa6c5489832302dfecc35263ecd65ce1cca46e95b1da11cad8c074"
   },
-  "wood_parts": 79,
+  "wood_parts": 78,
   "layer_part_counts": [
     56,
-    7,
+    6,
     15,
     1
   ],
@@ -20,18 +20,13 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 8661,
-      "sha256": "b0d79fd9049542143df940062d706cdda476153112831fc194953370ec3486c4"
-    },
-    {
-      "path": "Азия-реки-3D.png",
-      "bytes": 4668752,
-      "sha256": "b092bb0f4552565f0aac02ecd5215e6b5373e976f952dcd06a5bf89ba47bc1fc"
+      "bytes": 8887,
+      "sha256": "9325225e8a71e124ee77ec67d9e673962ff58c300cb232eed4f9689ebfbb9ffd"
     },
     {
       "path": "Водные-ступени.pdf",
       "bytes": 26634,
-      "sha256": "5911b965c26fe192b55d0574c3b809b6dd00ae4f095e90d03c713dba66252dda"
+      "sha256": "8600ea51a0084a340c6ba3dcf9e2a96423457c1cb72c816b69594e1eb9172594"
     },
     {
       "path": "Водные-ступени.png",
@@ -41,117 +36,122 @@
     {
       "path": "Города.csv",
       "bytes": 3699,
-      "sha256": "dbc332aefb330fa7b84c7775c6d815e93d9d18d4b719239354c041ddcd6cc398"
+      "sha256": "6d867d3b16700740213f6ed90fbf43c00a79dc6076b139c6388378ddafa1d2bc"
     },
     {
       "path": "Группы-покраски.csv",
-      "bytes": 3353,
-      "sha256": "73a42420800642bdd1313215c926a0df3c639b106eaf02db0deb35ab6b45c458"
+      "bytes": 3342,
+      "sha256": "af6a06e92d8fc0dcab961bde64dab2a5bbb9180fdd1ec4934eb5ca76c7ae1142"
     },
     {
       "path": "Группы-покраски.pdf",
-      "bytes": 1028673,
-      "sha256": "74458732c534a70517209ff68bf4ff6bca802ecec8957235bfe081f4db93d6d2"
+      "bytes": 1026720,
+      "sha256": "dad8c4d94d5393970b0e42073676a09020025ffe4b515a7e90877ddfd54bc2c4"
+    },
+    {
+      "path": "Евразия-78-деталей-740x740.svg",
+      "bytes": 1093571,
+      "sha256": "a4cd5f058aaecc89410240f9769a02b0daa500e80ac263581048210c16053cbe"
     },
     {
       "path": "Евразия-производственная-сборка.blend",
-      "bytes": 4417614,
-      "sha256": "2ac0ea4c75e684603e201cece2ea4d7c1d238dd1ede5d685f1b4d474c536075a"
-    },
-    {
-      "path": "Евразия-сборка-3D.png",
-      "bytes": 5324701,
-      "sha256": "099a3ef850946cf4f8959789f7fa5c60b5a86e8a7bbab74005eaaae39c75b577"
+      "bytes": 4410070,
+      "sha256": "4ec2f5427154cce8d0784c6f40803759157976ddd277f8d853b1ae5bfc19e5ce"
     },
     {
       "path": "Европа-группы-покраски.png",
-      "bytes": 190240,
-      "sha256": "ee17e7955d37a0ec983404518c8acd1f422706352d384e3154110a372c4fc2a0"
+      "bytes": 169010,
+      "sha256": "cee59a24872539e717b5595d8d67653dbb44e0c82554e1489a8d1999796db3b2"
     },
     {
       "path": "Европа-крупно-3D.png",
-      "bytes": 4666958,
-      "sha256": "2b2c6394b00643d03c59b09dd1b9a5fc71fdea266c0ab45cc946854a7c879e12"
+      "bytes": 4666827,
+      "sha256": "b20bdd23f32f2abd808f1e435a47f3ada8bfdb9f9befe9fdb172d7555e777619"
     },
     {
       "path": "Лаос-Камбоджа-группы.png",
-      "bytes": 149127,
-      "sha256": "a03308f3c8da4ffdf56cbb914c3127247db8332244283e540b2a67c863a54edc"
+      "bytes": 134786,
+      "sha256": "3d81e96b4a730663fc24a253da5f33baba561c93bc1a589e92ff318852313c46"
     },
     {
       "path": "Лаос-Камбоджа-общий-второй-слой.png",
-      "bytes": 146140,
-      "sha256": "349c48bcc6f3b475a622aefe89e6057709938bf852b09a8d2da8ab5659d33c72"
+      "bytes": 132672,
+      "sha256": "aafb23a37642176d2c490c34a088b9041c27773887a04fa7eb6f806b811d2ed6"
     },
     {
       "path": "Надписи.csv",
       "bytes": 9065,
-      "sha256": "36c53a79421569f89170c67ae8a7a9f0857f8e92b07e0733806f2276d30e3808"
+      "sha256": "bd66eaa2ac657e0f7ff286e77dd70e8cfacc00a29806ac983a19bf59437b7c92"
     },
     {
       "path": "Операции-по-цветам/Красный-полные-монтажные-контуры.svg",
-      "bytes": 289827,
-      "sha256": "39f31f29db8c66e18d67a8e9ba8ae9606c55783b680fcada152938616bbc316f"
+      "bytes": 289823,
+      "sha256": "991d482c8c9a23a8cac3c4e5a531ee697149b47b1d7a5f61b7cf134a8808ba96"
     },
     {
       "path": "Операции-по-цветам/Поле-01-Красный-разметка.svg",
-      "bytes": 269101,
-      "sha256": "f2c415adaf2adca07f26098cd31cca2a95d98b4009d3b0aaab46da8adb7d806c"
+      "bytes": 270487,
+      "sha256": "806d1722f287fff7caaee3b802a9f0016c72ea6a1e1a700db4cdc78f48161f6e"
     },
     {
       "path": "Операции-по-цветам/Поле-01-Красный-текст-и-города.svg",
       "bytes": 91319,
-      "sha256": "4086f52e28e5b8183500a1271f2054f8d66e44d301f13ef1d1881bc3db9d6d6f"
+      "sha256": "eb9af814e3faeea079ad8334f730ea16cc0e2f1027c2dfa4bac679a81c0a0ed0"
     },
     {
       "path": "Операции-по-цветам/Поле-01-Синий-страна.svg",
       "bytes": 35648,
-      "sha256": "5c4538c714b09e3d32adc3a41765a1b64f1113614797da3ff52298f56dfa246b"
+      "sha256": "5d2ac92f53b484319e17c676d99ea022fe745934e0f98c811d5ec75069c65edb"
     },
     {
       "path": "Операции-по-цветам/Поле-01-Чёрный-резка.svg",
-      "bytes": 699106,
-      "sha256": "1c6f359124bd57a63a086d2b4b99e16fd05655c2370aab9a4692a876e4f0f6f8"
+      "bytes": 696176,
+      "sha256": "36284a5539d3f72ed6b1a1adc2d177bdd222015ca8aede506ebc2bf28b6bbda1"
     },
     {
       "path": "ПРОЧИТАТЬ.md",
-      "bytes": 8661,
-      "sha256": "b0d79fd9049542143df940062d706cdda476153112831fc194953370ec3486c4"
+      "bytes": 8887,
+      "sha256": "9325225e8a71e124ee77ec67d9e673962ff58c300cb232eed4f9689ebfbb9ffd"
     },
     {
       "path": "ПРОЧТИ-МЕНЯ.txt",
-      "bytes": 697,
-      "sha256": "f45098d3f4464470d973001ef91c055b09eaa5756516817cf64a46b7aba45782"
+      "bytes": 816,
+      "sha256": "c7d38c6e3338eda489734dae6e3ef8e0593be1eb2bdcd3fbb9b07fb066291ec2"
     },
     {
       "path": "Поле-01-740x740.pdf",
-      "bytes": 387043,
-      "sha256": "0faf296f65a1a5fe1c71773adf350cc49d6cf3bfc5605228d2aa7eb337c0239e"
+      "bytes": 386893,
+      "sha256": "103980f68fa8cef150ac91c109acb75eadb49c586a4cb49ecd378eea3907ae1a"
     },
     {
       "path": "Поле-01-740x740.svg",
-      "bytes": 1095115,
-      "sha256": "d7ed621c3bd1a3bdb84efccab5544cd2c78ac9f69cdf08e78a4c1d82bcac9992"
+      "bytes": 1093571,
+      "sha256": "a4cd5f058aaecc89410240f9769a02b0daa500e80ac263581048210c16053cbe"
     },
     {
       "path": "Поле-01-предпросмотр.png",
-      "bytes": 441601,
-      "sha256": "965ccd94c108eb26c17fae572e9ccfa63452f9e80c9671f9dfa26abfedd9ac8a"
+      "bytes": 440836,
+      "sha256": "72d7b510c7e3a70ffd16d1a92f0c22f8537ffddb88f46d25f3712c5b79d0062a"
     },
     {
       "path": "Полные-монтажные-контуры-740x740.svg",
-      "bytes": 988783,
-      "sha256": "da399e523505260579160c35ee3adb6e12ff8b1473acfa124313a010af8ff61c"
+      "bytes": 985849,
+      "sha256": "e62c07783cf71be5b21fb0de124b093f42529b8b816c87fd67c8bc11f4421895"
     },
     {
       "path": "Проверка-Blender.json",
-      "bytes": 22139,
-      "sha256": "ad8dd3d37cdf0cb485983d55b1372e62e283d373f8902b982119eb866425d856"
+      "bytes": 21857,
+      "sha256": "4bc3c454b15df48eb977c8386625140a52f3ba17ddecdb25b89a33462dbf04ab"
+    },
+    {
+      "path": "Проверка-выданного-SVG.json",
+      "bytes": 442,
+      "sha256": "dca0f24a25b7890156c3ea8e4ab4fd85420497bee677eb07ea769625f817874c"
     },
     {
       "path": "Проверка-групп-покраски.json",
-      "bytes": 11521,
-      "sha256": "0819236c389aa74bfd41238731626e62e11cd5b8ebbe8e834cc1b2f659114461"
+      "bytes": 11481,
+      "sha256": "175465ef8206d18a9c58967c485a3174d53c70582c707fa84ca99719e5f3d97c"
     },
     {
       "path": "Проверка-монтажных-контуров.json",
@@ -160,13 +160,13 @@
     },
     {
       "path": "Проверка-полных-монтажных-форм.json",
-      "bytes": 2663,
-      "sha256": "6af64c433718f616d968aa58f2a7f36fd9465ca383e3b0c3ec18196b12d8c34d"
+      "bytes": 2552,
+      "sha256": "2b45623e9dc5ee7c0af597a374b213dcf295ce277d6ac7253e5748bf3be861d5"
     },
     {
       "path": "Проверка-раскроя.json",
       "bytes": 4433,
-      "sha256": "6d0d3ff048d1b287076d8f035a5f8a056fc67e414842bcc1be303ffdd134a3d8"
+      "sha256": "1f06d67a17d800e02976bdeb32aa91fa397fb74f44fd7d70c06959faaa71f7dc"
     },
     {
       "path": "Проверка-сглаживания-и-воды.json",
@@ -175,18 +175,18 @@
     },
     {
       "path": "Проверка-сохранённого-Blender.json",
-      "bytes": 19058,
-      "sha256": "7802c0902639e27acc9ab7063bcaecaf156b780d0cdbf2430fe1da58d8e7feda"
+      "bytes": 18818,
+      "sha256": "d2200c4e866657430d481903a7756a4977ddc57aa34c71179e89fd79fbfcceb5"
     },
     {
       "path": "Проверка-структуры-линий.json",
-      "bytes": 6750,
-      "sha256": "b3b4e4424da8e5be2316aabcb1e8d03c4b34ad667dda5f3c2fdd10fc3536c45c"
+      "bytes": 6669,
+      "sha256": "5e9da5d3707933fb65745380f1c6cbd9af269a407bbd61c5a7612031373acab5"
     },
     {
       "path": "Проверка-стыков-красных-линий.json",
-      "bytes": 10806,
-      "sha256": "7d9375cb1f358c84cfd3889c707d8b05b506b0b96efbb2cfa7c075263b480836"
+      "bytes": 10651,
+      "sha256": "e4c55a12c5d3bd9b7490d08ef96041309496ef6a1f87b926107ed9770a58724c"
     },
     {
       "path": "Проверка-текста.json",
@@ -195,23 +195,23 @@
     },
     {
       "path": "Расположение-деталей.csv",
-      "bytes": 2780,
-      "sha256": "f6ccc59ff3ae4db973589106b75cd73f9e6667c4cdd482a90a0f476efc83ac3a"
+      "bytes": 2739,
+      "sha256": "897e2144d9a318644b62eb906ba6c553a7e0c1260d60428eaeb97dd48259420a"
     },
     {
       "path": "Слои-и-сборка.pdf",
-      "bytes": 1374321,
-      "sha256": "de19834a91e7d2e0698eba05216f0e09b6be36d16eb3f759e19789d88808e7dc"
+      "bytes": 1374118,
+      "sha256": "741855e1cd01ce3188f835ff6ed64dc67a9ddabd9db4b53afe94abb3a939914a"
     },
     {
       "path": "Схема-раскладки-с-номерами.pdf",
-      "bytes": 423646,
-      "sha256": "f7f165ae19931ebc7ea180b2d8662277571fe4126eb38976d496a65a8e26343b"
+      "bytes": 423356,
+      "sha256": "e752b6fd8ebe5e56f018c4e17ce41269c61394288b9f8a8df75e639151332656"
     },
     {
       "path": "Схема-раскладки-с-номерами.png",
-      "bytes": 282325,
-      "sha256": "4e30e82fc8dae3748bfd45171291ec421abc26a7a4f7167f486f71ffe03b1f7e"
+      "bytes": 282190,
+      "sha256": "c5d48b0f0a3d053a87cb6a714727cd9b9c7031bdec7c485fb074995da5ea4c7c"
     },
     {
       "path": "Шрифт/DejaVu-copyright.txt",

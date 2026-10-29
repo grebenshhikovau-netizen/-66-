@@ -9,16 +9,16 @@ def nodes(g):
 now=sum(nodes(shape(p['geom']))for p in D['pieces'])
 t=f'''# Евразия — актуальная сборка с группами покраски
 
-[Скачать комплект](Евразия-актуальная-исправлено-740x740.zip) · [Рабочий SVG](Поле-01-740x740.svg) · [PDF 1:1](Поле-01-740x740.pdf) · [Blender](Евразия-производственная-сборка.blend)
+[Скачать комплект](Евразия-78-деталей-740x740.zip) · [Рабочий SVG: версия 78](Евразия-78-деталей-740x740.svg) · [PDF 1:1](Поле-01-740x740.pdf) · [Blender](Евразия-производственная-сборка.blend)
 
-**{n} деталей на одном листе 740 × 740 мм**, без поворотов, отражений и изменения масштаба. Четыре фактических уровня из «Евразия-политическая.blendактуалочка.blend»: **3 / 6 / 9 / 12 мм**. По слоям: **{' + '.join(str(q['pieces'])for q in D['summary'])}**. Исходных деревянных объектов — {D['source_wood_objects']}.
+**Версия 78: {n} деталей на одном листе 740 × 740 мм**, без поворотов, отражений и изменения масштаба. Четыре фактических уровня из «Евразия-политическая.blendактуалочка.blend»: **3 / 6 / 9 / 12 мм**. По слоям: **{' + '.join(str(q['pieces'])for q in D['summary'])}**. Исходных деревянных объектов — {D['source_wood_objects']}.
 
-![Сборка](Евразия-сборка-3D.png)
+![Европа после исправления](Европа-крупно-3D.png)
 
 ## Соединения и покраска
 
 - **Австрия, Франция и Польша** входят в одну связную деталь второго слоя: `{G['Austria_France_Poland_second_ply']}`. Остальные соединяющие участки этого массива сохранены.
-- **Венгрия** — отдельная деталь второго слоя `{G['Hungary_separate']}`.
+- **Венгрия** соединена со вторым слоем Румынии и Сербии: `{G['Hungary_with_Romania_Serbia']}`. Стык с Австрией остаётся; отдельной детали Венгрии нет.
 - **Греция, Албания, Турция, Иран и Сирия** — одна связная деталь второго слоя `{G['Greece_Albania_Turkey_second_ply']}`; третий слой Турции сохранён без изменения геометрии и высоты 9 мм. Шов Греции и Албании с Сербией остаётся, лишние стыки Турции с Ираном и Сирией удалены.
 - **Туркмения** отделена от Казахстана только в третьем слое: {', '.join(G['Turkmenistan_separate_from_Kazakhstan'])}.
 - **Лаос и Камбоджа** объединены в одну деталь третьего слоя, отдельно от Китая: {', '.join(G['Laos_separate_from_China'])}.
@@ -45,6 +45,6 @@ t=f'''# Евразия — актуальная сборка с группами
 
 В Blender каждое тело замкнуто и связно, центры снизу. Гравировка следует за верхом; накладки следуют за опорными слоями. Проверяются изменения высоты основания на 3 / 6 / 9 мм. Отчёты: `Проверка-раскроя.json`, `Проверка-групп-покраски.json`, `Проверка-сохранённого-Blender.json`, `Проверка-стыков-красных-линий.json`, `Проверка-текста.json`.
 
-Исходник с SHA-256, географические данные и генераторы доступны в [репозитории](https://github.com/grebenshhikovau-netizen/-66-/tree/main/eurasia-current-cutting-740). Предыдущая Евразия сохранена отдельно. Зависимости — requirements.txt; извлечение исходника требует bpy, совместимого с Blender 5.2. Порядок: extract_source.py → plan.py → paint_partitions.py → restore_eastern_second_ply.py → restore_common_supports.py → rebuild_borders.py → clean_structure.py → labels.py → restore_city_labels.py → finalize.py → audit_lines.py → nest.py → assign_assembly_guides.py → export.py → make_pdf.py → verify.py → assembly_guides.py → verify_paint_groups.py → paint_group_reference.py. Затем build_assembly.py --no-render, verify_assembly.py, render_assembly.py. Лицензия шрифта включена.
+Исходник с SHA-256, географические данные и генераторы доступны в [репозитории](https://github.com/grebenshhikovau-netizen/-66-/tree/main/eurasia-current-cutting-740). Предыдущая Евразия сохранена отдельно. Зависимости — requirements.txt; извлечение исходника требует bpy, совместимого с Blender 5.2. Порядок: extract_source.py → plan.py → paint_partitions.py → restore_eastern_second_ply.py → restore_common_supports.py → restore_hungary_balkan_second_ply.py → rebuild_borders.py → clean_structure.py → labels.py → restore_city_labels.py → finalize.py → audit_lines.py → nest.py → assign_assembly_guides.py → export.py → make_pdf.py → verify.py → assembly_guides.py → verify_paint_groups.py → paint_group_reference.py. Затем build_assembly.py --no-render, verify_assembly.py, render_assembly.py. Лицензия шрифта включена.
 '''
 (P/'README.md').write_text(t);(P/'ПРОЧИТАТЬ.md').write_text(t);print('DOCUMENTATION READY',n,raw,now)
