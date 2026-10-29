@@ -1,0 +1,10 @@
+numpy>=2.1
+Pillow>=11
+scipy>=1.15
+scikit-image>=0.25
+shapely>=2.1
+lxml>=5
+reportlab>=4
+pypdf>=5
+fonttools>=4.55
+pyproj>=3.7

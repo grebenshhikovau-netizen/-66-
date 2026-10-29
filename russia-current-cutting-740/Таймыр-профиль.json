@@ -1,0 +1,9 @@
+{
+  "lower_profile_method": "smoothed medial-axis envelopes at 55 percent local bank radius",
+  "upper_area_mm2": 118.8131899999993,
+  "old_lower_area_mm2": 28.591195999999748,
+  "new_lower_area_mm2": 65.21747200000009,
+  "lower_connected_closed_outline": true,
+  "labels_unchanged": true,
+  "parts_unchanged": 33
+}

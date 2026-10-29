@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "upper_piece_count": 24,
+  "each_true_upper_outline_once": true,
+  "assignments": [
+    {
+      "upper_piece": "L02_P001",
+      "carrier": "L01_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P002",
+      "carrier": "L01_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P003",
+      "carrier": "L01_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P004",
+      "carrier": "L01_P002",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P005",
+      "carrier": "L01_P002",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P006",
+      "carrier": "L01_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P007",
+      "carrier": "L01_P002",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P008",
+      "carrier": "L01_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P009",
+      "carrier": "L01_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P010",
+      "carrier": "L01_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P011",
+      "carrier": "L01_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L02_P012",
+      "carrier": "L01_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P001",
+      "carrier": "L02_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P002",
+      "carrier": "L02_P002",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P003",
+      "carrier": "L02_P004",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P004",
+      "carrier": "L02_P006",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P005",
+      "carrier": "L02_P003",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P006",
+      "carrier": "L02_P005",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P007",
+      "carrier": "L02_P005",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P008",
+      "carrier": "L02_P007",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P009",
+      "carrier": "L02_P001",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P010",
+      "carrier": "L02_P005",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P011",
+      "carrier": "L02_P003",
+      "full_physical_outline": true
+    },
+    {
+      "upper_piece": "L03_P012",
+      "carrier": "L02_P003",
+      "full_physical_outline": true
+    }
+  ]
+}

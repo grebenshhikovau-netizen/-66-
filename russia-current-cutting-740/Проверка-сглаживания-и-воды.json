@@ -1,0 +1,209 @@
+{
+  "layers": [
+    {
+      "tier": 1,
+      "pieces": 9,
+      "raw_vertices": 21263,
+      "smoothed_vertices": 29168,
+      "raw_perimeter_mm": 4637.20133826756,
+      "smoothed_perimeter_mm": 8634.2892250571
+    },
+    {
+      "tier": 2,
+      "pieces": 12,
+      "raw_vertices": 53760,
+      "smoothed_vertices": 31333,
+      "raw_perimeter_mm": 9693.93198073356,
+      "smoothed_perimeter_mm": 8916.520835425923
+    },
+    {
+      "tier": 3,
+      "pieces": 12,
+      "raw_vertices": 26296,
+      "smoothed_vertices": 17790,
+      "raw_perimeter_mm": 5392.140518682189,
+      "smoothed_perimeter_mm": 4997.103394048979
+    }
+  ],
+  "water_steps": [
+    {
+      "feature": "Енисей",
+      "type": "river",
+      "upper_nominal_width_mm": 1.8,
+      "lower_nominal_width_mm": 0.9,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Обь",
+      "type": "river",
+      "upper_nominal_width_mm": 1.8,
+      "lower_nominal_width_mm": 0.9,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Лена",
+      "type": "river",
+      "upper_nominal_width_mm": 1.8,
+      "lower_nominal_width_mm": 0.9,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Ангара",
+      "type": "river",
+      "upper_nominal_width_mm": 1.6,
+      "lower_nominal_width_mm": 0.8,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Иртыш",
+      "type": "river",
+      "upper_nominal_width_mm": 1.6,
+      "lower_nominal_width_mm": 0.8,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Волга",
+      "type": "river",
+      "upper_nominal_width_mm": 1.6,
+      "lower_nominal_width_mm": 0.8,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Амур",
+      "type": "river",
+      "upper_nominal_width_mm": 1.6,
+      "lower_nominal_width_mm": 0.8,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Северная Двина",
+      "type": "river",
+      "upper_nominal_width_mm": 1.6,
+      "lower_nominal_width_mm": 0.8,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Нижняя Тунгуска",
+      "type": "river",
+      "upper_nominal_width_mm": 1.6,
+      "lower_nominal_width_mm": 0.8,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Вилюй",
+      "type": "river",
+      "upper_nominal_width_mm": 1.6,
+      "lower_nominal_width_mm": 0.8,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Подкаменная Тунгуска",
+      "type": "river",
+      "upper_nominal_width_mm": 1.6,
+      "lower_nominal_width_mm": 0.8,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Кама",
+      "type": "river",
+      "upper_nominal_width_mm": 1.6,
+      "lower_nominal_width_mm": 0.8,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Байкал",
+      "type": "lake",
+      "lower_width_factor": 0.55,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "Таймыр",
+      "type": "lake",
+      "lower_width_factor": 0.55,
+      "lower_is_subset_of_upper": true
+    },
+    {
+      "feature": "tiny isolated relief/delta component",
+      "tier": 1,
+      "removed_area_mm2": 1.7933205000000538
+    },
+    {
+      "feature": "tiny isolated relief/delta component",
+      "tier": 1,
+      "removed_area_mm2": 0.054362000000015905
+    },
+    {
+      "feature": "tiny isolated relief/delta component",
+      "tier": 1,
+      "removed_area_mm2": 1.2604100000000453
+    },
+    {
+      "feature": "tiny isolated relief/delta component",
+      "tier": 2,
+      "removed_area_mm2": 0.8846035000000582
+    },
+    {
+      "feature": "tiny isolated relief/delta component",
+      "tier": 2,
+      "removed_area_mm2": 3.611441500000021
+    },
+    {
+      "feature": "tiny isolated relief/delta component",
+      "tier": 2,
+      "removed_area_mm2": 7.57695550000005
+    },
+    {
+      "feature": "tiny isolated relief/delta component",
+      "tier": 2,
+      "removed_area_mm2": 6.157316500000046
+    }
+  ],
+  "required_lakes": [
+    "Байкал",
+    "Таймыр"
+  ],
+  "no_new_karelian_lake_cuts": true,
+  "physical_parts": 33,
+  "stock_seams": 0,
+  "smoothing_parameters": {
+    "ply_mm": 3,
+    "smoothing_simplify_mm": 0.24,
+    "smoothing_closing_mm": 0.44,
+    "smoothing_opening_mm": 0.3,
+    "smoothing_arc_segments_per_quadrant": 6,
+    "minimum_base_island_area_mm2": 4,
+    "minimum_upper_component_area_mm2": 9,
+    "small_unsupported_island_removal_mm2": 16,
+    "water_first_layer_width_factor": 0.5,
+    "lake_first_layer_width_factor": 0.55,
+    "required_lakes": [
+      "Байкал",
+      "Таймыр"
+    ],
+    "omitted_karelian_lakes": [
+      "Ладожское",
+      "Онежское"
+    ],
+    "stock_mm": [
+      740,
+      740
+    ],
+    "edge_margin_mm": 5,
+    "part_gap_mm": 3,
+    "maximum_part_extent_mm": 725
+  },
+  "removed_river_islets": [
+    {
+      "id": "L01_P008",
+      "area_mm2": 15.347732499999875,
+      "no_label_or_city": true,
+      "no_upper_support": true
+    },
+    {
+      "id": "L01_P011",
+      "area_mm2": 6.215934000000042,
+      "no_label_or_city": true,
+      "no_upper_support": true
+    }
+  ]
+}
