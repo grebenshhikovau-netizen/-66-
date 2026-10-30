@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "physically_merged_cross_source_parts": [
+    {
+      "id": "L01_P001",
+      "layer": 1,
+      "source_families": [
+        "AF",
+        "EU"
+      ],
+      "area_mm2": 85450.12033800011
+    }
+  ],
+  "Scandinavia_separate_on_every_layer": true,
+  "scandinavia_parts": [
+    "L01_P002",
+    "L01_P014",
+    "L01_P017",
+    "L01_P022",
+    "L01_P023",
+    "L02_P002",
+    "L03_P011"
+  ],
+  "stock_seams": [],
+  "sheet_count": 1,
+  "parts": 55
+}

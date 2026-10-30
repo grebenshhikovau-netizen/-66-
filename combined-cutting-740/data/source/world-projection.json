@@ -1,0 +1,18 @@
+{
+  "projection": {
+    "type": "cylindrical_mercator_affine",
+    "source_xmin": 1858.0484276517368,
+    "source_ymax": 1208.0562835928397,
+    "lonmin": 27.328027,
+    "latmin": 41.192681,
+    "kx_per_degree": 12.565894355649785,
+    "ky_per_mercator": 721.9912051207863,
+    "geographic_extents": [
+      27.328027,
+      41.192681,
+      190.358616,
+      77.737535
+    ]
+  },
+  "mm_per_unit": 0.3762962966447188
+}

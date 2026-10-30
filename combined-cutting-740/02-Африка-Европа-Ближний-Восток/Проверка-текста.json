@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "all_texts_editable": true,
+  "fields": [
+    {
+      "field": 1,
+      "editable_texts": 198,
+      "Inkscape_plain_SVG_text_preserved": true
+    }
+  ]
+}

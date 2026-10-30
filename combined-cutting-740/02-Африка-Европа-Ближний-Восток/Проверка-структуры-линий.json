@@ -1,0 +1,279 @@
+{
+  "pieces": [
+    {
+      "piece": "L01_P001",
+      "chains": 176,
+      "length_mm": 3021.60383057282
+    },
+    {
+      "piece": "L01_P002",
+      "chains": 11,
+      "length_mm": 352.49063962770407
+    },
+    {
+      "piece": "L01_P003",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P004",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P005",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P006",
+      "chains": 1,
+      "length_mm": 16.746236582263855
+    },
+    {
+      "piece": "L01_P007",
+      "chains": 1,
+      "length_mm": 24.653267035038297
+    },
+    {
+      "piece": "L01_P008",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P009",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P010",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P011",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P012",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P013",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P014",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P015",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P016",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P017",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P018",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P019",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P020",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P021",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P022",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P023",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L01_P024",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L02_P001",
+      "chains": 78,
+      "length_mm": 1389.793477727865
+    },
+    {
+      "piece": "L02_P002",
+      "chains": 5,
+      "length_mm": 183.12313887515856
+    },
+    {
+      "piece": "L02_P003",
+      "chains": 2,
+      "length_mm": 54.48598037771269
+    },
+    {
+      "piece": "L02_P004",
+      "chains": 8,
+      "length_mm": 122.26519458855854
+    },
+    {
+      "piece": "L02_P005",
+      "chains": 4,
+      "length_mm": 126.0604696543468
+    },
+    {
+      "piece": "L02_P006",
+      "chains": 4,
+      "length_mm": 46.945419933764
+    },
+    {
+      "piece": "L02_P007",
+      "chains": 3,
+      "length_mm": 31.030320287625543
+    },
+    {
+      "piece": "L02_P008",
+      "chains": 8,
+      "length_mm": 92.82082633886813
+    },
+    {
+      "piece": "L02_P010",
+      "chains": 1,
+      "length_mm": 18.717219197279913
+    },
+    {
+      "piece": "L02_P011",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L02_P014",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P001",
+      "chains": 6,
+      "length_mm": 86.983250482743
+    },
+    {
+      "piece": "L03_P002",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P003",
+      "chains": 6,
+      "length_mm": 36.97527774254268
+    },
+    {
+      "piece": "L03_P004",
+      "chains": 1,
+      "length_mm": 0.8935107098685394
+    },
+    {
+      "piece": "L03_P005",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P006",
+      "chains": 6,
+      "length_mm": 147.5325321075921
+    },
+    {
+      "piece": "L03_P007",
+      "chains": 1,
+      "length_mm": 4.651813113289408
+    },
+    {
+      "piece": "L03_P008",
+      "chains": 1,
+      "length_mm": 2.474931232565929
+    },
+    {
+      "piece": "L03_P009",
+      "chains": 8,
+      "length_mm": 133.95897047017917
+    },
+    {
+      "piece": "L03_P010",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P011",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P012",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P013",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P014",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P015",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L03_P016",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L04_P001",
+      "chains": 8,
+      "length_mm": 94.51867759363391
+    },
+    {
+      "piece": "L04_P002",
+      "chains": 0,
+      "length_mm": 0.0
+    },
+    {
+      "piece": "L05_P001",
+      "chains": 8,
+      "length_mm": 55.07704446280625
+    },
+    {
+      "piece": "L06_P001",
+      "chains": 4,
+      "length_mm": 19.07420547478469
+    }
+  ]
+}

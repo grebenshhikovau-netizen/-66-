@@ -1,0 +1,73 @@
+{
+  "labels": 198,
+  "cities": 95,
+  "changed_labels": [
+    {
+      "id": "AF_COUNTRY_BDI",
+      "text": "БУРУНДИ",
+      "font_factor": 1.0,
+      "movement_mm": 1.3833705370158675
+    },
+    {
+      "id": "EU_COUNTRY_HUN",
+      "text": "ВЕНГРИЯ",
+      "font_factor": 1.0,
+      "movement_mm": 6.103328841667903
+    },
+    {
+      "id": "EU_COUNTRY_NLD",
+      "text": "НИДЕРЛАНДЫ",
+      "font_factor": 1.0,
+      "movement_mm": 0.9967199238289258
+    },
+    {
+      "id": "EU_COUNTRY_MKD",
+      "text": "СЕВЕРНАЯ МАКЕДОНИЯ",
+      "font_factor": 0.7999999999999998,
+      "movement_mm": 18.800596332283842
+    },
+    {
+      "id": "EU_COUNTRY_MNE",
+      "text": "ЧЕРНОГОРИЯ",
+      "font_factor": 1.0,
+      "movement_mm": 7.799737018095854
+    },
+    {
+      "id": "EU_COUNTRY_KOS",
+      "text": "РЕСПУБЛИКА КОСОВО",
+      "font_factor": 0.7499999999999998,
+      "movement_mm": 16.722590524025886
+    },
+    {
+      "id": "AF_CITY_002_TEXT",
+      "text": "Александрия",
+      "font_factor": 0.7499999999999998,
+      "movement_mm": 20.838665984174654
+    },
+    {
+      "id": "AF_CITY_010_TEXT",
+      "text": "Хартум",
+      "font_factor": 1.0,
+      "movement_mm": 0.4287454684857096
+    },
+    {
+      "id": "EU_CITY_015_TEXT",
+      "text": "Вена",
+      "font_factor": 1.0,
+      "movement_mm": 3.0560015466764887
+    },
+    {
+      "id": "EU_CITY_019_TEXT",
+      "text": "Белград",
+      "font_factor": 1.0,
+      "movement_mm": 10.07275622943118
+    },
+    {
+      "id": "EU_CITY_022_TEXT",
+      "text": "Бухарест",
+      "font_factor": 1.0,
+      "movement_mm": 4.3511559539949625
+    }
+  ],
+  "source_labels_retained": 198
+}

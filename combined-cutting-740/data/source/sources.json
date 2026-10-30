@@ -1,0 +1,20 @@
+[
+  {
+    "family": "RU",
+    "repository_folder": "russia-current-cutting-740",
+    "plan_sha256": "1f607abfb69bbd5303146717bab21a6ee8f9b7c66d190525bbc53bb4aa5087b9",
+    "bytes": 44229303
+  },
+  {
+    "family": "EU",
+    "repository_folder": "eurasia-current-cutting-740",
+    "plan_sha256": "f744afbc58530b3ded3f80788402b40dc8fc8b7f89846b406082353fef6b2e83",
+    "bytes": 27150582
+  },
+  {
+    "family": "AF",
+    "repository_folder": "africa-cutting-740",
+    "plan_sha256": "63f1b74efeb9d45730dd687c72b5b89a6af6624b06b9c9e0f6062972b284c089",
+    "bytes": 15266158
+  }
+]

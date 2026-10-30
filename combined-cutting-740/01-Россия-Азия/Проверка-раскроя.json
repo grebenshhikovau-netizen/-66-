@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "title": "Россия + Азия",
+  "batch": "EAST",
+  "sheets": 2,
+  "parts": 74,
+  "parts_by_layer": [
+    41,
+    13,
+    19,
+    1
+  ],
+  "fields": [
+    {
+      "sheet": 1,
+      "parts": 72,
+      "editable_texts": 200,
+      "city_marks": 106,
+      "svg_colors": [
+        "#000000",
+        "#0000ff",
+        "#ff0000"
+      ],
+      "actual_min_gap_mm": 4.4770154853173025,
+      "max_serialized_cut_error_mm2": 4.960417731423996e-11,
+      "max_serialized_red_line_error_mm": 6.566003912151062e-07,
+      "page_mm": [
+        740.0000722222221,
+        740.0000722222221
+      ],
+      "all_parts_translation_only": true,
+      "all_text_bboxes_fit_one_exposed_surface": true,
+      "pdf_text_is_searchable": true
+    },
+    {
+      "sheet": 2,
+      "parts": 2,
+      "editable_texts": 65,
+      "city_marks": 26,
+      "svg_colors": [
+        "#000000",
+        "#0000ff",
+        "#ff0000"
+      ],
+      "actual_min_gap_mm": 5.305967765507383,
+      "max_serialized_cut_error_mm2": 1.33909415473869e-10,
+      "max_serialized_red_line_error_mm": 6.273889553584439e-07,
+      "page_mm": [
+        740.0000722222221,
+        740.0000722222221
+      ],
+      "all_parts_translation_only": true,
+      "all_text_bboxes_fit_one_exposed_surface": true,
+      "pdf_text_is_searchable": true
+    }
+  ],
+  "all_text_objects": 265,
+  "source_labels_retained": 240,
+  "cities": 132,
+  "max_city_shift_mm": 1.4849556355105986,
+  "layers": [
+    {
+      "layer": 1,
+      "parts": 41,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "parts": 13,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    },
+    {
+      "layer": 3,
+      "parts": 19,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    },
+    {
+      "layer": 4,
+      "parts": 1,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    }
+  ],
+  "water_open_except_approved_local_bridges": true,
+  "approved_bridge_count": 1,
+  "material_audit": [
+    {
+      "layer": 1,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 0.918285126424902
+    },
+    {
+      "layer": 2,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 1725.9817619708783
+    },
+    {
+      "layer": 3,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 429.1162183247469
+    },
+    {
+      "layer": 4,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 0.013839727582453647
+    }
+  ],
+  "scandinavia_separate_pieces": 0,
+  "physical_stock_seams": 1,
+  "source_hash_matches": true
+}

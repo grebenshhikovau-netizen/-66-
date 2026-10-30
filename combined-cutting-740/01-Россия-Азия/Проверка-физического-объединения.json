@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "physically_merged_cross_source_parts": [
+    {
+      "id": "L01_P001",
+      "layer": 1,
+      "source_families": [
+        "RU",
+        "EU"
+      ],
+      "area_mm2": 208873.64092500036
+    },
+    {
+      "id": "L02_P001",
+      "layer": 2,
+      "source_families": [
+        "RU",
+        "EU"
+      ],
+      "area_mm2": 53968.54804800006
+    },
+    {
+      "id": "L02_P002",
+      "layer": 2,
+      "source_families": [
+        "RU",
+        "EU"
+      ],
+      "area_mm2": 53083.47354200018
+    },
+    {
+      "id": "L03_P001",
+      "layer": 3,
+      "source_families": [
+        "RU",
+        "EU"
+      ],
+      "area_mm2": 11348.26330750001
+    },
+    {
+      "id": "L03_P003",
+      "layer": 3,
+      "source_families": [
+        "RU",
+        "EU"
+      ],
+      "area_mm2": 7779.969936000012
+    }
+  ],
+  "Scandinavia_separate_on_every_layer": true,
+  "scandinavia_parts": [],
+  "stock_seams": [
+    {
+      "tier": 1,
+      "kind": "vertical 1421.22",
+      "seam": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              1421.219,
+              -739.717
+            ],
+            [
+              1421.219,
+              -739.718
+            ]
+          ],
+          [
+            [
+              1421.219,
+              -739.718
+            ],
+            [
+              1421.22,
+              -739.719
+            ],
+            [
+              1421.22,
+              -790.986
+            ],
+            [
+              1421.219,
+              -790.987
+            ]
+          ],
+          [
+            [
+              1421.219,
+              -790.987
+            ],
+            [
+              1421.218,
+              -790.987
+            ]
+          ]
+        ]
+      },
+      "visible_seam_mm": 20.158828427124597,
+      "total_seam_mm": 51.27182842712465
+    }
+  ],
+  "sheet_count": 2,
+  "parts": 74
+}

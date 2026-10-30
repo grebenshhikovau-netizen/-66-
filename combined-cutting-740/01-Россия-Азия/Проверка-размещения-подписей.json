@@ -1,0 +1,289 @@
+{
+  "labels": 265,
+  "cities": 132,
+  "changed_labels": [
+    {
+      "id": "EU_COUNTRY_PAK",
+      "text": "ПАКИСТАН",
+      "font_factor": 1.0,
+      "movement_mm": 8.254804159312634
+    },
+    {
+      "id": "EU_COUNTRY_LAO",
+      "text": "ЛАОС",
+      "font_factor": 1.0,
+      "movement_mm": 1.150097660532551
+    },
+    {
+      "id": "EU_COUNTRY_KHM",
+      "text": "КАМБОДЖА",
+      "font_factor": 1.0,
+      "movement_mm": 4.245894828466474
+    },
+    {
+      "id": "RU_CITY_001_TEXT",
+      "text": "Москва",
+      "font_factor": 1.0,
+      "movement_mm": 9.552486587271428
+    },
+    {
+      "id": "RU_CITY_002_TEXT",
+      "text": "Санкт-Петербург",
+      "font_factor": 1.0,
+      "movement_mm": 14.373586887064755
+    },
+    {
+      "id": "RU_CITY_009_TEXT",
+      "text": "Самара",
+      "font_factor": 1.0,
+      "movement_mm": 15.839823231336943
+    },
+    {
+      "id": "RU_CITY_019_TEXT",
+      "text": "Иркутск",
+      "font_factor": 1.0,
+      "movement_mm": 10.917875251164903
+    },
+    {
+      "id": "RU_CITY_034_TEXT",
+      "text": "Магадан",
+      "font_factor": 1.0,
+      "movement_mm": 12.093386622447824
+    },
+    {
+      "id": "RU_CITY_037_TEXT",
+      "text": "Салехард",
+      "font_factor": 1.0,
+      "movement_mm": 8.765842800324487
+    },
+    {
+      "id": "RU_CITY_043_TEXT",
+      "text": "Архангельск",
+      "font_factor": 0.8499999999999999,
+      "movement_mm": 29.732137494637012
+    },
+    {
+      "id": "RU_CITY_051_TEXT",
+      "text": "Тверь",
+      "font_factor": 1.0,
+      "movement_mm": 4.062696340951484
+    },
+    {
+      "id": "RU_CITY_052_TEXT",
+      "text": "Ярославль",
+      "font_factor": 1.0,
+      "movement_mm": 0.7615773105864148
+    },
+    {
+      "id": "RU_CITY_058_TEXT",
+      "text": "Грозный",
+      "font_factor": 1.0,
+      "movement_mm": 16.907099100673722
+    },
+    {
+      "id": "RU_CITY_061_TEXT",
+      "text": "Астрахань",
+      "font_factor": 1.0,
+      "movement_mm": 0.2236067977500298
+    },
+    {
+      "id": "RU_CITY_064_TEXT",
+      "text": "Чебоксары",
+      "font_factor": 1.0,
+      "movement_mm": 24.60315323039484
+    },
+    {
+      "id": "RU_CITY_078_TEXT",
+      "text": "Ульяновск",
+      "font_factor": 1.0,
+      "movement_mm": 14.4256715614906
+    },
+    {
+      "id": "RU_CITY_079_TEXT",
+      "text": "Майкоп",
+      "font_factor": 1.0,
+      "movement_mm": 16.417673403987514
+    },
+    {
+      "id": "RU_CITY_080_TEXT",
+      "text": "Нальчик",
+      "font_factor": 1.0,
+      "movement_mm": 4.060788100849379
+    },
+    {
+      "id": "RU_CITY_081_TEXT",
+      "text": "Черкесск",
+      "font_factor": 1.0,
+      "movement_mm": 6.685057965343346
+    },
+    {
+      "id": "RU_CITY_090_TEXT",
+      "text": "Дудинка",
+      "font_factor": 1.0,
+      "movement_mm": 12.379418403140013
+    },
+    {
+      "id": "EU_CITY_042_TEXT",
+      "text": "Ташкент",
+      "font_factor": 1.0,
+      "movement_mm": 1.208304597359478
+    },
+    {
+      "id": "EU_CITY_047_TEXT",
+      "text": "Исламабад",
+      "font_factor": 1.0,
+      "movement_mm": 5.077572340719905
+    },
+    {
+      "id": "EU_CITY_048_TEXT",
+      "text": "Карачи",
+      "font_factor": 1.0,
+      "movement_mm": 2.9841381614137337
+    },
+    {
+      "id": "EU_CITY_049_TEXT",
+      "text": "Нью-Дели",
+      "font_factor": 1.0,
+      "movement_mm": 8.903124999999932
+    },
+    {
+      "id": "EU_CITY_051_TEXT",
+      "text": "Калькутта",
+      "font_factor": 1.0,
+      "movement_mm": 10.285168440636756
+    },
+    {
+      "id": "EU_CITY_055_TEXT",
+      "text": "Пекин",
+      "font_factor": 1.0,
+      "movement_mm": 3.683370987597506
+    },
+    {
+      "id": "EU_CITY_069_TEXT",
+      "text": "Вьентьян",
+      "font_factor": 1.0,
+      "movement_mm": 3.1982141286064727
+    },
+    {
+      "id": "EU_CITY_070_TEXT",
+      "text": "Пномпень",
+      "font_factor": 1.0,
+      "movement_mm": 0.9186233809827764
+    },
+    {
+      "id": "RU_REGION_RU_STA",
+      "text": "СТАВРОПОЛЬСКИЙ КРАЙ",
+      "font_factor": 1.0,
+      "movement_mm": 24.389793644355986
+    },
+    {
+      "id": "RU_REGION_RU_YAR",
+      "text": "ЯРОСЛАВСКАЯ ОБЛАСТЬ",
+      "font_factor": 1.0,
+      "movement_mm": 1.5114659925498177
+    },
+    {
+      "id": "RU_REGION_RU_ULY",
+      "text": "УЛЬЯНОВСКАЯ ОБЛАСТЬ",
+      "font_factor": 1.0,
+      "movement_mm": 3.982684909612508
+    },
+    {
+      "id": "RU_REGION_RU_AST",
+      "text": "АСТРАХАНСКАЯ ОБЛАСТЬ",
+      "font_factor": 1.0,
+      "movement_mm": 5.437875374796983
+    },
+    {
+      "id": "RU_REGION_RU_CU",
+      "text": "ЧУВАШИЯ",
+      "font_factor": 1.0,
+      "movement_mm": 1.5955001271846796
+    },
+    {
+      "id": "RU_REGION_RU_KC",
+      "text": "КЧР",
+      "font_factor": 1.0,
+      "movement_mm": 0.35197658243318475
+    },
+    {
+      "id": "RU_REGION_RU_AD",
+      "text": "АДЫГЕЯ",
+      "font_factor": 1.0,
+      "movement_mm": 5.154598502642018
+    },
+    {
+      "id": "RU_REGION_RU_IN",
+      "text": "ИНГУШЕТИЯ",
+      "font_factor": 1.0,
+      "movement_mm": 6.447174391067477
+    },
+    {
+      "id": "CN_NEW_CITY_01_TEXT",
+      "text": "Чунцин",
+      "font_factor": 1.0,
+      "movement_mm": 6.603029607687695
+    },
+    {
+      "id": "CN_NEW_CITY_02_TEXT",
+      "text": "Ухань",
+      "font_factor": 1.0,
+      "movement_mm": 2.9863281249997726
+    },
+    {
+      "id": "CN_NEW_CITY_03_TEXT",
+      "text": "Харбин",
+      "font_factor": 1.0,
+      "movement_mm": 3.4874999999999545
+    },
+    {
+      "id": "CN_NEW_CITY_04_TEXT",
+      "text": "Куньмин",
+      "font_factor": 1.0,
+      "movement_mm": 3.9249999999999545
+    },
+    {
+      "id": "CN_NEW_CITY_05_TEXT",
+      "text": "Шэньчжэнь",
+      "font_factor": 1.0,
+      "movement_mm": 3.841874542459695
+    },
+    {
+      "id": "CN_PROVINCE_CN_GX",
+      "text": "ГУАНСИ",
+      "font_factor": 1.0,
+      "movement_mm": 4.097385831342565
+    },
+    {
+      "id": "CN_PROVINCE_CN_GD",
+      "text": "ГУАНДУН",
+      "font_factor": 1.0,
+      "movement_mm": 6.236851817600087
+    },
+    {
+      "id": "CN_PROVINCE_CN_HA",
+      "text": "ХЭНАНЬ",
+      "font_factor": 1.0,
+      "movement_mm": 1.5545202019840763
+    },
+    {
+      "id": "CN_PROVINCE_CN_SN",
+      "text": "ШЭНЬСИ",
+      "font_factor": 1.0,
+      "movement_mm": 4.720195238971356
+    },
+    {
+      "id": "CN_PROVINCE_CN_JL",
+      "text": "ГИРИН",
+      "font_factor": 0.7499999999999998,
+      "movement_mm": 1.3277262418159923
+    },
+    {
+      "id": "CN_PROVINCE_CN_JS",
+      "text": "ЦЗЯНСУ",
+      "font_factor": 1.0,
+      "movement_mm": 2.257266465711596
+    }
+  ],
+  "source_labels_retained": 240
+}

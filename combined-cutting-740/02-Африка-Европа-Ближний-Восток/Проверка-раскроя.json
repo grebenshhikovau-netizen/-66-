@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "title": "Африка + Европа + Ближний Восток",
+  "batch": "WEST",
+  "sheets": 1,
+  "parts": 55,
+  "parts_by_layer": [
+    24,
+    11,
+    16,
+    2,
+    1,
+    1
+  ],
+  "fields": [
+    {
+      "sheet": 1,
+      "parts": 55,
+      "editable_texts": 198,
+      "city_marks": 95,
+      "svg_colors": [
+        "#000000",
+        "#0000ff",
+        "#ff0000"
+      ],
+      "actual_min_gap_mm": 4.1536641064036735,
+      "max_serialized_cut_error_mm2": 2.257781245009069e-11,
+      "max_serialized_red_line_error_mm": 6.868004705269362e-07,
+      "page_mm": [
+        740.0000722222221,
+        740.0000722222221
+      ],
+      "all_parts_translation_only": true,
+      "all_text_bboxes_fit_one_exposed_surface": true,
+      "pdf_text_is_searchable": true
+    }
+  ],
+  "all_text_objects": 198,
+  "source_labels_retained": 198,
+  "cities": 95,
+  "max_city_shift_mm": 3.4976479560361042,
+  "layers": [
+    {
+      "layer": 1,
+      "parts": 24,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "parts": 11,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    },
+    {
+      "layer": 3,
+      "parts": 16,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    },
+    {
+      "layer": 4,
+      "parts": 2,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    },
+    {
+      "layer": 5,
+      "parts": 1,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    },
+    {
+      "layer": 6,
+      "parts": 1,
+      "water_blocked_mm2": 0.0,
+      "layer_union_error_mm2": 0.0
+    }
+  ],
+  "water_open_except_approved_local_bridges": true,
+  "approved_bridge_count": 3,
+  "material_audit": [
+    {
+      "layer": 1,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 0.0453031489149317
+    },
+    {
+      "layer": 2,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 419.0242881910682
+    },
+    {
+      "layer": 3,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 234.04931049725207
+    },
+    {
+      "layer": 4,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 0.0011700219485208487
+    },
+    {
+      "layer": 5,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 0.0
+    },
+    {
+      "layer": 6,
+      "unapproved_deep_material_loss_mm2": 0.0,
+      "new_water_removed_mm2": 0.0
+    }
+  ],
+  "scandinavia_separate_pieces": 7,
+  "physical_stock_seams": 0,
+  "source_hash_matches": true
+}
