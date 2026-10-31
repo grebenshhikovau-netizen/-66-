@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "stock_mm": [
+    740,
+    740
+  ],
+  "source_objects": 5359,
+  "all_original_path_commands_and_attributes_preserved": true,
+  "all_original_text_content_and_attributes_preserved": true,
+  "rotation_degrees": 0,
+  "mirrored": false,
+  "scale": 1,
+  "source_svg_sha256": "4bcad8803db52ca8d2fb5054a9864056fd21987dc4524519bdb486657c4f8ee6",
+  "repeat_main": 4,
+  "repeat_supplementary": 1,
+  "fields": [
+    {
+      "field": "main",
+      "file": "Белый-01-основной-740x740.svg",
+      "groups": 18,
+      "objects": 4786,
+      "minimum_gap_mm": 4.347597790310104,
+      "paths": 4784,
+      "live_texts": 2,
+      "exact_original_content_in_translated_groups": true,
+      "pdf_page_mm": [
+        740,
+        740
+      ]
+    },
+    {
+      "field": "supplementary",
+      "file": "Белый-02-дополнительный-на-4-набора-740x740.svg",
+      "groups": 16,
+      "objects": 2292,
+      "minimum_gap_mm": 4.53178436589693,
+      "paths": 2292,
+      "live_texts": 0,
+      "exact_original_content_in_translated_groups": true,
+      "pdf_page_mm": [
+        740,
+        740
+      ]
+    }
+  ],
+  "each_source_object_present_once_per_complete_set": true,
+  "source_cdr_sha256": "debe3f7e2edad113cc2f98e0c0ef5cff4e11dd7cdc16219ecc6f33667e02be3b",
+  "source_cdr_bytes": 1729143
+}

@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "protected_corner_mm": [
+    220,
+    220
+  ],
+  "fine_geometry_method": "red source elements with maximum bounding dimension <= 6 mm and > 0.15 mm",
+  "checks": [
+    {
+      "field": "main",
+      "groups": 18,
+      "minimum_gap_mm": 4.347597790310104,
+      "quality_risk_per_main_run_before": 856.5829759231216,
+      "quality_risk_per_main_run_after": 172.18024834733095,
+      "fine_points_in_protected_corner": 0
+    },
+    {
+      "field": "supplementary",
+      "groups": 16,
+      "minimum_gap_mm": 4.53178436589693,
+      "quality_risk_per_main_run_before": 79.93791510929415,
+      "quality_risk_per_main_run_after": 19.11127082597034,
+      "fine_points_in_protected_corner": 0
+    }
+  ],
+  "central_Russia_bottom_bounds": {
+    "P006": [
+      559.080115405,
+      489.88646744000005,
+      731.100142672,
+      731.389183081
+    ],
+    "P003": [
+      380.528484627,
+      415.100618024,
+      574.292261399,
+      731.298312222
+    ],
+    "P008": [
+      268.685930008,
+      500.392296782,
+      422.538810278,
+      731.338691438
+    ]
+  },
+  "whole_fine_curve_bounding_boxes_clear_of_220mm_corner": true,
+  "important_group_bounds_mm": {
+    "P006": [
+      559.080115405,
+      489.88646744000005,
+      731.100142672,
+      731.389183081
+    ],
+    "P003": [
+      380.528484627,
+      415.100618024,
+      574.292261399,
+      731.298312222
+    ],
+    "P008": [
+      268.685930008,
+      500.392296782,
+      422.538810278,
+      731.338691438
+    ],
+    "P007": [
+      475.070000056,
+      318.529939639,
+      731.528093171,
+      456.143904712
+    ],
+    "P002": [
+      425.697547402,
+      113.65173779899999,
+      731.197771013,
+      315.995668828
+    ]
+  }
+}

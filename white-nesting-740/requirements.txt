@@ -1,0 +1,8 @@
+numpy
+scipy
+shapely>=2.1
+svgpathtools
+lxml
+Pillow
+pypdf
+reportlab

@@ -1,0 +1,3051 @@
+{
+  "main": [
+    {
+      "source_id": "P014",
+      "copy": 1,
+      "dx_mm": 948,
+      "dy_mm": -408,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P001",
+      "copy": 1,
+      "dx_mm": -70,
+      "dy_mm": -146,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P009",
+      "copy": 1,
+      "dx_mm": 477,
+      "dy_mm": -252,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P006",
+      "copy": 1,
+      "dx_mm": -264,
+      "dy_mm": -585,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P002",
+      "copy": 1,
+      "dx_mm": -266,
+      "dy_mm": -630,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P007",
+      "copy": 1,
+      "dx_mm": -208,
+      "dy_mm": 45,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P003",
+      "copy": 1,
+      "dx_mm": 738,
+      "dy_mm": -326,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P004",
+      "copy": 1,
+      "dx_mm": 228,
+      "dy_mm": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P005",
+      "copy": 1,
+      "dx_mm": -654,
+      "dy_mm": 144,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P008",
+      "copy": 1,
+      "dx_mm": 489,
+      "dy_mm": -175,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P012",
+      "copy": 1,
+      "dx_mm": 723,
+      "dy_mm": -282,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P016",
+      "copy": 1,
+      "dx_mm": -327,
+      "dy_mm": 42,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P013",
+      "copy": 1,
+      "dx_mm": -63,
+      "dy_mm": -147,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P017",
+      "copy": 1,
+      "dx_mm": -857,
+      "dy_mm": 136,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P018",
+      "copy": 1,
+      "dx_mm": 23,
+      "dy_mm": -570,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P020",
+      "copy": 1,
+      "dx_mm": -161,
+      "dy_mm": -384,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P019",
+      "copy": 1,
+      "dx_mm": 212,
+      "dy_mm": -180,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P022",
+      "copy": 1,
+      "dx_mm": 410,
+      "dy_mm": -362,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P021",
+      "copy": 1,
+      "dx_mm": -197,
+      "dy_mm": -201,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    }
+  ],
+  "supplementary": [
+    {
+      "source_id": "P010",
+      "copy": 1,
+      "dx_mm": 218,
+      "dy_mm": -409,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P010",
+      "copy": 2,
+      "dx_mm": 218,
+      "dy_mm": -217,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P010",
+      "copy": 3,
+      "dx_mm": 218,
+      "dy_mm": -25,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P010",
+      "copy": 4,
+      "dx_mm": 285,
+      "dy_mm": 125,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P010",
+      "copy": 5,
+      "dx_mm": 326,
+      "dy_mm": -339,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P010",
+      "copy": 6,
+      "dx_mm": 326,
+      "dy_mm": -147,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P010",
+      "copy": 7,
+      "dx_mm": 391,
+      "dy_mm": 8,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P011",
+      "copy": 1,
+      "dx_mm": 189,
+      "dy_mm": -709,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P011",
+      "copy": 2,
+      "dx_mm": 201,
+      "dy_mm": -313,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P011",
+      "copy": 3,
+      "dx_mm": 226,
+      "dy_mm": -588,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P011",
+      "copy": 4,
+      "dx_mm": 295,
+      "dy_mm": -492,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P011",
+      "copy": 5,
+      "dx_mm": 321,
+      "dy_mm": -857,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P011",
+      "copy": 6,
+      "dx_mm": 367,
+      "dy_mm": -404,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P011",
+      "copy": 7,
+      "dx_mm": 380,
+      "dy_mm": -711,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P015",
+      "copy": 1,
+      "dx_mm": 501,
+      "dy_mm": 186,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P015",
+      "copy": 2,
+      "dx_mm": 543,
+      "dy_mm": -140,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P015",
+      "copy": 3,
+      "dx_mm": 606,
+      "dy_mm": -377,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P015",
+      "copy": 4,
+      "dx_mm": 606,
+      "dy_mm": -61,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P015",
+      "copy": 5,
+      "dx_mm": 616,
+      "dy_mm": 111,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P015",
+      "copy": 6,
+      "dx_mm": 663,
+      "dy_mm": -256,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "source_id": "P015",
+      "copy": 7,
+      "dx_mm": 681,
+      "dy_mm": 186,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    }
+  ],
+  "repeat": 7,
+  "main_trial": 225,
+  "remaining": [
+    "P010",
+    "P011",
+    "P015"
+  ],
+  "residual_area": 39510.88895438474,
+  "stock_mm": [
+    740,
+    740
+  ],
+  "edge_margin_mm": 5,
+  "required_gap_mm": 3,
+  "translation_only": true,
+  "checks": [
+    {
+      "field": "main",
+      "groups": 19,
+      "minimum_gap_mm": 4.583263151247416
+    },
+    {
+      "field": "supplementary",
+      "groups": 21,
+      "minimum_gap_mm": 4.522261294946675
+    }
+  ],
+  "attempts": [
+    {
+      "trial": 0,
+      "main_parts": 17,
+      "remaining": [
+        "P008",
+        "P010",
+        "P014",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 1,
+      "main_parts": 18,
+      "remaining": [
+        "P009",
+        "P016",
+        "P007",
+        "P012"
+      ]
+    },
+    {
+      "trial": 2,
+      "main_parts": 17,
+      "remaining": [
+        "P003",
+        "P010",
+        "P013",
+        "P015",
+        "P014"
+      ]
+    },
+    {
+      "trial": 3,
+      "main_parts": 18,
+      "remaining": [
+        "P014",
+        "P010",
+        "P012",
+        "P017"
+      ]
+    },
+    {
+      "trial": 4,
+      "main_parts": 18,
+      "remaining": [
+        "P004",
+        "P014",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 5,
+      "main_parts": 16,
+      "remaining": [
+        "P004",
+        "P014",
+        "P010",
+        "P011",
+        "P015",
+        "P013"
+      ]
+    },
+    {
+      "trial": 6,
+      "main_parts": 17,
+      "remaining": [
+        "P014",
+        "P007",
+        "P010",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 7,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P008",
+        "P011",
+        "P014",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 8,
+      "main_parts": 17,
+      "remaining": [
+        "P014",
+        "P010",
+        "P006",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 9,
+      "main_parts": 18,
+      "remaining": [
+        "P005",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 10,
+      "main_parts": 16,
+      "remaining": [
+        "P011",
+        "P010",
+        "P014",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 11,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P010",
+        "P011",
+        "P014",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 12,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P007",
+        "P011",
+        "P008",
+        "P017"
+      ]
+    },
+    {
+      "trial": 13,
+      "main_parts": 16,
+      "remaining": [
+        "P009",
+        "P014",
+        "P015",
+        "P016",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 14,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P011",
+        "P016",
+        "P013",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 15,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P011",
+        "P015",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 16,
+      "main_parts": 19,
+      "remaining": [
+        "P014",
+        "P008",
+        "P011"
+      ]
+    },
+    {
+      "trial": 17,
+      "main_parts": 18,
+      "remaining": [
+        "P010",
+        "P008",
+        "P007",
+        "P011"
+      ]
+    },
+    {
+      "trial": 18,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P012",
+        "P008",
+        "P013",
+        "P015"
+      ]
+    },
+    {
+      "trial": 19,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P011",
+        "P013",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 20,
+      "main_parts": 16,
+      "remaining": [
+        "P011",
+        "P008",
+        "P007",
+        "P012",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 21,
+      "main_parts": 16,
+      "remaining": [
+        "P008",
+        "P010",
+        "P011",
+        "P017",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 22,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P010",
+        "P014",
+        "P016",
+        "P013"
+      ]
+    },
+    {
+      "trial": 23,
+      "main_parts": 17,
+      "remaining": [
+        "P008",
+        "P011",
+        "P014",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 24,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P014",
+        "P011",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 25,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P010",
+        "P011",
+        "P014",
+        "P016"
+      ]
+    },
+    {
+      "trial": 26,
+      "main_parts": 16,
+      "remaining": [
+        "P014",
+        "P011",
+        "P015",
+        "P016",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 27,
+      "main_parts": 18,
+      "remaining": [
+        "P014",
+        "P011",
+        "P012",
+        "P016"
+      ]
+    },
+    {
+      "trial": 28,
+      "main_parts": 18,
+      "remaining": [
+        "P004",
+        "P014",
+        "P011",
+        "P015"
+      ]
+    },
+    {
+      "trial": 29,
+      "main_parts": 17,
+      "remaining": [
+        "P011",
+        "P014",
+        "P008",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 30,
+      "main_parts": 17,
+      "remaining": [
+        "P014",
+        "P006",
+        "P016",
+        "P013",
+        "P015"
+      ]
+    },
+    {
+      "trial": 31,
+      "main_parts": 18,
+      "remaining": [
+        "P004",
+        "P014",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 32,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P014",
+        "P010",
+        "P016",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 33,
+      "main_parts": 16,
+      "remaining": [
+        "P005",
+        "P014",
+        "P011",
+        "P013",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 34,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P008",
+        "P014",
+        "P011",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 35,
+      "main_parts": 16,
+      "remaining": [
+        "P005",
+        "P014",
+        "P011",
+        "P015",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 36,
+      "main_parts": 16,
+      "remaining": [
+        "P008",
+        "P007",
+        "P010",
+        "P011",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 37,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P007",
+        "P010",
+        "P013",
+        "P015"
+      ]
+    },
+    {
+      "trial": 38,
+      "main_parts": 16,
+      "remaining": [
+        "P011",
+        "P014",
+        "P013",
+        "P015",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 39,
+      "main_parts": 17,
+      "remaining": [
+        "P001",
+        "P008",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 40,
+      "main_parts": 16,
+      "remaining": [
+        "P009",
+        "P007",
+        "P010",
+        "P008",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 41,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P008",
+        "P011",
+        "P016",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 42,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P008",
+        "P016",
+        "P014",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 43,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P010",
+        "P011",
+        "P013",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 44,
+      "main_parts": 18,
+      "remaining": [
+        "P003",
+        "P007",
+        "P008",
+        "P011"
+      ]
+    },
+    {
+      "trial": 45,
+      "main_parts": 16,
+      "remaining": [
+        "P014",
+        "P008",
+        "P010",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 46,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P012",
+        "P014",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 47,
+      "main_parts": 17,
+      "remaining": [
+        "P011",
+        "P012",
+        "P013",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 48,
+      "main_parts": 17,
+      "remaining": [
+        "P014",
+        "P007",
+        "P011",
+        "P017",
+        "P013"
+      ]
+    },
+    {
+      "trial": 49,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P014",
+        "P011",
+        "P015",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 50,
+      "main_parts": 17,
+      "remaining": [
+        "P014",
+        "P008",
+        "P011",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 51,
+      "main_parts": 18,
+      "remaining": [
+        "P014",
+        "P008",
+        "P010",
+        "P011"
+      ]
+    },
+    {
+      "trial": 52,
+      "main_parts": 18,
+      "remaining": [
+        "P005",
+        "P014",
+        "P011",
+        "P008"
+      ]
+    },
+    {
+      "trial": 53,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P014",
+        "P008",
+        "P012",
+        "P016",
+        "P011"
+      ]
+    },
+    {
+      "trial": 54,
+      "main_parts": 16,
+      "remaining": [
+        "P014",
+        "P007",
+        "P013",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 55,
+      "main_parts": 17,
+      "remaining": [
+        "P004",
+        "P008",
+        "P010",
+        "P014",
+        "P017"
+      ]
+    },
+    {
+      "trial": 56,
+      "main_parts": 16,
+      "remaining": [
+        "P008",
+        "P011",
+        "P010",
+        "P014",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 57,
+      "main_parts": 17,
+      "remaining": [
+        "P014",
+        "P007",
+        "P010",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 58,
+      "main_parts": 18,
+      "remaining": [
+        "P005",
+        "P008",
+        "P014",
+        "P011"
+      ]
+    },
+    {
+      "trial": 59,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P014",
+        "P016",
+        "P011",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 60,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P012",
+        "P011",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 61,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P011",
+        "P016",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 62,
+      "main_parts": 16,
+      "remaining": [
+        "P011",
+        "P008",
+        "P012",
+        "P013",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 63,
+      "main_parts": 16,
+      "remaining": [
+        "P014",
+        "P010",
+        "P012",
+        "P013",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 64,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P007",
+        "P013",
+        "P011",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 65,
+      "main_parts": 18,
+      "remaining": [
+        "P012",
+        "P014",
+        "P016",
+        "P011"
+      ]
+    },
+    {
+      "trial": 66,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P011",
+        "P014",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 67,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P007",
+        "P016",
+        "P011",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 68,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P006",
+        "P011",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 69,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P008",
+        "P012",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 70,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P012",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 71,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P010",
+        "P015",
+        "P011",
+        "P016",
+        "P013"
+      ]
+    },
+    {
+      "trial": 72,
+      "main_parts": 16,
+      "remaining": [
+        "P014",
+        "P010",
+        "P008",
+        "P015",
+        "P016",
+        "P018"
+      ]
+    },
+    {
+      "trial": 73,
+      "main_parts": 16,
+      "remaining": [
+        "P014",
+        "P011",
+        "P010",
+        "P015",
+        "P016",
+        "P013"
+      ]
+    },
+    {
+      "trial": 74,
+      "main_parts": 18,
+      "remaining": [
+        "P014",
+        "P006",
+        "P008",
+        "P011"
+      ]
+    },
+    {
+      "trial": 75,
+      "main_parts": 16,
+      "remaining": [
+        "P014",
+        "P008",
+        "P016",
+        "P011",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 76,
+      "main_parts": 17,
+      "remaining": [
+        "P014",
+        "P007",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 77,
+      "main_parts": 17,
+      "remaining": [
+        "P001",
+        "P014",
+        "P013",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 78,
+      "main_parts": 15,
+      "remaining": [
+        "P013",
+        "P014",
+        "P010",
+        "P015",
+        "P016",
+        "P017",
+        "P011"
+      ]
+    },
+    {
+      "trial": 79,
+      "main_parts": 18,
+      "remaining": [
+        "P012",
+        "P008",
+        "P011",
+        "P014"
+      ]
+    },
+    {
+      "trial": 80,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P014",
+        "P011",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 81,
+      "main_parts": 16,
+      "remaining": [
+        "P014",
+        "P006",
+        "P015",
+        "P016",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 82,
+      "main_parts": 17,
+      "remaining": [
+        "P003",
+        "P014",
+        "P011",
+        "P015",
+        "P013"
+      ]
+    },
+    {
+      "trial": 83,
+      "main_parts": 17,
+      "remaining": [
+        "P003",
+        "P014",
+        "P016",
+        "P011",
+        "P015"
+      ]
+    },
+    {
+      "trial": 84,
+      "main_parts": 18,
+      "remaining": [
+        "P010",
+        "P017",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 85,
+      "main_parts": 16,
+      "remaining": [
+        "P004",
+        "P008",
+        "P011",
+        "P017",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 86,
+      "main_parts": 18,
+      "remaining": [
+        "P006",
+        "P010",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 87,
+      "main_parts": 18,
+      "remaining": [
+        "P010",
+        "P014",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 88,
+      "main_parts": 15,
+      "remaining": [
+        "P011",
+        "P007",
+        "P013",
+        "P012",
+        "P010",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 89,
+      "main_parts": 18,
+      "remaining": [
+        "P005",
+        "P014",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 90,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P007",
+        "P008",
+        "P011",
+        "P013",
+        "P015"
+      ]
+    },
+    {
+      "trial": 91,
+      "main_parts": 16,
+      "remaining": [
+        "P009",
+        "P010",
+        "P011",
+        "P016",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 92,
+      "main_parts": 15,
+      "remaining": [
+        "P005",
+        "P011",
+        "P010",
+        "P016",
+        "P013",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 93,
+      "main_parts": 17,
+      "remaining": [
+        "P008",
+        "P011",
+        "P006",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 94,
+      "main_parts": 16,
+      "remaining": [
+        "P011",
+        "P006",
+        "P012",
+        "P016",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 95,
+      "main_parts": 17,
+      "remaining": [
+        "P014",
+        "P008",
+        "P016",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 96,
+      "main_parts": 18,
+      "remaining": [
+        "P008",
+        "P006",
+        "P011",
+        "P015"
+      ]
+    },
+    {
+      "trial": 97,
+      "main_parts": 18,
+      "remaining": [
+        "P007",
+        "P006",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 98,
+      "main_parts": 18,
+      "remaining": [
+        "P003",
+        "P006",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 99,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P015",
+        "P016",
+        "P010",
+        "P011"
+      ]
+    },
+    {
+      "trial": 100,
+      "main_parts": 18,
+      "remaining": [
+        "P002",
+        "P010",
+        "P011",
+        "P008"
+      ]
+    },
+    {
+      "trial": 101,
+      "main_parts": 18,
+      "remaining": [
+        "P003",
+        "P008",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 102,
+      "main_parts": 18,
+      "remaining": [
+        "P006",
+        "P007",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 103,
+      "main_parts": 19,
+      "remaining": [
+        "P007",
+        "P006",
+        "P010"
+      ]
+    },
+    {
+      "trial": 104,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P007",
+        "P012",
+        "P011",
+        "P015"
+      ]
+    },
+    {
+      "trial": 105,
+      "main_parts": 17,
+      "remaining": [
+        "P008",
+        "P011",
+        "P010",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 106,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P011",
+        "P013",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 107,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P008",
+        "P016",
+        "P011",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 108,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P006",
+        "P011",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 109,
+      "main_parts": 16,
+      "remaining": [
+        "P008",
+        "P005",
+        "P011",
+        "P016",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 110,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P006",
+        "P011",
+        "P010",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 111,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P012",
+        "P011",
+        "P015",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 112,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P011",
+        "P015",
+        "P016",
+        "P013"
+      ]
+    },
+    {
+      "trial": 113,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P007",
+        "P015",
+        "P017",
+        "P013"
+      ]
+    },
+    {
+      "trial": 114,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P009",
+        "P005",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 115,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P010",
+        "P008",
+        "P011",
+        "P015"
+      ]
+    },
+    {
+      "trial": 116,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P016",
+        "P011",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 117,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P011",
+        "P015",
+        "P013",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 118,
+      "main_parts": 18,
+      "remaining": [
+        "P007",
+        "P005",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 119,
+      "main_parts": 17,
+      "remaining": [
+        "P009",
+        "P007",
+        "P011",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 120,
+      "main_parts": 17,
+      "remaining": [
+        "P011",
+        "P006",
+        "P008",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 121,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P010",
+        "P016",
+        "P011",
+        "P013"
+      ]
+    },
+    {
+      "trial": 122,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P006",
+        "P012",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 123,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P011",
+        "P016",
+        "P013",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 124,
+      "main_parts": 18,
+      "remaining": [
+        "P007",
+        "P010",
+        "P015",
+        "P011"
+      ]
+    },
+    {
+      "trial": 125,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P008",
+        "P010",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 126,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P010",
+        "P013",
+        "P015",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 127,
+      "main_parts": 17,
+      "remaining": [
+        "P012",
+        "P011",
+        "P010",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 128,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P013",
+        "P010",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 129,
+      "main_parts": 17,
+      "remaining": [
+        "P009",
+        "P008",
+        "P010",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 130,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P016",
+        "P010",
+        "P011",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 131,
+      "main_parts": 16,
+      "remaining": [
+        "P003",
+        "P010",
+        "P016",
+        "P013",
+        "P015",
+        "P011"
+      ]
+    },
+    {
+      "trial": 132,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P012",
+        "P011",
+        "P015",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 133,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P012",
+        "P016",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 134,
+      "main_parts": 18,
+      "remaining": [
+        "P006",
+        "P012",
+        "P010",
+        "P011"
+      ]
+    },
+    {
+      "trial": 135,
+      "main_parts": 17,
+      "remaining": [
+        "P003",
+        "P011",
+        "P013",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 136,
+      "main_parts": 15,
+      "remaining": [
+        "P004",
+        "P012",
+        "P011",
+        "P013",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 137,
+      "main_parts": 17,
+      "remaining": [
+        "P012",
+        "P006",
+        "P016",
+        "P011",
+        "P013"
+      ]
+    },
+    {
+      "trial": 138,
+      "main_parts": 17,
+      "remaining": [
+        "P008",
+        "P006",
+        "P010",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 139,
+      "main_parts": 17,
+      "remaining": [
+        "P001",
+        "P008",
+        "P017",
+        "P013",
+        "P015"
+      ]
+    },
+    {
+      "trial": 140,
+      "main_parts": 18,
+      "remaining": [
+        "P002",
+        "P011",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 141,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P007",
+        "P011",
+        "P013",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 142,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P006",
+        "P008",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 143,
+      "main_parts": 19,
+      "remaining": [
+        "P009",
+        "P005",
+        "P007"
+      ]
+    },
+    {
+      "trial": 144,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P006",
+        "P011",
+        "P017",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 145,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P011",
+        "P017",
+        "P016",
+        "P013",
+        "P015"
+      ]
+    },
+    {
+      "trial": 146,
+      "main_parts": 17,
+      "remaining": [
+        "P004",
+        "P012",
+        "P015",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 147,
+      "main_parts": 19,
+      "remaining": [
+        "P001",
+        "P003",
+        "P011"
+      ]
+    },
+    {
+      "trial": 148,
+      "main_parts": 18,
+      "remaining": [
+        "P002",
+        "P006",
+        "P008",
+        "P011"
+      ]
+    },
+    {
+      "trial": 149,
+      "main_parts": 17,
+      "remaining": [
+        "P004",
+        "P011",
+        "P016",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 150,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P008",
+        "P011",
+        "P015",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 151,
+      "main_parts": 16,
+      "remaining": [
+        "P008",
+        "P006",
+        "P011",
+        "P013",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 152,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P008",
+        "P011",
+        "P015",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 153,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P011",
+        "P012",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 154,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P011",
+        "P010",
+        "P015",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 155,
+      "main_parts": 17,
+      "remaining": [
+        "P011",
+        "P010",
+        "P013",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 156,
+      "main_parts": 17,
+      "remaining": [
+        "P009",
+        "P011",
+        "P012",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 157,
+      "main_parts": 19,
+      "remaining": [
+        "P006",
+        "P011",
+        "P015"
+      ]
+    },
+    {
+      "trial": 158,
+      "main_parts": 17,
+      "remaining": [
+        "P012",
+        "P006",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 159,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P006",
+        "P007",
+        "P016",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 160,
+      "main_parts": 16,
+      "remaining": [
+        "P004",
+        "P007",
+        "P011",
+        "P013",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 161,
+      "main_parts": 16,
+      "remaining": [
+        "P005",
+        "P012",
+        "P015",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 162,
+      "main_parts": 18,
+      "remaining": [
+        "P005",
+        "P008",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 163,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P007",
+        "P015",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 164,
+      "main_parts": 18,
+      "remaining": [
+        "P012",
+        "P011",
+        "P016",
+        "P010"
+      ]
+    },
+    {
+      "trial": 165,
+      "main_parts": 19,
+      "remaining": [
+        "P001",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 166,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P011",
+        "P010",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 167,
+      "main_parts": 17,
+      "remaining": [
+        "P002",
+        "P007",
+        "P012",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 168,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P007",
+        "P008",
+        "P013",
+        "P015"
+      ]
+    },
+    {
+      "trial": 169,
+      "main_parts": 18,
+      "remaining": [
+        "P006",
+        "P011",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 170,
+      "main_parts": 17,
+      "remaining": [
+        "P003",
+        "P010",
+        "P011",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 171,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P008",
+        "P016",
+        "P013",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 172,
+      "main_parts": 17,
+      "remaining": [
+        "P004",
+        "P008",
+        "P015",
+        "P016",
+        "P013"
+      ]
+    },
+    {
+      "trial": 173,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P008",
+        "P011",
+        "P010",
+        "P017"
+      ]
+    },
+    {
+      "trial": 174,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P011",
+        "P013",
+        "P010",
+        "P016"
+      ]
+    },
+    {
+      "trial": 175,
+      "main_parts": 18,
+      "remaining": [
+        "P006",
+        "P008",
+        "P010",
+        "P016"
+      ]
+    },
+    {
+      "trial": 176,
+      "main_parts": 19,
+      "remaining": [
+        "P004",
+        "P008",
+        "P010"
+      ]
+    },
+    {
+      "trial": 177,
+      "main_parts": 19,
+      "remaining": [
+        "P002",
+        "P008",
+        "P011"
+      ]
+    },
+    {
+      "trial": 178,
+      "main_parts": 16,
+      "remaining": [
+        "P011",
+        "P007",
+        "P008",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 179,
+      "main_parts": 17,
+      "remaining": [
+        "P010",
+        "P008",
+        "P012",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 180,
+      "main_parts": 18,
+      "remaining": [
+        "P001",
+        "P008",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 181,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P008",
+        "P015",
+        "P011",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 182,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P013",
+        "P011",
+        "P016",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 183,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P012",
+        "P011",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 184,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P011",
+        "P008",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 185,
+      "main_parts": 18,
+      "remaining": [
+        "P011",
+        "P007",
+        "P008",
+        "P016"
+      ]
+    },
+    {
+      "trial": 186,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P010",
+        "P011",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 187,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P007",
+        "P011",
+        "P010",
+        "P016"
+      ]
+    },
+    {
+      "trial": 188,
+      "main_parts": 18,
+      "remaining": [
+        "P005",
+        "P011",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 189,
+      "main_parts": 19,
+      "remaining": [
+        "P001",
+        "P005",
+        "P007"
+      ]
+    },
+    {
+      "trial": 190,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P012",
+        "P006",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 191,
+      "main_parts": 18,
+      "remaining": [
+        "P009",
+        "P007",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 192,
+      "main_parts": 17,
+      "remaining": [
+        "P002",
+        "P011",
+        "P010",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 193,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P011",
+        "P017",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 194,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P010",
+        "P011",
+        "P015",
+        "P013"
+      ]
+    },
+    {
+      "trial": 195,
+      "main_parts": 17,
+      "remaining": [
+        "P010",
+        "P007",
+        "P011",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 196,
+      "main_parts": 18,
+      "remaining": [
+        "P004",
+        "P009",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 197,
+      "main_parts": 17,
+      "remaining": [
+        "P008",
+        "P011",
+        "P006",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 198,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P013",
+        "P008",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 199,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P008",
+        "P013",
+        "P016",
+        "P011"
+      ]
+    },
+    {
+      "trial": 200,
+      "main_parts": 17,
+      "remaining": [
+        "P010",
+        "P012",
+        "P011",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 201,
+      "main_parts": 18,
+      "remaining": [
+        "P008",
+        "P013",
+        "P012",
+        "P011"
+      ]
+    },
+    {
+      "trial": 202,
+      "main_parts": 18,
+      "remaining": [
+        "P004",
+        "P011",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 203,
+      "main_parts": 18,
+      "remaining": [
+        "P003",
+        "P011",
+        "P013",
+        "P015"
+      ]
+    },
+    {
+      "trial": 204,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P012",
+        "P016",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 205,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P013",
+        "P012",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 206,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P011",
+        "P008",
+        "P012",
+        "P017",
+        "P016"
+      ]
+    },
+    {
+      "trial": 207,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P011",
+        "P008",
+        "P010",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 208,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P012",
+        "P008",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 209,
+      "main_parts": 16,
+      "remaining": [
+        "P007",
+        "P012",
+        "P011",
+        "P010",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 210,
+      "main_parts": 18,
+      "remaining": [
+        "P004",
+        "P007",
+        "P008",
+        "P016"
+      ]
+    },
+    {
+      "trial": 211,
+      "main_parts": 17,
+      "remaining": [
+        "P012",
+        "P007",
+        "P011",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 212,
+      "main_parts": 17,
+      "remaining": [
+        "P002",
+        "P007",
+        "P013",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 213,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P010",
+        "P013",
+        "P011",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 214,
+      "main_parts": 18,
+      "remaining": [
+        "P006",
+        "P011",
+        "P013",
+        "P017"
+      ]
+    },
+    {
+      "trial": 215,
+      "main_parts": 19,
+      "remaining": [
+        "P012",
+        "P007",
+        "P011"
+      ]
+    },
+    {
+      "trial": 216,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P007",
+        "P011",
+        "P015",
+        "P013"
+      ]
+    },
+    {
+      "trial": 217,
+      "main_parts": 16,
+      "remaining": [
+        "P015",
+        "P008",
+        "P011",
+        "P013",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 218,
+      "main_parts": 18,
+      "remaining": [
+        "P006",
+        "P008",
+        "P011",
+        "P016"
+      ]
+    },
+    {
+      "trial": 219,
+      "main_parts": 17,
+      "remaining": [
+        "P006",
+        "P008",
+        "P011",
+        "P015",
+        "P013"
+      ]
+    },
+    {
+      "trial": 220,
+      "main_parts": 16,
+      "remaining": [
+        "P010",
+        "P008",
+        "P011",
+        "P017",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 221,
+      "main_parts": 18,
+      "remaining": [
+        "P002",
+        "P012",
+        "P015",
+        "P016"
+      ]
+    },
+    {
+      "trial": 222,
+      "main_parts": 16,
+      "remaining": [
+        "P003",
+        "P011",
+        "P016",
+        "P013",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 223,
+      "main_parts": 18,
+      "remaining": [
+        "P004",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 224,
+      "main_parts": 18,
+      "remaining": [
+        "P006",
+        "P011",
+        "P008",
+        "P016"
+      ]
+    },
+    {
+      "trial": 225,
+      "main_parts": 19,
+      "remaining": [
+        "P010",
+        "P011",
+        "P015"
+      ]
+    },
+    {
+      "trial": 226,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P010",
+        "P011",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 227,
+      "main_parts": 18,
+      "remaining": [
+        "P004",
+        "P006",
+        "P008",
+        "P011"
+      ]
+    },
+    {
+      "trial": 228,
+      "main_parts": 17,
+      "remaining": [
+        "P011",
+        "P015",
+        "P013",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 229,
+      "main_parts": 17,
+      "remaining": [
+        "P005",
+        "P011",
+        "P007",
+        "P015",
+        "P013"
+      ]
+    },
+    {
+      "trial": 230,
+      "main_parts": 17,
+      "remaining": [
+        "P008",
+        "P011",
+        "P012",
+        "P016",
+        "P017"
+      ]
+    },
+    {
+      "trial": 231,
+      "main_parts": 17,
+      "remaining": [
+        "P008",
+        "P015",
+        "P016",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 232,
+      "main_parts": 16,
+      "remaining": [
+        "P006",
+        "P007",
+        "P010",
+        "P016",
+        "P015",
+        "P017"
+      ]
+    },
+    {
+      "trial": 233,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P007",
+        "P011",
+        "P016",
+        "P017",
+        "P015"
+      ]
+    },
+    {
+      "trial": 234,
+      "main_parts": 16,
+      "remaining": [
+        "P012",
+        "P010",
+        "P008",
+        "P011",
+        "P013",
+        "P016"
+      ]
+    },
+    {
+      "trial": 235,
+      "main_parts": 16,
+      "remaining": [
+        "P004",
+        "P013",
+        "P011",
+        "P017",
+        "P016",
+        "P015"
+      ]
+    },
+    {
+      "trial": 236,
+      "main_parts": 18,
+      "remaining": [
+        "P001",
+        "P007",
+        "P011",
+        "P017"
+      ]
+    },
+    {
+      "trial": 237,
+      "main_parts": 18,
+      "remaining": [
+        "P001",
+        "P011",
+        "P016",
+        "P013"
+      ]
+    },
+    {
+      "trial": 238,
+      "main_parts": 17,
+      "remaining": [
+        "P007",
+        "P011",
+        "P008",
+        "P010",
+        "P017"
+      ]
+    },
+    {
+      "trial": 239,
+      "main_parts": 17,
+      "remaining": [
+        "P011",
+        "P007",
+        "P013",
+        "P016",
+        "P017"
+      ]
+    }
+  ]
+}

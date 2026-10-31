@@ -1,0 +1,1292 @@
+[
+  {
+    "index": 217,
+    "closed": false,
+    "segments": 1,
+    "subpaths": 1,
+    "bounds": [
+      -34.25359333333333,
+      596.0993002777777,
+      -34.25228805555555,
+      596.0993002777777
+    ],
+    "width": 0.0013052777777744495,
+    "height": 0.0,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 218,
+    "closed": false,
+    "segments": 254,
+    "subpaths": 2,
+    "bounds": [
+      -68.22818096514199,
+      596.0993002777775,
+      -18.61181472222222,
+      741.0767852777776
+    ],
+    "width": 49.61636624291977,
+    "height": 144.97748500000012,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 219,
+    "closed": false,
+    "segments": 990,
+    "subpaths": 2,
+    "bounds": [
+      -34.25228805555555,
+      546.4803690382934,
+      85.44892567506982,
+      777.2521643308916
+    ],
+    "width": 119.70121373062537,
+    "height": 230.7717952925982,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 289,
+    "closed": false,
+    "segments": 405,
+    "subpaths": 2,
+    "bounds": [
+      -74.98953850485425,
+      384.5971425735298,
+      42.72598702479407,
+      543.885080158492
+    ],
+    "width": 117.71552552964832,
+    "height": 159.28793758496215,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 290,
+    "closed": true,
+    "segments": 6,
+    "subpaths": 1,
+    "bounds": [
+      239.27251555555551,
+      308.3020955555555,
+      239.29738638888887,
+      308.3405130555556
+    ],
+    "width": 0.024870833333352493,
+    "height": 0.038417500000093696,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 291,
+    "closed": true,
+    "segments": 9,
+    "subpaths": 1,
+    "bounds": [
+      239.29558722222222,
+      308.3120086111111,
+      239.32169277777788,
+      308.3411127777778
+    ],
+    "width": 0.02610555555565952,
+    "height": 0.029104166666741094,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 292,
+    "closed": true,
+    "segments": 8,
+    "subpaths": 1,
+    "bounds": [
+      239.300385,
+      308.31599499999976,
+      239.31678916666664,
+      308.33719694444443
+    ],
+    "width": 0.016404166666632136,
+    "height": 0.021201944444669607,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 293,
+    "closed": true,
+    "segments": 12,
+    "subpaths": 1,
+    "bounds": [
+      239.327196111111,
+      308.3126083333332,
+      239.34980916666666,
+      308.34051305555573
+    ],
+    "width": 0.022613055555666506,
+    "height": 0.027904722222558576,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 294,
+    "closed": true,
+    "segments": 9,
+    "subpaths": 1,
+    "bounds": [
+      239.35520666666665,
+      308.3120086111111,
+      239.3813122222222,
+      308.3411127777778
+    ],
+    "width": 0.026105555555545834,
+    "height": 0.029104166666741094,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 295,
+    "closed": true,
+    "segments": 8,
+    "subpaths": 1,
+    "bounds": [
+      239.36000444444434,
+      308.31599499999976,
+      239.37640861111106,
+      308.33719694444443
+    ],
+    "width": 0.0164041666667174,
+    "height": 0.021201944444669607,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 296,
+    "closed": true,
+    "segments": 16,
+    "subpaths": 1,
+    "bounds": [
+      239.38268805555555,
+      308.3126083333333,
+      239.40988722222224,
+      308.3406894444444
+    ],
+    "width": 0.027199166666690644,
+    "height": 0.02808111111113476,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 297,
+    "closed": true,
+    "segments": 18,
+    "subpaths": 1,
+    "bounds": [
+      239.41429694444423,
+      308.3126083333333,
+      239.43980277777783,
+      308.3518019444444
+    ],
+    "width": 0.025505833333596684,
+    "height": 0.0391936111111022,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 298,
+    "closed": true,
+    "segments": 16,
+    "subpaths": 1,
+    "bounds": [
+      239.4395911111111,
+      308.3126083333333,
+      239.46679027777776,
+      308.3406894444444
+    ],
+    "width": 0.027199166666662222,
+    "height": 0.02808111111113476,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 299,
+    "closed": true,
+    "segments": 18,
+    "subpaths": 1,
+    "bounds": [
+      239.47119999999998,
+      308.3126083333333,
+      239.4967058333333,
+      308.3518019444444
+    ],
+    "width": 0.025505833333312466,
+    "height": 0.0391936111111022,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 310,
+    "closed": true,
+    "segments": 6,
+    "subpaths": 1,
+    "bounds": [
+      239.27251555555551,
+      308.3020955555555,
+      239.29738638888887,
+      308.3405130555556
+    ],
+    "width": 0.024870833333352493,
+    "height": 0.038417500000093696,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 311,
+    "closed": true,
+    "segments": 9,
+    "subpaths": 1,
+    "bounds": [
+      239.29558722222222,
+      308.3120086111111,
+      239.32169277777788,
+      308.3411127777778
+    ],
+    "width": 0.02610555555565952,
+    "height": 0.029104166666741094,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 312,
+    "closed": true,
+    "segments": 8,
+    "subpaths": 1,
+    "bounds": [
+      239.300385,
+      308.31599499999976,
+      239.31678916666664,
+      308.33719694444443
+    ],
+    "width": 0.016404166666632136,
+    "height": 0.021201944444669607,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 313,
+    "closed": true,
+    "segments": 12,
+    "subpaths": 1,
+    "bounds": [
+      239.327196111111,
+      308.3126083333332,
+      239.34980916666666,
+      308.34051305555573
+    ],
+    "width": 0.022613055555666506,
+    "height": 0.027904722222558576,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 314,
+    "closed": true,
+    "segments": 9,
+    "subpaths": 1,
+    "bounds": [
+      239.35520666666665,
+      308.3120086111111,
+      239.3813122222222,
+      308.3411127777778
+    ],
+    "width": 0.026105555555545834,
+    "height": 0.029104166666741094,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 315,
+    "closed": true,
+    "segments": 8,
+    "subpaths": 1,
+    "bounds": [
+      239.36000444444434,
+      308.31599499999976,
+      239.37640861111106,
+      308.33719694444443
+    ],
+    "width": 0.0164041666667174,
+    "height": 0.021201944444669607,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 316,
+    "closed": true,
+    "segments": 16,
+    "subpaths": 1,
+    "bounds": [
+      239.38268805555555,
+      308.3126083333333,
+      239.40988722222224,
+      308.3406894444444
+    ],
+    "width": 0.027199166666690644,
+    "height": 0.02808111111113476,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 317,
+    "closed": true,
+    "segments": 18,
+    "subpaths": 1,
+    "bounds": [
+      239.41429694444423,
+      308.3126083333333,
+      239.43980277777783,
+      308.3518019444444
+    ],
+    "width": 0.025505833333596684,
+    "height": 0.0391936111111022,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 318,
+    "closed": true,
+    "segments": 16,
+    "subpaths": 1,
+    "bounds": [
+      239.4395911111111,
+      308.3126083333333,
+      239.46679027777776,
+      308.3406894444444
+    ],
+    "width": 0.027199166666662222,
+    "height": 0.02808111111113476,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 319,
+    "closed": true,
+    "segments": 18,
+    "subpaths": 1,
+    "bounds": [
+      239.47119999999998,
+      308.3126083333333,
+      239.4967058333333,
+      308.3518019444444
+    ],
+    "width": 0.025505833333312466,
+    "height": 0.0391936111111022,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 372,
+    "closed": false,
+    "segments": 14,
+    "subpaths": 1,
+    "bounds": [
+      250.7537036111111,
+      359.6639860164013,
+      289.419700277778,
+      366.9485181381831
+    ],
+    "width": 38.66599666666693,
+    "height": 7.284532121781808,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 373,
+    "closed": false,
+    "segments": 22,
+    "subpaths": 1,
+    "bounds": [
+      289.43208277777774,
+      364.5751958333333,
+      337.5215147222222,
+      394.5429977777779
+    ],
+    "width": 48.08943194444447,
+    "height": 29.967801944444602,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 374,
+    "closed": false,
+    "segments": 1,
+    "subpaths": 1,
+    "bounds": [
+      289.41970027777774,
+      364.5751958333331,
+      289.4320827777779,
+      366.92240277777773
+    ],
+    "width": 0.012382500000171603,
+    "height": 2.347206944444622,
+    "style": "stroke-width: 0.2551; stroke: #1b1918; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 375,
+    "closed": false,
+    "segments": 496,
+    "subpaths": 3,
+    "bounds": [
+      216.15887059638348,
+      260.6188401535778,
+      472.439699486967,
+      398.0553729289188
+    ],
+    "width": 256.2808288905835,
+    "height": 137.436532775341,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1200,
+    "closed": false,
+    "segments": 301,
+    "subpaths": 3,
+    "bounds": [
+      413.9384647342778,
+      348.54991249999995,
+      471.0931226811819,
+      405.63889182091356
+    ],
+    "width": 57.15465794690414,
+    "height": 57.08897932091361,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1259,
+    "closed": false,
+    "segments": 250,
+    "subpaths": 2,
+    "bounds": [
+      204.3698476443419,
+      355.37291694444434,
+      247.9894427777779,
+      399.55663660136594
+    ],
+    "width": 43.61959513343601,
+    "height": 44.183719656921596,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1335,
+    "closed": false,
+    "segments": 137,
+    "subpaths": 1,
+    "bounds": [
+      238.73356488670848,
+      390.04060083333303,
+      252.57791750000024,
+      397.00978702378853
+    ],
+    "width": 13.844352613291761,
+    "height": 6.969186190455503,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1336,
+    "closed": false,
+    "segments": 1,
+    "subpaths": 1,
+    "bounds": [
+      252.57791749999996,
+      390.1787838888889,
+      252.57911694444442,
+      390.1794894444444
+    ],
+    "width": 0.0011994444444667351,
+    "height": 0.0007055555554984494,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1337,
+    "closed": false,
+    "segments": 130,
+    "subpaths": 2,
+    "bounds": [
+      252.57911694444442,
+      369.7905986400858,
+      280.91288749999995,
+      394.89298262625914
+    ],
+    "width": 28.33377055555553,
+    "height": 25.102383986173322,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1338,
+    "closed": false,
+    "segments": 1,
+    "subpaths": 1,
+    "bounds": [
+      254.50718861111108,
+      376.3616072222222,
+      254.5221111111111,
+      376.4137124999999
+    ],
+    "width": 0.014922500000011496,
+    "height": 0.05210527777774132,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1339,
+    "closed": false,
+    "segments": 11,
+    "subpaths": 1,
+    "bounds": [
+      254.21626142234442,
+      376.4137124999999,
+      255.4420849999999,
+      380.4497019444443
+    ],
+    "width": 1.2258235776554898,
+    "height": 4.035989444444397,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1340,
+    "closed": false,
+    "segments": 1,
+    "subpaths": 1,
+    "bounds": [
+      255.44148527777776,
+      380.4492080555555,
+      255.442085,
+      380.4497019444444
+    ],
+    "width": 0.0005997222222333676,
+    "height": 0.0004938888889114423,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1341,
+    "closed": false,
+    "segments": 35,
+    "subpaths": 2,
+    "bounds": [
+      244.42529361111085,
+      380.4492080555555,
+      255.44148527777776,
+      390.41010027777753
+    ],
+    "width": 11.016191666666913,
+    "height": 9.960892222222014,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1342,
+    "closed": false,
+    "segments": 799,
+    "subpaths": 2,
+    "bounds": [
+      10.810576548957428,
+      259.0559977612478,
+      217.28554676482364,
+      599.3230188225929
+    ],
+    "width": 206.47497021586622,
+    "height": 340.2670210613451,
+    "style": "stroke-width: 0.2160; stroke: #1b1918; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; fill: none; "
+  },
+  {
+    "index": 1817,
+    "closed": false,
+    "segments": 131,
+    "subpaths": 2,
+    "bounds": [
+      -237.6065688769621,
+      354.84394035247186,
+      -124.37273903817719,
+      407.8543413211213
+    ],
+    "width": 113.2338298387849,
+    "height": 53.010400968649435,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1818,
+    "closed": false,
+    "segments": 161,
+    "subpaths": 2,
+    "bounds": [
+      -176.53017019275103,
+      282.70808089179434,
+      -57.160579221661685,
+      388.508796493672
+    ],
+    "width": 119.36959097108934,
+    "height": 105.80071560187764,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1819,
+    "closed": false,
+    "segments": 48,
+    "subpaths": 2,
+    "bounds": [
+      -186.43419903114824,
+      345.0053320091605,
+      -131.43636984127073,
+      376.19210924452426
+    ],
+    "width": 54.99782918987751,
+    "height": 31.186777235363763,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1820,
+    "closed": false,
+    "segments": 95,
+    "subpaths": 2,
+    "bounds": [
+      -259.97914122664747,
+      282.56236367940363,
+      -202.60242260560972,
+      357.9353923873368
+    ],
+    "width": 57.37671862103775,
+    "height": 75.37302870793314,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1821,
+    "closed": false,
+    "segments": 44,
+    "subpaths": 2,
+    "bounds": [
+      -191.03914457141693,
+      268.46590343839574,
+      -164.76670558367894,
+      302.3549150272414
+    ],
+    "width": 26.272438987737985,
+    "height": 33.889011588845676,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1822,
+    "closed": false,
+    "segments": 81,
+    "subpaths": 2,
+    "bounds": [
+      -216.29578359354014,
+      301.06763465144763,
+      -178.3480270051599,
+      352.4438170180304
+    ],
+    "width": 37.94775658838023,
+    "height": 51.37618236658278,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1823,
+    "closed": false,
+    "segments": 49,
+    "subpaths": 2,
+    "bounds": [
+      -166.84821656977488,
+      263.96910145807556,
+      -136.55315525356963,
+      301.8826504286215
+    ],
+    "width": 30.29506131620525,
+    "height": 37.913548970545946,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1824,
+    "closed": false,
+    "segments": 8,
+    "subpaths": 4,
+    "bounds": [
+      -263.7968858333333,
+      259.80760416666664,
+      -53.02609833333333,
+      410.3354830555555
+    ],
+    "width": 210.77078749999998,
+    "height": 150.5278788888889,
+    "style": "stroke-width: 0.5669; stroke: #1b1918; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; fill: none; "
+  },
+  {
+    "index": 1925,
+    "closed": false,
+    "segments": 3,
+    "subpaths": 1,
+    "bounds": [
+      -228.4407913888889,
+      748.6294103652788,
+      -216.48349444444457,
+      749.8780969444442
+    ],
+    "width": 11.957296944444323,
+    "height": 1.248686579165451,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1926,
+    "closed": false,
+    "segments": 7,
+    "subpaths": 1,
+    "bounds": [
+      -255.10320666666664,
+      563.2005147222221,
+      -216.48349444444455,
+      564.9005155555554
+    ],
+    "width": 38.61971222222209,
+    "height": 1.7000008333333199,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1927,
+    "closed": false,
+    "segments": 83,
+    "subpaths": 12,
+    "bounds": [
+      -263.3135796094139,
+      416.1491902777778,
+      -216.48349444444443,
+      924.2699108333333
+    ],
+    "width": 46.83008516496949,
+    "height": 508.12072055555547,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1937,
+    "closed": false,
+    "segments": 105,
+    "subpaths": 3,
+    "bounds": [
+      -210.05810583333331,
+      460.342403333333,
+      -80.92694405242003,
+      604.8965592849103
+    ],
+    "width": 129.1311617809133,
+    "height": 144.5541559515773,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 1952,
+    "closed": false,
+    "segments": 70,
+    "subpaths": 1,
+    "bounds": [
+      -207.9521988888888,
+      417.16395861041076,
+      -87.73018888888888,
+      464.3396751711907
+    ],
+    "width": 120.22200999999993,
+    "height": 47.17571656077996,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 2568,
+    "closed": false,
+    "segments": 1658,
+    "subpaths": 3,
+    "bounds": [
+      -211.38190444444444,
+      571.1891024634505,
+      -17.796686388888883,
+      887.2086461844904
+    ],
+    "width": 193.58521805555557,
+    "height": 316.0195437210399,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3522,
+    "closed": false,
+    "segments": 1,
+    "subpaths": 1,
+    "bounds": [
+      394.7246077777777,
+      830.1186019444443,
+      394.77540777777773,
+      830.1235055555555
+    ],
+    "width": 0.050800000000037926,
+    "height": 0.0049036111112172875,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3523,
+    "closed": false,
+    "segments": 27,
+    "subpaths": 1,
+    "bounds": [
+      378.225685,
+      830.1235055555555,
+      394.7246077777777,
+      833.9676426134293
+    ],
+    "width": 16.498922777777693,
+    "height": 3.8441370578738088,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3524,
+    "closed": false,
+    "segments": 1225,
+    "subpaths": 3,
+    "bounds": [
+      300.1696308157468,
+      592.9754290538989,
+      472.01058609032714,
+      834.3009941666667
+    ],
+    "width": 171.84095527458032,
+    "height": 241.32556511276778,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3581,
+    "closed": false,
+    "segments": 353,
+    "subpaths": 2,
+    "bounds": [
+      168.86209277777775,
+      739.3913902298863,
+      226.82080055555554,
+      863.7919923280995
+    ],
+    "width": 57.95870777777779,
+    "height": 124.4006020982132,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3699,
+    "closed": false,
+    "segments": 1,
+    "subpaths": 1,
+    "bounds": [
+      232.58448388888885,
+      762.8880122222221,
+      232.58589499999997,
+      762.8880122222221
+    ],
+    "width": 0.0014111111111105856,
+    "height": 0.0,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3700,
+    "closed": false,
+    "segments": 33,
+    "subpaths": 1,
+    "bounds": [
+      220.22449111111112,
+      762.8880122222221,
+      235.50079613932945,
+      802.8784072222221
+    ],
+    "width": 15.276305028218331,
+    "height": 39.990395000000035,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3701,
+    "closed": false,
+    "segments": 759,
+    "subpaths": 3,
+    "bounds": [
+      205.730547817652,
+      713.2688845168137,
+      324.58148472222217,
+      872.4084446964372
+    ],
+    "width": 118.85093690457018,
+    "height": 159.13956017962346,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3882,
+    "closed": false,
+    "segments": 74,
+    "subpaths": 2,
+    "bounds": [
+      -151.88150251360608,
+      914.3266109265402,
+      -102.73184969999403,
+      960.0811233278799
+    ],
+    "width": 49.14965281361205,
+    "height": 45.75451240133975,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3902,
+    "closed": false,
+    "segments": 147,
+    "subpaths": 2,
+    "bounds": [
+      -190.9398401641581,
+      949.527465457205,
+      -100.48710214918023,
+      978.782175054834
+    ],
+    "width": 90.45273801497788,
+    "height": 29.254709597629017,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3941,
+    "closed": false,
+    "segments": 8,
+    "subpaths": 4,
+    "bounds": [
+      -210.51999777777775,
+      889.7768872222222,
+      8.29909722222222,
+      981.4988977777776
+    ],
+    "width": 218.81909499999998,
+    "height": 91.72201055555547,
+    "style": "stroke-width: 0.5669; stroke: #1b1918; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; fill: none; "
+  },
+  {
+    "index": 3942,
+    "closed": false,
+    "segments": 82,
+    "subpaths": 2,
+    "bounds": [
+      -112.73965727351148,
+      908.4907174540449,
+      5.726962617278236,
+      948.1061251906993
+    ],
+    "width": 118.46661989078972,
+    "height": 39.61540773665445,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3943,
+    "closed": false,
+    "segments": 44,
+    "subpaths": 2,
+    "bounds": [
+      -95.9993149621309,
+      931.2143737596635,
+      -35.3842198244102,
+      945.0905941255244
+    ],
+    "width": 60.615095137720694,
+    "height": 13.876220365860831,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3944,
+    "closed": false,
+    "segments": 54,
+    "subpaths": 2,
+    "bounds": [
+      -46.28858179373649,
+      938.8740036796262,
+      -17.79463220973318,
+      959.8730961986153
+    ],
+    "width": 28.49394958400331,
+    "height": 20.999092518989073,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3945,
+    "closed": false,
+    "segments": 28,
+    "subpaths": 2,
+    "bounds": [
+      -61.61772884639549,
+      943.0095523568817,
+      -45.35387061255514,
+      955.7398226456229
+    ],
+    "width": 16.263858233840345,
+    "height": 12.730270288741167,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3946,
+    "closed": false,
+    "segments": 45,
+    "subpaths": 2,
+    "bounds": [
+      -196.2801286414979,
+      891.9370090492567,
+      -99.27769217715198,
+      931.7933170217011
+    ],
+    "width": 97.00243646434592,
+    "height": 39.85630797244437,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3947,
+    "closed": false,
+    "segments": 64,
+    "subpaths": 2,
+    "bounds": [
+      -208.95267666566374,
+      921.8904727855877,
+      -151.02221798497692,
+      951.2379878202464
+    ],
+    "width": 57.930458680686826,
+    "height": 29.347515034658727,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 3948,
+    "closed": false,
+    "segments": 29,
+    "subpaths": 2,
+    "bounds": [
+      -103.42514204542144,
+      957.8985061072221,
+      -36.5926645241773,
+      973.162398898735
+    ],
+    "width": 66.83247752124413,
+    "height": 15.26389279151283,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4060,
+    "closed": false,
+    "segments": 814,
+    "subpaths": 3,
+    "bounds": [
+      22.29036972222222,
+      865.10443375267,
+      222.6528158513026,
+      1044.401074066316
+    ],
+    "width": 200.36244612908038,
+    "height": 179.29664031364587,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4103,
+    "closed": false,
+    "segments": 271,
+    "subpaths": 2,
+    "bounds": [
+      685.1445321626956,
+      524.9070326989661,
+      834.1284878817953,
+      674.3921186200762
+    ],
+    "width": 148.98395571909975,
+    "height": 149.4850859211101,
+    "style": "stroke-width: 0.2160; stroke: #1b1918; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; fill: none; "
+  },
+  {
+    "index": 4112,
+    "closed": false,
+    "segments": 69,
+    "subpaths": 1,
+    "bounds": [
+      870.1618077777777,
+      459.99160111111087,
+      909.9617454170835,
+      519.0167913888888
+    ],
+    "width": 39.79993763930588,
+    "height": 59.02519027777794,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4113,
+    "closed": false,
+    "segments": 145,
+    "subpaths": 3,
+    "bounds": [
+      870.1618077777777,
+      519.0167913888888,
+      977.9407105555558,
+      591.5978145761148
+    ],
+    "width": 107.77890277777817,
+    "height": 72.58102318722604,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4114,
+    "closed": false,
+    "segments": 72,
+    "subpaths": 1,
+    "bounds": [
+      909.747496111111,
+      459.240610428034,
+      1000.4142072222214,
+      501.53469165730223
+    ],
+    "width": 90.66671111111043,
+    "height": 42.294081229268215,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4117,
+    "closed": false,
+    "segments": 7,
+    "subpaths": 1,
+    "bounds": [
+      977.7929041010522,
+      527.9599902777777,
+      979.3170789663915,
+      533.0626033333334
+    ],
+    "width": 1.5241748653393188,
+    "height": 5.102613055555707,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4119,
+    "closed": false,
+    "segments": 34,
+    "subpaths": 1,
+    "bounds": [
+      979.3021152777776,
+      496.9089841666665,
+      1000.4561217409088,
+      527.9603077777778
+    ],
+    "width": 21.154006463131168,
+    "height": 31.05132361111123,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4298,
+    "closed": false,
+    "segments": 69,
+    "subpaths": 1,
+    "bounds": [
+      870.1618077777777,
+      459.99160111111087,
+      909.9617454170835,
+      519.0167913888888
+    ],
+    "width": 39.79993763930588,
+    "height": 59.02519027777794,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4299,
+    "closed": false,
+    "segments": 145,
+    "subpaths": 3,
+    "bounds": [
+      870.1618077777777,
+      519.0167913888888,
+      977.9407105555558,
+      591.5978145761148
+    ],
+    "width": 107.77890277777817,
+    "height": 72.58102318722604,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4300,
+    "closed": false,
+    "segments": 72,
+    "subpaths": 1,
+    "bounds": [
+      909.747496111111,
+      459.240610428034,
+      1000.4142072222214,
+      501.53469165730223
+    ],
+    "width": 90.66671111111043,
+    "height": 42.294081229268215,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4303,
+    "closed": false,
+    "segments": 7,
+    "subpaths": 1,
+    "bounds": [
+      977.7929041010522,
+      527.9599902777777,
+      979.3170789663915,
+      533.0626033333334
+    ],
+    "width": 1.5241748653393188,
+    "height": 5.102613055555707,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4305,
+    "closed": false,
+    "segments": 34,
+    "subpaths": 1,
+    "bounds": [
+      979.3021152777776,
+      496.9089841666665,
+      1000.4561217409088,
+      527.9603077777778
+    ],
+    "width": 21.154006463131168,
+    "height": 31.05132361111123,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4501,
+    "closed": false,
+    "segments": 194,
+    "subpaths": 2,
+    "bounds": [
+      780.1359137568361,
+      509.68136847063994,
+      844.0748436111111,
+      558.0032682904408
+    ],
+    "width": 63.93892985427499,
+    "height": 48.321899819800876,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4737,
+    "closed": false,
+    "segments": 605,
+    "subpaths": 2,
+    "bounds": [
+      662.0873402165797,
+      278.60480895551086,
+      915.7495183220343,
+      479.2517998239336
+    ],
+    "width": 253.6621781054546,
+    "height": 200.64699086842273,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4817,
+    "closed": false,
+    "segments": 1533,
+    "subpaths": 3,
+    "bounds": [
+      499.6829455501666,
+      153.56238999625702,
+      753.3450447112658,
+      441.92119444444444
+    ],
+    "width": 253.6620991610992,
+    "height": 288.3588044481874,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4818,
+    "closed": true,
+    "segments": 9,
+    "subpaths": 1,
+    "bounds": [
+      551.3417838888888,
+      934.1723125,
+      551.6514874999999,
+      934.8829127777776
+    ],
+    "width": 0.3097036111111038,
+    "height": 0.7106002777776439,
+    "style": "stroke-width: 0.2160; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  },
+  {
+    "index": 4838,
+    "closed": true,
+    "segments": 363,
+    "subpaths": 1,
+    "bounds": [
+      496.7856500404729,
+      793.7404060653001,
+      802.1077932561557,
+      995.9062542281049
+    ],
+    "width": 305.3221432156828,
+    "height": 202.16584816280476,
+    "style": "stroke-width: 0.2551; stroke: #333333; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: bevel; fill: none; "
+  }
+]
