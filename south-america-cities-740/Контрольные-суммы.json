@@ -1,0 +1,30 @@
+{
+  "Поле-01-740x740.svg": {
+    "bytes": 5195371,
+    "sha256": "fe6a36471e666274da06acf6a0dcd557cb612c1b84479c3b84ddd0a0b2e88e1c"
+  },
+  "Южная-Америка-производственная-сборка.blend": {
+    "bytes": 6026002,
+    "sha256": "c51f0bba8ebf59b2caaee9c3475d6ca124b8497c2992455dfd03d5fcbed88bc4"
+  },
+  "README.md": {
+    "bytes": 3289,
+    "sha256": "4840cb8f55f782e1f0eba3ab2d82a259a043a8e1c83b1e358f5a078b705e2b8d"
+  },
+  "Шрифт/DejaVu-copyright.txt": {
+    "bytes": 3859,
+    "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+  },
+  "Шрифт/LICENSE.txt": {
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "Шрифт/OpenSans-Light.ttf": {
+    "bytes": 222412,
+    "sha256": "cf5f5184c1441a1660aa52526328e9d5c2793e77b6d8d3a3ad654bdb07ab8424"
+  },
+  "Шрифт/copyright.txt": {
+    "bytes": 1031,
+    "sha256": "94d4b78643f99d7cfa872145b38da578299f401405ca5cba66a5c95bf13933b0"
+  }
+}

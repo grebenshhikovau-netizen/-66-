@@ -1,0 +1,5 @@
+numpy
+scipy
+shapely>=2.1
+lxml
+fonttools

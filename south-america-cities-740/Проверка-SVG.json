@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "stock_mm": [
+    740,
+    740
+  ],
+  "kits": 3,
+  "wood_parts_per_kit": 18,
+  "total_cut_parts": 54,
+  "black_cut_elements_identical_to_previous_SVG": true,
+  "existing_country_text_identical": true,
+  "city_names_per_kit": 68,
+  "state_names_per_kit": 17,
+  "live_texts_in_field": 294,
+  "city_markers_in_field": 204,
+  "whole_words_on_exposed_single_parts": true,
+  "no_label_bbox_collisions": true
+}
