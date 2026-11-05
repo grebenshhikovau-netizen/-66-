@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "kits": 1,
+  "parts": 17,
+  "layers": [
+    4,
+    5,
+    8
+  ],
+  "live_texts": 98,
+  "city_names": 68,
+  "all_previous_annotations_preserved": true,
+  "each_part_single_connected_polygon": true,
+  "upper_Chile_and_Argentina_separate": true,
+  "approved_second_and_third_height_fields_unchanged": true,
+  "base_slot_visible_and_narrower_than_upper_valley": true,
+  "minimum_step_bank_mm": 0.15,
+  "new_base_water_cut_mm2": 136.0409671021661,
+  "base_bridges": 3,
+  "painting_conflicts": 0,
+  "translation_only": true,
+  "minimum_gap_mm": 4.847316996858893
+}

@@ -1,0 +1,203 @@
+{
+  "stock_mm": [
+    740,
+    740
+  ],
+  "kits": 1,
+  "parts_per_kit": 17,
+  "part_count": 17,
+  "placements": [
+    {
+      "id": "L01_P002",
+      "source_id": "L01_P002",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -181,
+      "dy_mm": 968,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L02_P002",
+      "source_id": "L02_P002",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -261,
+      "dy_mm": 968,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L01_P001",
+      "source_id": "L01_P001",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -359,
+      "dy_mm": 980,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L01_P003",
+      "source_id": "L01_P003",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -534,
+      "dy_mm": 1102,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L02_P001",
+      "source_id": "L02_P001",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -587,
+      "dy_mm": 890,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L02_P005",
+      "source_id": "L02_P005",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -455,
+      "dy_mm": 956,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P003",
+      "source_id": "L03_P003",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -136,
+      "dy_mm": 1005,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P001",
+      "source_id": "L03_P001",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -227,
+      "dy_mm": 988,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L02_P003",
+      "source_id": "L02_P003",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -493,
+      "dy_mm": 933,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P002",
+      "source_id": "L03_P002",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -639,
+      "dy_mm": 1126,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L01_P004",
+      "source_id": "L01_P004",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -238,
+      "dy_mm": 967,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P004",
+      "source_id": "L03_P004",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -456,
+      "dy_mm": 1072,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P006",
+      "source_id": "L03_P006",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -405,
+      "dy_mm": 988,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L02_P004",
+      "source_id": "L02_P004",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -587,
+      "dy_mm": 924,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P005",
+      "source_id": "L03_P005",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -218,
+      "dy_mm": 1278,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P008",
+      "source_id": "L03_P008",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -334,
+      "dy_mm": 1282,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P007",
+      "source_id": "L03_P007",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -401,
+      "dy_mm": 1281,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    }
+  ],
+  "edge_margin_mm": 5,
+  "required_gap_mm": 3,
+  "actual_min_gap_mm": 4.847316996858893,
+  "translation_only": true,
+  "weak_upper_left_corner_avoided": true
+}

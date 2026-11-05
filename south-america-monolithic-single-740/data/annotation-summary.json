@@ -1,0 +1,33 @@
+{
+  "cities": 68,
+  "state_names": 17,
+  "country_names": 13,
+  "brazil_states": 27,
+  "notes": [
+    {
+      "city": "Ушуая",
+      "omitted": "source point over 4 mm from open country surface",
+      "distance": 14.788923586433596
+    },
+    {
+      "city": "Жуан-Песоа",
+      "omitted": "caption cannot fit exposed country surface"
+    },
+    {
+      "city": "Вальпараисо",
+      "omitted": "caption cannot fit exposed country surface"
+    },
+    {
+      "state": "PE",
+      "omitted": "no clear label space"
+    },
+    {
+      "state": "SC",
+      "omitted": "no clear label space"
+    },
+    {
+      "state": "RS",
+      "omitted": "no clear label space"
+    }
+  ]
+}

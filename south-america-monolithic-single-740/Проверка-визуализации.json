@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source": "saved production .blend",
+  "river_detail_center_mm": [
+    901.5212014393464,
+    -525.4973148032433
+  ],
+  "base_channel_present_at_center": true,
+  "distance_to_upper_bank_mm": 0.6769404614490777
+}
