@@ -1,0 +1,38 @@
+{
+  "wooden_named_islands": 64,
+  "wood_parts": 92,
+  "layers": [
+    {
+      "tier": 1,
+      "pieces": 64
+    },
+    {
+      "tier": 2,
+      "pieces": 21
+    },
+    {
+      "tier": 3,
+      "pieces": 7
+    }
+  ],
+  "editable_texts": 83,
+  "city_labels": 17,
+  "named_islands_with_visible_wood_titles": 64,
+  "main_title_min_font_size_mm": 2.0288954512570037,
+  "critical_geographic_checks": {
+    "ellesmere": {
+      "independent_named_region_overlap": 0.933261891949358
+    },
+    "baffin": {
+      "independent_named_region_overlap": 0.9261684732730534
+    }
+  },
+  "minor_islands_engraved_on_acrylic": 2572,
+  "acrylic_has_no_cut_paths": true,
+  "one_740x740_sheet": true,
+  "translation_only": true,
+  "minimum_part_gap_mm": 4.482751530983269,
+  "removed_unlabelled_micro_slivers": 4,
+  "all_caption_owners_match_named_islands": true,
+  "all_cuts_closed_valid": true
+}

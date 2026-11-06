@@ -1,0 +1,34 @@
+{
+  "native_files": [
+    {
+      "file": "Сборка.blend",
+      "physical_wood_parts": 92,
+      "closed_manifold_single_component": true,
+      "bottom_origins": true,
+      "saved_height_tests_mm": [
+        3,
+        6,
+        9
+      ],
+      "engravings_follow_upper_surface": true,
+      "acrylic_engraving_separate": true,
+      "self_contained": true
+    },
+    {
+      "file": "Мир-исправленные-острова.blend",
+      "physical_wood_parts": 284,
+      "closed_manifold_single_component": true,
+      "bottom_origins": true,
+      "saved_height_tests_mm": [
+        3,
+        6,
+        9
+      ],
+      "engravings_follow_upper_surface": true,
+      "acrylic_engraving_separate": true,
+      "self_contained": true
+    }
+  ],
+  "unchanged_other_continental_wood_parts": 192,
+  "other_meshes_transforms_and_colors_identical": true
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "islands-corrected-v2.zip",
+    "bytes": 6049649,
+    "sha256": "e038e3dd7a5612d40b36e5939c2e3944652e0dcae1d31944c03216a6fa6e57c3"
+  },
+  {
+    "file": "islands-cutting-740-v2.svg",
+    "bytes": 395660,
+    "sha256": "3a55692b17a4498f3bb9e51c3b2f0d3d0c8f182364eff0d629c3e1d7699260ec"
+  },
+  {
+    "file": "islands-v2.blend",
+    "bytes": 3583623,
+    "sha256": "b8f740f509b69deedd7b9fcf3a372f9ab73744c0f596ed4586b5c52cfc8bdaa8"
+  },
+  {
+    "file": "islands-acrylic-v2.svg",
+    "bytes": 1647413,
+    "sha256": "d9b51dea0666fdc9998390f899d829c31a0a7024a2c5bd761d7ba1b63a9d9c7b"
+  },
+  {
+    "file": "world-islands-v2.blend",
+    "bytes": 29426398,
+    "sha256": "bbf6f96a15192b95531a3f97b28669a358efd03cc4f12eb83fa2800cc67733e7"
+  },
+  {
+    "file": "arctic-islands-v2.jpg",
+    "bytes": 198420,
+    "sha256": "5f71408c3f1f486340a84e5ff5124e6d216212e61aa449b5e84d1f68afb9ec59"
+  },
+  {
+    "file": "islands-catalog-v2.jpg",
+    "bytes": 841943,
+    "sha256": "38c16699ec9059f9a8fd7fb76bfa6c8ce372ad824f104c3819ad9363f4424855"
+  },
+  {
+    "file": "world-islands-v2.jpg",
+    "bytes": 348727,
+    "sha256": "24ef710eb5860a46e4598125bad880d2179809c851de736332a57177fea1ec96"
+  }
+]

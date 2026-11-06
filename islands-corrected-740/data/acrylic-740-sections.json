@@ -1,0 +1,122 @@
+[
+  {
+    "file": "Гравировка-01-01-740.svg",
+    "row": 1,
+    "column": 1,
+    "geographic_active_origin_mm": [
+      -320.06524688923696,
+      -1087.2700966550333
+    ],
+    "stock_mm": [
+      740,
+      740
+    ],
+    "active_area_mm": [
+      730,
+      730
+    ],
+    "margin_mm": 5,
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "file": "Гравировка-01-02-740.svg",
+    "row": 1,
+    "column": 2,
+    "geographic_active_origin_mm": [
+      409.93475311076304,
+      -1087.2700966550333
+    ],
+    "stock_mm": [
+      740,
+      740
+    ],
+    "active_area_mm": [
+      730,
+      730
+    ],
+    "margin_mm": 5,
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "file": "Гравировка-01-03-740.svg",
+    "row": 1,
+    "column": 3,
+    "geographic_active_origin_mm": [
+      1139.934753110763,
+      -1087.2700966550333
+    ],
+    "stock_mm": [
+      740,
+      740
+    ],
+    "active_area_mm": [
+      730,
+      730
+    ],
+    "margin_mm": 5,
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "file": "Гравировка-02-01-740.svg",
+    "row": 2,
+    "column": 1,
+    "geographic_active_origin_mm": [
+      -320.06524688923696,
+      -357.2700966550333
+    ],
+    "stock_mm": [
+      740,
+      740
+    ],
+    "active_area_mm": [
+      730,
+      730
+    ],
+    "margin_mm": 5,
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "file": "Гравировка-02-02-740.svg",
+    "row": 2,
+    "column": 2,
+    "geographic_active_origin_mm": [
+      409.93475311076304,
+      -357.2700966550333
+    ],
+    "stock_mm": [
+      740,
+      740
+    ],
+    "active_area_mm": [
+      730,
+      730
+    ],
+    "margin_mm": 5,
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "file": "Гравировка-02-03-740.svg",
+    "row": 2,
+    "column": 3,
+    "geographic_active_origin_mm": [
+      1139.934753110763,
+      -357.2700966550333
+    ],
+    "stock_mm": [
+      740,
+      740
+    ],
+    "active_area_mm": [
+      730,
+      730
+    ],
+    "margin_mm": 5,
+    "rotation": 0,
+    "scale": 1
+  }
+]
