@@ -1,0 +1,114 @@
+{
+  "blocks": [
+    {
+      "block": "north-america",
+      "wood_pieces": 28,
+      "objects": 81,
+      "transform_xy": [
+        1.1755476082206837,
+        0.017363440337503852,
+        -0.017363440337503824,
+        1.175547608220684,
+        -553.3827133152636,
+        933.7049499501952
+      ],
+      "z_scale": 1,
+      "original_mesh_data_preserved": true
+    },
+    {
+      "block": "south-america",
+      "wood_pieces": 17,
+      "objects": 57,
+      "transform_xy": [
+        1.0908451213326409,
+        0.010787625575017041,
+        -0.01078762557501703,
+        1.0908451213326407,
+        -366.6873577989061,
+        1449.3498571434193
+      ],
+      "z_scale": 1,
+      "original_mesh_data_preserved": true
+    },
+    {
+      "block": "russia-asia",
+      "wood_pieces": 74,
+      "objects": 114,
+      "transform_xy": [
+        1.0843338421587907,
+        3.710631334903796e-18,
+        -3.710631334903796e-18,
+        1.0843338421587907,
+        300.76786870423723,
+        1209.1286705022178
+      ],
+      "z_scale": 1,
+      "original_mesh_data_preserved": true
+    },
+    {
+      "block": "africa-europe",
+      "wood_pieces": 55,
+      "objects": 90,
+      "transform_xy": [
+        1.0843338421587907,
+        3.710631334903796e-18,
+        -3.710631334903796e-18,
+        1.0843338421587907,
+        300.76786870423723,
+        1209.1286705022178
+      ],
+      "z_scale": 1,
+      "original_mesh_data_preserved": true
+    },
+    {
+      "block": "01-Islands",
+      "wood_pieces": 73,
+      "objects": 99,
+      "transform_xy": [
+        1.0843338421587907,
+        3.710631334903796e-18,
+        -3.710631334903796e-18,
+        1.0843338421587907,
+        300.76786870423723,
+        1209.1286705022178
+      ],
+      "z_scale": 1,
+      "original_mesh_data_preserved": true
+    },
+    {
+      "block": "02-Greenland",
+      "wood_pieces": 9,
+      "objects": 12,
+      "transform_xy": [
+        1.0843338421587907,
+        3.710631334903796e-18,
+        -3.710631334903796e-18,
+        1.0843338421587907,
+        300.76786870423723,
+        1209.1286705022178
+      ],
+      "z_scale": 1,
+      "original_mesh_data_preserved": true
+    },
+    {
+      "block": "03-Australia",
+      "wood_pieces": 9,
+      "objects": 14,
+      "transform_xy": [
+        1.0843338421587907,
+        3.710631334903796e-18,
+        -3.710631334903796e-18,
+        1.0843338421587907,
+        300.76786870423723,
+        1209.1286705022178
+      ],
+      "z_scale": 1,
+      "original_mesh_data_preserved": true
+    }
+  ],
+  "wood_pieces": 265,
+  "no_duplicate_native_sources": true,
+  "z_unchanged": true,
+  "antarctica": "original flat reference",
+  "external_dependencies_packed": true
+}

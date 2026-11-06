@@ -1,0 +1,115 @@
+{
+  "stock_mm": [
+    740,
+    740
+  ],
+  "kits": 1,
+  "parts_per_kit": 9,
+  "part_count": 9,
+  "placements": [
+    {
+      "id": "L01_P001",
+      "source_id": "L01_P001",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -569,
+      "dy_mm": 860,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L02_P002",
+      "source_id": "L02_P002",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -755,
+      "dy_mm": 866,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L02_P001",
+      "source_id": "L02_P001",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -750,
+      "dy_mm": 888,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P001",
+      "source_id": "L03_P001",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -643,
+      "dy_mm": 870,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L01_P002",
+      "source_id": "L01_P002",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -660,
+      "dy_mm": 830,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P002",
+      "source_id": "L03_P002",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -561,
+      "dy_mm": 903,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L03_P003",
+      "source_id": "L03_P003",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -545,
+      "dy_mm": 943,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L01_P004",
+      "source_id": "L01_P004",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -630,
+      "dy_mm": 876,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    },
+    {
+      "id": "L01_P003",
+      "source_id": "L01_P003",
+      "kit": 1,
+      "sheet": 1,
+      "dx_mm": -611,
+      "dy_mm": 1004,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "scale": 1
+    }
+  ],
+  "edge_margin_mm": 5,
+  "required_gap_mm": 3,
+  "actual_min_gap_mm": 4.871645007057842,
+  "translation_only": true,
+  "weak_upper_left_corner_avoided": true
+}

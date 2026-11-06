@@ -1,0 +1,101 @@
+[
+  {
+    "kit": "01-Islands",
+    "physical_pieces": 73,
+    "layers": [
+      {
+        "tier": 1,
+        "pieces": 55
+      },
+      {
+        "tier": 2,
+        "pieces": 11
+      },
+      {
+        "tier": 3,
+        "pieces": 7
+      }
+    ],
+    "city_captions": 11,
+    "total_editable_texts": 34,
+    "cutting_vertices": 8228,
+    "stock_mm": [
+      740,
+      740
+    ],
+    "sheets": 1,
+    "kits": 1,
+    "translation_only": true,
+    "minimum_gap_mm": 4.673987999483564,
+    "all_cut_rings_valid": true,
+    "captions_on_exposed_surfaces": true,
+    "cities_on_correct_islands": true,
+    "border_text_collisions": 0
+  },
+  {
+    "kit": "02-Greenland",
+    "physical_pieces": 9,
+    "layers": [
+      {
+        "tier": 1,
+        "pieces": 7
+      },
+      {
+        "tier": 2,
+        "pieces": 1
+      },
+      {
+        "tier": 3,
+        "pieces": 1
+      }
+    ],
+    "city_captions": 13,
+    "total_editable_texts": 18,
+    "cutting_vertices": 1294,
+    "stock_mm": [
+      740,
+      740
+    ],
+    "sheets": 1,
+    "kits": 1,
+    "translation_only": true,
+    "minimum_gap_mm": 5.154291337012704,
+    "all_cut_rings_valid": true,
+    "captions_on_exposed_surfaces": true,
+    "cities_on_correct_islands": true,
+    "border_text_collisions": 0
+  },
+  {
+    "kit": "03-Australia",
+    "physical_pieces": 9,
+    "layers": [
+      {
+        "tier": 1,
+        "pieces": 4
+      },
+      {
+        "tier": 2,
+        "pieces": 2
+      },
+      {
+        "tier": 3,
+        "pieces": 3
+      }
+    ],
+    "city_captions": 17,
+    "total_editable_texts": 25,
+    "cutting_vertices": 820,
+    "stock_mm": [
+      740,
+      740
+    ],
+    "sheets": 1,
+    "kits": 1,
+    "translation_only": true,
+    "minimum_gap_mm": 4.871645007057842,
+    "all_cut_rings_valid": true,
+    "captions_on_exposed_surfaces": true,
+    "cities_on_correct_islands": true,
+    "border_text_collisions": 0
+  }
+]

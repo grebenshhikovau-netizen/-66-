@@ -1,0 +1,61 @@
+{
+  "repository_revision": "228ed5bc9922ff16b04dce9c6ae59303fd9d24eb",
+  "sources": [
+    {
+      "block": "north-america",
+      "repository_source": "canada-cutting-740/Канада-обновлённая-сборка.blend",
+      "source_sha256": "594ee2458ca2bcd7cf0a1784fc589e685386ff5ce366dfb113007b5d279064a8",
+      "xy_registration": [
+        1.1755476082206837,
+        0.017363440337503852,
+        -0.017363440337503824,
+        1.175547608220684,
+        -553.3827133152636,
+        933.7049499501952
+      ],
+      "rms_reference_fit_mm": 6.2477693364003155
+    },
+    {
+      "block": "south-america",
+      "repository_source": "south-america-monolithic-single-740/Южная-Америка-производственная-сборка.blend",
+      "source_sha256": "c60948440f0465d563c1d3d2a892838c39057a5062822e57a713f4610c0d16b8",
+      "xy_registration": [
+        1.0908451213326409,
+        0.010787625575017041,
+        -0.01078762557501703,
+        1.0908451213326407,
+        -366.6873577989061,
+        1449.3498571434193
+      ],
+      "rms_reference_fit_mm": 4.801876188125714
+    },
+    {
+      "block": "russia-asia",
+      "repository_source": "combined-cutting-740/01-Россия-Азия/Сборка-комплекта.blend",
+      "source_sha256": "911bd7647b92562b7fdaff169fe6b09c229a9670344ea041f1a833bcd7d2015e",
+      "xy_registration": [
+        1.0843338421587907,
+        3.710631334903796e-18,
+        -3.710631334903796e-18,
+        1.0843338421587907,
+        300.76786870423723,
+        1209.1286705022178
+      ],
+      "rms_reference_fit_mm": 0.3879052584705537
+    },
+    {
+      "block": "africa-europe",
+      "repository_source": "combined-cutting-740/02-Африка-Европа-Ближний-Восток/Сборка-комплекта.blend",
+      "source_sha256": "c13ad53ba1a479dee68e0e2c5cf346fed113fb2237497b62bce4940e3e4c0b5d",
+      "xy_registration": [
+        1.0843338421587907,
+        3.710631334903796e-18,
+        -3.710631334903796e-18,
+        1.0843338421587907,
+        300.76786870423723,
+        1209.1286705022178
+      ],
+      "rms_reference_fit_mm": 0.3879052584705537
+    }
+  ]
+}

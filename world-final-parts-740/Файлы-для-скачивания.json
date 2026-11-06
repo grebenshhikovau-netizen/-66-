@@ -1,0 +1,22 @@
+[
+  {
+    "file": "islands-740.zip",
+    "bytes": 1462260,
+    "sha256": "0337efe91f1bd5d1efc9c0437d3c10ad446ad755fc5561cb8e3956c263cfa9e3"
+  },
+  {
+    "file": "greenland-740.zip",
+    "bytes": 594335,
+    "sha256": "4b0650103f8d4d13855adf10bba4790bd6b53e7c9e655ea07e536e0ab99a655f"
+  },
+  {
+    "file": "australia-740.zip",
+    "bytes": 601585,
+    "sha256": "3181328a4f0bde5a2c9bc3dad4176b90830962f0da4dc1668848e03a78df4d16"
+  },
+  {
+    "file": "world-relief-layout.blend",
+    "bytes": 26941306,
+    "sha256": "c07c039724025fcebff68f695785ac20806298d301026b24ec6f8f27ed5f4d7f"
+  }
+]

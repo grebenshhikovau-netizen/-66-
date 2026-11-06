@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-Islands",
+    "wood_pieces": 73,
+    "vertices": 16302,
+    "closed_manifold_single_components": true,
+    "bottom_origins": true,
+    "driver_targets_in_current_scene": true,
+    "saved_height_edit_tests_mm": [
+      3,
+      6,
+      9
+    ],
+    "engravings_follow_upper_surface": true,
+    "external_linked_objects": 0
+  },
+  {
+    "file": "02-Greenland",
+    "wood_pieces": 9,
+    "vertices": 2568,
+    "closed_manifold_single_components": true,
+    "bottom_origins": true,
+    "driver_targets_in_current_scene": true,
+    "saved_height_edit_tests_mm": [
+      3,
+      6,
+      9
+    ],
+    "engravings_follow_upper_surface": true,
+    "external_linked_objects": 0
+  },
+  {
+    "file": "03-Australia",
+    "wood_pieces": 9,
+    "vertices": 1622,
+    "closed_manifold_single_components": true,
+    "bottom_origins": true,
+    "driver_targets_in_current_scene": true,
+    "saved_height_edit_tests_mm": [
+      3,
+      6,
+      9
+    ],
+    "engravings_follow_upper_surface": true,
+    "external_linked_objects": 0
+  },
+  {
+    "file": "WORLD",
+    "wood_pieces": 265,
+    "vertices": 407268,
+    "closed_manifold_single_components": true,
+    "bottom_origins": true,
+    "driver_targets_in_current_scene": true,
+    "saved_height_edit_tests_mm": [
+      3,
+      6,
+      9
+    ],
+    "engravings_follow_upper_surface": true,
+    "external_linked_objects": 0
+  }
+]
